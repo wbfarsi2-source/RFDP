@@ -9,9 +9,12 @@ jobs:
     timeout-minutes: 360
 
     steps:
+
       - name: Configure Core RDP Settings
         shell: pwsh
         run: |
+          Write-Host "Configuring Remote Desktop..."
+
           # Enable Remote Desktop
           Set-ItemProperty `
             -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' `
@@ -19,7 +22,8 @@ jobs:
             -Value 0 `
             -Force
 
-          # Same settings as the original working workflow
+          # Disable Network Level Authentication
+          # Same configuration as original working version
           Set-ItemProperty `
             -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' `
             -Name "UserAuthentication" `
@@ -32,10 +36,10 @@ jobs:
             -Value 0 `
             -Force
 
-          # Remove old firewall rule if present
+          # Remove previous firewall rule if it exists
           netsh advfirewall firewall delete rule name="RDP-Tailscale"
 
-          # Allow RDP on port 3389
+          # Allow RDP connections on port 3389
           netsh advfirewall firewall add rule `
             name="RDP-Tailscale" `
             dir=in `
@@ -46,103 +50,84 @@ jobs:
           # Restart Remote Desktop service
           Restart-Service -Name TermService -Force
 
-          Write-Host "RDP configuration completed."
+          Write-Host "Remote Desktop configured successfully."
 
 
-      - name: Create RDP User with Secure Password
+      - name: Create Javad User
         shell: pwsh
         run: |
-          $charSet = @{
-              Upper   = [char[]](65..90)
-              Lower   = [char[]](97..122)
-              Number  = [char[]](48..57)
-              Special = (
-                  [char[]](33..47) +
-                  [char[]](58..64) +
-                  [char[]](91..96) +
-                  [char[]](123..126)
-              )
-          }
+          Write-Host "Creating Javad Windows user..."
 
-          $rawPassword = @()
-
-          $rawPassword += $charSet.Upper |
-              Get-Random -Count 4
-
-          $rawPassword += $charSet.Lower |
-              Get-Random -Count 4
-
-          $rawPassword += $charSet.Number |
-              Get-Random -Count 4
-
-          $rawPassword += $charSet.Special |
-              Get-Random -Count 4
-
-          $password = -join (
-              $rawPassword |
-              Sort-Object { Get-Random }
-          )
+          $username = "Javad"
+          $password = "14789632Javad@"
 
           $securePass = ConvertTo-SecureString `
-              $password `
-              -AsPlainText `
-              -Force
+            $password `
+            -AsPlainText `
+            -Force
 
+          # Remove existing Javad user if present
+          $existingUser = Get-LocalUser `
+            -Name $username `
+            -ErrorAction SilentlyContinue
+
+          if ($existingUser) {
+              Remove-LocalUser -Name $username
+          }
+
+          # Create Windows user
           New-LocalUser `
-              -Name "RDP" `
-              -Password $securePass `
-              -AccountNeverExpires
+            -Name $username `
+            -Password $securePass `
+            -AccountNeverExpires `
+            -PasswordNeverExpires `
+            -Description "RFDP Remote Desktop User"
 
+          # Add user to Administrators
           Add-LocalGroupMember `
-              -Group "Administrators" `
-              -Member "RDP"
+            -Group "Administrators" `
+            -Member $username
 
+          # Add user to Remote Desktop Users
           Add-LocalGroupMember `
-              -Group "Remote Desktop Users" `
-              -Member "RDP"
+            -Group "Remote Desktop Users" `
+            -Member $username
 
-          # Save password for later workflow steps
-          "RDP_PASSWORD=$password" |
-              Out-File `
-                  -FilePath $env:GITHUB_ENV `
-                  -Encoding utf8 `
-                  -Append
-
-          if (-not (Get-LocalUser -Name "RDP" -ErrorAction SilentlyContinue)) {
-              Write-Error "RDP user creation failed."
+          # Verify creation
+          if (-not (Get-LocalUser -Name $username -ErrorAction SilentlyContinue)) {
+              Write-Error "Javad user creation failed."
               exit 1
           }
 
-          Write-Host "RDP user created successfully."
+          Write-Host "Javad user created successfully."
 
 
       - name: Install Tailscale
         shell: pwsh
         run: |
-          $tsUrl = "https://pkgs.tailscale.com/stable/tailscale-setup-1.82.0-amd64.msi"
-
-          $installerPath = "$env:TEMP\tailscale.msi"
-
           Write-Host "Downloading Tailscale..."
 
+          $tsUrl = "https://pkgs.tailscale.com/stable/tailscale-setup-1.82.0-amd64.msi"
+          $installerPath = "$env:TEMP\tailscale.msi"
+
           Invoke-WebRequest `
-              -Uri $tsUrl `
-              -OutFile $installerPath
+            -Uri $tsUrl `
+            -OutFile $installerPath
 
           Write-Host "Installing Tailscale..."
 
           Start-Process `
-              msiexec.exe `
-              -ArgumentList "/i", "`"$installerPath`"", "/quiet", "/norestart" `
-              -Wait
+            msiexec.exe `
+            -ArgumentList "/i", "`"$installerPath`"", "/quiet", "/norestart" `
+            -Wait
 
           Remove-Item `
-              $installerPath `
-              -Force
+            $installerPath `
+            -Force
 
-          $tailscalePath = "$env:ProgramFiles\Tailscale\tailscale.exe"
+          $tailscale = "$env:ProgramFiles\Tailscale\tailscale.exe"
 
-          if (-not (Test-Path $tailscalePath)) {
+          if (-not (Test-Path $tailscale)) {
               Write-Error "Tailscale installation failed."
               exit 1
           }
@@ -158,24 +143,24 @@ jobs:
         run: |
           $tailscale = "$env:ProgramFiles\Tailscale\tailscale.exe"
 
-          # Important:
-          # Stop immediately if GitHub Secret is missing.
-          # This prevents Tailscale from waiting for browser login.
+          # Prevent getting stuck on manual browser authentication
           if ([string]::IsNullOrWhiteSpace($env:TS_AUTH_KEY)) {
               Write-Error "TAILSCALE_AUTH_KEY secret is missing or empty."
               exit 1
           }
 
-          Write-Host "Connecting RFDP runner to Tailscale..."
+          Write-Host "Connecting to Tailscale..."
 
           & $tailscale up `
-              --auth-key="$env:TS_AUTH_KEY" `
-              --hostname="gh-runner-$env:GITHUB_RUN_ID"
+            --auth-key="$env:TS_AUTH_KEY" `
+            --hostname="gh-runner-$env:GITHUB_RUN_ID"
 
           if ($LASTEXITCODE -ne 0) {
-              Write-Error "Tailscale authentication failed. Check the Auth Key."
+              Write-Error "Tailscale authentication failed."
               exit 1
           }
+
+          Write-Host "Waiting for Tailscale IP..."
 
           $tsIP = $null
           $retries = 0
@@ -192,7 +177,7 @@ jobs:
               }
 
               if (-not $tsIP) {
-                  Write-Host "Waiting for Tailscale IP... ($($retries + 1)/10)"
+                  Write-Host "Waiting for IP... ($($retries + 1)/10)"
                   Start-Sleep -Seconds 5
               }
 
@@ -200,15 +185,15 @@ jobs:
           }
 
           if (-not $tsIP) {
-              Write-Error "Tailscale IP was not assigned."
+              Write-Error "Tailscale IP not assigned."
               exit 1
           }
 
           "TAILSCALE_IP=$tsIP" |
-              Out-File `
-                  -FilePath $env:GITHUB_ENV `
-                  -Encoding utf8 `
-                  -Append
+            Out-File `
+              -FilePath $env:GITHUB_ENV `
+              -Encoding utf8 `
+              -Append
 
           Write-Host ""
           Write-Host "Tailscale connected successfully."
@@ -219,13 +204,14 @@ jobs:
       - name: Verify RDP Accessibility
         shell: pwsh
         run: |
-          Write-Host "Testing RDP..."
-          Write-Host "Tailscale IP: $env:TAILSCALE_IP"
+          Write-Host "Testing RDP connection..."
+          Write-Host "Address: $env:TAILSCALE_IP"
+          Write-Host "Port: 3389"
 
           $testResult = Test-NetConnection `
-              -ComputerName $env:TAILSCALE_IP `
-              -Port 3389 `
-              -WarningAction SilentlyContinue
+            -ComputerName $env:TAILSCALE_IP `
+            -Port 3389 `
+            -WarningAction SilentlyContinue
 
           if (-not $testResult.TcpTestSucceeded) {
               Write-Error "TCP connection to RDP port 3389 failed."
@@ -233,28 +219,28 @@ jobs:
           }
 
           Write-Host ""
-          Write-Host "TCP connectivity successful!"
+          Write-Host "RDP connectivity successful!"
           Write-Host ""
 
 
       - name: Maintain Connection
         shell: pwsh
         run: |
-          # Do NOT use Clear-Host in GitHub Actions.
-
           Write-Host ""
-          Write-Host "============================================"
-          Write-Host "                RFDP READY"
-          Write-Host "============================================"
+          Write-Host "=============================================="
+          Write-Host "                  RFDP READY"
+          Write-Host "=============================================="
           Write-Host ""
           Write-Host "Address : $env:TAILSCALE_IP"
-          Write-Host "Username: RDP"
-          Write-Host "Password: $env:RDP_PASSWORD"
+          Write-Host "Username: Javad"
+          Write-Host "Password: 14789632Javad@"
           Write-Host "Port    : 3389"
           Write-Host ""
-          Write-Host "============================================"
-          Write-Host " Keep this workflow running while connected "
-          Write-Host "============================================"
+          Write-Host "=============================================="
+          Write-Host "       RFDP CONNECTION IS ACTIVE"
+          Write-Host "=============================================="
+          Write-Host ""
+          Write-Host "Keep this workflow running while connected."
           Write-Host ""
 
           while ($true) {
