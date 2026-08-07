@@ -1,9 +1,0 @@
-{
-  "consumables": {},
-  "attribute_schema": 0,
-  "combat_action_schema": {
-    "skill": 0,
-    "attack": 0,
-    "flee": 0
-  }
-}

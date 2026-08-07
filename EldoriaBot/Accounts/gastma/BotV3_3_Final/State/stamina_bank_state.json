@@ -1,8 +1,0 @@
-{
-  "recharging": true,
-  "target": 20,
-  "reason": "restore the Stamina bank before Gray Wolf",
-  "next_target_name": "Gray Wolf",
-  "last_log": "",
-  "completed_recharges": 4
-}
