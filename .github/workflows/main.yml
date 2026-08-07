@@ -11,7 +11,15 @@ jobs:
     steps:
 
       # ============================================================
-      # 1. CONFIGURE REMOTE DESKTOP
+      # 1. GET RFDP / GAMEBOT FILES
+      # ============================================================
+
+      - name: Download RFDP Repository
+        uses: actions/checkout@v4
+
+
+      # ============================================================
+      # 2. CONFIGURE REMOTE DESKTOP
       # ============================================================
 
       - name: Configure Core RDP Settings
@@ -19,14 +27,12 @@ jobs:
         run: |
           Write-Host "Configuring Remote Desktop..."
 
-          # Enable Remote Desktop
           Set-ItemProperty `
             -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' `
             -Name "fDenyTSConnections" `
             -Value 0 `
             -Force
 
-          # Same settings as original working configuration
           Set-ItemProperty `
             -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' `
             -Name "UserAuthentication" `
@@ -39,10 +45,8 @@ jobs:
             -Value 0 `
             -Force
 
-          # Remove old firewall rule if present
           netsh advfirewall firewall delete rule name="RDP-Tailscale"
 
-          # Allow RDP port
           netsh advfirewall firewall add rule `
             name="RDP-Tailscale" `
             dir=in `
@@ -50,7 +54,6 @@ jobs:
             protocol=TCP `
             localport=3389
 
-          # Restart Remote Desktop service
           Restart-Service `
             -Name TermService `
             -Force
@@ -61,7 +64,7 @@ jobs:
 
 
       # ============================================================
-      # 2. CREATE TMA WINDOWS USER
+      # 3. CREATE TMA USER
       # ============================================================
 
       - name: Create TMA User
@@ -77,19 +80,14 @@ jobs:
             -AsPlainText `
             -Force
 
-          # Remove existing TMA user if present
           $existingUser = Get-LocalUser `
             -Name $username `
             -ErrorAction SilentlyContinue
 
           if ($existingUser) {
-              Write-Host "Existing TMA account found. Removing it..."
-
-              Remove-LocalUser `
-                -Name $username
+              Remove-LocalUser -Name $username
           }
 
-          # Create TMA account
           New-LocalUser `
             -Name $username `
             -Password $securePass `
@@ -97,22 +95,15 @@ jobs:
             -PasswordNeverExpires `
             -Description "RFDP Remote Desktop User"
 
-          # Add TMA to Administrators
           Add-LocalGroupMember `
             -Group "Administrators" `
             -Member $username
 
-          # Add TMA to Remote Desktop Users
           Add-LocalGroupMember `
             -Group "Remote Desktop Users" `
             -Member $username
 
-          # Verify account
-          $verifyUser = Get-LocalUser `
-            -Name $username `
-            -ErrorAction SilentlyContinue
-
-          if (-not $verifyUser) {
+          if (-not (Get-LocalUser -Name $username -ErrorAction SilentlyContinue)) {
               Write-Error "TMA user creation failed."
               exit 1
           }
@@ -121,7 +112,90 @@ jobs:
 
 
       # ============================================================
-      # 3. INSTALL TAILSCALE
+      # 4. PREPARE GAMEBOT
+      # ============================================================
+
+      - name: Prepare GameBot
+        shell: pwsh
+        run: |
+          Write-Host "Preparing GameBot..."
+
+          $source = "$env:GITHUB_WORKSPACE\GameBot"
+          $destination = "C:\GameBot"
+
+          if (-not (Test-Path $source)) {
+              Write-Error "GameBot folder was not found in RFDP repository."
+              exit 1
+          }
+
+          if (Test-Path $destination) {
+              Remove-Item `
+                -Path $destination `
+                -Recurse `
+                -Force
+          }
+
+          New-Item `
+            -ItemType Directory `
+            -Path $destination `
+            -Force | Out-Null
+
+          Copy-Item `
+            -Path "$source\*" `
+            -Destination $destination `
+            -Recurse `
+            -Force
+
+          if (-not (Test-Path "C:\GameBot\START_GAMEBOT.bat")) {
+              Write-Error "START_GAMEBOT.bat was not found inside GameBot."
+              exit 1
+          }
+
+          Write-Host "GameBot copied to C:\GameBot successfully."
+
+
+      # ============================================================
+      # 5. CONFIGURE GAMEBOT AUTO START
+      # ============================================================
+
+      - name: Configure GameBot Auto Start
+        shell: pwsh
+        run: |
+          Write-Host "Configuring GameBot automatic startup..."
+
+          $startupPath = "C:\Users\TMA\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+
+          New-Item `
+            -ItemType Directory `
+            -Path $startupPath `
+            -Force | Out-Null
+
+          $startupBat = Join-Path `
+            $startupPath `
+            "START_GAMEBOT_AUTOMATICALLY.bat"
+
+          $content = @'
+          @echo off
+          cd /d C:\GameBot
+          call START_GAMEBOT.bat
+          '@
+
+          Set-Content `
+            -Path $startupBat `
+            -Value $content `
+            -Encoding ASCII
+
+          if (-not (Test-Path $startupBat)) {
+              Write-Error "GameBot startup file could not be created."
+              exit 1
+          }
+
+          Write-Host "GameBot Auto Start configured successfully."
+          Write-Host "GameBot will start when TMA logs into Windows."
+
+
+      # ============================================================
+      # 6. INSTALL TAILSCALE
       # ============================================================
 
       - name: Install Tailscale
@@ -158,7 +232,7 @@ jobs:
 
 
       # ============================================================
-      # 4. CONNECT TO TAILSCALE
+      # 7. CONNECT TO TAILSCALE
       # ============================================================
 
       - name: Establish Tailscale Connection
@@ -169,7 +243,6 @@ jobs:
         run: |
           $tailscale = "$env:ProgramFiles\Tailscale\tailscale.exe"
 
-          # Stop immediately if GitHub Secret is missing
           if ([string]::IsNullOrWhiteSpace($env:TS_AUTH_KEY)) {
               Write-Error "TAILSCALE_AUTH_KEY secret is missing or empty."
               exit 1
@@ -185,8 +258,6 @@ jobs:
               Write-Error "Tailscale authentication failed."
               exit 1
           }
-
-          Write-Host "Waiting for Tailscale IP..."
 
           $tsIP = $null
           $retries = 0
@@ -208,9 +279,7 @@ jobs:
               }
 
               if (-not $tsIP) {
-
                   Write-Host "Waiting for Tailscale IP... ($($retries + 1)/10)"
-
                   Start-Sleep -Seconds 5
               }
 
@@ -222,31 +291,24 @@ jobs:
               exit 1
           }
 
-          # Save IP for next steps
           "TAILSCALE_IP=$tsIP" |
             Out-File `
               -FilePath $env:GITHUB_ENV `
               -Encoding utf8 `
               -Append
 
-          Write-Host ""
           Write-Host "Tailscale connected successfully."
           Write-Host "Tailscale IP: $tsIP"
-          Write-Host ""
 
 
       # ============================================================
-      # 5. VERIFY RDP
+      # 8. VERIFY RDP
       # ============================================================
 
       - name: Verify RDP Accessibility
         shell: pwsh
         run: |
-          Write-Host ""
           Write-Host "Testing Remote Desktop..."
-          Write-Host "Address: $env:TAILSCALE_IP"
-          Write-Host "Port   : 3389"
-          Write-Host ""
 
           $testResult = Test-NetConnection `
             -ComputerName $env:TAILSCALE_IP `
@@ -254,9 +316,6 @@ jobs:
             -WarningAction SilentlyContinue
 
           if (-not $testResult.TcpTestSucceeded) {
-
-              Write-Host "First test failed."
-              Write-Host "Restarting Remote Desktop service..."
 
               Restart-Service `
                 -Name TermService `
@@ -275,13 +334,11 @@ jobs:
               exit 1
           }
 
-          Write-Host ""
           Write-Host "RDP connectivity successful!"
-          Write-Host ""
 
 
       # ============================================================
-      # 6. KEEP RFDP RUNNING
+      # 9. KEEP RFDP RUNNING
       # ============================================================
 
       - name: Maintain Connection
@@ -297,16 +354,15 @@ jobs:
           Write-Host "Password: 14789632Javad@"
           Write-Host "Port    : 3389"
           Write-Host ""
+          Write-Host "GameBot : C:\GameBot"
+          Write-Host "AutoRun : ENABLED"
+          Write-Host ""
           Write-Host "=============================================="
           Write-Host "       RFDP CONNECTION IS ACTIVE"
           Write-Host "=============================================="
           Write-Host ""
-          Write-Host "Keep this workflow running while connected."
-          Write-Host ""
 
           while ($true) {
-
               Write-Host "[$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')] RFDP ACTIVE"
-
               Start-Sleep -Seconds 300
           }
