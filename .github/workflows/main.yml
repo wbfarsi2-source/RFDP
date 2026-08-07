@@ -10,6 +10,10 @@ jobs:
 
     steps:
 
+      # ============================================================
+      # 1. CONFIGURE REMOTE DESKTOP
+      # ============================================================
+
       - name: Configure Core RDP Settings
         shell: pwsh
         run: |
@@ -22,8 +26,7 @@ jobs:
             -Value 0 `
             -Force
 
-          # Disable Network Level Authentication
-          # Same configuration as original working version
+          # Same settings as original working configuration
           Set-ItemProperty `
             -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' `
             -Name "UserAuthentication" `
@@ -36,10 +39,10 @@ jobs:
             -Value 0 `
             -Force
 
-          # Remove previous firewall rule if it exists
+          # Remove old firewall rule if present
           netsh advfirewall firewall delete rule name="RDP-Tailscale"
 
-          # Allow RDP connections on port 3389
+          # Allow RDP port
           netsh advfirewall firewall add rule `
             name="RDP-Tailscale" `
             dir=in `
@@ -48,17 +51,25 @@ jobs:
             localport=3389
 
           # Restart Remote Desktop service
-          Restart-Service -Name TermService -Force
+          Restart-Service `
+            -Name TermService `
+            -Force
+
+          Start-Sleep -Seconds 2
 
           Write-Host "Remote Desktop configured successfully."
 
 
-      - name: Create Javad User
+      # ============================================================
+      # 2. CREATE TMA WINDOWS USER
+      # ============================================================
+
+      - name: Create TMA User
         shell: pwsh
         run: |
-          Write-Host "Creating Javad Windows user..."
+          Write-Host "Creating TMA Windows user..."
 
-          $username = "Javad"
+          $username = "TMA"
           $password = "14789632Javad@"
 
           $securePass = ConvertTo-SecureString `
@@ -66,16 +77,19 @@ jobs:
             -AsPlainText `
             -Force
 
-          # Remove existing Javad user if present
+          # Remove existing TMA user if present
           $existingUser = Get-LocalUser `
             -Name $username `
             -ErrorAction SilentlyContinue
 
           if ($existingUser) {
-              Remove-LocalUser -Name $username
+              Write-Host "Existing TMA account found. Removing it..."
+
+              Remove-LocalUser `
+                -Name $username
           }
 
-          # Create Windows user
+          # Create TMA account
           New-LocalUser `
             -Name $username `
             -Password $securePass `
@@ -83,24 +97,32 @@ jobs:
             -PasswordNeverExpires `
             -Description "RFDP Remote Desktop User"
 
-          # Add user to Administrators
+          # Add TMA to Administrators
           Add-LocalGroupMember `
             -Group "Administrators" `
             -Member $username
 
-          # Add user to Remote Desktop Users
+          # Add TMA to Remote Desktop Users
           Add-LocalGroupMember `
             -Group "Remote Desktop Users" `
             -Member $username
 
-          # Verify creation
-          if (-not (Get-LocalUser -Name $username -ErrorAction SilentlyContinue)) {
-              Write-Error "Javad user creation failed."
+          # Verify account
+          $verifyUser = Get-LocalUser `
+            -Name $username `
+            -ErrorAction SilentlyContinue
+
+          if (-not $verifyUser) {
+              Write-Error "TMA user creation failed."
               exit 1
           }
 
-          Write-Host "Javad user created successfully."
+          Write-Host "TMA user created successfully."
 
+
+      # ============================================================
+      # 3. INSTALL TAILSCALE
+      # ============================================================
 
       - name: Install Tailscale
         shell: pwsh
@@ -135,6 +157,10 @@ jobs:
           Write-Host "Tailscale installed successfully."
 
 
+      # ============================================================
+      # 4. CONNECT TO TAILSCALE
+      # ============================================================
+
       - name: Establish Tailscale Connection
         shell: pwsh
         env:
@@ -143,7 +169,7 @@ jobs:
         run: |
           $tailscale = "$env:ProgramFiles\Tailscale\tailscale.exe"
 
-          # Prevent getting stuck on manual browser authentication
+          # Stop immediately if GitHub Secret is missing
           if ([string]::IsNullOrWhiteSpace($env:TS_AUTH_KEY)) {
               Write-Error "TAILSCALE_AUTH_KEY secret is missing or empty."
               exit 1
@@ -170,14 +196,21 @@ jobs:
               $candidate = & $tailscale ip -4 2>$null
 
               if ($candidate) {
-                  $tsIP = (
-                      $candidate |
-                      Select-Object -First 1
+
+                  $candidate = (
+                    $candidate |
+                    Select-Object -First 1
                   ).Trim()
+
+                  if ($candidate -match '^100\.') {
+                      $tsIP = $candidate
+                  }
               }
 
               if (-not $tsIP) {
-                  Write-Host "Waiting for IP... ($($retries + 1)/10)"
+
+                  Write-Host "Waiting for Tailscale IP... ($($retries + 1)/10)"
+
                   Start-Sleep -Seconds 5
               }
 
@@ -185,10 +218,11 @@ jobs:
           }
 
           if (-not $tsIP) {
-              Write-Error "Tailscale IP not assigned."
+              Write-Error "Tailscale IP was not assigned."
               exit 1
           }
 
+          # Save IP for next steps
           "TAILSCALE_IP=$tsIP" |
             Out-File `
               -FilePath $env:GITHUB_ENV `
@@ -201,17 +235,40 @@ jobs:
           Write-Host ""
 
 
+      # ============================================================
+      # 5. VERIFY RDP
+      # ============================================================
+
       - name: Verify RDP Accessibility
         shell: pwsh
         run: |
-          Write-Host "Testing RDP connection..."
+          Write-Host ""
+          Write-Host "Testing Remote Desktop..."
           Write-Host "Address: $env:TAILSCALE_IP"
-          Write-Host "Port: 3389"
+          Write-Host "Port   : 3389"
+          Write-Host ""
 
           $testResult = Test-NetConnection `
             -ComputerName $env:TAILSCALE_IP `
             -Port 3389 `
             -WarningAction SilentlyContinue
+
+          if (-not $testResult.TcpTestSucceeded) {
+
+              Write-Host "First test failed."
+              Write-Host "Restarting Remote Desktop service..."
+
+              Restart-Service `
+                -Name TermService `
+                -Force
+
+              Start-Sleep -Seconds 5
+
+              $testResult = Test-NetConnection `
+                -ComputerName $env:TAILSCALE_IP `
+                -Port 3389 `
+                -WarningAction SilentlyContinue
+          }
 
           if (-not $testResult.TcpTestSucceeded) {
               Write-Error "TCP connection to RDP port 3389 failed."
@@ -223,6 +280,10 @@ jobs:
           Write-Host ""
 
 
+      # ============================================================
+      # 6. KEEP RFDP RUNNING
+      # ============================================================
+
       - name: Maintain Connection
         shell: pwsh
         run: |
@@ -232,7 +293,7 @@ jobs:
           Write-Host "=============================================="
           Write-Host ""
           Write-Host "Address : $env:TAILSCALE_IP"
-          Write-Host "Username: Javad"
+          Write-Host "Username: TMA"
           Write-Host "Password: 14789632Javad@"
           Write-Host "Port    : 3389"
           Write-Host ""
@@ -244,6 +305,8 @@ jobs:
           Write-Host ""
 
           while ($true) {
+
               Write-Host "[$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')] RFDP ACTIVE"
+
               Start-Sleep -Seconds 300
           }
