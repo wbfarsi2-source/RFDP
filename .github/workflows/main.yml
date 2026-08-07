@@ -12,32 +12,46 @@ jobs:
       - name: Configure Core RDP Settings
         shell: pwsh
         run: |
-          # Enable Remote Desktop and disable Network Level Authentication
-          Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' `
-                           -Name "fDenyTSConnections" -Value 0 -Force
+          # Enable Remote Desktop
+          Set-ItemProperty `
+            -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' `
+            -Name "fDenyTSConnections" `
+            -Value 0 `
+            -Force
 
-          Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' `
-                           -Name "UserAuthentication" -Value 0 -Force
+          # Same settings as the original working workflow
+          Set-ItemProperty `
+            -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' `
+            -Name "UserAuthentication" `
+            -Value 0 `
+            -Force
 
-          Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' `
-                           -Name "SecurityLayer" -Value 0 -Force
+          Set-ItemProperty `
+            -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' `
+            -Name "SecurityLayer" `
+            -Value 0 `
+            -Force
 
-          # Remove any existing rule with the same name
+          # Remove old firewall rule if present
           netsh advfirewall firewall delete rule name="RDP-Tailscale"
 
-          # Allow incoming RDP connections on port 3389
-          netsh advfirewall firewall add rule name="RDP-Tailscale" `
-            dir=in action=allow protocol=TCP localport=3389
+          # Allow RDP on port 3389
+          netsh advfirewall firewall add rule `
+            name="RDP-Tailscale" `
+            dir=in `
+            action=allow `
+            protocol=TCP `
+            localport=3389
 
           # Restart Remote Desktop service
           Restart-Service -Name TermService -Force
+
+          Write-Host "RDP configuration completed."
 
 
       - name: Create RDP User with Secure Password
         shell: pwsh
         run: |
-          Add-Type -AssemblyName System.Security
-
           $charSet = @{
               Upper   = [char[]](65..90)
               Lower   = [char[]](97..122)
@@ -87,12 +101,7 @@ jobs:
               -Group "Remote Desktop Users" `
               -Member "RDP"
 
-          "RDP_CREDS=User: RDP | Password: $password" |
-              Out-File `
-                  -FilePath $env:GITHUB_ENV `
-                  -Encoding utf8 `
-                  -Append
-
+          # Save password for later workflow steps
           "RDP_PASSWORD=$password" |
               Out-File `
                   -FilePath $env:GITHUB_ENV `
@@ -100,9 +109,11 @@ jobs:
                   -Append
 
           if (-not (Get-LocalUser -Name "RDP" -ErrorAction SilentlyContinue)) {
-              Write-Error "User creation failed"
+              Write-Error "RDP user creation failed."
               exit 1
           }
+
+          Write-Host "RDP user created successfully."
 
 
       - name: Install Tailscale
@@ -112,9 +123,13 @@ jobs:
 
           $installerPath = "$env:TEMP\tailscale.msi"
 
+          Write-Host "Downloading Tailscale..."
+
           Invoke-WebRequest `
               -Uri $tsUrl `
               -OutFile $installerPath
+
+          Write-Host "Installing Tailscale..."
 
           Start-Process `
               msiexec.exe `
@@ -125,26 +140,59 @@ jobs:
               $installerPath `
               -Force
 
+          $tailscalePath = "$env:ProgramFiles\Tailscale\tailscale.exe"
+
+          if (-not (Test-Path $tailscalePath)) {
+              Write-Error "Tailscale installation failed."
+              exit 1
+          }
+
+          Write-Host "Tailscale installed successfully."
+
 
       - name: Establish Tailscale Connection
         shell: pwsh
+        env:
+          TS_AUTH_KEY: ${{ secrets.TAILSCALE_AUTH_KEY }}
+
         run: |
           $tailscale = "$env:ProgramFiles\Tailscale\tailscale.exe"
 
-          # Connect Tailscale using the original authentication method
+          # Important:
+          # Stop immediately if GitHub Secret is missing.
+          # This prevents Tailscale from waiting for browser login.
+          if ([string]::IsNullOrWhiteSpace($env:TS_AUTH_KEY)) {
+              Write-Error "TAILSCALE_AUTH_KEY secret is missing or empty."
+              exit 1
+          }
+
+          Write-Host "Connecting RFDP runner to Tailscale..."
+
           & $tailscale up `
-              --authkey="${{ secrets.TAILSCALE_AUTH_KEY }}" `
+              --auth-key="$env:TS_AUTH_KEY" `
               --hostname="gh-runner-$env:GITHUB_RUN_ID"
 
-          # Wait for Tailscale IPv4 address
+          if ($LASTEXITCODE -ne 0) {
+              Write-Error "Tailscale authentication failed. Check the Auth Key."
+              exit 1
+          }
+
           $tsIP = $null
           $retries = 0
 
           while (-not $tsIP -and $retries -lt 10) {
 
-              $tsIP = & $tailscale ip -4
+              $candidate = & $tailscale ip -4 2>$null
+
+              if ($candidate) {
+                  $tsIP = (
+                      $candidate |
+                      Select-Object -First 1
+                  ).Trim()
+              }
 
               if (-not $tsIP) {
+                  Write-Host "Waiting for Tailscale IP... ($($retries + 1)/10)"
                   Start-Sleep -Seconds 5
               }
 
@@ -152,11 +200,9 @@ jobs:
           }
 
           if (-not $tsIP) {
-              Write-Error "Tailscale IP not assigned. Exiting."
+              Write-Error "Tailscale IP was not assigned."
               exit 1
           }
-
-          $tsIP = ($tsIP | Select-Object -First 1).Trim()
 
           "TAILSCALE_IP=$tsIP" |
               Out-File `
@@ -164,44 +210,54 @@ jobs:
                   -Encoding utf8 `
                   -Append
 
-          Write-Host "Tailscale IP assigned: $tsIP"
+          Write-Host ""
+          Write-Host "Tailscale connected successfully."
+          Write-Host "Tailscale IP: $tsIP"
+          Write-Host ""
 
 
       - name: Verify RDP Accessibility
         shell: pwsh
         run: |
+          Write-Host "Testing RDP..."
           Write-Host "Tailscale IP: $env:TAILSCALE_IP"
 
           $testResult = Test-NetConnection `
               -ComputerName $env:TAILSCALE_IP `
-              -Port 3389
+              -Port 3389 `
+              -WarningAction SilentlyContinue
 
           if (-not $testResult.TcpTestSucceeded) {
-              Write-Error "TCP connection to RDP port 3389 failed"
+              Write-Error "TCP connection to RDP port 3389 failed."
               exit 1
           }
 
+          Write-Host ""
           Write-Host "TCP connectivity successful!"
+          Write-Host ""
 
 
       - name: Maintain Connection
         shell: pwsh
         run: |
+          # Do NOT use Clear-Host in GitHub Actions.
+
           Write-Host ""
-          Write-Host "=========================================="
-          Write-Host "              RDP ACCESS"
-          Write-Host "=========================================="
+          Write-Host "============================================"
+          Write-Host "                RFDP READY"
+          Write-Host "============================================"
           Write-Host ""
           Write-Host "Address : $env:TAILSCALE_IP"
           Write-Host "Username: RDP"
           Write-Host "Password: $env:RDP_PASSWORD"
+          Write-Host "Port    : 3389"
           Write-Host ""
-          Write-Host "=========================================="
+          Write-Host "============================================"
+          Write-Host " Keep this workflow running while connected "
+          Write-Host "============================================"
           Write-Host ""
 
           while ($true) {
-
-              Write-Host "[$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')] RDP Active - Cancel workflow to terminate"
-
+              Write-Host "[$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')] RFDP ACTIVE"
               Start-Sleep -Seconds 300
           }
