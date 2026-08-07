@@ -26,7 +26,8 @@ jobs:
             -Value 0 `
             -Force
 
-          # RDP-Tcp is the official Windows registry path
+          # Keep NLA enabled
+          # RDP-Tcp is the official Windows registry name
           Set-ItemProperty `
             -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' `
             -Name 'UserAuthentication' `
@@ -53,6 +54,15 @@ jobs:
               Start-Service -Name TermService
           }
 
+          Start-Sleep -Seconds 2
+
+          $service = Get-Service -Name TermService
+
+          if ($service.Status -ne 'Running') {
+              Write-Error "Remote Desktop service could not be started."
+              exit 1
+          }
+
           Write-Host "RFDP Remote Desktop configured successfully."
 
 
@@ -65,7 +75,7 @@ jobs:
         run: |
           Write-Host "Creating RFDP user..."
 
-          # Character sets used for random password
+          # Password character sets
           $upper   = [char[]]'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
           $lower   = [char[]]'abcdefghijklmnopqrstuvwxyz'
           $numbers = [char[]]'0123456789'
@@ -74,80 +84,81 @@ jobs:
           $rawPassword = @()
 
           $rawPassword += $upper |
-            Get-Random -Count 4
+              Get-Random -Count 4
 
           $rawPassword += $lower |
-            Get-Random -Count 4
+              Get-Random -Count 4
 
           $rawPassword += $numbers |
-            Get-Random -Count 4
+              Get-Random -Count 4
 
           $rawPassword += $special |
-            Get-Random -Count 4
+              Get-Random -Count 4
 
-          # Shuffle password characters
+          # Shuffle password
           $password = -join (
-            $rawPassword |
-            Sort-Object { Get-Random }
+              $rawPassword |
+              Sort-Object { Get-Random }
           )
 
           $securePass = ConvertTo-SecureString `
-            $password `
-            -AsPlainText `
-            -Force
+              $password `
+              -AsPlainText `
+              -Force
 
-          # Remove previous RFDP account if it exists
+          # Remove old RFDP user if it exists
           $existingUser = Get-LocalUser `
-            -Name "RFDP" `
-            -ErrorAction SilentlyContinue
+              -Name "RFDP" `
+              -ErrorAction SilentlyContinue
 
           if ($existingUser) {
-              Write-Host "Existing RFDP user found. Removing it..."
+
+              Write-Host "Existing RFDP user found. Removing..."
 
               Remove-LocalUser `
-                -Name "RFDP"
+                  -Name "RFDP"
           }
 
-          # Create RFDP account
+          # Create RFDP Windows user
           New-LocalUser `
-            -Name "RFDP" `
-            -Password $securePass `
-            -AccountNeverExpires `
-            -PasswordNeverExpires `
-            -Description "RFDP Remote Desktop User"
+              -Name "RFDP" `
+              -Password $securePass `
+              -AccountNeverExpires `
+              -PasswordNeverExpires `
+              -Description "RFDP Remote Desktop User"
 
-          # Add RFDP to Administrators
+          # Administrator access
           Add-LocalGroupMember `
-            -Group "Administrators" `
-            -Member "RFDP"
+              -Group "Administrators" `
+              -Member "RFDP"
 
           # Official Windows Remote Desktop group
           Add-LocalGroupMember `
-            -Group "Remote Desktop Users" `
-            -Member "RFDP"
+              -Group "Remote Desktop Users" `
+              -Member "RFDP"
 
-          # Save password for later steps
-          "RFDP_PASSWORD=$password" |
-            Out-File `
-              -FilePath $env:GITHUB_ENV `
-              -Encoding utf8 `
-              -Append
-
-          # Verify account creation
+          # Verify user
           $verifyUser = Get-LocalUser `
-            -Name "RFDP" `
-            -ErrorAction SilentlyContinue
+              -Name "RFDP" `
+              -ErrorAction SilentlyContinue
 
           if (-not $verifyUser) {
               Write-Error "RFDP user creation failed."
               exit 1
           }
 
+          # Save password for following workflow steps
+          "RFDP_PASSWORD=$password" |
+              Out-File `
+                  -FilePath $env:GITHUB_ENV `
+                  -Encoding utf8 `
+                  -Append
+
           Write-Host "RFDP user created successfully."
 
 
       # ============================================================
-      # 3. CONNECT TO TAILSCALE
+      # 3. CONNECT RFDP TO TAILSCALE
       # ============================================================
 
       - name: Connect RFDP to Tailscale
@@ -158,7 +169,7 @@ jobs:
 
 
       # ============================================================
-      # 4. CONFIGURE FIREWALL
+      # 4. CONFIGURE RFDP FIREWALL
       # ============================================================
 
       - name: Configure RFDP Firewall
@@ -166,26 +177,35 @@ jobs:
         run: |
           Write-Host "Configuring RFDP firewall..."
 
-          # Remove previous RFDP rule if present
+          # Delete our previous firewall rule if present
           Remove-NetFirewallRule `
-            -DisplayName "RFDP-Tailscale" `
-            -ErrorAction SilentlyContinue
+              -DisplayName "RFDP-Tailscale" `
+              -ErrorAction SilentlyContinue
 
-          # Allow port 3389 only from Tailscale IPv4 network
+          # Allow Remote Desktop only from Tailscale IPv4 network
           New-NetFirewallRule `
-            -DisplayName "RFDP-Tailscale" `
-            -Direction Inbound `
-            -Action Allow `
-            -Protocol TCP `
-            -LocalPort 3389 `
-            -RemoteAddress "100.64.0.0/10" `
-            -Profile Any
+              -DisplayName "RFDP-Tailscale" `
+              -Direction Inbound `
+              -Action Allow `
+              -Protocol TCP `
+              -LocalPort 3389 `
+              -RemoteAddress "100.64.0.0/10" `
+              -Profile Any
+
+          $rule = Get-NetFirewallRule `
+              -DisplayName "RFDP-Tailscale" `
+              -ErrorAction SilentlyContinue
+
+          if (-not $rule) {
+              Write-Error "RFDP firewall rule creation failed."
+              exit 1
+          }
 
           Write-Host "RFDP firewall configured successfully."
 
 
       # ============================================================
-      # 5. FIND TAILSCALE IP
+      # 5. GET RFDP TAILSCALE IP
       # ============================================================
 
       - name: Get RFDP Tailscale IP
@@ -194,8 +214,8 @@ jobs:
           Write-Host "Searching for RFDP Tailscale IP..."
 
           $tailscaleCommand = Get-Command `
-            tailscale.exe `
-            -ErrorAction SilentlyContinue
+              tailscale.exe `
+              -ErrorAction SilentlyContinue
 
           if (-not $tailscaleCommand) {
               Write-Error "Tailscale executable was not found."
@@ -211,21 +231,24 @@ jobs:
               try {
 
                   $candidate = (
-                    & $tailscale ip -4 2>$null |
-                    Select-Object -First 1
+                      & $tailscale ip -4 2>$null |
+                      Select-Object -First 1
                   )
 
                   if ($candidate) {
+
                       $candidate = $candidate.Trim()
-                  }
 
-                  if ($candidate -match '^100\.') {
-                      $tsIP = $candidate
-                      break
-                  }
+                      if ($candidate -match '^100\.') {
 
+                          $tsIP = $candidate
+
+                          break
+                      }
+                  }
               }
               catch {
+
                   Write-Host "Tailscale IP not ready yet..."
               }
 
@@ -235,16 +258,18 @@ jobs:
           }
 
           if (-not $tsIP) {
+
               Write-Error "RFDP Tailscale IPv4 address was not assigned."
+
               exit 1
           }
 
-          # Save IP for next workflow steps
+          # Save IP for later workflow steps
           "RFDP_TAILSCALE_IP=$tsIP" |
-            Out-File `
-              -FilePath $env:GITHUB_ENV `
-              -Encoding utf8 `
-              -Append
+              Out-File `
+                  -FilePath $env:GITHUB_ENV `
+                  -Encoding utf8 `
+                  -Append
 
           Write-Host ""
           Write-Host "RFDP Tailscale IP detected:"
@@ -262,44 +287,55 @@ jobs:
           Write-Host "Checking Remote Desktop service..."
 
           $service = Get-Service `
-            -Name TermService `
-            -ErrorAction SilentlyContinue
+              -Name TermService `
+              -ErrorAction SilentlyContinue
 
           if (-not $service) {
+
               Write-Error "Remote Desktop service was not found."
+
               exit 1
           }
 
           if ($service.Status -ne "Running") {
+
               Write-Host "Starting Remote Desktop service..."
 
               Start-Service `
-                -Name TermService
+                  -Name TermService
 
               Start-Sleep -Seconds 3
           }
 
-          Write-Host "Remote Desktop service status:"
-          Get-Service -Name TermService
+          $service = Get-Service -Name TermService
+
+          if ($service.Status -ne "Running") {
+
+              Write-Error "Remote Desktop service is not running."
+
+              exit 1
+          }
+
+          Write-Host "Remote Desktop service is running successfully."
 
 
       # ============================================================
-      # 7. VERIFY PORT 3389
+      # 7. VERIFY RFDP PORT 3389
       # ============================================================
 
       - name: Verify RFDP Connection
         shell: pwsh
         run: |
           Write-Host ""
-          Write-Host "Testing RFDP..."
-          Write-Host "IP: $env:RFDP_TAILSCALE_IP"
-          Write-Host "Port: 3389"
+          Write-Host "Testing RFDP connection..."
+          Write-Host "Address: $env:RFDP_TAILSCALE_IP"
+          Write-Host "Port   : 3389"
           Write-Host ""
 
           $result = Test-NetConnection `
-            -ComputerName $env:RFDP_TAILSCALE_IP `
-            -Port 3389 `
-            -WarningAction SilentlyContinue
+              -ComputerName $env:RFDP_TAILSCALE_IP `
+              -Port 3389 `
+              -WarningAction SilentlyContinue
 
           if (-not $result.TcpTestSucceeded) {
 
@@ -307,19 +343,21 @@ jobs:
               Write-Host "Restarting Remote Desktop service..."
 
               Restart-Service `
-                -Name TermService `
-                -Force
+                  -Name TermService `
+                  -Force
 
               Start-Sleep -Seconds 5
 
               $result = Test-NetConnection `
-                -ComputerName $env:RFDP_TAILSCALE_IP `
-                -Port 3389 `
-                -WarningAction SilentlyContinue
+                  -ComputerName $env:RFDP_TAILSCALE_IP `
+                  -Port 3389 `
+                  -WarningAction SilentlyContinue
           }
 
           if (-not $result.TcpTestSucceeded) {
+
               Write-Error "RFDP connection on port 3389 is not accessible."
+
               exit 1
           }
 
@@ -329,13 +367,16 @@ jobs:
 
 
       # ============================================================
-      # 8. SHOW CONNECTION INFORMATION
+      # 8. SHOW RFDP CONNECTION INFORMATION
       # ============================================================
 
       - name: Show RFDP Connection Info
         shell: pwsh
         run: |
-          Clear-Host
+          # IMPORTANT:
+          # Do not use Clear-Host here.
+          # GitHub Actions does not provide a normal interactive console
+          # and Clear-Host can cause CursorPosition / invalid handle errors.
 
           Write-Host ""
           Write-Host "=============================================="
@@ -345,12 +386,15 @@ jobs:
           Write-Host "Address : $env:RFDP_TAILSCALE_IP"
           Write-Host "Username: RFDP"
           Write-Host "Password: $env:RFDP_PASSWORD"
-          Write-Host ""
           Write-Host "Port    : 3389"
           Write-Host ""
           Write-Host "=============================================="
-          Write-Host " Connect using Windows Remote Desktop"
+          Write-Host "       RFDP CONNECTION IS ACTIVE"
           Write-Host "=============================================="
+          Write-Host ""
+          Write-Host "Use Windows Remote Desktop Connection."
+          Write-Host ""
+          Write-Host "Keep this workflow running while connected."
           Write-Host ""
 
           while ($true) {
