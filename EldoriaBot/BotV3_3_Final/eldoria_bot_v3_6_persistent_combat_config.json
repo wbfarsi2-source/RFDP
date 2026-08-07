@@ -1,0 +1,478 @@
+{
+  "automation": {
+    "action_delay_seconds": 1.25
+  },
+  "continuous": {
+    "enabled": true,
+    "max_battles_per_batch": 100,
+    "minimum_stamina_reserve": 0,
+    "resume_stamina": 4,
+    "resume_hp_percent": 0,
+    "poll_seconds": 20,
+    "fallback_wait_seconds": 600
+  },
+  "dynamic_resources": {
+    "emergency_stamina_reserve": 0,
+    "specific_quest_fights": 3,
+    "material_farm_fights": 3,
+    "general_quest_fights": 3,
+    "skill_casts_for_priority_fight": 3
+  },
+  "combat": {
+    "minimum_hp_after_battle": 15,
+    "extra_hp_margin": 8,
+    "minimum_history_samples": 2,
+    "history_multiplier": 1.45,
+    "history_flat_margin": 4,
+    "interactive_emergency_hp": 20
+  },
+  "skills": {
+    "use_mp_skills": true,
+    "skill_mode_damage_threshold": 25,
+    "maximum_combat_turns": 180
+  },
+  "skills_advanced": {
+    "enabled": true,
+    "max_skills_learned_per_cycle": 5,
+    "loadout_modes": [
+      "pve"
+    ]
+  },
+  "skill_tree": {
+    "enabled": true,
+    "max_allocations_per_cycle": 30
+  },
+  "achievements": {
+    "enabled": true
+  },
+  "consumables": {
+    "use_hp_potions": true,
+    "use_mana_potions": true,
+    "use_stamina_potions": true,
+    "max_hp_potions_per_cycle": 5,
+    "max_stamina_potions_per_24h": 4,
+    "stamina_use_below": 6,
+    "minimum_stamina_refill_efficiency": 0.45
+  },
+  "equipment": {
+    "open_free_boxes": true,
+    "auto_equip": true,
+    "minimum_score_gain": 0.25
+  },
+  "progression": {
+    "auto_allocate_attributes": true,
+    "auto_forge": true,
+    "max_forge_upgrades_per_cycle": 8
+  },
+  "economy": {
+    "absolute_minimum_gold": 500,
+    "minimum_combat_upgrade_roi": 0.005
+  },
+  "farm_learning": {
+    "minimum_samples": 5
+  },
+  "dungeons": {
+    "enabled": true,
+    "infinite_only_when_no_urgent_quests": false,
+    "allow_progression_only_runs": true,
+    "minimum_hours_between_attempts": 20,
+    "required_hp_percent": 88,
+    "required_stamina_percent": 55,
+    "required_mp_percent": 60,
+    "boss_minimum_hp_ratio": 0.62,
+    "boss_minimum_mp_ratio": 0.18,
+    "max_actions_per_cycle": 40
+  },
+  "world_boss": {
+    "enabled": true,
+    "allow_progression_only_attacks": false,
+    "maximum_attacks_per_hour": 3,
+    "required_hp_percent": 90,
+    "required_stamina_percent": 65,
+    "required_mp_percent": 60
+  },
+  "travel": {
+    "verification_attempts": 6,
+    "verification_delay_seconds": 1.5
+  },
+  "logging": {
+    "battle_summary_every": 10,
+    "craft_recheck_every_battles": 10,
+    "max_file_bytes": 10000000,
+    "backup_count": 5
+  },
+  "network": {
+    "read_retries": 5,
+    "retry_delay_seconds": 7,
+    "read_timeout_seconds": 30,
+    "write_timeout_seconds": 45
+  },
+  "death_recovery": {
+    "minimum_timeout_seconds": 60,
+    "respawn_retry_seconds": 30,
+    "verification_attempts": 10,
+    "verification_delay_seconds": 3
+  },
+  "danger_learning": {
+    "normal_fight_max_damage_ratio": 0.35,
+    "heavy_fight_damage_ratio": 0.28,
+    "near_death_hp_ratio": 0.08,
+    "near_death_damage_ratio": 0.65,
+    "damage_safety_multiplier": 1.35,
+    "minimum_future_hp_multiplier": 1.2,
+    "required_power_growth_multiplier": 1.15
+  },
+  "dynamic_final": {
+    "heavy_fight_hp_percent": 95,
+    "heavy_fight_stamina_percent": 70,
+    "heavy_fight_mp_percent": 80
+  },
+  "interactive_combat": {
+    "maximum_turns": 80,
+    "emergency_stop_hp": 8,
+    "retry_after_schema_failure_seconds": 1800,
+    "debug_write_cooldown_seconds": 1800
+  },
+  "light_farm": {
+    "heavy_level_gap": 2
+  },
+  "aggressive_learning": {
+    "first_retry_power_growth": 0.05,
+    "additional_growth_per_death": 0.03,
+    "maximum_retry_power_growth": 0.18,
+    "retry_hp_buffer": 10,
+    "known_damage_margin": 1.08,
+    "known_hp_buffer": 5,
+    "unknown_farm_hp_ratio": 0.15,
+    "unknown_quest_hp_ratio": 0.35,
+    "unknown_boss_hp_ratio": 0.7
+  },
+  "active_scheduler": {
+    "poll_seconds": 30,
+    "fast_housekeeping_seconds": 60,
+    "craft_check_seconds": 180,
+    "progression_check_seconds": 180,
+    "special_check_seconds": 300,
+    "prediction_margin": 1.05,
+    "history_average_margin": 1.02,
+    "hp_buffer": 4,
+    "history_hp_cap_ratio": 0.78,
+    "quest_min_hp_ratio": 0.25,
+    "farm_min_hp_ratio": 0.1,
+    "farm_estimate_cap_ratio": 0.25,
+    "unknown_boss_hp_ratio": 0.6
+  },
+  "smart_combat": {
+    "successful_average_multiplier": 1.05,
+    "successful_damage_margin": 1.06,
+    "successful_hp_buffer": 6,
+    "unknown_quest_damage_margin": 1.1,
+    "unknown_quest_hp_buffer": 10,
+    "unknown_farm_damage_margin": 1.15,
+    "unknown_farm_hp_buffer": 8,
+    "unknown_boss_damage_margin": 1.2,
+    "unknown_boss_hp_buffer": 15,
+    "weak_unknown_damage_ratio": 0.2,
+    "maximum_unknown_exact_quest_level_gap": 3,
+    "maximum_unknown_farm_level_gap": 0,
+    "maximum_unknown_boss_level_gap": 1,
+    "gold_weight": 3.0,
+    "xp_weight": 8.0,
+    "risk_penalty": 1.75
+  },
+  "stamina_bank": {
+    "recharge_trigger": 1,
+    "base_recharge_target": 20
+  },
+  "resource_bridge": {
+    "schema_version": 2,
+    "hp_aliases": [
+      "required_hp",
+      "hp_target"
+    ],
+    "skip_potions_for_unwinnable_targets": true,
+    "natural_stamina_during_bank_recharge": true
+  },
+  "adaptive_retry": {
+    "level_steps": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "power_growth_ratios": [
+      0.15,
+      0.3,
+      0.45,
+      0.6,
+      0.75
+    ],
+    "mastery_wins": [
+      10,
+      15,
+      20,
+      25,
+      30
+    ],
+    "mastery_max_average_loss_ratios": [
+      0.25,
+      0.2,
+      0.16,
+      0.13,
+      0.1
+    ],
+    "mastery_high_hp_wins": [
+      5,
+      8,
+      12,
+      15,
+      20
+    ],
+    "mastery_high_hp_remaining_ratio": 0.6,
+    "mastery_progress_log_every": 5,
+    "post_victory_level_growth": 2,
+    "post_victory_power_growth_ratio": 0.1,
+    "harder_damage_multiplier": 1.35,
+    "training_xp_weight": 3.0,
+    "training_gold_weight": 1.8,
+    "training_risk_penalty": 4.0,
+    "survival_focus_threshold": 1.2,
+    "offense_focus_threshold": 1.2
+  },
+  "professional_quests": {
+    "quest_cache_fresh_seconds": 45,
+    "quest_cache_stale_seconds": 900,
+    "quest_board_log_seconds": 900,
+    "combat_sample_window": 8,
+    "recent_damage_margin": 1.18,
+    "recent_hp_buffer": 18,
+    "legacy_average_margin": 1.25,
+    "legacy_average_hp_buffer": 20,
+    "generic_crafts_per_cycle": 3,
+    "emergency_potion_wait_seconds": 1200,
+    "emergency_potion_minimum_quest_score": 500,
+    "max_emergency_hp_crafts_per_hour": 6,
+    "emergency_hp_crafts_per_attempt": 3
+  },
+  "quest_campaign": {
+    "broad_target_max_risk_ratio": 0.62,
+    "training_max_risk_ratio": 0.58,
+    "prefer_strongest_safe_enemy": true,
+    "sticky_until_objective_complete": false,
+    "daily_preemption": true,
+    "prepare_on_new_quest": true
+  },
+  "transparent_logs": {
+    "status_heartbeat_seconds": 600,
+    "maximum_opportunity_delay_seconds": 600,
+    "maximum_opportunity_risk_ratio": 0.18,
+    "minimum_hp_after_opportunity_ratio": 0.45,
+    "opportunity_damage_safety": 1.1
+  },
+  "loot_aware": {
+    "unknown_drop_expectation": 0.05,
+    "minimum_expected_loot": 0.05,
+    "loot_progress_weight": 100.0,
+    "loot_xp_weight": 0.04,
+    "loot_gold_weight": 0.02,
+    "loot_overlap_weight": 0.2,
+    "loot_risk_penalty": 2.0,
+    "loot_stamina_penalty": 0.01,
+    "opportunity_wait_budget_ratio": 0.2,
+    "opportunity_wait_budget_cap_seconds": 1800,
+    "absolute_opportunity_hp_floor_ratio": 0.08,
+    "maximum_opportunity_hp_ratio_drop": 0.04
+  },
+  "root_orchestrator": {
+    "ready_target_bonus": 5000.0,
+    "loot_wait_minute_penalty": 2.0,
+    "expected_drops_before_penalty": 2.0,
+    "minimum_dry_fights": 6,
+    "maximum_dry_fights": 20,
+    "ineffective_target_penalty": 10000.0,
+    "ineffective_target_penalty_seconds": 3600,
+    "secondary_craft_success_cooldown_seconds": 30,
+    "secondary_craft_failure_cooldown_seconds": 7200,
+    "wait_log_heartbeat_seconds": 600
+  },
+  "guaranteed_progress": {
+    "minimum_loot_progress_rate": 0.01,
+    "minimum_fight_cycle_seconds": 10,
+    "blocked_craft_estimate_seconds": 86400,
+    "overlap_time_discount": 0.2,
+    "guaranteed_kill_multiplier": 1.0,
+    "random_loot_multiplier": 1.2,
+    "campaign_switch_ratio": 0.92,
+    "priority_log_heartbeat_seconds": 600,
+    "target_audit_heartbeat_seconds": 1800,
+    "expensive_no_progress_seconds": 1800,
+    "expensive_loot_pause_seconds": 21600,
+    "blocked_craft_retry_seconds": 7200
+  },
+  "adaptive_recovery": {
+    "survival_focus_wait_seconds": 3600,
+    "survival_optimization_cooldown_seconds": 3600,
+    "recipe_cache_seconds": 600,
+    "unknown_hp_potion_heal": 50,
+    "material_plan_minimum_wait_seconds": 1800,
+    "maximum_material_actions_per_wait": 4,
+    "maximum_material_fight_risk": 0.35,
+    "maximum_material_added_delay_seconds": 3600,
+    "maximum_material_delay_ratio": 0.6,
+    "minimum_material_time_gain_ratio": 1.05,
+    "server_limit_log_seconds": 900
+  },
+  "strict_craft": {
+    "manager_interval_seconds": 90,
+    "max_direct_crafts_per_cycle": 8,
+    "verification_delay_seconds": 2,
+    "gold_reserve_ratio": 0.1,
+    "no_recipe_defer_seconds": 21600,
+    "api_failure_defer_seconds": 3600,
+    "incompatible_recipe_defer_seconds": 43200,
+    "gold_defer_seconds": 7200,
+    "maximum_material_risk_ratio": 0.4,
+    "minimum_hp_after_ratio": 0.1,
+    "minimum_expected_material_units": 0.1,
+    "maximum_added_delay_seconds": 3600,
+    "maximum_added_delay_ratio": 0.6,
+    "max_material_fights_per_plan": 5,
+    "no_drop_blacklist_attempts": 2,
+    "material_blacklist_seconds": 21600
+  },
+  "no_death": {
+    "maximum_unproven_exact_damage_ratio": 0.58,
+    "unproven_exact_damage_margin": 1.35,
+    "unproven_exact_minimum_post_hp_ratio": 0.25,
+    "unproven_exact_flat_buffer": 20,
+    "unproven_broad_damage_margin": 1.1,
+    "unproven_broad_minimum_post_hp_ratio": 0.1,
+    "unproven_broad_flat_buffer": 8,
+    "proven_damage_margin": 1.06,
+    "proven_minimum_post_hp_ratio": 0.08,
+    "proven_flat_buffer": 6,
+    "block_log_heartbeat_seconds": 900
+  },
+  "progress_first": {
+    "recent_sample_window": 12,
+    "recent_outlier_cap_multiplier": 1.2,
+    "recent_upper_margin": 1.08,
+    "recent_upper_flat_buffer": 4,
+    "recent_max_margin": 1.05,
+    "prediction_floor_start_multiplier": 1.02,
+    "prediction_floor_min_multiplier": 0.82,
+    "prediction_calibration_samples": 8,
+    "recent_stability_cv_threshold": 0.25,
+    "aggregate_prediction_floor_multiplier": 0.92,
+    "aggregate_average_multiplier": 1.12,
+    "aggregate_flat_buffer": 6,
+    "unproven_prediction_multiplier": 1.1,
+    "minimum_recent_samples_for_proven": 3,
+    "minimum_aggregate_samples_for_proven": 5,
+    "campaign_switch_ratio": 0.94,
+    "damage_log_heartbeat_seconds": 1800,
+    "damage_state_flush_seconds": 120
+  },
+  "deadline_priority": {
+    "enabled": true,
+    "daily_preemption": true,
+    "quest_type_multipliers": {
+      "urgent": 0.2,
+      "daily": 0.48,
+      "weekly": 1.0,
+      "normal": 1.15,
+      "other": 1.25
+    },
+    "objective_type_multipliers": {
+      "kill": 0.82,
+      "craft": 0.92,
+      "loot": 1.0,
+      "other": 1.08
+    },
+    "deadline_impossible_penalty": 1.75,
+    "deadline_close_multiplier": 0.35,
+    "minimum_switch_improvement": 0.94
+  },
+  "leveling_first": {
+    "enabled": true,
+    "xp_weight": 1.0,
+    "gold_to_xp": 0.12,
+    "quest_overlap_value": 180.0,
+    "material_value": 45.0,
+    "main_quest_value_multiplier": 1.65,
+    "daily_value_multiplier": 1.45,
+    "weekly_value_multiplier": 0.72,
+    "side_value_multiplier": 1.0,
+    "broad_weekly_grind_penalty": 0.42,
+    "ready_now_bonus": 1.12,
+    "boss_farm_requires_history": true,
+    "dungeon_preempts_campaign": true,
+    "dungeon_only_when_ready": true,
+    "race_equipment_enabled": true,
+    "race_equipment_failure_cooldown_seconds": 21600,
+    "state_heartbeat_seconds": 900,
+    "skill_tree_plan": [
+      {
+        "code": "a_xp1",
+        "target": 5
+      },
+      {
+        "code": "a_xp2",
+        "target": 5
+      },
+      {
+        "code": "a_xp3",
+        "target": 3
+      },
+      {
+        "code": "a_stam1",
+        "target": 3
+      },
+      {
+        "code": "a_stam2",
+        "target": 2
+      }
+    ],
+    "pve_skill_order": [
+      4,
+      28,
+      13,
+      1,
+      2
+    ],
+    "dungeon_skill_order": [
+      22,
+      28,
+      60,
+      3,
+      13,
+      1
+    ],
+    "max_pve_skills": 3,
+    "max_tree_allocations_per_cycle": 30
+  },
+  "persistent_combat": {
+    "enabled": true,
+    "priority_max": 0,
+    "boss_enabled": true,
+    "maximum_session_age_seconds": 43200,
+    "maximum_session_turns": 180,
+    "pause_poll_seconds": 60,
+    "maximum_single_pause_seconds": 21600,
+    "minimum_post_turn_hp_ratio": 0.08,
+    "minimum_post_turn_hp_flat": 20,
+    "resume_extra_buffer": 12,
+    "unknown_turn_attack_multiplier": 1.6,
+    "unknown_turn_flat_buffer": 20,
+    "unknown_total_damage_fraction": 0.35,
+    "observed_turn_margin": 1.3,
+    "observed_turn_flat_buffer": 8,
+    "turn_history_window": 20,
+    "state_heartbeat_seconds": 300,
+    "target_audit_heartbeat_seconds": 1800,
+    "use_first_aid": false,
+    "use_mana_font": false,
+    "cleanup_foreign_session": true
+  }
+}

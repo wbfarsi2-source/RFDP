@@ -1,0 +1,5 @@
+{
+  "last_status": "",
+  "last_error": "Campaign Equipment:RuntimeError:Read character failed: status=520 error=http_520",
+  "cycles": 3387
+}

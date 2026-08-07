@@ -1,0 +1,91 @@
+{
+  "schema_version": 2,
+  "guaranteed_over_random_switches": 26,
+  "robust_damage_estimates": 2375,
+  "last_damage_signature": "107|prediction-only pred=2446339|2690973",
+  "last_damage_at": 1786058359.796477,
+  "damage_log_cache": {
+    "88": {
+      "signature": "recent-calibrated/2 recent-upper pred=224 upper=255 floor=0.99|255",
+      "at": 1786058359.7944453
+    },
+    "91": {
+      "signature": "aggregate-calibrated/1 pred=138 avg=0|127",
+      "at": 1786058359.7940934
+    },
+    "89": {
+      "signature": "prediction-only pred=1564|1720",
+      "at": 1786058359.7950602
+    },
+    "92": {
+      "signature": "prediction-only pred=1564|1720",
+      "at": 1786058359.7951965
+    },
+    "90": {
+      "signature": "prediction-only pred=73635|80998",
+      "at": 1786058359.7958763
+    },
+    "93": {
+      "signature": "prediction-only pred=73635|80998",
+      "at": 1786058359.7959998
+    },
+    "108": {
+      "signature": "prediction-only pred=2446339|2690973",
+      "at": 1786058359.7962089
+    },
+    "107": {
+      "signature": "prediction-only pred=2446339|2690973",
+      "at": 1786058359.796477
+    },
+    "6": {
+      "signature": "prediction-only pred=316|348",
+      "at": 1786043648.42059
+    },
+    "103": {
+      "signature": "aggregate-calibrated/4 pred=458 avg=0|421",
+      "at": 1786058359.794658
+    },
+    "106": {
+      "signature": "prediction-only pred=4536|4990",
+      "at": 1786058359.7954843
+    },
+    "104": {
+      "signature": "prediction-only pred=5272|5799",
+      "at": 1786058359.7956145
+    },
+    "105": {
+      "signature": "prediction-only pred=11922|13114",
+      "at": 1786058359.795735
+    },
+    "5": {
+      "signature": "recent-calibrated/1 recent-upper pred=145 upper=151 floor=0.99|151",
+      "at": 1786057685.049219
+    },
+    "95": {
+      "signature": "prediction-only pred=1077|1185",
+      "at": 1786058359.7949054
+    },
+    "7": {
+      "signature": "prediction-only pred=2988|3287",
+      "at": 1786058359.795327
+    },
+    "1": {
+      "signature": "recent-calibrated/8 prediction-floor pred=18 upper=6 floor=0.87|16",
+      "at": 1786058359.793896
+    },
+    "2": {
+      "signature": "recent-calibrated/8 prediction-floor pred=155 upper=39 floor=0.87|135",
+      "at": 1786057685.0513713
+    },
+    "3": {
+      "signature": "recent-calibrated/1 prediction-floor pred=327 upper=213 floor=0.99|325",
+      "at": 1786058359.7934272
+    },
+    "4": {
+      "signature": "prediction-only pred=1012|1113",
+      "at": 1786058359.7913122
+    }
+  },
+  "damage_calibrations": 436,
+  "deadline_preemptions": 41
+}

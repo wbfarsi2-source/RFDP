@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "objective_pauses": {
+    "781803|q_daily_loot_5|loot|any||": 1785682652.400772,
+    "1042377|q_daily_loot_1|loot|any||": 1786065329.501341,
+    "1065083|q_daily_loot_5|loot|any||": 1786065725.445597
+  },
+  "last_priority_signature": "1095599|q_intro_bandit_lord|kill|banditleader|4||The Bandit Lord: kill | 1 remaining ",
+  "last_priority_at": 1786058922.2520962,
+  "last_audit_signature": "891315|q_d_farm_low|kill|any||coalmines|88|97.75|heal",
+  "last_audit_at": 1785627082.810524,
+  "priority_switches": 0,
+  "expensive_loot_pauses": 16
+}

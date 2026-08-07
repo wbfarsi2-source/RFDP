@@ -1,0 +1,62 @@
+ELDORIA BOT CURRENT PLAN
+========================================================================
+Updated: 2026-08-07 15:26:56
+Live log: C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\main\Output\eldoria_bot_v3_3_final.log
+
+PRIMARY QUEST
+Name: Daily Provisions
+Type: daily
+Objective: KILL any in coal_mines
+Remaining: 5
+
+CURRENT STEP
+Step: PRIMARY QUEST
+Details: Fight Coal Miner
+
+TARGET AND REQUIREMENTS
+Target: Coal Miner
+Zone: Coal Mines
+HP: 50/416 | required 47
+STM: 11/66 | required 3
+MP: 38/123
+Estimated damage: 36
+Parallel Quests: Gatherer (19 left), Daily Loot (7 left)
+
+STATE FILES
+Current plan: C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\main\Output\eldoria_bot_current_plan.txt
+Full log: C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\main\Output\eldoria_bot_v3_3_final.log
+
+LOOT / OPPORTUNITY DIRECTOR
+Opportunity status: skipped
+Opportunity reason: One side action was already used for this wait window.
+Recovery status: A recovery item or crafted Potion was used.
+
+ROOT QUEST ORCHESTRATOR
+Target audit: 2 safe Kill-any targets ranked by XP+Gold+Quest value; Coal Miner selected | XP/h~18.7 | Gold/h~2.3 | value/h~491.6 | cycle 1h 17m.
+Secondary task: none currently executable
+
+ADAPTIVE RECOVERY CAMPAIGN
+Recovery focus: NORMAL
+Recovery material target: none currently profitable
+
+STRICT CRAFT DIRECTOR
+Craft Quests are never combat campaigns.
+Background Craft Quest: Apprentice Alchemist
+Verified Recipe: Pocion de Mana
+Exact shortages: {"herbcommon": 1}
+
+NO-DEATH EFFICIENCY DIRECTOR
+Death-locked enemies require Level + Power + Mastery.
+Unproven high-damage exact targets are never test-fought.
+Kill-any selection: 2 safe Kill-any targets ranked by XP+Gold+Quest value; Coal Miner selected | XP/h~18.7 | Gold/h~2.3 | value/h~491.6 | cycle 1h 17m.
+
+ROOT-HARDENED SAFETY
+Quest selection is deadline-aware; Kill gets a bonus, not an absolute override.
+Damage uses calibrated recent upper bounds with a decaying prediction floor.
+Dangerous exact-target hard locks remain inherited and active.
+JSON state writes are atomic and duplicate bot instances are blocked.
+
+LEVELING-FIRST V3.5
+Targets are ranked by real XP, Gold, Quest overlap and recovery time.
+kill_in_zone Quests, XP skill-tree spending and ready Dungeons are enabled.
+No-death blocking and paid-action blocking remain active.

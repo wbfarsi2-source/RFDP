@@ -1,0 +1,8 @@
+{
+  "recharging": true,
+  "target": 20,
+  "reason": "restore the Stamina bank before Mine Foreman",
+  "next_target_name": "Mine Foreman",
+  "last_log": "",
+  "completed_recharges": 33
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "progress_audit": {
+    "1042377|q_daily_loot_1|loot|any|||monster:1": {
+      "wins": 7,
+      "progress_events": 0,
+      "no_progress_streak": 7,
+      "last_before": 7,
+      "last_after": 7
+    },
+    "1134705|q_main_practice_training|kill|any||trainingarea|monster:103": {
+      "wins": 4,
+      "progress_events": 4,
+      "no_progress_streak": 0,
+      "last_before": 2,
+      "last_after": 1
+    },
+    "1135185|q_daily_easy|kill|any|||monster:1": {
+      "wins": 25,
+      "progress_events": 25,
+      "no_progress_streak": 0,
+      "last_before": 3,
+      "last_after": 2
+    },
+    "1065083|q_daily_loot_5|loot|any|||monster:1": {
+      "wins": 7,
+      "progress_events": 0,
+      "no_progress_streak": 7,
+      "last_before": 19,
+      "last_after": 19
+    },
+    "1042377|q_daily_loot_1|loot|any|||monster:5": {
+      "wins": 1,
+      "progress_events": 0,
+      "no_progress_streak": 1,
+      "last_before": 7,
+      "last_after": 7
+    },
+    "1095599|q_intro_bandit_lord|kill|banditleader|4||monster:1": {
+      "wins": 2,
+      "progress_events": 0,
+      "no_progress_streak": 2,
+      "last_before": 1,
+      "last_after": 1
+    }
+  },
+  "target_penalties": {
+    "1042377|q_daily_loot_1|loot|any|||monster:1": {
+      "penalty": 10000.0,
+      "expires_at": 1786098631.5351744,
+      "reason": "7 wins without verified Quest progress"
+    },
+    "1065083|q_daily_loot_5|loot|any|||monster:1": {
+      "penalty": 10000.0,
+      "expires_at": 1786106881.580367,
+      "reason": "7 wins without verified Quest progress"
+    }
+  },
+  "last_target_audit": "",
+  "last_secondary_task": "",
+  "secondary_craft_cooldown_until": 0.0,
+  "verified_progress_events": 29,
+  "verified_no_progress_events": 17,
+  "secondary_actions": 0,
+  "last_why_wait_signature": "",
+  "last_why_wait_at": 0.0,
+  "last_wait_opportunity_signature": "",
+  "last_wait_opportunity_at": 0.0
+}

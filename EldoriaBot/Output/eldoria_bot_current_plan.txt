@@ -1,0 +1,61 @@
+ELDORIA BOT CURRENT PLAN
+========================================================================
+Updated: 2026-08-07 02:58:42
+Live log: C:\Users\JavadTM\Desktop\Eldoria_Bot\Output\eldoria_bot_v3_3_final.log
+
+PRIMARY QUEST
+Name: The Bandit Lord
+Type: main
+Objective: KILL bandit_leader in 4
+Remaining: 1
+
+CURRENT STEP
+Step: RESOURCE PREPARATION
+Details: Waiting for HP +106; target HP 285/414; ETA 3h 47m
+
+TARGET AND REQUIREMENTS
+Target: Bandit Leader
+Zone: Greenwild Forest
+HP: 179/414 | required 285
+STM: 5/66 | required 4
+MP: 7/119
+Estimated damage: 268
+Parallel Quests: Gatherer (19 left), Daily Loot (7 left)
+
+STATE FILES
+Current plan: C:\Users\JavadTM\Desktop\Eldoria_Bot\Output\eldoria_bot_current_plan.txt
+Full log: C:\Users\JavadTM\Desktop\Eldoria_Bot\Output\eldoria_bot_v3_3_final.log
+
+LOOT / OPPORTUNITY DIRECTOR
+Opportunity status: skipped
+Opportunity reason: Gray Wolf would leave HP near 39%, below the dynamic floor 39%
+Recovery status: A recovery item or crafted Potion was used.
+
+ROOT QUEST ORCHESTRATOR
+Target audit: 1 legal targets checked for The Bandit Lord; Bandit Leader selected.
+Secondary task: Craft Quest Alchemy Apprentice
+
+ADAPTIVE RECOVERY CAMPAIGN
+Recovery focus: SURVIVAL
+Recovery material target: none currently profitable
+
+STRICT CRAFT DIRECTOR
+Craft Quests are never combat campaigns.
+Background Craft Quest: Apprentice Alchemist
+Verified Recipe: Pocion de Mana
+Exact shortages: {"herbcommon": 2, "ironore": 1}
+
+NO-DEATH EFFICIENCY DIRECTOR
+Death-locked enemies require Level + Power + Mastery.
+Unproven high-damage exact targets are never test-fought.
+
+ROOT-HARDENED SAFETY
+Quest selection is deadline-aware; Kill gets a bonus, not an absolute override.
+Damage uses calibrated recent upper bounds with a decaying prediction floor.
+Dangerous exact-target hard locks remain inherited and active.
+JSON state writes are atomic and duplicate bot instances are blocked.
+
+LEVELING-FIRST V3.5
+Targets are ranked by real XP, Gold, Quest overlap and recovery time.
+kill_in_zone Quests, XP skill-tree spending and ready Dungeons are enabled.
+No-death blocking and paid-action blocking remain active.

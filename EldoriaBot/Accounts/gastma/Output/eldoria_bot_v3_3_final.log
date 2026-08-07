@@ -1,0 +1,1142 @@
+03:37:50 | [START] Eldoria Bot 3.8.3-server-friendly-pacing-windows
+03:37:50 | [ACCOUNT] Gastma | isolated runtime=C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\gastma
+03:37:50 | [MODE] FAST QUEST/XP/GOLD HOLD ROUTER: routine kills chain immediately; held combat targets are skipped until their retry time.
+03:37:50 | [FIX] Combat-hold targets are excluded before travel/action selection, preventing retry spam while alternate Quest/XP/Gold work continues.
+03:37:52 | [START] Eldoria Bot 3.8.3-server-friendly-pacing-windows
+03:37:52 | [MODE] Root Quest orchestration, verified progress and secondary task scheduling.
+03:37:52 | [LOG FILE] C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\gastma\Output\eldoria_bot_v3_3_final.log
+03:37:52 | [CURRENT PLAN] C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\gastma\Output\eldoria_bot_current_plan.txt
+03:37:52 | [START] LV 1 | HP 163/165 | MP 59/59 | STM 50/50 | Gold 100
+03:38:05 | [DAILY QUEST] Started: Daily Patrol
+03:38:09 | [DAILY QUEST] Started: Daily Loot
+03:45:22 | [START] Eldoria Bot 3.8.3-server-friendly-pacing-windows
+03:45:22 | [ACCOUNT] Gastma | isolated runtime=C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\gastma
+03:45:22 | [MODE] FAST QUEST/XP/GOLD HOLD ROUTER: routine kills chain immediately; held combat targets are skipped until their retry time.
+03:45:22 | [FIX] Combat-hold targets are excluded before travel/action selection, preventing retry spam while alternate Quest/XP/Gold work continues.
+03:45:25 | [START] Eldoria Bot 3.8.3-server-friendly-pacing-windows
+03:45:25 | [MODE] Root Quest orchestration, verified progress and secondary task scheduling.
+03:45:25 | [LOG FILE] C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\gastma\Output\eldoria_bot_v3_3_final.log
+03:45:25 | [CURRENT PLAN] C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\gastma\Output\eldoria_bot_current_plan.txt
+03:45:25 | [START] LV 1 | HP 165/165 | MP 59/59 | STM 50/50 | Gold 100
+03:45:35 | [QUEST BLOCKED] Frequent Buyer requires a paid or market action.
+03:45:37 | [WEEKLY QUEST] Started: Veteran Hunter
+03:45:41 | [MAIN QUEST] Started: Wolf Threat
+03:45:45 | [SIDE QUEST] Started: Alchemy Apprentice
+03:45:48 | [SIDE QUEST] Started: Arcane Essence
+03:46:00 | [CRAFT PLAN] Arcane Essence | recipe Pocion de Mana | next Craft needs: herbcommon x2, ironore x2.
+03:46:26 | [TREE XP-FIRST] Learning -> level 1 | xp_gain +1.
+03:46:32 | [TREE XP-FIRST] Learning -> level 2 | xp_gain +1.
+03:46:32 | [TREE XP-FIRST] 2 point(s) allocated; 0 point(s) remain.
+03:46:42 | [EQUIP] weapon: Espada Oxidada | score -1.0 -> 86.8
+03:46:46 | [EQUIP] armor: Túnica de Tela | score -1.0 -> 70.2
+03:46:50 | [EQUIP XP-FIRST] Race equipment has no valid normal-inventory ID; unsafe equip POST skipped.
+03:47:07 | [QUEST BOARD] Active 6 | Daily 2 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+03:47:20 | [DAMAGE MODEL] Gray Wolf | estimate 16 | source prediction-only pred=15.
+03:47:20 | [DAMAGE MODEL] Bandit Thug | estimate 67 | source prediction-only pred=61.
+03:47:20 | [DAMAGE MODEL] Giant Spider | estimate 186 | source prediction-only pred=169.
+03:47:20 | [DAMAGE MODEL] Bandit Leader | estimate 1262 | source prediction-only pred=1147.
+03:47:20 | [QUEST CAMPAIGN 1] Wolf Threat | wolf_gray | 5 remaining | deadline-aware safe progress score.
+03:47:20 | [QUEST PRIORITY] Wolf Threat: kill | 5 remaining | estimated completion 1h 44m.
+03:47:20 | [QUEST PREP] Wolf Threat | optimizing Skills, equipment, attributes and Forge before combat.
+03:48:05 | [TARGET AUDIT] 1 legal targets checked for Wolf Threat; Gray Wolf selected.
+03:48:05 | [STRICT CRAFT MATERIAL] Bandit Thug -> Pocion de Mana | exact needed drops herbcommon, ironore | expected 0.10 item/fight | added primary delay ready now.
+03:48:05 | [MISSION] Primary: Wolf Threat [MAIN] | KILL wolf_gray in 4 | remaining 5.
+03:48:05 | [STEP] STRICT CRAFT MATERIAL -> Bandit Thug in Greenwild Forest.
+03:48:05 | [NEEDS] HP 166/175, required 86 | STM 50/50, required 3 | estimated damage 67.
+03:48:05 | [PARALLEL] This action also advances: Veteran Hunter (150 left), Daily Loot (10 left), Daily Patrol (20 left).
+03:48:05 | [TRAVEL] Ensuring zone: Greenwild Forest.
+03:48:10 | [TRAVEL] Zone 1 -> 4.
+03:48:10 | [ACTION] Starting Fight: Bandit Thug.
+03:48:13 | [FAST FIGHT] Bandit Thug uses normal resolved combat for faster XP/Gold/Quest progress.
+03:48:25 | [PLAN] Attack now -> Daily Loot (10 remaining) + 2 overlapping Quests | Bandit Thug.
+03:48:25 | [TASK] Daily Loot (10 remaining) + 2 overlapping Quests: Bandit Thug | damage~61 | Gold/STM 1.33
+03:48:38 | [RESULT] Victory against Bandit Thug | HP 167 -> 39 | STM 50 -> 47.
+03:48:48 | [CRAFT MATERIAL CHECK] Bandit Thug dropped no verified needed material | 1/2.
+03:49:57 | [DAMAGE MODEL] Bandit Thug | estimate 142 | source recent-calibrated/1 recent-upper pred=61 upper=142 floor=0.99.
+03:49:57 | [MISSION] Primary: Wolf Threat [MAIN] | KILL wolf_gray in 4 | remaining 5.
+03:49:57 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+03:49:57 | [NEEDS] HP 39/175, required 34 | STM 47/50, required 2 | estimated damage 16.
+03:49:57 | [PARALLEL] This action also advances: Veteran Hunter (149 left), Daily Loot (10 left), Daily Patrol (19 left).
+03:49:57 | [TRAVEL] Ensuring zone: Greenwild Forest.
+03:49:57 | [ACTION] Starting Fight: Gray Wolf.
+03:49:59 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+03:50:12 | [PLAN] Attack now -> Daily Loot (10 remaining) + 3 overlapping Quests | Gray Wolf.
+03:50:12 | [TASK] Daily Loot (10 remaining) + 3 overlapping Quests: Gray Wolf | damage~15 | Gold/STM 1.50
+03:50:24 | [RESULT] Victory against Gray Wolf | HP 41 -> 37 | STM 47 -> 45.
+03:50:29 | [QUEST PROGRESS] Wolf Threat via Gray Wolf | 5 -> 4.
+03:50:48 | [DAMAGE MODEL] Gray Wolf | estimate 15 | source recent-calibrated/1 prediction-floor pred=15 upper=8 floor=0.99.
+03:50:48 | [QUEST PRIORITY] Wolf Threat: kill | 4 remaining | estimated completion 4h 4m.
+03:50:48 | [TARGET AUDIT] 1 legal targets checked for Wolf Threat; Gray Wolf selected.
+03:50:48 | [MISSION] Primary: Wolf Threat [MAIN] | KILL wolf_gray in 4 | remaining 4.
+03:50:48 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+03:50:48 | [NEEDS] HP 37/175, required 32 | STM 45/50, required 2 | estimated damage 15.
+03:50:48 | [PARALLEL] This action also advances: Veteran Hunter (148 left), Daily Loot (10 left), Daily Patrol (18 left).
+03:50:48 | [TRAVEL] Ensuring zone: Greenwild Forest.
+03:50:48 | [ACTION] Starting Fight: Gray Wolf.
+03:50:51 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+03:51:16 | [RESULT] Victory against Gray Wolf | HP 37 -> 34 | STM 45 -> 43.
+03:51:20 | [QUEST PROGRESS] Wolf Threat via Gray Wolf | 4 -> 3.
+03:51:34 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/2 recent-upper pred=8 upper=8 floor=0.97.
+03:51:34 | [QUEST PRIORITY] Wolf Threat: kill | 3 remaining | estimated completion 1h 30m.
+03:51:34 | [TARGET AUDIT] 1 legal targets checked for Wolf Threat; Gray Wolf selected.
+03:51:34 | [MISSION] Primary: Wolf Threat [MAIN] | KILL wolf_gray in 4 | remaining 3.
+03:51:34 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+03:51:34 | [NEEDS] HP 34/175, required 25 | STM 43/50, required 2 | estimated damage 8.
+03:51:34 | [PARALLEL] This action also advances: Veteran Hunter (147 left), Daily Loot (10 left), Daily Patrol (17 left).
+03:51:34 | [TRAVEL] Ensuring zone: Greenwild Forest.
+03:51:34 | [ACTION] Starting Fight: Gray Wolf.
+03:51:37 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+03:52:02 | [RESULT] Victory against Gray Wolf | HP 34 -> 30 | STM 43 -> 41.
+03:52:07 | [QUEST PROGRESS] Wolf Threat via Gray Wolf | 3 -> 2.
+03:53:21 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/3 recent-upper pred=8 upper=8 floor=0.94.
+03:53:21 | [QUEST PRIORITY] Wolf Threat: kill | 2 remaining | estimated completion 45m 23s.
+03:53:21 | [MISSION] Primary: Wolf Threat [MAIN] | KILL wolf_gray in 4 | remaining 2.
+03:53:21 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+03:53:21 | [NEEDS] HP 31/175, required 25 | STM 41/50, required 2 | estimated damage 8.
+03:53:21 | [PARALLEL] This action also advances: Veteran Hunter (146 left), Daily Loot (10 left), Daily Patrol (16 left).
+03:53:21 | [TRAVEL] Ensuring zone: Greenwild Forest.
+03:53:21 | [ACTION] Starting Fight: Gray Wolf.
+03:53:23 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+03:53:48 | [RESULT] Victory against Gray Wolf | HP 32 -> 28 | STM 41 -> 39.
+03:53:53 | [QUEST PROGRESS] Wolf Threat via Gray Wolf | 2 -> 1.
+03:54:12 | [NETWORK] Read returned 503 (1/3); retrying in 8s.
+03:54:20 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/4 recent-upper pred=8 upper=8 floor=0.92.
+03:54:20 | [QUEST CAMPAIGN 2] Daily Patrol | any | 15 remaining | higher deadline class preempted current campaign.
+03:54:20 | [QUEST PRIORITY] Daily Patrol: kill | 15 remaining | estimated completion 10h 35m.
+03:54:20 | [QUEST PREP] Daily Patrol | optimizing Skills, equipment, attributes and Forge before combat.
+03:55:05 | [TARGET AUDIT] 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~9.3 | Gold/h~4.0 | value/h~1077.1 | cycle 45m 23s.
+03:55:13 | [MISSION] Primary: Daily Patrol [DAILY] | KILL any | remaining 15.
+03:55:13 | [STEP] RESOURCE PREPARATION -> Bandit Thug.
+03:55:13 | [WAIT] Need HP +13 | HP 29; safe target 42; max 175 | STM 39/3 | natural ETA about 1h 10m.
+03:55:13 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+03:56:33 | [NETWORK] System proxy connection failed; switched to direct connection.
+03:57:13 | [MISSION] Primary: Daily Patrol [DAILY] | KILL any | remaining 15.
+03:57:13 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+03:57:13 | [NEEDS] HP 30/175, required 25 | STM 40/50, required 2 | estimated damage 8.
+03:57:13 | [PARALLEL] This action also advances: Wolf Threat (1 left), Veteran Hunter (145 left), Daily Loot (10 left).
+03:57:13 | [TRAVEL] Ensuring zone: Greenwild Forest.
+03:57:13 | [ACTION] Starting Fight: Gray Wolf.
+03:57:16 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+03:57:41 | [RESULT] Victory against Gray Wolf | HP 31 -> 27 | STM 40 -> 38.
+03:57:46 | [QUEST PROGRESS] Daily Patrol via Gray Wolf | 15 -> 14.
+03:57:56 | [MAIN QUEST] Claimed: Wolf Threat | +30 Gold
+03:58:13 | [QUEST BOARD] Active 5 | Daily 2 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 5 | deferred free 0 | paid blocked 0.
+03:58:13 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/5 recent-upper pred=8 upper=8 floor=0.90.
+03:58:13 | [QUEST PRIORITY] Daily Patrol: kill | 14 remaining | estimated completion 9h 49m.
+03:58:13 | [MISSION] Primary: Daily Patrol [DAILY] | KILL any | remaining 14.
+03:58:13 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+03:58:13 | [NEEDS] HP 28/175, required 25 | STM 38/50, required 2 | estimated damage 8.
+03:58:13 | [PARALLEL] This action also advances: Veteran Hunter (144 left), Daily Loot (10 left).
+03:58:13 | [TRAVEL] Ensuring zone: Greenwild Forest.
+03:58:13 | [ACTION] Starting Fight: Gray Wolf.
+03:58:16 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+03:58:28 | [PLAN] Attack now -> Daily Patrol (14 remaining) + 2 overlapping Quests | Gray Wolf.
+03:58:28 | [TASK] Daily Patrol (14 remaining) + 2 overlapping Quests: Gray Wolf | damage~8 | Gold/STM 1.30
+03:58:41 | [RESULT] Victory against Gray Wolf | HP 28 -> 25 | STM 38 -> 36.
+03:58:46 | [QUEST PROGRESS] Daily Patrol via Gray Wolf | 14 -> 13.
+03:59:32 | [BOX] Opened 3x box_common.
+03:59:58 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/6 recent-upper pred=8 upper=8 floor=0.93.
+03:59:58 | [QUEST PRIORITY] Daily Patrol: kill | 13 remaining | estimated completion 9h 4m.
+03:59:58 | [MISSION] Primary: Daily Patrol [DAILY] | KILL any | remaining 13.
+03:59:58 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+03:59:58 | [NEEDS] HP 25/175, required 25 | STM 36/50, required 2 | estimated damage 8.
+03:59:58 | [PARALLEL] This action also advances: Veteran Hunter (143 left), Daily Loot (10 left).
+03:59:58 | [TRAVEL] Ensuring zone: Greenwild Forest.
+03:59:58 | [ACTION] Starting Fight: Gray Wolf.
+04:00:01 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+04:00:13 | [PLAN] Attack now -> Daily Patrol (13 remaining) + 2 overlapping Quests | Gray Wolf.
+04:00:13 | [TASK] Daily Patrol (13 remaining) + 2 overlapping Quests: Gray Wolf | damage~8 | Gold/STM 1.42
+04:00:26 | [RESULT] Victory against Gray Wolf | HP 27 -> 23 | STM 36 -> 34.
+04:00:31 | [QUEST PROGRESS] Daily Patrol via Gray Wolf | 13 -> 12.
+04:00:50 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/7 recent-upper pred=8 upper=8 floor=0.91.
+04:00:50 | [QUEST PRIORITY] Daily Patrol: kill | 12 remaining | estimated completion 10h 0m.
+04:00:50 | [TARGET AUDIT] 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~7.7 | Gold/h~3.3 | value/h~674.3 | cycle 54m 33s.
+04:00:50 | [MISSION] Primary: Daily Patrol [DAILY] | KILL any | remaining 12.
+04:00:50 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+04:00:50 | [NEEDS] HP 23/175, required 18 | STM 34/50, required 2 | estimated damage 10.
+04:00:50 | [PARALLEL] This action also advances: Veteran Hunter (142 left), Daily Loot (10 left).
+04:00:50 | [TRAVEL] Ensuring zone: Greenwild Forest.
+04:00:50 | [ACTION] Starting Fight: Gray Wolf.
+04:00:52 | [SUSTAIN FIGHT] Gray Wolf uses turn-based combat because normal full-fight safety is not satisfied.
+04:01:05 | [PLAN] Attack now -> Daily Patrol (12 remaining) + 2 overlapping Quests | Gray Wolf.
+04:01:05 | [TASK] Daily Patrol (12 remaining) + 2 overlapping Quests: Gray Wolf | damage~8 | Gold/STM 1.50
+04:01:07 | [COMBAT START] Sustain session opened for Gray Wolf.
+04:01:10 | [COMBAT ACTION] Gray Wolf | turn 2 | basic | HP 23/175 | enemy 93/118 | enemy hit 1 | healed 0 | next bound 10 + reserve 8 | defense-adjusted-unknown.
+04:01:14 | [COMBAT ACTION] Gray Wolf | turn 3 | basic | HP 22/175 | enemy 68/118 | enemy hit 1 | healed 0 | next bound 14 + reserve 9 | warmup+new-phase.
+04:01:19 | [COMBAT ACTION] Gray Wolf | turn 4 | basic | HP 21/175 | enemy 43/118 | enemy hit 1 | healed 0 | next bound 14 + reserve 9 | warmup+new-phase.
+04:01:24 | [COMBAT ACTION] Gray Wolf | turn 5 | basic | HP 20/175 | enemy 19/118 | enemy hit 1 | healed 0 | next bound 14 + reserve 9 | warmup+new-phase.
+04:01:29 | [COMBAT ACTION] Gray Wolf | turn 5 | basic | HP 20/175 | enemy 0/118 | enemy hit 0 | healed 0 | next bound 14 + reserve 9 | warmup+new-phase.
+04:01:41 | [RESULT] Victory against Gray Wolf | HP 23 -> 20 | STM 34 -> 32.
+04:01:46 | [QUEST PROGRESS] Daily Patrol via Gray Wolf | 12 -> 11.
+04:02:05 | [CRAFT PLAN] Arcane Essence | recipe Pocion de Mana | next Craft needs: herbcommon x1, ironore x1.
+04:02:55 | [QUEST PRIORITY] Daily Patrol: kill | 11 remaining | estimated completion 13h 0m.
+04:02:55 | [TARGET AUDIT] 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~5.5 | Gold/h~2.4 | value/h~412.4 | cycle 1h 16m.
+04:02:55 | [SERVER LIMIT] No safe Quest, useful Potion-material Fight or available recovery item is faster. Natural HP for Gray Wolf is currently the fastest safe legal path (16m 22s).
+04:03:03 | [POTION] Minor Potion used for safe quest combat.
+04:03:15 | [TARGET AUDIT] 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~9.3 | Gold/h~4.0 | value/h~810.5 | cycle 45m 23s.
+04:03:15 | [MISSION] Primary: Daily Patrol [DAILY] | KILL any | remaining 11.
+04:03:15 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+04:03:15 | [NEEDS] HP 72/175, required 25 | STM 33/50, required 2 | estimated damage 8.
+04:03:15 | [PARALLEL] This action also advances: Veteran Hunter (141 left), Daily Loot (10 left).
+04:03:15 | [TRAVEL] Ensuring zone: Greenwild Forest.
+04:03:15 | [ACTION] Starting Fight: Gray Wolf.
+04:03:18 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+04:03:30 | [PLAN] Attack now -> Daily Patrol (11 remaining) + 2 overlapping Quests | Gray Wolf.
+04:03:30 | [TASK] Daily Patrol (11 remaining) + 2 overlapping Quests: Gray Wolf | damage~8 | Gold/STM 1.50
+04:03:35 | [FARM] LV 2 | HP 68/190 | MP 59/64 | STM 31/50 | Gold 162 | Battles 10 | last Gray Wolf | damage 4 | +3 Gold
+04:03:43 | [RESULT] Victory against Gray Wolf | HP 72 -> 68 | STM 33 -> 31.
+04:03:48 | [QUEST PROGRESS] Daily Patrol via Gray Wolf | 11 -> 10.
+04:04:00 | [SIDE QUEST] Started: Wolf Pack
+04:04:13 | [QUEST BOARD] Active 6 | Daily 2 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+04:04:13 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.87.
+04:04:13 | [DAMAGE MODEL] Bandit Thug | estimate 141 | source recent-calibrated/1 recent-upper pred=61 upper=141 floor=0.99.
+04:04:13 | [QUEST PRIORITY] Daily Patrol: kill | 10 remaining | estimated completion 6h 12m.
+04:04:13 | [QUEST PREP] Daily Patrol | optimizing Skills, equipment, attributes and Forge before combat.
+04:04:23 | [SKILL] Learned: First Aid
+04:04:48 | [TREE XP-FIRST] Learning -> level 3 | xp_gain +1.
+04:04:54 | [TREE XP-FIRST] Learning -> level 4 | xp_gain +1.
+04:04:54 | [TREE XP-FIRST] 2 point(s) allocated; 0 point(s) remain.
+04:05:09 | [ATTR] +1 strength | training focus balanced.
+04:05:15 | [ATTR] +1 vitality | training focus balanced.
+04:05:20 | [ATTR] +1 agility | training focus balanced.
+04:05:32 | [STRICT CRAFT MATERIAL] Bandit Thug -> Pocion de Mana | exact needed drops herbcommon, ironore | expected 0.10 item/fight | added primary delay ready now.
+04:05:32 | [MISSION] Primary: Daily Patrol [DAILY] | KILL any | remaining 10.
+04:05:32 | [STEP] STRICT CRAFT MATERIAL -> Bandit Thug in Greenwild Forest.
+04:05:32 | [NEEDS] HP 69/190, required 42 | STM 31/50, required 3 | estimated damage 34.
+04:05:32 | [PARALLEL] This action also advances: Veteran Hunter (140 left), Daily Loot (10 left).
+04:05:32 | [TRAVEL] Ensuring zone: Greenwild Forest.
+04:05:32 | [ACTION] Starting Fight: Bandit Thug.
+04:05:34 | [DAMAGE MODEL] Bandit Thug | estimate 137 | source recent-calibrated/1 recent-upper pred=61 upper=137 floor=0.99.
+04:05:34 | [SUSTAIN FIGHT] Bandit Thug uses turn-based combat because normal full-fight safety is not satisfied.
+04:05:47 | [PLAN] Attack now -> Daily Patrol (10 remaining) + 2 overlapping Quests | Bandit Thug.
+04:05:47 | [TASK] Daily Patrol (10 remaining) + 2 overlapping Quests: Bandit Thug | damage~61 | Gold/STM 1.33
+04:05:49 | [COMBAT START] Sustain session opened for Bandit Thug.
+04:05:52 | [COMBAT ACTION] Bandit Thug | turn 1 | first_aid skill 22 | HP 110/200 | enemy 256/256 | enemy hit 0 | healed 40 | next bound 23 + reserve 8 | defense-adjusted-unknown.
+04:05:56 | [COMBAT ACTION] Bandit Thug | turn 2 | basic | HP 98/200 | enemy 232/256 | enemy hit 12 | healed 0 | next bound 23 + reserve 8 | defense-adjusted-unknown.
+04:06:01 | [COMBAT ACTION] Bandit Thug | turn 3 | basic | HP 86/200 | enemy 173/256 | enemy hit 12 | healed 0 | next bound 28 + reserve 9 | warmup+new-phase.
+04:06:06 | [COMBAT ACTION] Bandit Thug | turn 4 | basic | HP 73/200 | enemy 150/256 | enemy hit 13 | healed 0 | next bound 28 + reserve 9 | warmup+new-phase.
+04:06:11 | [COMBAT ACTION] Bandit Thug | turn 5 | basic | HP 61/200 | enemy 125/256 | enemy hit 12 | healed 0 | next bound 29 + reserve 9 | warmup+new-phase.
+04:06:15 | [COMBAT ACTION] Bandit Thug | turn 6 | basic | HP 48/200 | enemy 102/256 | enemy hit 13 | healed 0 | next bound 29 + reserve 9 | warmup+new-phase.
+04:06:20 | [COMBAT ACTION] Bandit Thug | turn 7 | basic | HP 35/200 | enemy 78/256 | enemy hit 13 | healed 0 | next bound 29 + reserve 9 | warmup+new-phase.
+04:06:25 | [COMBAT ACTION] Bandit Thug | turn 8 | basic | HP 23/200 | enemy 54/256 | enemy hit 12 | healed 0 | next bound 29 + reserve 9 | warmup+new-phase.
+04:06:30 | [COMBAT SKILL SKIP] first_aid_probe skill 22 rejected (skill_on_cooldown); cooling it down for 4 turns and selecting another safe action.
+04:06:32 | [COMBAT HOLD] Bandit Thug | HP 23/200 | learned next-hit bound 30 | reserve 9 | retry in 10m 0s; session preserved.
+04:06:32 | [FIGHT] Bandit Thug failed without death; another task will be selected.
+04:06:37 | [RESULT] Fight failed against Bandit Thug | HP 70 -> 71 | STM 31 -> 28.
+04:07:56 | [DAMAGE MODEL] Bandit Thug | estimate 137 | source recent-calibrated/1 recent-upper pred=59 upper=137 floor=0.99.
+04:07:56 | [DAMAGE MODEL] Giant Spider | estimate 157 | source prediction-only pred=143.
+04:07:56 | [DAMAGE MODEL] Bandit Leader | estimate 1140 | source prediction-only pred=1036.
+04:07:56 | [QUEST PREP] Daily Patrol | optimizing Skills, equipment, attributes and Forge before combat.
+04:08:46 | [TARGET AUDIT] 2 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~11.2 | Gold/h~4.8 | value/h~1299.7 | cycle 37m 37s. Bandit Thug skipped for 8m 35s because its combat session is waiting for a safe retry.
+04:08:54 | [MISSION] Primary: Daily Patrol | KILL any.
+04:08:54 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+04:09:49 | [MISSION] Primary: Daily Patrol [DAILY] | KILL any | remaining 10.
+04:09:49 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+04:09:49 | [NEEDS] HP 74/200, required 25 | STM 29/50, required 2 | estimated damage 8.
+04:09:49 | [PARALLEL] This action also advances: Wolf Pack (20 left), Veteran Hunter (140 left), Daily Loot (10 left).
+04:09:49 | [TRAVEL] Ensuring zone: Greenwild Forest.
+04:09:49 | [ACTION] Starting Fight: Gray Wolf.
+04:09:51 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+04:10:04 | [PLAN] Attack now -> Daily Patrol (10 remaining) + 3 overlapping Quests | Gray Wolf.
+04:10:04 | [TASK] Daily Patrol (10 remaining) + 3 overlapping Quests: Gray Wolf | damage~8 | Gold/STM 1.50
+04:10:16 | [RESULT] Victory against Gray Wolf | HP 74 -> 71 | STM 29 -> 27.
+04:10:21 | [QUEST PROGRESS] Daily Patrol via Gray Wolf | 10 -> 9.
+04:11:17 | [NETWORK] Read failed 1/3; retrying in 8s.
+04:11:29 | [NETWORK] Read failed 2/3; retrying in 16s.
+04:12:15 | [QUEST PRIORITY] Daily Patrol: kill | 9 remaining | estimated completion 5h 0m.
+04:12:15 | [MISSION] Primary: Daily Patrol [DAILY] | KILL any | remaining 9.
+04:12:15 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+04:12:15 | [NEEDS] HP 71/200, required 25 | STM 27/50, required 2 | estimated damage 8.
+04:12:15 | [PARALLEL] This action also advances: Wolf Pack (19 left), Veteran Hunter (139 left), Daily Loot (10 left).
+04:12:15 | [TRAVEL] Ensuring zone: Greenwild Forest.
+04:12:15 | [ACTION] Starting Fight: Gray Wolf.
+04:12:17 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+04:12:30 | [PLAN] Attack now -> Daily Patrol (9 remaining) + 3 overlapping Quests | Gray Wolf.
+04:12:30 | [TASK] Daily Patrol (9 remaining) + 3 overlapping Quests: Gray Wolf | damage~8 | Gold/STM 1.55
+04:12:42 | [RESULT] Victory against Gray Wolf | HP 73 -> 69 | STM 27 -> 25.
+04:12:47 | [QUEST PROGRESS] Daily Patrol via Gray Wolf | 9 -> 8.
+04:13:06 | [QUEST PRIORITY] Daily Patrol: kill | 8 remaining | estimated completion 4h 28m.
+04:13:06 | [MISSION] Primary: Daily Patrol [DAILY] | KILL any | remaining 8.
+04:13:06 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+04:13:06 | [NEEDS] HP 69/200, required 25 | STM 25/50, required 2 | estimated damage 8.
+04:13:06 | [PARALLEL] This action also advances: Wolf Pack (18 left), Veteran Hunter (138 left), Daily Loot (10 left).
+04:13:06 | [TRAVEL] Ensuring zone: Greenwild Forest.
+04:13:06 | [ACTION] Starting Fight: Gray Wolf.
+04:13:09 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+04:13:21 | [PLAN] Attack now -> Daily Patrol (8 remaining) + 3 overlapping Quests | Gray Wolf.
+04:13:21 | [TASK] Daily Patrol (8 remaining) + 3 overlapping Quests: Gray Wolf | damage~8 | Gold/STM 1.59
+04:13:34 | [RESULT] Victory against Gray Wolf | HP 70 -> 66 | STM 25 -> 23.
+04:13:39 | [QUEST PROGRESS] Daily Patrol via Gray Wolf | 8 -> 7.
+04:14:52 | [QUEST PRIORITY] Daily Patrol: kill | 7 remaining | estimated completion 3h 50m.
+04:14:52 | [MISSION] Primary: Daily Patrol [DAILY] | KILL any | remaining 7.
+04:14:52 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+04:14:52 | [NEEDS] HP 66/200, required 25 | STM 23/50, required 2 | estimated damage 8.
+04:14:52 | [PARALLEL] This action also advances: Wolf Pack (17 left), Veteran Hunter (137 left), Daily Loot (10 left).
+04:14:52 | [TRAVEL] Ensuring zone: Greenwild Forest.
+04:14:52 | [ACTION] Starting Fight: Gray Wolf.
+04:14:55 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+04:15:08 | [PLAN] Attack now -> Daily Patrol (7 remaining) + 3 overlapping Quests | Gray Wolf.
+04:15:08 | [TASK] Daily Patrol (7 remaining) + 3 overlapping Quests: Gray Wolf | damage~8 | Gold/STM 1.58
+04:15:20 | [RESULT] Victory against Gray Wolf | HP 67 -> 64 | STM 23 -> 21.
+04:15:25 | [QUEST PROGRESS] Daily Patrol via Gray Wolf | 7 -> 6.
+04:15:44 | [QUEST PRIORITY] Daily Patrol: kill | 6 remaining | estimated completion 3h 12m.
+04:15:44 | [MISSION] Primary: Daily Patrol [DAILY] | KILL any | remaining 6.
+04:15:44 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+04:15:44 | [NEEDS] HP 64/200, required 25 | STM 21/50, required 2 | estimated damage 8.
+04:15:44 | [PARALLEL] This action also advances: Wolf Pack (16 left), Veteran Hunter (136 left), Daily Loot (10 left).
+04:15:44 | [TRAVEL] Ensuring zone: Greenwild Forest.
+04:15:44 | [ACTION] Starting Fight: Gray Wolf.
+04:15:46 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+04:15:59 | [PLAN] Attack now -> Daily Patrol (6 remaining) + 3 overlapping Quests | Gray Wolf.
+04:15:59 | [TASK] Daily Patrol (6 remaining) + 3 overlapping Quests: Gray Wolf | damage~8 | Gold/STM 1.62
+04:16:12 | [RESULT] Victory against Gray Wolf | HP 64 -> 61 | STM 21 -> 19.
+04:16:16 | [QUEST PROGRESS] Daily Patrol via Gray Wolf | 6 -> 5.
+04:16:30 | [QUEST PRIORITY] Daily Patrol: kill | 5 remaining | estimated completion 2h 33m.
+04:16:30 | [MISSION] Primary: Daily Patrol [DAILY] | KILL any | remaining 5.
+04:16:30 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+04:16:30 | [NEEDS] HP 61/200, required 25 | STM 20/50, required 2 | estimated damage 8.
+04:16:30 | [PARALLEL] This action also advances: Wolf Pack (15 left), Veteran Hunter (135 left), Daily Loot (10 left).
+04:16:30 | [TRAVEL] Ensuring zone: Greenwild Forest.
+04:16:30 | [ACTION] Starting Fight: Gray Wolf.
+04:16:33 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+04:16:46 | [PLAN] Attack now -> Daily Patrol (5 remaining) + 3 overlapping Quests | Gray Wolf.
+04:16:46 | [TASK] Daily Patrol (5 remaining) + 3 overlapping Quests: Gray Wolf | damage~8 | Gold/STM 1.64
+04:16:58 | [RESULT] Victory against Gray Wolf | HP 61 -> 57 | STM 20 -> 18.
+04:17:03 | [QUEST PROGRESS] Daily Patrol via Gray Wolf | 5 -> 4.
+04:17:59 | [BOX] Opened 1x box_common.
+04:18:25 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.83.
+04:18:25 | [QUEST PRIORITY] Daily Patrol: kill | 4 remaining | estimated completion 1h 55m.
+04:18:25 | [TARGET AUDIT] 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~10.9 | Gold/h~4.7 | value/h~1272.9 | cycle 38m 24s.
+04:18:25 | [MISSION] Primary: Daily Patrol [DAILY] | KILL any | remaining 4.
+04:18:25 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+04:18:25 | [NEEDS] HP 58/200, required 25 | STM 18/50, required 2 | estimated damage 8.
+04:18:25 | [PARALLEL] This action also advances: Wolf Pack (14 left), Veteran Hunter (134 left), Daily Loot (10 left).
+04:18:25 | [TRAVEL] Ensuring zone: Greenwild Forest.
+04:18:25 | [ACTION] Starting Fight: Gray Wolf.
+04:18:28 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+04:18:40 | [PLAN] Attack now -> Daily Patrol (4 remaining) + 3 overlapping Quests | Gray Wolf.
+04:18:40 | [TASK] Daily Patrol (4 remaining) + 3 overlapping Quests: Gray Wolf | damage~8 | Gold/STM 1.63
+04:18:53 | [RESULT] Victory against Gray Wolf | HP 59 -> 56 | STM 18 -> 16.
+04:18:58 | [QUEST PROGRESS] Daily Patrol via Gray Wolf | 4 -> 3.
+04:19:17 | [QUEST BOARD] Active 6 | Daily 2 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+04:19:17 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.87.
+04:19:17 | [QUEST PRIORITY] Daily Patrol: kill | 3 remaining | estimated completion 1h 16m.
+04:19:17 | [MISSION] Primary: Daily Patrol [DAILY] | KILL any | remaining 3.
+04:19:17 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+04:19:17 | [NEEDS] HP 57/200, required 25 | STM 16/50, required 2 | estimated damage 8.
+04:19:17 | [PARALLEL] This action also advances: Wolf Pack (13 left), Veteran Hunter (133 left), Daily Loot (10 left).
+04:19:17 | [TRAVEL] Ensuring zone: Greenwild Forest.
+04:19:17 | [ACTION] Starting Fight: Gray Wolf.
+04:19:19 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+04:19:32 | [PLAN] Attack now -> Daily Patrol (3 remaining) + 3 overlapping Quests | Gray Wolf.
+04:19:32 | [TASK] Daily Patrol (3 remaining) + 3 overlapping Quests: Gray Wolf | damage~8 | Gold/STM 1.66
+04:19:44 | [RESULT] Victory against Gray Wolf | HP 57 -> 53 | STM 16 -> 14.
+04:19:49 | [QUEST PROGRESS] Daily Patrol via Gray Wolf | 3 -> 2.
+04:20:03 | [QUEST PRIORITY] Daily Patrol: kill | 2 remaining | estimated completion 38m 24s.
+04:20:03 | [MISSION] Primary: Daily Patrol [DAILY] | KILL any | remaining 2.
+04:20:03 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+04:20:03 | [NEEDS] HP 54/200, required 25 | STM 14/50, required 2 | estimated damage 8.
+04:20:03 | [PARALLEL] This action also advances: Wolf Pack (12 left), Veteran Hunter (132 left), Daily Loot (10 left).
+04:20:03 | [TRAVEL] Ensuring zone: Greenwild Forest.
+04:20:03 | [ACTION] Starting Fight: Gray Wolf.
+04:20:06 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+04:20:18 | [PLAN] Attack now -> Daily Patrol (2 remaining) + 3 overlapping Quests | Gray Wolf.
+04:20:18 | [TASK] Daily Patrol (2 remaining) + 3 overlapping Quests: Gray Wolf | damage~8 | Gold/STM 1.68
+04:20:31 | [RESULT] Victory against Gray Wolf | HP 54 -> 50 | STM 14 -> 12.
+04:20:36 | [QUEST PROGRESS] Daily Patrol via Gray Wolf | 2 -> 1.
+04:20:59 | [CRAFT PLAN] Arcane Essence | recipe Pocion de Mana | next Craft needs: herbcommon x1.
+04:21:54 | [QUEST CAMPAIGN 3] Wolf Pack | wolf_gray | 11 remaining | deadline-aware safe progress score.
+04:21:54 | [QUEST PRIORITY] Wolf Pack: kill | 11 remaining | estimated completion 6h 24m.
+04:21:54 | [QUEST PREP] Wolf Pack | optimizing Skills, equipment, attributes and Forge before combat.
+04:22:44 | [TARGET AUDIT] 1 legal targets checked for Wolf Pack; Gray Wolf selected.
+04:22:52 | [MISSION] Primary: Wolf Pack [SIDE] | KILL wolf_gray in 4 | remaining 11.
+04:22:52 | [STEP] RESOURCE PREPARATION -> Giant Spider.
+04:22:52 | [WAIT] Need HP +1 | HP 50; safe target 51; max 200 | STM 12/4 | natural ETA about 4m 37s.
+04:22:52 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+04:23:47 | [MISSION] Primary: Wolf Pack [SIDE] | KILL wolf_gray in 4 | remaining 11.
+04:23:47 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+04:23:47 | [NEEDS] HP 53/200, required 25 | STM 12/50, required 2 | estimated damage 8.
+04:23:47 | [PARALLEL] This action also advances: Veteran Hunter (131 left), Daily Loot (10 left), Daily Patrol (1 left).
+04:23:47 | [TRAVEL] Ensuring zone: Greenwild Forest.
+04:23:47 | [ACTION] Starting Fight: Gray Wolf.
+04:23:50 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+04:24:02 | [PLAN] Attack now -> Daily Patrol (1 remaining) + 3 overlapping Quests | Gray Wolf.
+04:24:02 | [TASK] Daily Patrol (1 remaining) + 3 overlapping Quests: Gray Wolf | damage~8 | Gold/STM 1.64
+04:24:07 | [FARM] LV 2 | HP 50/200 | MP 64/64 | STM 11/50 | Gold 197 | Battles 20 | last Gray Wolf | damage 4 | +3 Gold
+04:24:15 | [RESULT] Victory against Gray Wolf | HP 53 -> 50 | STM 13 -> 11.
+04:24:20 | [QUEST PROGRESS] Wolf Pack via Gray Wolf | 11 -> 10.
+04:24:30 | [DAILY QUEST] Claimed: Daily Patrol | +100 Gold
+04:25:20 | [BOX] Opened 1x box_common.
+04:25:46 | [QUEST BOARD] Active 5 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 5 | deferred free 0 | paid blocked 0.
+04:25:46 | [QUEST PRIORITY] Wolf Pack: kill | 10 remaining | estimated completion 5h 45m.
+04:25:46 | [MISSION] Primary: Wolf Pack [SIDE] | KILL wolf_gray in 4 | remaining 10.
+04:25:46 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+04:25:46 | [NEEDS] HP 50/200, required 25 | STM 11/50, required 2 | estimated damage 8.
+04:25:46 | [PARALLEL] This action also advances: Veteran Hunter (130 left), Daily Loot (10 left).
+04:25:46 | [TRAVEL] Ensuring zone: Greenwild Forest.
+04:25:46 | [ACTION] Starting Fight: Gray Wolf.
+04:25:48 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+04:26:01 | [PLAN] Attack now -> Daily Loot (10 remaining) + 2 overlapping Quests | Gray Wolf.
+04:26:01 | [TASK] Daily Loot (10 remaining) + 2 overlapping Quests: Gray Wolf | damage~8 | Gold/STM 1.63
+04:26:13 | [RESULT] Victory against Gray Wolf | HP 51 -> 49 | STM 11 -> 9.
+04:26:18 | [QUEST PROGRESS] Wolf Pack via Gray Wolf | 10 -> 9.
+04:26:37 | [QUEST PRIORITY] Wolf Pack: kill | 9 remaining | estimated completion 5h 7m.
+04:26:37 | [MISSION] Primary: Wolf Pack [SIDE] | KILL wolf_gray in 4 | remaining 9.
+04:26:37 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+04:26:37 | [NEEDS] HP 49/200, required 25 | STM 9/50, required 2 | estimated damage 8.
+04:26:37 | [PARALLEL] This action also advances: Veteran Hunter (129 left), Daily Loot (10 left).
+04:26:37 | [TRAVEL] Ensuring zone: Greenwild Forest.
+04:26:37 | [ACTION] Starting Fight: Gray Wolf.
+04:26:40 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+04:27:05 | [RESULT] Victory against Gray Wolf | HP 49 -> 47 | STM 9 -> 7.
+04:27:10 | [QUEST PROGRESS] Wolf Pack via Gray Wolf | 9 -> 8.
+04:27:23 | [QUEST PRIORITY] Wolf Pack: kill | 8 remaining | estimated completion 4h 28m.
+04:27:23 | [MISSION] Primary: Wolf Pack [SIDE] | KILL wolf_gray in 4 | remaining 8.
+04:27:23 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+04:27:23 | [NEEDS] HP 47/200, required 25 | STM 7/50, required 2 | estimated damage 8.
+04:27:23 | [PARALLEL] This action also advances: Veteran Hunter (128 left), Daily Loot (10 left).
+04:27:23 | [TRAVEL] Ensuring zone: Greenwild Forest.
+04:27:23 | [ACTION] Starting Fight: Gray Wolf.
+04:27:26 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+04:27:51 | [RESULT] Victory against Gray Wolf | HP 47 -> 43 | STM 7 -> 5.
+04:27:56 | [QUEST PROGRESS] Wolf Pack via Gray Wolf | 8 -> 7.
+04:28:20 | [CRAFT DEFER] Arcane Essence | Recipe is blocked by the Gold safety reserve | retry in 2h 0m.
+04:28:20 | [CRAFT DEFER] Alchemy Apprentice | Recipe is blocked by the Gold safety reserve | retry in 2h 0m.
+04:29:15 | [QUEST PRIORITY] Wolf Pack: kill | 7 remaining | estimated completion 3h 50m.
+04:29:15 | [MISSION] Primary: Wolf Pack [SIDE] | KILL wolf_gray in 4 | remaining 7.
+04:29:15 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+04:29:15 | [NEEDS] HP 44/200, required 25 | STM 5/50, required 2 | estimated damage 8.
+04:29:15 | [PARALLEL] This action also advances: Veteran Hunter (127 left), Daily Loot (10 left).
+04:29:15 | [TRAVEL] Ensuring zone: Greenwild Forest.
+04:29:15 | [ACTION] Starting Fight: Gray Wolf.
+04:29:17 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+04:29:42 | [RESULT] Victory against Gray Wolf | HP 45 -> 41 | STM 5 -> 3.
+04:29:47 | [QUEST PROGRESS] Wolf Pack via Gray Wolf | 7 -> 6.
+04:30:06 | [QUEST PRIORITY] Wolf Pack: kill | 6 remaining | estimated completion 3h 12m.
+04:30:06 | [MISSION] Primary: Wolf Pack [SIDE] | KILL wolf_gray in 4 | remaining 6.
+04:30:06 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+04:30:06 | [NEEDS] HP 41/200, required 25 | STM 3/50, required 2 | estimated damage 8.
+04:30:06 | [PARALLEL] This action also advances: Veteran Hunter (126 left), Daily Loot (10 left).
+04:30:06 | [TRAVEL] Ensuring zone: Greenwild Forest.
+04:30:06 | [ACTION] Starting Fight: Gray Wolf.
+04:30:08 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+04:30:33 | [RESULT] Victory against Gray Wolf | HP 42 -> 38 | STM 3 -> 1.
+04:30:38 | [QUEST PROGRESS] Wolf Pack via Gray Wolf | 6 -> 5.
+04:32:55 | [MISSION] Primary: Wolf Pack [SIDE] | KILL wolf_gray in 4 | remaining 5.
+04:32:55 | [STEP] RESOURCE PREPARATION -> Bandit Thug.
+04:32:55 | [WAIT] Need STM +1 | HP 39; safe target 37; max 200 | STM 2/3 | natural ETA about 7m 12s.
+04:32:55 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+04:38:29 | [DAMAGE MODEL] Bandit Thug | estimate 137 | source recent-calibrated/1 recent-upper pred=59 upper=137 floor=0.99.
+04:38:29 | [DAMAGE MODEL] Giant Spider | estimate 157 | source prediction-only pred=143.
+04:38:29 | [DAMAGE MODEL] Bandit Leader | estimate 1140 | source prediction-only pred=1036.
+04:41:19 | [QUEST BOARD] Active 5 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 5 | deferred free 0 | paid blocked 0.
+04:44:12 | [MISSION] Primary: Wolf Pack [SIDE] | KILL wolf_gray in 4 | remaining 5.
+04:44:12 | [STEP] RESOURCE PREPARATION -> Giant Spider.
+04:44:12 | [WAIT] Need HP +1, STM +1 | HP 50; safe target 51; max 200 | STM 3/4 | natural ETA about 7m 12s.
+04:44:12 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+04:49:46 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.87.
+04:53:27 | [TARGET AUDIT] 1 legal targets checked for Wolf Pack; Gray Wolf selected.
+04:55:30 | [MISSION] Primary: Wolf Pack | KILL wolf_gray in 4.
+04:55:30 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+04:56:25 | [QUEST BOARD] Active 5 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 5 | deferred free 0 | paid blocked 0.
+05:06:47 | [MISSION] Primary: Wolf Pack | KILL wolf_gray in 4.
+05:06:47 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+05:08:33 | [DAMAGE MODEL] Bandit Thug | estimate 137 | source recent-calibrated/1 recent-upper pred=59 upper=137 floor=0.99.
+05:08:33 | [DAMAGE MODEL] Giant Spider | estimate 157 | source prediction-only pred=143.
+05:08:33 | [DAMAGE MODEL] Bandit Leader | estimate 1140 | source prediction-only pred=1036.
+05:12:21 | [QUEST BOARD] Active 5 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 5 | deferred free 0 | paid blocked 0.
+05:18:05 | [MISSION] Primary: Wolf Pack | KILL wolf_gray in 4.
+05:18:05 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+05:19:50 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.87.
+05:23:39 | [TARGET AUDIT] 1 legal targets checked for Wolf Pack; Gray Wolf selected.
+05:29:15 | [QUEST BOARD] Active 5 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 5 | deferred free 0 | paid blocked 0.
+05:29:22 | [MISSION] Primary: Wolf Pack | KILL wolf_gray in 4.
+05:29:22 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+05:38:37 | [DAMAGE MODEL] Bandit Thug | estimate 137 | source recent-calibrated/1 recent-upper pred=59 upper=137 floor=0.99.
+05:38:37 | [DAMAGE MODEL] Giant Spider | estimate 157 | source prediction-only pred=143.
+05:38:37 | [DAMAGE MODEL] Bandit Leader | estimate 1140 | source prediction-only pred=1036.
+05:40:39 | [MISSION] Primary: Wolf Pack | KILL wolf_gray in 4.
+05:40:39 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+05:44:20 | [QUEST BOARD] Active 5 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 5 | deferred free 0 | paid blocked 0.
+05:49:54 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.87.
+05:51:57 | [MISSION] Primary: Wolf Pack | KILL wolf_gray in 4.
+05:51:57 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+05:53:42 | [TARGET AUDIT] 1 legal targets checked for Wolf Pack; Gray Wolf selected.
+05:59:26 | [QUEST BOARD] Active 5 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 5 | deferred free 0 | paid blocked 0.
+06:03:14 | [MISSION] Primary: Wolf Pack | KILL wolf_gray in 4.
+06:03:14 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+06:08:48 | [DAMAGE MODEL] Bandit Thug | estimate 137 | source recent-calibrated/1 recent-upper pred=59 upper=137 floor=0.99.
+06:08:48 | [DAMAGE MODEL] Giant Spider | estimate 157 | source prediction-only pred=143.
+06:08:48 | [DAMAGE MODEL] Bandit Leader | estimate 1140 | source prediction-only pred=1036.
+06:14:31 | [MISSION] Primary: Wolf Pack | KILL wolf_gray in 4.
+06:14:31 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+06:15:26 | [QUEST BOARD] Active 5 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 5 | deferred free 0 | paid blocked 0.
+06:20:05 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.87.
+06:23:46 | [TARGET AUDIT] 1 legal targets checked for Wolf Pack; Gray Wolf selected.
+06:25:49 | [MISSION] Primary: Wolf Pack | KILL wolf_gray in 4.
+06:25:49 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+06:28:34 | [CRAFT DEFER] Arcane Essence | Recipe is blocked by the Gold safety reserve | retry in 2h 0m.
+06:28:34 | [CRAFT DEFER] Alchemy Apprentice | Recipe is blocked by the Gold safety reserve | retry in 2h 0m.
+06:31:22 | [QUEST BOARD] Active 5 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 5 | deferred free 0 | paid blocked 0.
+06:37:06 | [MISSION] Primary: Wolf Pack | KILL wolf_gray in 4.
+06:37:06 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+06:38:51 | [DAMAGE MODEL] Bandit Thug | estimate 137 | source recent-calibrated/1 recent-upper pred=59 upper=137 floor=0.99.
+06:38:51 | [DAMAGE MODEL] Giant Spider | estimate 157 | source prediction-only pred=143.
+06:38:51 | [DAMAGE MODEL] Bandit Leader | estimate 1140 | source prediction-only pred=1036.
+06:41:42 | [STAMINA] Bank ready | STM 20 | combat resumes.
+06:41:42 | [QUEST PRIORITY] Wolf Pack: kill | 5 remaining | estimated completion 2h 33m.
+06:41:42 | [MISSION] Primary: Wolf Pack [SIDE] | KILL wolf_gray in 4 | remaining 5.
+06:41:42 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+06:41:42 | [NEEDS] HP 169/200, required 25 | STM 20/50, required 2 | estimated damage 8.
+06:41:42 | [PARALLEL] This action also advances: Veteran Hunter (125 left), Daily Loot (10 left).
+06:41:42 | [TRAVEL] Ensuring zone: Greenwild Forest.
+06:41:42 | [ACTION] Starting Fight: Gray Wolf.
+06:41:44 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+06:42:09 | [RESULT] Victory against Gray Wolf | HP 169 -> 166 | STM 20 -> 18.
+06:42:14 | [QUEST PROGRESS] Wolf Pack via Gray Wolf | 5 -> 4.
+06:42:27 | [MAIN QUEST] Started: Road Bandits
+06:42:31 | [SIDE QUEST] Started: Vital Restoration
+06:42:48 | [CRAFT PLAN] Vital Restoration | recipe Stamina 20 | next Craft needs: carbon x1.
+06:42:58 | [SKILL] Learned: Mana Font
+06:43:23 | [TREE XP-FIRST] Learning -> level 5 | xp_gain +1.
+06:43:29 | [TREE XP-FIRST] Ancient Wisdom -> level 1 | xp_gain +1.
+06:43:29 | [TREE XP-FIRST] 2 point(s) allocated; 0 point(s) remain.
+06:43:44 | [ATTR] +1 strength | training focus balanced.
+06:43:48 | [ATTR] +1 vitality | training focus balanced.
+06:43:52 | [ATTR] +1 agility | training focus balanced.
+06:44:08 | [QUEST BOARD] Active 7 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 7 | deferred free 0 | paid blocked 0.
+06:44:08 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/1 recent-upper pred=59 upper=135 floor=0.99.
+06:44:08 | [QUEST PRIORITY] Wolf Pack: kill | 4 remaining | estimated completion 1h 46m.
+06:44:08 | [QUEST PREP] Wolf Pack | optimizing Skills, equipment, attributes and Forge before combat.
+06:44:58 | [STRICT CRAFT MATERIAL] Giant Spider -> Stamina 20 | exact needed drops carbon | expected 1.00 item/fight | added primary delay ready now.
+06:44:58 | [MISSION] Primary: Wolf Pack [SIDE] | KILL wolf_gray in 4 | remaining 4.
+06:44:58 | [STEP] STRICT CRAFT MATERIAL -> Giant Spider in Greenwild Forest.
+06:44:58 | [NEEDS] HP 166/215, required 51 | STM 18/50, required 4 | estimated damage 43.
+06:44:58 | [PARALLEL] This action also advances: Veteran Hunter (124 left), Daily Loot (10 left).
+06:44:58 | [TRAVEL] Ensuring zone: Greenwild Forest.
+06:44:58 | [ACTION] Starting Fight: Giant Spider.
+06:45:00 | [SUSTAIN FIGHT] Giant Spider uses turn-based combat because normal full-fight safety is not satisfied.
+06:45:13 | [PLAN] Attack now -> Daily Loot (10 remaining) + 1 overlapping Quest | Giant Spider.
+06:45:13 | [TASK] Daily Loot (10 remaining) + 1 overlapping Quest: Giant Spider | damage~143 | Gold/STM 1.25
+06:45:18 | [COMBAT START] Sustain session opened for Giant Spider.
+06:45:20 | [COMBAT ACTION] Giant Spider | turn 1 | first_aid skill 22 | HP 214/225 | enemy 415/415 | enemy hit 0 | healed 45 | next bound 41 + reserve 8 | defense-adjusted-unknown.
+06:45:25 | [COMBAT ACTION] Giant Spider | turn 2 | basic | HP 188/225 | enemy 393/415 | enemy hit 26 | healed 0 | next bound 41 + reserve 8 | defense-adjusted-unknown.
+06:45:30 | [COMBAT ACTION] Giant Spider | turn 3 | basic | HP 161/225 | enemy 370/415 | enemy hit 27 | healed 0 | next bound 46 + reserve 9 | warmup+new-phase.
+06:45:35 | [COMBAT ACTION] Giant Spider | turn 4 | basic | HP 133/225 | enemy 348/415 | enemy hit 28 | healed 0 | next bound 48 + reserve 9 | warmup+new-phase.
+06:45:39 | [COMBAT ACTION] Giant Spider | turn 5 | basic | HP 105/225 | enemy 327/415 | enemy hit 28 | healed 0 | next bound 40 + reserve 9 | warmup.
+06:45:44 | [COMBAT ACTION] Giant Spider | turn 6 | basic | HP 79/225 | enemy 303/415 | enemy hit 26 | healed 0 | next bound 40 + reserve 9 | warmup.
+06:45:49 | [COMBAT ACTION] Giant Spider | turn 7 | basic | HP 53/225 | enemy 280/415 | enemy hit 26 | healed 0 | next bound 49 + reserve 9 | warmup+new-phase.
+06:45:54 | [COMBAT ACTION] Giant Spider | turn 8 | basic | HP 27/225 | enemy 256/415 | enemy hit 26 | healed 0 | next bound 46 + reserve 9 | warmup+new-phase.
+06:45:58 | [COMBAT SKILL SKIP] first_aid_probe skill 22 rejected (skill_on_cooldown); cooling it down for 4 turns and selecting another safe action.
+06:46:01 | [COMBAT HOLD] Giant Spider | HP 27/225 | learned next-hit bound 46 | reserve 9 | retry in 10m 0s; session preserved.
+06:46:01 | [FIGHT] Giant Spider failed without death; another task will be selected.
+06:46:06 | [RESULT] Fight failed against Giant Spider | HP 169 -> 170 | STM 18 -> 14.
+06:47:25 | [DAMAGE MODEL] Bandit Thug | estimate 132 | source recent-calibrated/1 recent-upper pred=58 upper=132 floor=0.99.
+06:47:25 | [DAMAGE MODEL] Giant Spider | estimate 155 | source prediction-only pred=141.
+06:47:25 | [DAMAGE MODEL] Bandit Leader | estimate 1077 | source prediction-only pred=979.
+06:47:25 | [QUEST PREP] Wolf Pack | optimizing Skills, equipment, attributes and Forge before combat.
+06:48:22 | [MISSION] Primary: Wolf Pack | KILL wolf_gray in 4.
+06:48:22 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+06:49:18 | [MISSION] Primary: Wolf Pack [SIDE] | KILL wolf_gray in 4 | remaining 4.
+06:49:18 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+06:49:18 | [NEEDS] HP 173/225, required 25 | STM 15/50, required 2 | estimated damage 8.
+06:49:18 | [PARALLEL] This action also advances: Veteran Hunter (124 left), Daily Loot (10 left).
+06:49:18 | [TRAVEL] Ensuring zone: Greenwild Forest.
+06:49:18 | [ACTION] Starting Fight: Gray Wolf.
+06:49:20 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+06:49:33 | [PLAN] Attack now -> Daily Loot (10 remaining) + 2 overlapping Quests | Gray Wolf.
+06:49:33 | [TASK] Daily Loot (10 remaining) + 2 overlapping Quests: Gray Wolf | damage~8 | Gold/STM 1.54
+06:49:45 | [RESULT] Victory against Gray Wolf | HP 173 -> 169 | STM 15 -> 13.
+06:49:50 | [QUEST PROGRESS] Wolf Pack via Gray Wolf | 4 -> 3.
+06:51:04 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.87.
+06:51:04 | [QUEST PRIORITY] Wolf Pack: kill | 3 remaining | estimated completion 1h 5m.
+06:51:04 | [MISSION] Primary: Wolf Pack [SIDE] | KILL wolf_gray in 4 | remaining 3.
+06:51:04 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+06:51:04 | [NEEDS] HP 170/225, required 25 | STM 13/50, required 2 | estimated damage 8.
+06:51:04 | [PARALLEL] This action also advances: Veteran Hunter (123 left), Daily Loot (10 left).
+06:51:04 | [TRAVEL] Ensuring zone: Greenwild Forest.
+06:51:04 | [ACTION] Starting Fight: Gray Wolf.
+06:51:06 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+06:51:32 | [RESULT] Victory against Gray Wolf | HP 171 -> 167 | STM 13 -> 11.
+06:51:36 | [QUEST PROGRESS] Wolf Pack via Gray Wolf | 3 -> 2.
+06:51:55 | [QUEST PRIORITY] Wolf Pack: kill | 2 remaining | estimated completion 33m 17s.
+06:51:55 | [MISSION] Primary: Wolf Pack [SIDE] | KILL wolf_gray in 4 | remaining 2.
+06:51:55 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+06:51:55 | [NEEDS] HP 167/225, required 25 | STM 11/50, required 2 | estimated damage 8.
+06:51:55 | [PARALLEL] This action also advances: Veteran Hunter (122 left), Daily Loot (10 left).
+06:51:55 | [TRAVEL] Ensuring zone: Greenwild Forest.
+06:51:55 | [ACTION] Starting Fight: Gray Wolf.
+06:51:58 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+06:52:23 | [RESULT] Victory against Gray Wolf | HP 168 -> 164 | STM 11 -> 9.
+06:52:28 | [QUEST PROGRESS] Wolf Pack via Gray Wolf | 2 -> 1.
+06:52:41 | [QUEST CAMPAIGN 4] Daily Loot | any | 10 remaining | higher deadline class preempted current campaign.
+06:52:41 | [QUEST PRIORITY] Daily Loot: loot | 10 remaining | estimated completion 10h 40m.
+06:52:41 | [QUEST PREP] Daily Loot | optimizing Skills, equipment, attributes and Forge before combat.
+06:53:31 | [TARGET AUDIT] 3 legal Loot targets checked; 2 ready now; Gray Wolf selected for the best immediate expected progress. Giant Spider skipped for 3m 19s because its combat session is waiting for a safe retry.
+06:53:39 | [MISSION] Primary: Daily Loot | LOOT any.
+06:53:39 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+06:55:34 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 10.
+06:55:34 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+06:55:34 | [NEEDS] HP 166/225, required 25 | STM 9/50, required 2 | estimated damage 8.
+06:55:34 | [PARALLEL] This action also advances: Wolf Pack (1 left), Veteran Hunter (121 left).
+06:55:34 | [TRAVEL] Ensuring zone: Greenwild Forest.
+06:55:34 | [ACTION] Starting Fight: Gray Wolf.
+06:55:37 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+06:55:54 | [FARM] LV 3 | HP 163/225 | MP 69/69 | STM 8/50 | Gold 325 | Battles 30 | last Gray Wolf | damage 4 | +3 Gold
+06:56:02 | [RESULT] Victory against Gray Wolf | HP 167 -> 163 | STM 10 -> 8.
+06:56:07 | [QUEST CHECK] Daily Loot did not progress after Gray Wolf | dry streak 1/6.
+06:56:07 | [QUEST PAUSE] Daily Loot is paused temporarily: a verified win produced no Loot progress and costs about 33m 17s of HP recovery.
+06:56:17 | [SIDE QUEST] Claimed: Wolf Pack | +60 Gold
+06:56:34 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+06:56:34 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.84.
+06:56:34 | [QUEST CAMPAIGN 5] Road Bandits | bandit_thug | 3 remaining | deadline-aware safe progress score.
+06:56:34 | [QUEST PRIORITY] Road Bandits: kill | 3 remaining | estimated completion 17h 34m.
+06:56:34 | [QUEST PREP] Road Bandits | optimizing Skills, equipment, attributes and Forge before combat.
+06:57:07 | [BOX] Opened 1x box_common.
+06:57:28 | [TARGET AUDIT] 1 legal targets checked for Road Bandits; Bandit Thug selected.
+06:57:28 | [MISSION] Primary: Road Bandits | KILL bandit_thug in 4.
+06:57:28 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+06:59:23 | [MISSION] Primary: Road Bandits [MAIN] | KILL bandit_thug in 4 | remaining 3.
+06:59:23 | [STEP] PRIMARY QUEST -> Bandit Thug in Greenwild Forest.
+06:59:23 | [NEEDS] HP 166/225, required 154 | STM 8/50, required 3 | estimated damage 132.
+06:59:23 | [PARALLEL] This action also advances: Veteran Hunter (120 left), Daily Loot (10 left).
+06:59:23 | [TRAVEL] Ensuring zone: Greenwild Forest.
+06:59:23 | [ACTION] Starting Fight: Bandit Thug.
+06:59:26 | [FAST FIGHT] Bandit Thug uses normal resolved combat for faster XP/Gold/Quest progress.
+06:59:38 | [PLAN] Attack now -> Daily Loot (10 remaining) + 2 overlapping Quests | Bandit Thug.
+06:59:38 | [TASK] Daily Loot (10 remaining) + 2 overlapping Quests: Bandit Thug | damage~58 | Gold/STM 1.33
+06:59:51 | [RESULT] Victory against Bandit Thug | HP 167 -> 46 | STM 8 -> 5.
+06:59:56 | [QUEST PROGRESS] Road Bandits via Bandit Thug | 3 -> 2.
+07:00:15 | [DAMAGE MODEL] Bandit Thug | estimate 176 | source recent-calibrated/2 prediction-floor pred=181 upper=135 floor=0.97.
+07:00:15 | [QUEST PRIORITY] Road Bandits: kill | 2 remaining | estimated completion 1h 52m.
+07:00:15 | [TARGET AUDIT] 1 legal targets checked for Road Bandits; Bandit Thug selected.
+07:00:15 | [MISSION] Primary: Road Bandits [MAIN] | KILL bandit_thug in 4 | remaining 2.
+07:00:15 | [STEP] PRIMARY QUEST -> Bandit Thug in Greenwild Forest.
+07:00:15 | [NEEDS] HP 47/225, required 37 | STM 5/50, required 3 | estimated damage 28.
+07:00:15 | [PARALLEL] This action also advances: Veteran Hunter (119 left), Daily Loot (10 left).
+07:00:15 | [TRAVEL] Ensuring zone: Greenwild Forest.
+07:00:15 | [ACTION] Starting Fight: Bandit Thug.
+07:00:17 | [SUSTAIN FIGHT] Bandit Thug uses turn-based combat because normal full-fight safety is not satisfied.
+07:00:35 | [COMBAT START] Sustain session opened for Bandit Thug.
+07:00:37 | [COMBAT SKILL SKIP] first_aid_probe skill 22 rejected (skill_on_cooldown); cooling it down for 4 turns and selecting another safe action.
+07:00:40 | [COMBAT HOLD] Bandit Thug | HP 27/225 | learned next-hit bound 28 | reserve 9 | retry in 10m 0s; session preserved.
+07:00:40 | [FIGHT] Bandit Thug failed without death; another task will be selected.
+07:00:45 | [RESULT] Fight failed against Bandit Thug | HP 47 -> 27 | STM 5 -> 2.
+07:01:04 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/2 recent-upper pred=132 upper=135 floor=0.97.
+07:01:04 | [TARGET AUDIT] Bandit Thug is in combat hold for 9m 35s; no alternate legal target exists for this objective, so other tasks will be evaluated.
+07:01:04 | [MISSION] Primary: Road Bandits [MAIN] | KILL bandit_thug in 4 | remaining 2.
+07:01:04 | [STEP] STRENGTH TRAINING -> Gray Wolf in Greenwild Forest.
+07:01:04 | [NEEDS] HP 28/225, required 25 | STM 2/50, required 2 | estimated damage 8.
+07:01:04 | [PARALLEL] This action also advances: Veteran Hunter (119 left), Daily Loot (10 left).
+07:01:04 | [TRAVEL] Ensuring zone: Greenwild Forest.
+07:01:04 | [ACTION] Starting Fight: Gray Wolf.
+07:01:06 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+07:01:19 | [PLAN] Attack now -> Daily Loot (10 remaining) + 1 overlapping Quest | Gray Wolf.
+07:01:19 | [TASK] Daily Loot (10 remaining) + 1 overlapping Quest: Gray Wolf | damage~8 | Gold/STM 1.55
+07:01:31 | [RESULT] Victory against Gray Wolf | HP 28 -> 24 | STM 2 -> 0.
+07:01:36 | [QUEST CHECK] Road Bandits did not progress after Gray Wolf | dry streak 1/6.
+07:02:55 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.83.
+07:07:46 | [MISSION] Primary: Road Bandits [MAIN] | KILL bandit_thug in 4 | remaining 2.
+07:07:46 | [STEP] RESOURCE PREPARATION -> Gray Wolf.
+07:07:46 | [WAIT] Need STM +1 | HP 30; safe target 25; max 225 | STM 1/2 | natural ETA about 7m 12s.
+07:07:46 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+07:12:17 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+07:18:00 | [DAMAGE MODEL] Giant Spider | estimate 155 | source prediction-only pred=141.
+07:18:00 | [DAMAGE MODEL] Bandit Leader | estimate 1077 | source prediction-only pred=979.
+07:18:00 | [MISSION] Primary: Road Bandits [MAIN] | KILL bandit_thug in 4 | remaining 2.
+07:18:00 | [STEP] RESOURCE PREPARATION -> Giant Spider.
+07:18:00 | [WAIT] Need HP +10, STM +1 | HP 39; safe target 49; max 225 | STM 3/4 | natural ETA about 40m 0s.
+07:18:00 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+07:25:08 | [NETWORK] Read failed 1/3; retrying in 8s.
+07:29:01 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+07:29:01 | [MISSION] Primary: Road Bandits | KILL bandit_thug in 4.
+07:29:01 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+07:32:50 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/2 recent-upper pred=132 upper=135 floor=0.97.
+07:32:50 | [TARGET AUDIT] Bandit Thug is in combat hold for 9m 35s; no alternate legal target exists for this objective, so other tasks will be evaluated.
+07:33:45 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.83.
+07:40:18 | [MISSION] Primary: Road Bandits | KILL bandit_thug in 4.
+07:40:18 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+07:41:14 | [STRICT CRAFT MATERIAL] Giant Spider -> Stamina 20 | exact needed drops carbon | expected 1.00 item/fight | added primary delay ready now.
+07:41:14 | [MISSION] Primary: Road Bandits [MAIN] | KILL bandit_thug in 4 | remaining 2.
+07:41:14 | [STEP] STRICT CRAFT MATERIAL -> Giant Spider in Greenwild Forest.
+07:41:14 | [NEEDS] HP 64/225, required 49 | STM 6/50, required 4 | estimated damage 40.
+07:41:14 | [PARALLEL] This action also advances: Veteran Hunter (118 left), Daily Loot (10 left).
+07:41:14 | [TRAVEL] Ensuring zone: Greenwild Forest.
+07:41:14 | [ACTION] Starting Fight: Giant Spider.
+07:41:16 | [SUSTAIN FIGHT] Giant Spider uses turn-based combat because normal full-fight safety is not satisfied.
+07:41:29 | [PLAN] Attack now -> Daily Loot (10 remaining) + 1 overlapping Quest | Giant Spider.
+07:41:29 | [TASK] Daily Loot (10 remaining) + 1 overlapping Quest: Giant Spider | damage~141 | Gold/STM 1.25
+07:41:34 | [COMBAT START] Sustain session opened for Giant Spider.
+07:41:36 | [COMBAT ACTION] Giant Spider | turn 1 | first_aid skill 22 | HP 109/225 | enemy 415/415 | enemy hit 0 | healed 45 | next bound 40 + reserve 9 | warmup.
+07:41:41 | [COMBAT ACTION] Giant Spider | turn 2 | basic | HP 109/225 | enemy 393/415 | enemy hit 0 | healed 0 | next bound 40 + reserve 9 | warmup.
+07:41:46 | [COMBAT ACTION] Giant Spider | turn 3 | basic | HP 82/225 | enemy 371/415 | enemy hit 27 | healed 0 | next bound 40 + reserve 9 | warmup.
+07:41:50 | [COMBAT ACTION] Giant Spider | turn 4 | basic | HP 55/225 | enemy 347/415 | enemy hit 27 | healed 0 | next bound 40 + reserve 9 | warmup.
+07:41:55 | [COMBAT ACTION] Giant Spider | turn 5 | basic | HP 28/225 | enemy 325/415 | enemy hit 27 | healed 0 | next bound 40 + reserve 9 | warmup.
+07:42:00 | [COMBAT SKILL SKIP] first_aid_probe skill 22 rejected (skill_on_cooldown); cooling it down for 4 turns and selecting another safe action.
+07:42:02 | [COMBAT HOLD] Giant Spider | HP 28/225 | learned next-hit bound 35 | reserve 5 | retry in 10m 0s; session preserved.
+07:42:03 | [FIGHT] Giant Spider failed without death; another task will be selected.
+07:42:08 | [RESULT] Fight failed against Giant Spider | HP 64 -> 65 | STM 6 -> 2.
+07:44:24 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+07:48:05 | [DAMAGE MODEL] Giant Spider | estimate 155 | source prediction-only pred=141.
+07:48:05 | [DAMAGE MODEL] Bandit Leader | estimate 1077 | source prediction-only pred=979.
+07:50:58 | [MISSION] Primary: Road Bandits [MAIN] | KILL bandit_thug in 4 | remaining 2.
+07:50:58 | [STEP] RESOURCE PREPARATION -> Giant Spider.
+07:50:58 | [WAIT] Need STM +1 | HP 72; safe target 40; max 225 | STM 3/4 | natural ETA about 7m 12s.
+07:50:58 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+08:00:20 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+08:02:16 | [MISSION] Primary: Road Bandits | KILL bandit_thug in 4.
+08:02:16 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+08:03:11 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/2 recent-upper pred=132 upper=135 floor=0.97.
+08:03:11 | [TARGET AUDIT] Bandit Thug is in combat hold for 9m 35s; no alternate legal target exists for this objective, so other tasks will be evaluated.
+08:04:01 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.83.
+08:13:33 | [MISSION] Primary: Road Bandits | KILL bandit_thug in 4.
+08:13:33 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+08:17:14 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+08:18:18 | [DAMAGE MODEL] Giant Spider | estimate 155 | source prediction-only pred=141.
+08:18:18 | [DAMAGE MODEL] Bandit Leader | estimate 1077 | source prediction-only pred=979.
+08:24:52 | [MISSION] Primary: Road Bandits | KILL bandit_thug in 4.
+08:24:52 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+08:31:26 | [CRAFT DEFER] Arcane Essence | Recipe is blocked by the Gold safety reserve | retry in 2h 0m.
+08:31:26 | [CRAFT DEFER] Alchemy Apprentice | Recipe is blocked by the Gold safety reserve | retry in 2h 0m.
+08:32:21 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+08:33:16 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/2 recent-upper pred=132 upper=135 floor=0.97.
+08:33:16 | [TARGET AUDIT] Bandit Thug is in combat hold for 9m 35s; no alternate legal target exists for this objective, so other tasks will be evaluated.
+08:34:14 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.83.
+08:36:09 | [MISSION] Primary: Road Bandits | KILL bandit_thug in 4.
+08:36:09 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+08:47:27 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+08:47:27 | [MISSION] Primary: Road Bandits | KILL bandit_thug in 4.
+08:47:27 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+08:48:22 | [DAMAGE MODEL] Giant Spider | estimate 155 | source prediction-only pred=141.
+08:48:22 | [DAMAGE MODEL] Bandit Leader | estimate 1077 | source prediction-only pred=979.
+08:58:44 | [MISSION] Primary: Road Bandits | KILL bandit_thug in 4.
+08:58:44 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+09:02:52 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+09:03:42 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/2 recent-upper pred=132 upper=135 floor=0.97.
+09:03:42 | [TARGET AUDIT] Bandit Thug is in combat hold for 9m 35s; no alternate legal target exists for this objective, so other tasks will be evaluated.
+09:05:37 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.83.
+09:09:26 | [MISSION] Primary: Road Bandits | KILL bandit_thug in 4.
+09:09:26 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+09:18:48 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+09:18:48 | [DAMAGE MODEL] Giant Spider | estimate 155 | source prediction-only pred=141.
+09:18:48 | [DAMAGE MODEL] Bandit Leader | estimate 1077 | source prediction-only pred=979.
+09:20:43 | [MISSION] Primary: Road Bandits | KILL bandit_thug in 4.
+09:20:43 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+09:32:01 | [MISSION] Primary: Road Bandits | KILL bandit_thug in 4.
+09:32:01 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+09:33:47 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/2 recent-upper pred=132 upper=135 floor=0.97.
+09:33:47 | [TARGET AUDIT] Bandit Thug is in combat hold for 9m 35s; no alternate legal target exists for this objective, so other tasks will be evaluated.
+09:35:42 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+09:35:42 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.83.
+09:43:18 | [MISSION] Primary: Road Bandits | KILL bandit_thug in 4.
+09:43:18 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+09:48:02 | [STAMINA] Bank ready | STM 20 | combat resumes.
+09:48:02 | [QUEST PRIORITY] Road Bandits: kill | 2 remaining | estimated completion 8h 58m.
+09:48:02 | [QUEST PREP] Road Bandits | optimizing Skills, equipment, attributes and Forge before combat.
+09:48:52 | [TARGET AUDIT] 1 legal targets checked for Road Bandits; Bandit Thug selected.
+09:50:47 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+09:50:47 | [DAMAGE MODEL] Giant Spider | estimate 155 | source prediction-only pred=141.
+09:50:47 | [DAMAGE MODEL] Bandit Leader | estimate 1077 | source prediction-only pred=979.
+09:50:47 | [MISSION] Primary: Road Bandits [MAIN] | KILL bandit_thug in 4 | remaining 2.
+09:50:47 | [STEP] PRIMARY QUEST -> Bandit Thug in Greenwild Forest.
+09:50:47 | [NEEDS] HP 192/225, required 157 | STM 20/50, required 3 | estimated damage 135.
+09:50:47 | [PARALLEL] This action also advances: Veteran Hunter (118 left), Daily Loot (10 left).
+09:50:47 | [TRAVEL] Ensuring zone: Greenwild Forest.
+09:50:47 | [ACTION] Starting Fight: Bandit Thug.
+09:50:50 | [FAST FIGHT] Bandit Thug uses normal resolved combat for faster XP/Gold/Quest progress.
+09:51:02 | [PLAN] Attack now -> Daily Loot (10 remaining) + 2 overlapping Quests | Bandit Thug.
+09:51:02 | [TASK] Daily Loot (10 remaining) + 2 overlapping Quests: Bandit Thug | damage~132 | Gold/STM 1.33
+09:51:15 | [RESULT] Victory against Bandit Thug | HP 193 -> 95 | STM 20 -> 17.
+09:51:20 | [QUEST PROGRESS] Road Bandits via Bandit Thug | 2 -> 1.
+09:51:39 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/3 recent-upper pred=134 upper=135 floor=0.97.
+09:51:39 | [QUEST CAMPAIGN 6] Veteran Hunter | any | 117 remaining | higher deadline class preempted current campaign.
+09:51:39 | [QUEST PRIORITY] Veteran Hunter: kill | 117 remaining | estimated completion 64h 20m.
+09:51:39 | [QUEST PREP] Veteran Hunter | optimizing Skills, equipment, attributes and Forge before combat.
+09:52:29 | [TARGET AUDIT] 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~12.6 | Gold/h~5.4 | value/h~741.8 | cycle 33m 17s.
+09:52:36 | [MISSION] Primary: Veteran Hunter | KILL any.
+09:52:36 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+09:54:31 | [MISSION] Primary: Veteran Hunter [WEEKLY] | KILL any | remaining 117.
+09:54:31 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+09:54:31 | [NEEDS] HP 97/225, required 25 | STM 17/50, required 2 | estimated damage 8.
+09:54:31 | [PARALLEL] This action also advances: Daily Loot (10 left).
+09:54:31 | [TRAVEL] Ensuring zone: Greenwild Forest.
+09:54:31 | [ACTION] Starting Fight: Gray Wolf.
+09:54:34 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+09:54:46 | [PLAN] Attack now -> Daily Loot (10 remaining) + 1 overlapping Quest | Gray Wolf.
+09:54:46 | [TASK] Daily Loot (10 remaining) + 1 overlapping Quest: Gray Wolf | damage~8 | Gold/STM 1.53
+09:54:59 | [RESULT] Victory against Gray Wolf | HP 98 -> 94 | STM 17 -> 16.
+09:55:04 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 117 -> 116.
+09:55:23 | [QUEST PRIORITY] Veteran Hunter: kill | 116 remaining | estimated completion 63h 47m.
+09:55:23 | [TRAVEL] Ensuring zone: Greenwild Forest.
+09:55:23 | [ACTION] Starting Fight: Gray Wolf.
+09:55:25 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+09:55:50 | [RESULT] Victory against Gray Wolf | HP 95 -> 91 | STM 16 -> 14.
+09:55:55 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 116 -> 115.
+09:56:09 | [QUEST PRIORITY] Veteran Hunter: kill | 115 remaining | estimated completion 63h 13m.
+09:56:09 | [TRAVEL] Ensuring zone: Greenwild Forest.
+09:56:09 | [ACTION] Starting Fight: Gray Wolf.
+09:56:11 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+09:56:36 | [RESULT] Victory against Gray Wolf | HP 92 -> 88 | STM 14 -> 12.
+09:56:41 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 115 -> 114.
+09:58:00 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.82.
+09:58:00 | [QUEST PRIORITY] Veteran Hunter: kill | 114 remaining | estimated completion 62h 40m.
+09:58:00 | [TRAVEL] Ensuring zone: Greenwild Forest.
+09:58:00 | [ACTION] Starting Fight: Gray Wolf.
+09:58:03 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+09:58:28 | [RESULT] Victory against Gray Wolf | HP 90 -> 86 | STM 12 -> 10.
+09:58:33 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 114 -> 113.
+09:58:51 | [QUEST PRIORITY] Veteran Hunter: kill | 113 remaining | estimated completion 62h 7m.
+09:58:51 | [TRAVEL] Ensuring zone: Greenwild Forest.
+09:58:51 | [ACTION] Starting Fight: Gray Wolf.
+09:58:54 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+09:59:20 | [RESULT] Victory against Gray Wolf | HP 86 -> 83 | STM 10 -> 8.
+09:59:24 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 113 -> 112.
+09:59:38 | [QUEST PRIORITY] Veteran Hunter: kill | 112 remaining | estimated completion 61h 34m.
+09:59:38 | [TRAVEL] Ensuring zone: Greenwild Forest.
+09:59:38 | [ACTION] Starting Fight: Gray Wolf.
+09:59:40 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+10:00:05 | [RESULT] Victory against Gray Wolf | HP 83 -> 80 | STM 8 -> 6.
+10:00:10 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 112 -> 111.
+10:01:29 | [QUEST PRIORITY] Veteran Hunter: kill | 111 remaining | estimated completion 61h 0m.
+10:01:29 | [TRAVEL] Ensuring zone: Greenwild Forest.
+10:01:29 | [ACTION] Starting Fight: Gray Wolf.
+10:01:32 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+10:01:49 | [FARM] LV 3 | HP 77/225 | MP 69/69 | STM 4/50 | Gold 421 | Battles 40 | last Gray Wolf | damage 4 | +4 Gold
+10:01:57 | [RESULT] Victory against Gray Wolf | HP 81 -> 77 | STM 6 -> 4.
+10:02:02 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 111 -> 110.
+10:02:21 | [QUEST PRIORITY] Veteran Hunter: kill | 110 remaining | estimated completion 60h 27m.
+10:02:21 | [TRAVEL] Ensuring zone: Greenwild Forest.
+10:02:21 | [ACTION] Starting Fight: Gray Wolf.
+10:02:23 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+10:02:48 | [RESULT] Victory against Gray Wolf | HP 78 -> 74 | STM 5 -> 3.
+10:02:53 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 110 -> 109.
+10:03:14 | [MISSION] Primary: Veteran Hunter [WEEKLY] | KILL any | remaining 109.
+10:03:14 | [STEP] RESOURCE PREPARATION -> Giant Spider.
+10:03:14 | [WAIT] Need STM +1 | HP 75; safe target 40; max 225 | STM 3/4 | natural ETA about 7m 12s.
+10:03:14 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+10:06:05 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+10:13:35 | [MISSION] Primary: Veteran Hunter | KILL any.
+10:13:35 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+10:21:04 | [DAMAGE MODEL] Giant Spider | estimate 155 | source prediction-only pred=141.
+10:21:04 | [DAMAGE MODEL] Bandit Leader | estimate 1077 | source prediction-only pred=979.
+10:22:02 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+10:22:02 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/3 recent-upper pred=134 upper=135 floor=0.97.
+10:23:57 | [TARGET AUDIT] 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~12.6 | Gold/h~5.4 | value/h~741.8 | cycle 33m 17s.
+10:23:57 | [MISSION] Primary: Veteran Hunter | KILL any.
+10:23:57 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+10:28:41 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.82.
+10:34:19 | [CRAFT DEFER] Arcane Essence | Recipe is blocked by the Gold safety reserve | retry in 2h 0m.
+10:34:19 | [CRAFT DEFER] Alchemy Apprentice | Recipe is blocked by the Gold safety reserve | retry in 2h 0m.
+10:35:14 | [MISSION] Primary: Veteran Hunter | KILL any.
+10:35:14 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+10:38:55 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+10:46:32 | [MISSION] Primary: Veteran Hunter | KILL any.
+10:46:32 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+10:51:15 | [DAMAGE MODEL] Giant Spider | estimate 155 | source prediction-only pred=141.
+10:51:15 | [DAMAGE MODEL] Bandit Leader | estimate 1077 | source prediction-only pred=979.
+10:52:06 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/3 recent-upper pred=134 upper=135 floor=0.97.
+10:54:01 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+10:54:01 | [TARGET AUDIT] 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~12.6 | Gold/h~5.4 | value/h~741.8 | cycle 33m 17s.
+10:57:49 | [MISSION] Primary: Veteran Hunter | KILL any.
+10:57:49 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+10:58:44 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.82.
+11:09:07 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+11:09:07 | [MISSION] Primary: Veteran Hunter | KILL any.
+11:09:07 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+11:20:24 | [MISSION] Primary: Veteran Hunter | KILL any.
+11:20:24 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+11:21:19 | [DAMAGE MODEL] Giant Spider | estimate 155 | source prediction-only pred=141.
+11:21:19 | [DAMAGE MODEL] Bandit Leader | estimate 1077 | source prediction-only pred=979.
+11:22:09 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/3 recent-upper pred=134 upper=135 floor=0.97.
+11:24:05 | [TARGET AUDIT] 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~12.6 | Gold/h~5.4 | value/h~741.8 | cycle 33m 17s.
+11:25:07 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+11:28:48 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.82.
+11:31:41 | [MISSION] Primary: Veteran Hunter | KILL any.
+11:31:41 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+11:41:03 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+11:42:59 | [MISSION] Primary: Veteran Hunter | KILL any.
+11:42:59 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+11:51:25 | [DAMAGE MODEL] Giant Spider | estimate 155 | source prediction-only pred=141.
+11:51:25 | [DAMAGE MODEL] Bandit Leader | estimate 1077 | source prediction-only pred=979.
+11:52:22 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/3 recent-upper pred=134 upper=135 floor=0.97.
+11:54:18 | [TARGET AUDIT] 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~12.6 | Gold/h~5.4 | value/h~741.8 | cycle 33m 17s.
+11:54:18 | [MISSION] Primary: Veteran Hunter | KILL any.
+11:54:18 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+11:56:04 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+11:59:02 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.82.
+12:05:37 | [MISSION] Primary: Veteran Hunter | KILL any.
+12:05:37 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+12:06:32 | [STAMINA] Bank ready | STM 20 | combat resumes.
+12:06:32 | [QUEST PRIORITY] Veteran Hunter: kill | 109 remaining | estimated completion 59h 54m.
+12:06:33 | [MISSION] Primary: Veteran Hunter [WEEKLY] | KILL any | remaining 109.
+12:06:33 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+12:06:33 | [NEEDS] HP 198/225, required 25 | STM 20/50, required 2 | estimated damage 8.
+12:06:33 | [PARALLEL] This action also advances: Daily Loot (10 left).
+12:06:33 | [TRAVEL] Ensuring zone: Greenwild Forest.
+12:06:33 | [ACTION] Starting Fight: Gray Wolf.
+12:06:35 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+12:07:00 | [RESULT] Victory against Gray Wolf | HP 198 -> 194 | STM 20 -> 18.
+12:07:05 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 109 -> 108.
+12:07:18 | [QUEST PRIORITY] Veteran Hunter: kill | 108 remaining | estimated completion 59h 20m.
+12:07:18 | [TRAVEL] Ensuring zone: Greenwild Forest.
+12:07:18 | [ACTION] Starting Fight: Gray Wolf.
+12:07:21 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+12:07:46 | [RESULT] Victory against Gray Wolf | HP 195 -> 191 | STM 18 -> 16.
+12:07:51 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 108 -> 107.
+12:09:10 | [QUEST PRIORITY] Veteran Hunter: kill | 107 remaining | estimated completion 58h 47m.
+12:09:10 | [TRAVEL] Ensuring zone: Greenwild Forest.
+12:09:10 | [ACTION] Starting Fight: Gray Wolf.
+12:09:13 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+12:09:37 | [RESULT] Victory against Gray Wolf | HP 193 -> 189 | STM 16 -> 14.
+12:09:42 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 107 -> 106.
+12:10:01 | [QUEST PRIORITY] Veteran Hunter: kill | 106 remaining | estimated completion 58h 14m.
+12:10:01 | [TRAVEL] Ensuring zone: Greenwild Forest.
+12:10:01 | [ACTION] Starting Fight: Gray Wolf.
+12:10:04 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+12:10:30 | [RESULT] Victory against Gray Wolf | HP 190 -> 187 | STM 14 -> 12.
+12:10:33 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 106 -> 105.
+12:10:47 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.87.
+12:10:47 | [QUEST PRIORITY] Veteran Hunter: kill | 105 remaining | estimated completion 57h 41m.
+12:10:47 | [TRAVEL] Ensuring zone: Greenwild Forest.
+12:10:47 | [ACTION] Starting Fight: Gray Wolf.
+12:10:50 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+12:11:15 | [RESULT] Victory against Gray Wolf | HP 187 -> 184 | STM 12 -> 10.
+12:11:20 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 105 -> 104.
+12:12:39 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+12:12:39 | [QUEST PRIORITY] Veteran Hunter: kill | 104 remaining | estimated completion 57h 7m.
+12:12:39 | [TRAVEL] Ensuring zone: Greenwild Forest.
+12:12:39 | [ACTION] Starting Fight: Gray Wolf.
+12:12:41 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+12:13:06 | [RESULT] Victory against Gray Wolf | HP 185 -> 182 | STM 11 -> 9.
+12:13:11 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 104 -> 103.
+12:13:30 | [QUEST PRIORITY] Veteran Hunter: kill | 103 remaining | estimated completion 56h 34m.
+12:13:30 | [TRAVEL] Ensuring zone: Greenwild Forest.
+12:13:30 | [ACTION] Starting Fight: Gray Wolf.
+12:13:33 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+12:13:57 | [RESULT] Victory against Gray Wolf | HP 182 -> 178 | STM 9 -> 7.
+12:14:03 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 103 -> 102.
+12:14:17 | [QUEST PRIORITY] Veteran Hunter: kill | 102 remaining | estimated completion 56h 1m.
+12:14:17 | [TRAVEL] Ensuring zone: Greenwild Forest.
+12:14:17 | [ACTION] Starting Fight: Gray Wolf.
+12:14:19 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+12:14:44 | [RESULT] Victory against Gray Wolf | HP 179 -> 175 | STM 7 -> 5.
+12:14:49 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 102 -> 101.
+12:15:30 | [NETWORK] Read failed 1/3; retrying in 8s.
+12:16:35 | [QUEST PRIORITY] Veteran Hunter: kill | 101 remaining | estimated completion 55h 28m.
+12:16:35 | [MISSION] Primary: Veteran Hunter [WEEKLY] | KILL any | remaining 101.
+12:16:35 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+12:16:35 | [NEEDS] HP 175/225, required 25 | STM 5/50, required 2 | estimated damage 8.
+12:16:35 | [PARALLEL] This action also advances: Daily Loot (10 left).
+12:16:35 | [TRAVEL] Ensuring zone: Greenwild Forest.
+12:16:35 | [ACTION] Starting Fight: Gray Wolf.
+12:16:38 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+12:16:55 | [FARM] LV 3 | HP 173/225 | MP 69/69 | STM 3/50 | Gold 451 | Battles 50 | last Gray Wolf | damage 4 | +4 Gold
+12:17:03 | [RESULT] Victory against Gray Wolf | HP 177 -> 173 | STM 5 -> 3.
+12:17:08 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 101 -> 100.
+12:17:34 | [MISSION] Primary: Veteran Hunter [WEEKLY] | KILL any | remaining 100.
+12:17:34 | [STEP] RESOURCE PREPARATION -> Giant Spider.
+12:17:34 | [WAIT] Need STM +1 | HP 174; safe target 40; max 225 | STM 3/4 | natural ETA about 7m 12s.
+12:17:34 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+12:23:05 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/3 recent-upper pred=134 upper=135 floor=0.97.
+12:23:05 | [DAMAGE MODEL] Giant Spider | estimate 155 | source prediction-only pred=141.
+12:23:05 | [DAMAGE MODEL] Bandit Leader | estimate 1077 | source prediction-only pred=979.
+12:24:58 | [TARGET AUDIT] 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~12.6 | Gold/h~5.4 | value/h~741.8 | cycle 33m 17s.
+12:27:49 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+12:27:49 | [MISSION] Primary: Veteran Hunter | KILL any.
+12:27:49 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+12:37:17 | [CRAFT DEFER] Arcane Essence | Recipe is blocked by the Gold safety reserve | retry in 2h 0m.
+12:37:17 | [CRAFT DEFER] Alchemy Apprentice | Recipe is blocked by the Gold safety reserve | retry in 2h 0m.
+12:38:12 | [MISSION] Primary: Veteran Hunter | KILL any.
+12:38:12 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+12:41:52 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.87.
+12:42:55 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+12:49:29 | [MISSION] Primary: Veteran Hunter | KILL any.
+12:49:29 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+12:53:10 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/3 recent-upper pred=134 upper=135 floor=0.97.
+12:53:10 | [DAMAGE MODEL] Giant Spider | estimate 155 | source prediction-only pred=141.
+12:53:10 | [DAMAGE MODEL] Bandit Leader | estimate 1077 | source prediction-only pred=979.
+12:55:03 | [TARGET AUDIT] 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~12.6 | Gold/h~5.4 | value/h~741.8 | cycle 33m 17s.
+12:58:51 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+13:00:46 | [MISSION] Primary: Veteran Hunter | KILL any.
+13:00:46 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+13:12:04 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.87.
+13:12:04 | [MISSION] Primary: Veteran Hunter | KILL any.
+13:12:04 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+13:15:11 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:15:59 | [NETWORK] Read failed 2/3; retrying in 16s.
+13:17:24 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+13:18:18 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:20:35 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:22:53 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:23:43 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:24:13 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/3 recent-upper pred=134 upper=135 floor=0.97.
+13:24:13 | [DAMAGE MODEL] Giant Spider | estimate 155 | source prediction-only pred=141.
+13:24:13 | [DAMAGE MODEL] Bandit Leader | estimate 1077 | source prediction-only pred=979.
+13:24:13 | [MISSION] Primary: Veteran Hunter | KILL any.
+13:24:13 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+13:26:17 | [TARGET AUDIT] 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~12.6 | Gold/h~5.4 | value/h~741.8 | cycle 33m 17s.
+13:28:06 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:32:03 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:33:22 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+13:34:14 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:34:33 | [MISSION] Primary: Veteran Hunter | KILL any.
+13:34:33 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+13:35:18 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:39:18 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:40:30 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:41:10 | [NETWORK] Read failed 2/3; retrying in 16s.
+13:42:36 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:44:00 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:44:44 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.87.
+13:44:52 | [MISSION] Primary: Veteran Hunter | KILL any.
+13:44:52 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+13:46:33 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:48:37 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:49:02 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+13:49:53 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:53:00 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:54:50 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/3 recent-upper pred=134 upper=135 floor=0.97.
+13:54:50 | [DAMAGE MODEL] Giant Spider | estimate 155 | source prediction-only pred=141.
+13:54:50 | [DAMAGE MODEL] Bandit Leader | estimate 1077 | source prediction-only pred=979.
+13:55:35 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:56:18 | [TARGET AUDIT] 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~12.6 | Gold/h~5.4 | value/h~741.8 | cycle 33m 17s.
+13:56:26 | [MISSION] Primary: Veteran Hunter | KILL any.
+13:56:26 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+13:57:12 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:58:36 | [NETWORK] Read failed 1/3; retrying in 8s.
+14:00:00 | [NETWORK] Read failed 1/3; retrying in 8s.
+14:04:29 | [NETWORK] Read failed 1/3; retrying in 8s.
+14:05:47 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+14:06:42 | [MISSION] Primary: Veteran Hunter | KILL any.
+14:06:42 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+14:15:10 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.87.
+14:15:10 | [STAMINA] Bank ready | STM 20 | combat resumes.
+14:15:10 | [QUEST CAMPAIGN 7] Daily Loot | any | 10 remaining | higher deadline class preempted current campaign.
+14:15:10 | [QUEST PRIORITY] Daily Loot: loot | 10 remaining | estimated completion 9h 20m.
+14:15:10 | [QUEST PREP] Daily Loot | optimizing Skills, equipment, attributes and Forge before combat.
+14:16:00 | [TARGET AUDIT] 4 legal Loot targets checked; 3 ready now; Giant Spider selected for the best immediate expected progress.
+14:16:00 | [MISSION] Primary: Daily Loot | LOOT any.
+14:16:00 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+14:17:56 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 10.
+14:17:56 | [STEP] PRIMARY QUEST -> Giant Spider in Greenwild Forest.
+14:17:56 | [NEEDS] HP 225/225, required 40 | STM 20/50, required 4 | estimated damage 35.
+14:17:56 | [PARALLEL] This action also advances: Veteran Hunter (100 left).
+14:17:56 | [TRAVEL] Ensuring zone: Greenwild Forest.
+14:17:56 | [ACTION] Starting Fight: Giant Spider.
+14:17:58 | [SUSTAIN FIGHT] Giant Spider uses turn-based combat because normal full-fight safety is not satisfied.
+14:18:11 | [PLAN] Attack now -> Daily Loot (10 remaining) + 1 overlapping Quest | Giant Spider.
+14:18:11 | [TASK] Daily Loot (10 remaining) + 1 overlapping Quest: Giant Spider | damage~141 | Gold/STM 1.25
+14:18:11 | [COMBAT RESUME] Reusing saved session for Giant Spider.
+14:18:16 | [FIGHT] Giant Spider failed without death; another task will be selected.
+14:18:21 | [RESULT] Fight failed against Giant Spider | HP 225 -> 225 | STM 20 -> 20.
+14:18:45 | [QUEST PREP] Daily Loot | optimizing Skills, equipment, attributes and Forge before combat.
+14:19:35 | [TARGET AUDIT] 4 legal Loot targets checked; 3 ready now; Gray Wolf selected for the best immediate expected progress.
+14:21:30 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+14:21:30 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 10.
+14:21:30 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+14:21:30 | [NEEDS] HP 225/225, required 25 | STM 20/50, required 2 | estimated damage 8.
+14:21:30 | [PARALLEL] This action also advances: Veteran Hunter (100 left).
+14:21:30 | [TRAVEL] Ensuring zone: Greenwild Forest.
+14:21:30 | [ACTION] Starting Fight: Gray Wolf.
+14:21:33 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+14:21:45 | [PLAN] Attack now -> Daily Loot (10 remaining) + 1 overlapping Quest | Gray Wolf.
+14:21:45 | [TASK] Daily Loot (10 remaining) + 1 overlapping Quest: Gray Wolf | damage~8 | Gold/STM 1.55
+14:21:58 | [RESULT] Victory against Gray Wolf | HP 225 -> 221 | STM 21 -> 19.
+14:22:03 | [QUEST CHECK] Daily Loot did not progress after Gray Wolf | dry streak 2/6.
+14:22:03 | [QUEST PAUSE] Daily Loot is paused temporarily: a verified win produced no Loot progress and costs about 33m 17s of HP recovery.
+14:22:21 | [QUEST CAMPAIGN 8] Veteran Hunter | any | 99 remaining | deadline-aware safe progress score.
+14:22:21 | [QUEST PRIORITY] Veteran Hunter: kill | 99 remaining | estimated completion 54h 21m.
+14:22:21 | [QUEST PREP] Veteran Hunter | optimizing Skills, equipment, attributes and Forge before combat.
+14:23:11 | [TARGET AUDIT] 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~12.6 | Gold/h~5.4 | value/h~741.8 | cycle 33m 17s.
+14:23:19 | [MISSION] Primary: Veteran Hunter | KILL any.
+14:23:19 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+14:25:14 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/3 recent-upper pred=134 upper=135 floor=0.97.
+14:25:14 | [DAMAGE MODEL] Giant Spider | estimate 155 | source prediction-only pred=141.
+14:25:14 | [DAMAGE MODEL] Bandit Leader | estimate 1077 | source prediction-only pred=979.
+14:25:14 | [MISSION] Primary: Veteran Hunter [WEEKLY] | KILL any | remaining 99.
+14:25:14 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+14:25:14 | [NEEDS] HP 224/225, required 25 | STM 19/50, required 2 | estimated damage 8.
+14:25:14 | [PARALLEL] This action also advances: Daily Loot (10 left).
+14:25:14 | [TRAVEL] Ensuring zone: Greenwild Forest.
+14:25:14 | [ACTION] Starting Fight: Gray Wolf.
+14:25:17 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+14:25:42 | [RESULT] Victory against Gray Wolf | HP 225 -> 221 | STM 19 -> 17.
+14:25:47 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 99 -> 98.
+14:26:06 | [QUEST PRIORITY] Veteran Hunter: kill | 98 remaining | estimated completion 53h 48m.
+14:26:06 | [TRAVEL] Ensuring zone: Greenwild Forest.
+14:26:06 | [ACTION] Starting Fight: Gray Wolf.
+14:26:08 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+14:26:33 | [RESULT] Victory against Gray Wolf | HP 222 -> 218 | STM 17 -> 15.
+14:26:38 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 98 -> 97.
+14:26:52 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.82.
+14:26:52 | [QUEST PRIORITY] Veteran Hunter: kill | 97 remaining | estimated completion 53h 14m.
+14:26:52 | [TRAVEL] Ensuring zone: Greenwild Forest.
+14:26:52 | [ACTION] Starting Fight: Gray Wolf.
+14:26:54 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+14:27:19 | [RESULT] Victory against Gray Wolf | HP 218 -> 215 | STM 15 -> 13.
+14:27:24 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 97 -> 96.
+14:28:44 | [QUEST PRIORITY] Veteran Hunter: kill | 96 remaining | estimated completion 52h 41m.
+14:28:44 | [TRAVEL] Ensuring zone: Greenwild Forest.
+14:28:44 | [ACTION] Starting Fight: Gray Wolf.
+14:28:46 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+14:29:11 | [RESULT] Victory against Gray Wolf | HP 216 -> 213 | STM 14 -> 12.
+14:29:16 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 96 -> 95.
+14:29:35 | [QUEST PRIORITY] Veteran Hunter: kill | 95 remaining | estimated completion 52h 8m.
+14:29:35 | [TRAVEL] Ensuring zone: Greenwild Forest.
+14:29:35 | [ACTION] Starting Fight: Gray Wolf.
+14:29:38 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+14:30:03 | [RESULT] Victory against Gray Wolf | HP 213 -> 209 | STM 12 -> 10.
+14:30:08 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 95 -> 94.
+14:30:21 | [QUEST PRIORITY] Veteran Hunter: kill | 94 remaining | estimated completion 51h 35m.
+14:30:21 | [TRAVEL] Ensuring zone: Greenwild Forest.
+14:30:21 | [ACTION] Starting Fight: Gray Wolf.
+14:30:24 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+14:30:49 | [RESULT] Victory against Gray Wolf | HP 210 -> 206 | STM 10 -> 8.
+14:30:54 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 94 -> 93.
+14:32:13 | [QUEST PRIORITY] Veteran Hunter: kill | 93 remaining | estimated completion 51h 1m.
+14:32:13 | [TRAVEL] Ensuring zone: Greenwild Forest.
+14:32:13 | [ACTION] Starting Fight: Gray Wolf.
+14:32:15 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+14:32:40 | [RESULT] Victory against Gray Wolf | HP 208 -> 204 | STM 8 -> 6.
+14:32:45 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 93 -> 92.
+14:33:04 | [QUEST PRIORITY] Veteran Hunter: kill | 92 remaining | estimated completion 50h 28m.
+14:33:04 | [TRAVEL] Ensuring zone: Greenwild Forest.
+14:33:04 | [ACTION] Starting Fight: Gray Wolf.
+14:33:06 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+14:33:31 | [RESULT] Victory against Gray Wolf | HP 205 -> 201 | STM 6 -> 4.
+14:33:37 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 92 -> 91.
+14:33:50 | [QUEST PRIORITY] Veteran Hunter: kill | 91 remaining | estimated completion 49h 55m.
+14:33:50 | [TRAVEL] Ensuring zone: Greenwild Forest.
+14:33:50 | [ACTION] Starting Fight: Gray Wolf.
+14:33:53 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+14:34:10 | [FARM] LV 3 | HP 198/225 | MP 69/69 | STM 2/50 | Gold 481 | Battles 60 | last Gray Wolf | damage 4 | +2 Gold
+14:34:18 | [RESULT] Victory against Gray Wolf | HP 201 -> 198 | STM 4 -> 2.
+14:34:23 | [QUEST PROGRESS] Veteran Hunter via Gray Wolf | 91 -> 90.
+14:35:49 | [MISSION] Primary: Veteran Hunter [WEEKLY] | KILL any | remaining 90.
+14:35:49 | [STEP] RESOURCE PREPARATION -> Bandit Thug.
+14:35:49 | [WAIT] Need STM +1 | HP 198; safe target 157; max 225 | STM 2/3 | natural ETA about 7m 12s.
+14:35:49 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+14:36:44 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+14:38:35 | [CRAFT DEFER] Arcane Essence | Recipe is blocked by the Gold safety reserve | retry in 2h 0m.
+14:38:35 | [CRAFT DEFER] Alchemy Apprentice | Recipe is blocked by the Gold safety reserve | retry in 2h 0m.
+14:47:07 | [MISSION] Primary: Veteran Hunter | KILL any.
+14:47:07 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+14:52:42 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+14:54:37 | [TARGET AUDIT] 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~12.6 | Gold/h~5.4 | value/h~741.8 | cycle 33m 17s.
+14:55:32 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/3 recent-upper pred=134 upper=135 floor=0.97.
+14:55:32 | [DAMAGE MODEL] Giant Spider | estimate 155 | source prediction-only pred=141.
+14:55:32 | [DAMAGE MODEL] Bandit Leader | estimate 1077 | source prediction-only pred=979.
+14:58:18 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.82.
+14:58:26 | [MISSION] Primary: Veteran Hunter | KILL any.
+14:58:26 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+15:09:36 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+15:09:43 | [MISSION] Primary: Veteran Hunter | KILL any.
+15:09:43 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+15:21:02 | [MISSION] Primary: Veteran Hunter | KILL any.
+15:21:02 | [STEP] No safe action is currently available; the Quest board will be re-evaluated.
+15:24:42 | [QUEST BOARD] Active 6 | Daily 1 | Weekly 1 | Urgent 0 | Ready to claim 0 | Available 1 | automated 6 | deferred free 0 | paid blocked 0.
+15:24:42 | [TARGET AUDIT] 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~12.6 | Gold/h~5.4 | value/h~741.8 | cycle 33m 17s.
+15:25:38 | [DAMAGE MODEL] Bandit Thug | estimate 135 | source recent-calibrated/3 recent-upper pred=134 upper=135 floor=0.97.
+15:25:38 | [DAMAGE MODEL] Giant Spider | estimate 155 | source prediction-only pred=141.
+15:25:38 | [DAMAGE MODEL] Bandit Leader | estimate 1077 | source prediction-only pred=979.
+15:28:31 | [DAMAGE MODEL] Gray Wolf | estimate 8 | source recent-calibrated/8 recent-upper pred=8 upper=8 floor=0.82.

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "blocked_preflights": 0,
+  "unproven_blocks": 0,
+  "death_lock_blocks": 0,
+  "broad_safe_selections": 0,
+  "last_block_signature": "",
+  "last_block_at": 0.0,
+  "last_efficiency_signature": "",
+  "last_efficiency_at": 0.0
+}

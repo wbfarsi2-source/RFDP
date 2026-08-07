@@ -1,0 +1,1185 @@
+{
+  "schema_version": 1,
+  "pending": {
+    "session_id": "msiw412wo270cy",
+    "monster_id": 88,
+    "monster_name": "Coal Miner",
+    "started_at": 1786103842.4290617,
+    "updated_at": 1786103895.3381326,
+    "state": {
+      "turn": 10,
+      "finished": false,
+      "result": null,
+      "player_hp": 38,
+      "player_hp_max": 416,
+      "player_mp": 3,
+      "player_mp_max": 123,
+      "enemy_hp": 208,
+      "enemy_hp_max": 598,
+      "skills": [
+        {
+          "id": 1,
+          "code": "warrior_slash",
+          "name": "Corte Certero",
+          "type": "active",
+          "level": 1,
+          "mp_cost": 5,
+          "cooldown": 3,
+          "cooldown_remaining": 0,
+          "cooldown_max": 2,
+          "can_use": false,
+          "is_pet_skill": false,
+          "icon": "slash.png",
+          "pet_name": null,
+          "pet_code": null
+        },
+        {
+          "id": 3,
+          "code": "warrior_shield",
+          "name": "Postura Defensiva",
+          "type": "active",
+          "level": 1,
+          "mp_cost": 10,
+          "cooldown": 20,
+          "cooldown_remaining": 0,
+          "cooldown_max": 8,
+          "can_use": false,
+          "is_pet_skill": false,
+          "icon": "shield.png",
+          "pet_name": null,
+          "pet_code": null
+        },
+        {
+          "id": 7,
+          "code": "mage_bolt",
+          "name": "Rayo Arcano",
+          "type": "active",
+          "level": 1,
+          "mp_cost": 10,
+          "cooldown": 3,
+          "cooldown_remaining": 0,
+          "cooldown_max": 2,
+          "can_use": false,
+          "is_pet_skill": false,
+          "icon": "bolt.png",
+          "pet_name": null,
+          "pet_code": null
+        },
+        {
+          "id": 10,
+          "code": "mage_heal",
+          "name": "Sanación",
+          "type": "active",
+          "level": 1,
+          "mp_cost": 20,
+          "cooldown": 15,
+          "cooldown_remaining": 0,
+          "cooldown_max": 6,
+          "can_use": false,
+          "is_pet_skill": false,
+          "icon": "heal.png",
+          "pet_name": null,
+          "pet_code": null
+        },
+        {
+          "id": 13,
+          "code": "rogue_stab",
+          "name": "Puñalada",
+          "type": "active",
+          "level": 1,
+          "mp_cost": 5,
+          "cooldown": 2,
+          "cooldown_remaining": 0,
+          "cooldown_max": 2,
+          "can_use": false,
+          "is_pet_skill": false,
+          "icon": "stab.png",
+          "pet_name": null,
+          "pet_code": null
+        },
+        {
+          "id": 19,
+          "code": "dark_drain",
+          "name": "Drenaje Vital",
+          "type": "active",
+          "level": 1,
+          "mp_cost": 20,
+          "cooldown": 10,
+          "cooldown_remaining": 0,
+          "cooldown_max": 5,
+          "can_use": false,
+          "is_pet_skill": false,
+          "icon": "dark_drain",
+          "pet_name": null,
+          "pet_code": null
+        },
+        {
+          "id": 22,
+          "code": "common_first_aid",
+          "name": "Primeros Auxilios",
+          "type": "active",
+          "level": 1,
+          "mp_cost": 0,
+          "cooldown": 39,
+          "cooldown_remaining": 6,
+          "cooldown_max": 13,
+          "can_use": false,
+          "is_pet_skill": false,
+          "icon": "firstaid.png",
+          "pet_name": null,
+          "pet_code": null
+        },
+        {
+          "id": 23,
+          "code": "common_sprint",
+          "name": "Reflejos",
+          "type": "active",
+          "level": 1,
+          "mp_cost": 10,
+          "cooldown": 30,
+          "cooldown_remaining": 0,
+          "cooldown_max": 11,
+          "can_use": false,
+          "is_pet_skill": false,
+          "icon": "sprint.png",
+          "pet_name": null,
+          "pet_code": null
+        },
+        {
+          "id": 60,
+          "code": "common_mana_font",
+          "name": "Fuente de Maná",
+          "type": "active",
+          "level": 1,
+          "mp_cost": 0,
+          "cooldown": 24,
+          "cooldown_remaining": 2,
+          "cooldown_max": 9,
+          "can_use": false,
+          "is_pet_skill": false,
+          "icon": "ph-drop-half",
+          "pet_name": null,
+          "pet_code": null
+        }
+      ],
+      "log": [
+        {
+          "kind": "start",
+          "message": "Combate vs Minero del Carbón"
+        },
+        {
+          "kind": "hit",
+          "value": 36,
+          "target": "enemy",
+          "skill": "Drenaje Vital",
+          "hits": 1,
+          "actor": "player"
+        },
+        {
+          "kind": "lifesteal",
+          "value": 36,
+          "target": "self",
+          "actor": "player"
+        },
+        {
+          "kind": "hit",
+          "actor": "monster",
+          "value": 19,
+          "target": "tú"
+        },
+        {
+          "kind": "mana_heal",
+          "value": 12,
+          "target": "self",
+          "skill": "Fuente de Maná",
+          "actor": "player"
+        },
+        {
+          "kind": "hit",
+          "actor": "monster",
+          "value": 20,
+          "target": "tú"
+        },
+        {
+          "kind": "heal",
+          "value": 83,
+          "target": "self",
+          "skill": "Primeros Auxilios",
+          "actor": "player"
+        },
+        {
+          "kind": "mana_heal",
+          "value": 6,
+          "target": "self",
+          "skill": "Primeros Auxilios",
+          "actor": "player"
+        },
+        {
+          "kind": "heal",
+          "value": 45,
+          "target": "self",
+          "skill": "Sanación",
+          "actor": "player"
+        },
+        {
+          "kind": "hit",
+          "actor": "monster",
+          "value": 20,
+          "target": "tú"
+        },
+        {
+          "kind": "hit",
+          "value": 103,
+          "target": "enemy",
+          "skill": "Puñalada",
+          "hits": 1,
+          "actor": "player"
+        },
+        {
+          "kind": "hit",
+          "actor": "monster",
+          "value": 18,
+          "target": "tú"
+        },
+        {
+          "kind": "hit",
+          "value": 66,
+          "target": "enemy",
+          "skill": "Corte Certero",
+          "hits": 1,
+          "actor": "player"
+        },
+        {
+          "kind": "hit",
+          "actor": "monster",
+          "value": 19,
+          "target": "tú"
+        },
+        {
+          "kind": "hit",
+          "actor": "player",
+          "value": 44,
+          "target": "Minero del Carbón"
+        },
+        {
+          "kind": "hit",
+          "actor": "monster",
+          "value": 20,
+          "target": "tú"
+        },
+        {
+          "kind": "hit",
+          "actor": "player",
+          "value": 42,
+          "target": "Minero del Carbón"
+        },
+        {
+          "kind": "hit",
+          "actor": "monster",
+          "value": 18,
+          "target": "tú"
+        },
+        {
+          "kind": "hit",
+          "actor": "player",
+          "value": 51,
+          "target": "Minero del Carbón"
+        },
+        {
+          "kind": "hit",
+          "actor": "monster",
+          "value": 19,
+          "target": "tú"
+        },
+        {
+          "kind": "hit",
+          "actor": "player",
+          "value": 48,
+          "target": "Minero del Carbón"
+        },
+        {
+          "kind": "hit",
+          "actor": "monster",
+          "value": 20,
+          "target": "tú"
+        }
+      ],
+      "player_buffs": []
+    },
+    "turn_profile": {
+      "bound": 38,
+      "reserve": 11,
+      "required_hp": 49,
+      "samples": 1,
+      "all_samples": 11,
+      "phase": "50-25",
+      "phase_known": false,
+      "mean": 20.0,
+      "max": 20.0,
+      "cv": 0.0,
+      "confidence": "warmup+new-phase"
+    }
+  },
+  "turn_damage": {
+    "88": [
+      17,
+      18,
+      19,
+      20,
+      20,
+      18,
+      19,
+      20,
+      18,
+      19,
+      20
+    ],
+    "6": [
+      26,
+      27,
+      44,
+      45,
+      44,
+      46,
+      46,
+      45,
+      45,
+      46,
+      44,
+      47,
+      46,
+      44,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      47,
+      45,
+      45,
+      47,
+      46,
+      44,
+      44,
+      47,
+      44,
+      44,
+      43,
+      43,
+      43,
+      46,
+      46,
+      44,
+      43,
+      45,
+      44
+    ],
+    "103": [
+      25,
+      25,
+      26,
+      27,
+      27,
+      23,
+      27,
+      24,
+      27,
+      24,
+      27,
+      27,
+      23,
+      26,
+      23,
+      26,
+      26,
+      26,
+      27,
+      24,
+      23,
+      25,
+      26,
+      27,
+      26,
+      26,
+      24,
+      26,
+      27,
+      25,
+      27,
+      27,
+      24,
+      24,
+      27,
+      23,
+      26,
+      23,
+      24,
+      26
+    ]
+  },
+  "combat_sessions_started": 11,
+  "sessions_resumed": 2,
+  "session_expirations": 0,
+  "pauses": 0,
+  "pause_seconds": 0,
+  "last_target_audit_signature": "1134708|q_d_farm_low|kill|any||coalmines|88|ready|47",
+  "last_target_audit_at": 1786103761.2960312,
+  "last_race_item_notice_at": 1786061775.8191385,
+  "turn_samples": {
+    "88": [
+      {
+        "damage": 17,
+        "phase": "unknown",
+        "turn": 1,
+        "action": "confirmed-live-basic",
+        "boss": false,
+        "source": "live-v2-20260802",
+        "at": 1786060846.0627606
+      },
+      {
+        "damage": 18,
+        "phase": "unknown",
+        "turn": 2,
+        "action": "confirmed-live-basic",
+        "boss": false,
+        "source": "live-v2-20260802",
+        "at": 1786060846.062765
+      },
+      {
+        "damage": 19,
+        "phase": "100-75",
+        "turn": 2,
+        "action": "life_drain",
+        "boss": false,
+        "at": 1786103844.9141598
+      },
+      {
+        "damage": 20,
+        "phase": "100-75",
+        "turn": 3,
+        "action": "mana_font",
+        "boss": false,
+        "at": 1786103849.7123733
+      },
+      {
+        "damage": 20,
+        "phase": "100-75",
+        "turn": 4,
+        "action": "healing",
+        "boss": false,
+        "at": 1786103859.302576
+      },
+      {
+        "damage": 18,
+        "phase": "100-75",
+        "turn": 5,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786103864.0964847
+      },
+      {
+        "damage": 19,
+        "phase": "100-75",
+        "turn": 6,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786103868.8811922
+      },
+      {
+        "damage": 20,
+        "phase": "75-50",
+        "turn": 7,
+        "action": "basic",
+        "boss": false,
+        "at": 1786103873.6652794
+      },
+      {
+        "damage": 18,
+        "phase": "75-50",
+        "turn": 8,
+        "action": "basic",
+        "boss": false,
+        "at": 1786103878.4687035
+      },
+      {
+        "damage": 19,
+        "phase": "75-50",
+        "turn": 9,
+        "action": "basic",
+        "boss": false,
+        "at": 1786103883.2600205
+      },
+      {
+        "damage": 20,
+        "phase": "50-25",
+        "turn": 10,
+        "action": "basic",
+        "boss": false,
+        "at": 1786103888.0354652
+      }
+    ],
+    "6": [
+      {
+        "damage": 26,
+        "phase": "100-75",
+        "turn": 4,
+        "action": "life_drain",
+        "boss": false,
+        "at": 1786062030.4994357
+      },
+      {
+        "damage": 27,
+        "phase": "100-75",
+        "turn": 5,
+        "action": "mana_font",
+        "boss": false,
+        "at": 1786062035.2560484
+      },
+      {
+        "damage": 44,
+        "phase": "100-75",
+        "turn": 6,
+        "action": "healing",
+        "boss": false,
+        "at": 1786062040.017276
+      },
+      {
+        "damage": 45,
+        "phase": "100-75",
+        "turn": 7,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786062044.7802987
+      },
+      {
+        "damage": 44,
+        "phase": "100-75",
+        "turn": 8,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786062049.5659776
+      },
+      {
+        "damage": 46,
+        "phase": "75-50",
+        "turn": 9,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786062054.3357797
+      },
+      {
+        "damage": 46,
+        "phase": "75-50",
+        "turn": 10,
+        "action": "basic",
+        "boss": false,
+        "at": 1786062059.1147246
+      },
+      {
+        "damage": 45,
+        "phase": "75-50",
+        "turn": 11,
+        "action": "basic",
+        "boss": false,
+        "at": 1786062063.8859756
+      },
+      {
+        "damage": 45,
+        "phase": "75-50",
+        "turn": 13,
+        "action": "basic",
+        "boss": false,
+        "at": 1786062073.3890755
+      },
+      {
+        "damage": 46,
+        "phase": "100-75",
+        "turn": 2,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786089193.6405628
+      },
+      {
+        "damage": 44,
+        "phase": "100-75",
+        "turn": 3,
+        "action": "life_drain",
+        "boss": false,
+        "at": 1786089198.3717296
+      },
+      {
+        "damage": 47,
+        "phase": "100-75",
+        "turn": 4,
+        "action": "healing",
+        "boss": false,
+        "at": 1786089203.1122777
+      },
+      {
+        "damage": 46,
+        "phase": "100-75",
+        "turn": 5,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786089207.84939
+      },
+      {
+        "damage": 44,
+        "phase": "100-75",
+        "turn": 6,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786089212.5874817
+      },
+      {
+        "damage": 45,
+        "phase": "75-50",
+        "turn": 7,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786089217.3738716
+      },
+      {
+        "damage": 45,
+        "phase": "75-50",
+        "turn": 8,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786089222.1133785
+      },
+      {
+        "damage": 45,
+        "phase": "75-50",
+        "turn": 9,
+        "action": "life_drain",
+        "boss": false,
+        "at": 1786089226.8458657
+      },
+      {
+        "damage": 45,
+        "phase": "50-25",
+        "turn": 10,
+        "action": "mana_font",
+        "boss": false,
+        "at": 1786089231.5879698
+      },
+      {
+        "damage": 45,
+        "phase": "100-75",
+        "turn": 2,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786095290.6836455
+      },
+      {
+        "damage": 45,
+        "phase": "100-75",
+        "turn": 3,
+        "action": "life_drain",
+        "boss": false,
+        "at": 1786095295.4515114
+      },
+      {
+        "damage": 45,
+        "phase": "100-75",
+        "turn": 4,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786095305.6856585
+      },
+      {
+        "damage": 47,
+        "phase": "100-75",
+        "turn": 5,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786095310.422775
+      },
+      {
+        "damage": 45,
+        "phase": "75-50",
+        "turn": 6,
+        "action": "healing",
+        "boss": false,
+        "at": 1786095315.4966583
+      },
+      {
+        "damage": 45,
+        "phase": "75-50",
+        "turn": 7,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786095320.2722025
+      },
+      {
+        "damage": 47,
+        "phase": "75-50",
+        "turn": 8,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786095325.206918
+      },
+      {
+        "damage": 46,
+        "phase": "50-25",
+        "turn": 9,
+        "action": "life_drain",
+        "boss": false,
+        "at": 1786095330.273871
+      },
+      {
+        "damage": 44,
+        "phase": "50-25",
+        "turn": 10,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786095335.0676975
+      },
+      {
+        "damage": 44,
+        "phase": "50-25",
+        "turn": 11,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786095339.8367178
+      },
+      {
+        "damage": 47,
+        "phase": "50-25",
+        "turn": 12,
+        "action": "mana_font",
+        "boss": false,
+        "at": 1786095344.9058201
+      },
+      {
+        "damage": 44,
+        "phase": "50-25",
+        "turn": 13,
+        "action": "healing",
+        "boss": false,
+        "at": 1786095349.6684253
+      },
+      {
+        "damage": 44,
+        "phase": "100-75",
+        "turn": 3,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786103338.3726182
+      },
+      {
+        "damage": 43,
+        "phase": "100-75",
+        "turn": 4,
+        "action": "life_drain",
+        "boss": false,
+        "at": 1786103343.4165037
+      },
+      {
+        "damage": 43,
+        "phase": "100-75",
+        "turn": 5,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786103348.1696994
+      },
+      {
+        "damage": 43,
+        "phase": "75-50",
+        "turn": 6,
+        "action": "healing",
+        "boss": false,
+        "at": 1786103353.2271643
+      },
+      {
+        "damage": 46,
+        "phase": "75-50",
+        "turn": 7,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786103357.9707353
+      },
+      {
+        "damage": 46,
+        "phase": "75-50",
+        "turn": 8,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786103363.0039375
+      },
+      {
+        "damage": 44,
+        "phase": "50-25",
+        "turn": 9,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786103367.7321377
+      },
+      {
+        "damage": 43,
+        "phase": "50-25",
+        "turn": 10,
+        "action": "life_drain",
+        "boss": false,
+        "at": 1786103372.8012018
+      },
+      {
+        "damage": 45,
+        "phase": "50-25",
+        "turn": 11,
+        "action": "mana_font",
+        "boss": false,
+        "at": 1786103377.5453608
+      },
+      {
+        "damage": 44,
+        "phase": "50-25",
+        "turn": 12,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786103382.6004775
+      }
+    ],
+    "103": [
+      {
+        "damage": 25,
+        "phase": "75-50",
+        "turn": 6,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067480.9215956
+      },
+      {
+        "damage": 25,
+        "phase": "75-50",
+        "turn": 7,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067485.759017
+      },
+      {
+        "damage": 26,
+        "phase": "75-50",
+        "turn": 8,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067490.591558
+      },
+      {
+        "damage": 27,
+        "phase": "50-25",
+        "turn": 9,
+        "action": "healing",
+        "boss": false,
+        "at": 1786067495.4300694
+      },
+      {
+        "damage": 27,
+        "phase": "50-25",
+        "turn": 10,
+        "action": "life_drain",
+        "boss": false,
+        "at": 1786067500.2806895
+      },
+      {
+        "damage": 23,
+        "phase": "50-25",
+        "turn": 11,
+        "action": "mana_font",
+        "boss": false,
+        "at": 1786067505.1111057
+      },
+      {
+        "damage": 27,
+        "phase": "50-25",
+        "turn": 12,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067509.9430697
+      },
+      {
+        "damage": 24,
+        "phase": "50-25",
+        "turn": 13,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067514.7451491
+      },
+      {
+        "damage": 27,
+        "phase": "25-0",
+        "turn": 14,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067519.5658774
+      },
+      {
+        "damage": 24,
+        "phase": "25-0",
+        "turn": 15,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067524.386506
+      },
+      {
+        "damage": 27,
+        "phase": "100-75",
+        "turn": 2,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067648.109948
+      },
+      {
+        "damage": 27,
+        "phase": "100-75",
+        "turn": 3,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067652.875633
+      },
+      {
+        "damage": 23,
+        "phase": "100-75",
+        "turn": 4,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067662.4145138
+      },
+      {
+        "damage": 26,
+        "phase": "100-75",
+        "turn": 5,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067667.2031152
+      },
+      {
+        "damage": 23,
+        "phase": "75-50",
+        "turn": 6,
+        "action": "life_drain",
+        "boss": false,
+        "at": 1786067671.9712436
+      },
+      {
+        "damage": 26,
+        "phase": "75-50",
+        "turn": 7,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067676.7402487
+      },
+      {
+        "damage": 26,
+        "phase": "75-50",
+        "turn": 8,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067681.4979012
+      },
+      {
+        "damage": 26,
+        "phase": "50-25",
+        "turn": 9,
+        "action": "healing",
+        "boss": false,
+        "at": 1786067686.2502031
+      },
+      {
+        "damage": 27,
+        "phase": "50-25",
+        "turn": 10,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067691.0170867
+      },
+      {
+        "damage": 24,
+        "phase": "50-25",
+        "turn": 11,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067695.7741563
+      },
+      {
+        "damage": 23,
+        "phase": "25-0",
+        "turn": 12,
+        "action": "life_drain",
+        "boss": false,
+        "at": 1786067700.5370617
+      },
+      {
+        "damage": 25,
+        "phase": "25-0",
+        "turn": 13,
+        "action": "mana_font",
+        "boss": false,
+        "at": 1786067705.3211515
+      },
+      {
+        "damage": 26,
+        "phase": "25-0",
+        "turn": 14,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067710.1104703
+      },
+      {
+        "damage": 27,
+        "phase": "25-0",
+        "turn": 15,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067714.8818326
+      },
+      {
+        "damage": 26,
+        "phase": "25-0",
+        "turn": 16,
+        "action": "healing",
+        "boss": false,
+        "at": 1786067719.6624014
+      },
+      {
+        "damage": 26,
+        "phase": "100-75",
+        "turn": 2,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067847.7978044
+      },
+      {
+        "damage": 24,
+        "phase": "100-75",
+        "turn": 3,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067852.5601194
+      },
+      {
+        "damage": 26,
+        "phase": "100-75",
+        "turn": 4,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067862.0689785
+      },
+      {
+        "damage": 27,
+        "phase": "100-75",
+        "turn": 5,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067866.8187666
+      },
+      {
+        "damage": 25,
+        "phase": "75-50",
+        "turn": 6,
+        "action": "life_drain",
+        "boss": false,
+        "at": 1786067871.5521996
+      },
+      {
+        "damage": 27,
+        "phase": "75-50",
+        "turn": 7,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067876.2988324
+      },
+      {
+        "damage": 27,
+        "phase": "75-50",
+        "turn": 8,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067881.038795
+      },
+      {
+        "damage": 24,
+        "phase": "50-25",
+        "turn": 9,
+        "action": "healing",
+        "boss": false,
+        "at": 1786067885.7801132
+      },
+      {
+        "damage": 24,
+        "phase": "50-25",
+        "turn": 10,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067890.5423744
+      },
+      {
+        "damage": 27,
+        "phase": "50-25",
+        "turn": 11,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067895.2981954
+      },
+      {
+        "damage": 23,
+        "phase": "25-0",
+        "turn": 12,
+        "action": "life_drain",
+        "boss": false,
+        "at": 1786067900.0419025
+      },
+      {
+        "damage": 26,
+        "phase": "25-0",
+        "turn": 13,
+        "action": "mana_font",
+        "boss": false,
+        "at": 1786067904.8091624
+      },
+      {
+        "damage": 23,
+        "phase": "25-0",
+        "turn": 14,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067909.5598812
+      },
+      {
+        "damage": 24,
+        "phase": "25-0",
+        "turn": 15,
+        "action": "damage_skill",
+        "boss": false,
+        "at": 1786067914.318811
+      },
+      {
+        "damage": 26,
+        "phase": "25-0",
+        "turn": 16,
+        "action": "healing",
+        "boss": false,
+        "at": 1786067919.0897326
+      }
+    ]
+  },
+  "utility_verified": {
+    "first_aid_bonus": true
+  },
+  "utility_failures": {},
+  "last_utility_attempt": {
+    "first_aid_probe": 1786103892.5397308
+  },
+  "natural_regen_inside_session_verified": false,
+  "v38_migrations": {
+    "pending_clear_label": "v3.8.1-clear-stale-session",
+    "pending_cleared_at": 1786060846.0627246,
+    "confirmed_sample_label": "live-v2-20260802",
+    "confirmed_samples_applied_at": 1786060846.0627694
+  },
+  "hold_until": 1786104495.3380873,
+  "hold_monster_id": 88,
+  "last_hold_notice_at": 0.0
+}

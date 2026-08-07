@@ -1,0 +1,53 @@
+ELDORIA BOT CURRENT PLAN
+========================================================================
+Updated: 2026-08-07 15:21:02
+Live log: C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\gastma\Output\eldoria_bot_v3_3_final.log
+
+PRIMARY QUEST
+Name: Veteran Hunter
+Type: weekly
+Objective: KILL any
+Remaining: 90
+
+CURRENT STEP
+Step: NO SAFE ACTION
+Details: Waiting for the next safe plan
+
+STATE FILES
+Current plan: C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\gastma\Output\eldoria_bot_current_plan.txt
+Full log: C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\gastma\Output\eldoria_bot_v3_3_final.log
+
+LOOT / OPPORTUNITY DIRECTOR
+Opportunity status: skipped
+Opportunity reason: No ready side Fight currently advances another Quest.
+Recovery status: A recovery item or crafted Potion was used.
+
+ROOT QUEST ORCHESTRATOR
+Target audit: 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~12.6 | Gold/h~5.4 | value/h~741.8 | cycle 33m 17s.
+Secondary task: none currently executable
+
+ADAPTIVE RECOVERY CAMPAIGN
+Recovery focus: NORMAL
+Recovery material target: none currently profitable
+
+STRICT CRAFT DIRECTOR
+Craft Quests are never combat campaigns.
+Background Craft Quest: Vital Restoration
+Verified Recipe: Stamina 20
+Exact shortages: {"carbon": 1}
+
+NO-DEATH EFFICIENCY DIRECTOR
+Death-locked enemies require Level + Power + Mastery.
+Unproven high-damage exact targets are never test-fought.
+Kill-any selection: 3 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~12.6 | Gold/h~5.4 | value/h~741.8 | cycle 33m 17s.
+
+ROOT-HARDENED SAFETY
+Quest selection is deadline-aware; Kill gets a bonus, not an absolute override.
+Damage uses calibrated recent upper bounds with a decaying prediction floor.
+Dangerous exact-target hard locks remain inherited and active.
+JSON state writes are atomic and duplicate bot instances are blocked.
+
+LEVELING-FIRST V3.5
+Targets are ranked by real XP, Gold, Quest overlap and recovery time.
+kill_in_zone Quests, XP skill-tree spending and ready Dungeons are enabled.
+No-death blocking and paid-action blocking remain active.

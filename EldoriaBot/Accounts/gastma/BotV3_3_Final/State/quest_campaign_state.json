@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "active_key": "1136446|q_weekly_pvp_easy|kill|any||",
+  "active_quest_id": 1136446,
+  "active_quest_code": "q_weekly_pvp_easy",
+  "active_quest_name": "Veteran Hunter",
+  "active_quest_type": "weekly",
+  "active_objective_type": "kill",
+  "active_target": "any",
+  "active_zone_id": null,
+  "active_zone_code": "",
+  "active_remaining": 90,
+  "mode": "quest-combat",
+  "prepared_key": "1136446|q_weekly_pvp_easy|kill|any||",
+  "prepared_level": 3,
+  "campaign_number": 8,
+  "same_monster_wins": 9,
+  "last_monster_id": 1,
+  "last_status": "",
+  "completed_campaigns": 0
+}

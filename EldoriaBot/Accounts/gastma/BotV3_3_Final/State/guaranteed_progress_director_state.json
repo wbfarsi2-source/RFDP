@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "objective_pauses": {
+    "1136012|q_daily_loot_1|loot|any||": 1786121523.1168542
+  },
+  "last_priority_signature": "1136446|q_weekly_pvp_easy|kill|any|||Veteran Hunter: kill | 91 remaining ",
+  "last_priority_at": 1786100630.5693502,
+  "last_audit_signature": "",
+  "last_audit_at": 0.0,
+  "priority_switches": 0,
+  "expensive_loot_pauses": 2
+}

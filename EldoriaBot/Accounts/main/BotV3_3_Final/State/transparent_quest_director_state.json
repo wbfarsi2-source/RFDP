@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "last_plan_signature": "PRIMARY QUEST|1134708|q_d_farm_low|kill|any||coalmines|88|47|3|Gatherer (19 left), Daily Loot (7 left)",
+  "last_plan_at": 1786103816.6235726,
+  "last_wait_signature": "1134708|q_d_farm_low|kill|any|",
+  "last_wait_at": 1786103761.298464,
+  "opportunity_wait_key": "1095599|q_intro_bandit_lord|kill|banditleader|4||4|267|4|heal",
+  "opportunity_used": true,
+  "opportunity_actions": 2,
+  "last_result_signature": "Coal Miner|False|51|48|11|9"
+}

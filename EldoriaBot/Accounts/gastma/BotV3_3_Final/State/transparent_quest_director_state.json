@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "last_plan_signature": "PRIMARY QUEST|1136446|q_weekly_pvp_easy|kill|any|||1|25|2|Daily Loot (10 left)",
+  "last_plan_at": 1786100114.9672363,
+  "last_wait_signature": "1136446|q_weekly_pvp_easy|kill|any|",
+  "last_wait_at": 1786103462.01429,
+  "opportunity_wait_key": "1136005|q_daily_farm|kill|any|||1|23|2|heal",
+  "opportunity_used": false,
+  "opportunity_actions": 0,
+  "last_result_signature": "Gray Wolf|True|201|198|4|2"
+}

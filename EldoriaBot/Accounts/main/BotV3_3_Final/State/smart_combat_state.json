@@ -1,0 +1,32 @@
+{
+  "successful_damage": {
+    "2": {
+      "count": 5,
+      "average": 25.8,
+      "maximum": 27
+    },
+    "1": {
+      "count": 41,
+      "average": 2.1219512195121952,
+      "maximum": 3
+    },
+    "103": {
+      "count": 4,
+      "average": 0.0,
+      "maximum": 0
+    },
+    "3": {
+      "count": 1,
+      "average": 207.0,
+      "maximum": 207
+    },
+    "5": {
+      "count": 1,
+      "average": 187.0,
+      "maximum": 187
+    }
+  },
+  "last_hard_block": "",
+  "last_wait": "",
+  "hard_blocks_seen": 0
+}

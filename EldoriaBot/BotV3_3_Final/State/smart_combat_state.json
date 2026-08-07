@@ -1,0 +1,42 @@
+{
+  "successful_damage": {
+    "88": {
+      "count": 4,
+      "average": 130.0,
+      "maximum": 220
+    },
+    "91": {
+      "count": 1,
+      "average": 0.0,
+      "maximum": 0
+    },
+    "103": {
+      "count": 4,
+      "average": 0.0,
+      "maximum": 0
+    },
+    "5": {
+      "count": 1,
+      "average": 129.0,
+      "maximum": 129
+    },
+    "1": {
+      "count": 290,
+      "average": 3.7517241379310344,
+      "maximum": 14
+    },
+    "2": {
+      "count": 23,
+      "average": 41.26086956521739,
+      "maximum": 151
+    },
+    "3": {
+      "count": 22,
+      "average": 100.36363636363636,
+      "maximum": 198
+    }
+  },
+  "last_hard_block": "",
+  "last_wait": "",
+  "hard_blocks_seen": 0
+}

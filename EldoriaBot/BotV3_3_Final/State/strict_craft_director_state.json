@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "deferred": {},
+  "active_plan": {
+    "objective_key": "1119963|q_weekly_craft_10|craft|anypotion||",
+    "quest_name": "Apprentice Alchemist",
+    "quest_type": "weekly",
+    "target": "any_potion",
+    "remaining": 9,
+    "recipe_id": 4,
+    "recipe_name": "Pocion de Mana",
+    "output_code": "potionmana",
+    "gold_cost": 320,
+    "capacity": 0,
+    "shortages": {
+      "herbcommon": 2,
+      "ironore": 1
+    },
+    "total_shortage": 3
+  },
+  "material_attempts": {},
+  "material_blacklist": {
+    "1119963|q_weekly_craft_10|craft|anypotion|||4|herbcommon:2,ironore:1|monster:2": 1786066096.122087
+  },
+  "last_manager_at": 1786059072.7448435,
+  "force_manager": false,
+  "last_plan_signature": "1119963|q_weekly_craft_10|craft|anypotion|||4|herbcommon:2,ironore:1",
+  "last_defer_signature": "1042383|q_craft_minor|craft|potionminor|||Craft API did not accept the Recipe",
+  "direct_api_crafts": 12,
+  "verified_quest_crafts": 12,
+  "material_fights": 7,
+  "material_drops": 3
+}

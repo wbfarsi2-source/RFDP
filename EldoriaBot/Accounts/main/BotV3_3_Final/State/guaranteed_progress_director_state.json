@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "objective_pauses": {
+    "1042377|q_daily_loot_1|loot|any||": 1786117196.9874368
+  },
+  "last_priority_signature": "1134708|q_d_farm_low|kill|any||coalmines|Daily Provisions: kill | 5 remaining ",
+  "last_priority_at": 1786103708.7763877,
+  "last_audit_signature": "",
+  "last_audit_at": 0.0,
+  "priority_switches": 0,
+  "expensive_loot_pauses": 2
+}

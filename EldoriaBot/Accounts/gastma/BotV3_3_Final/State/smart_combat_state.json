@@ -1,0 +1,17 @@
+{
+  "successful_damage": {
+    "2": {
+      "count": 3,
+      "average": 115.66666666666667,
+      "maximum": 128
+    },
+    "1": {
+      "count": 57,
+      "average": 3.719298245614035,
+      "maximum": 4
+    }
+  },
+  "last_hard_block": "",
+  "last_wait": "",
+  "hard_blocks_seen": 0
+}

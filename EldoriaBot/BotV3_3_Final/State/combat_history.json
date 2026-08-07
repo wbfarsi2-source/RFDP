@@ -1,0 +1,44 @@
+{
+  "88": {
+    "count": 4,
+    "total": 520,
+    "maximum": 220,
+    "average": 130.0
+  },
+  "5": {
+    "count": 5,
+    "total": 448,
+    "maximum": 141,
+    "average": 89.6
+  },
+  "91": {
+    "count": 1,
+    "total": 41,
+    "maximum": 41,
+    "average": 41.0
+  },
+  "1": {
+    "count": 285,
+    "total": 1139,
+    "maximum": 14,
+    "average": 3.9964912280701754
+  },
+  "2": {
+    "count": 24,
+    "total": 1143,
+    "maximum": 151,
+    "average": 47.625
+  },
+  "3": {
+    "count": 28,
+    "total": 2861,
+    "maximum": 323,
+    "average": 102.17857142857143
+  },
+  "6": {
+    "count": 1,
+    "total": 293,
+    "maximum": 293,
+    "average": 293.0
+  }
+}

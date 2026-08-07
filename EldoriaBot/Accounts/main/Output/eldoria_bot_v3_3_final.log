@@ -1,0 +1,1701 @@
+03:30:46 | [START] Eldoria Bot 3.8.3-server-friendly-pacing-windows
+03:30:46 | [ACCOUNT] Main | isolated runtime=C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\main
+03:30:46 | [MODE] FAST QUEST/XP/GOLD HOLD ROUTER: routine kills chain immediately; held combat targets are skipped until their retry time.
+03:30:46 | [FIX] Combat-hold targets are excluded before travel/action selection, preventing retry spam while alternate Quest/XP/Gold work continues.
+03:30:48 | [START] Eldoria Bot 3.8.3-server-friendly-pacing-windows
+03:30:48 | [MODE] Root Quest orchestration, verified progress and secondary task scheduling.
+03:30:48 | [LOG FILE] C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\main\Output\eldoria_bot_v3_3_final.log
+03:30:48 | [CURRENT PLAN] C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\main\Output\eldoria_bot_current_plan.txt
+03:30:48 | [START] LV 10 | HP 362/414 | MP 40/119 | STM 11/66 | Gold 2276
+03:31:01 | [DAILY QUEST] Started: Hunt of the Day
+03:31:12 | [CRAFT PLAN] Apprentice Alchemist | recipe Pocion de Mana | next Craft needs: herbcommon x2, ironore x1.
+03:37:50 | [START] Eldoria Bot 3.8.3-server-friendly-pacing-windows
+03:37:50 | [ACCOUNT] Main | isolated runtime=C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\main
+03:37:50 | [MODE] FAST QUEST/XP/GOLD HOLD ROUTER: routine kills chain immediately; held combat targets are skipped until their retry time.
+03:37:50 | [FIX] Combat-hold targets are excluded before travel/action selection, preventing retry spam while alternate Quest/XP/Gold work continues.
+03:37:53 | [START] Eldoria Bot 3.8.3-server-friendly-pacing-windows
+03:37:53 | [MODE] Root Quest orchestration, verified progress and secondary task scheduling.
+03:37:53 | [LOG FILE] C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\main\Output\eldoria_bot_v3_3_final.log
+03:37:53 | [CURRENT PLAN] C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\main\Output\eldoria_bot_current_plan.txt
+03:37:53 | [START] LV 10 | HP 369/414 | MP 47/119 | STM 12/66 | Gold 2276
+03:45:22 | [START] Eldoria Bot 3.8.3-server-friendly-pacing-windows
+03:45:22 | [ACCOUNT] Main | isolated runtime=C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\main
+03:45:22 | [MODE] FAST QUEST/XP/GOLD HOLD ROUTER: routine kills chain immediately; held combat targets are skipped until their retry time.
+03:45:22 | [FIX] Combat-hold targets are excluded before travel/action selection, preventing retry spam while alternate Quest/XP/Gold work continues.
+03:45:25 | [START] Eldoria Bot 3.8.3-server-friendly-pacing-windows
+03:45:25 | [MODE] Root Quest orchestration, verified progress and secondary task scheduling.
+03:45:25 | [LOG FILE] C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\main\Output\eldoria_bot_v3_3_final.log
+03:45:25 | [CURRENT PLAN] C:\Users\JavadTM\Desktop\Eldoria_Bot\Accounts\main\Output\eldoria_bot_current_plan.txt
+03:45:25 | [START] LV 10 | HP 377/414 | MP 55/119 | STM 14/66 | Gold 2276
+03:46:15 | [EQUIP XP-FIRST] Race equipment has no valid normal-inventory ID; unsafe equip POST skipped.
+03:46:35 | [NETWORK] Read returned 500 (1/3); retrying in 8s.
+03:46:46 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+03:47:04 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+03:47:04 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+03:47:04 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+03:47:04 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+03:47:04 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+03:47:04 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+03:47:04 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+03:47:04 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+03:47:04 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+03:47:04 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+03:47:04 | [DAMAGE MODEL] Straw Dummy | estimate 504 | source prediction-only pred=458.
+03:47:04 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+03:47:04 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+03:47:04 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+03:47:04 | [DAMAGE MODEL] Giant Spider | estimate 164 | source prediction-only pred=149.
+03:47:04 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+03:47:04 | [DAMAGE MODEL] Gray Wolf | estimate 15 | source prediction-only pred=14.
+03:47:04 | [DAMAGE MODEL] Bandit Thug | estimate 57 | source prediction-only pred=52.
+03:47:04 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+03:47:04 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+03:47:04 | [QUEST CAMPAIGN 1] Daily Loot | any | 7 remaining | deadline-aware safe progress score.
+03:47:04 | [QUEST PRIORITY] Daily Loot: loot | 7 remaining | estimated completion 7h 55m.
+03:47:04 | [QUEST PREP] Daily Loot | optimizing Skills, equipment, attributes and Forge before combat.
+03:47:56 | [TARGET AUDIT] 20 legal Loot targets checked; 12 ready now; Goblin Warrior selected for the best immediate expected progress.
+03:47:56 | [STRICT CRAFT MATERIAL] Bandit Thug -> Pocion de Mana | exact needed drops herbcommon, ironore | expected 0.10 item/fight | added primary delay ready now.
+03:47:56 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+03:47:56 | [STEP] STRICT CRAFT MATERIAL -> Bandit Thug in Greenwild Forest.
+03:47:56 | [NEEDS] HP 378/414, required 76 | STM 14/66, required 3 | estimated damage 57.
+03:47:56 | [PARALLEL] This action also advances: Hunt of the Day (30 left), Gatherer (19 left).
+03:47:56 | [TRAVEL] Ensuring zone: Greenwild Forest.
+03:47:56 | [ACTION] Starting Fight: Bandit Thug.
+03:47:59 | [FAST FIGHT] Bandit Thug uses normal resolved combat for faster XP/Gold/Quest progress.
+03:48:11 | [PLAN] Attack now -> Gatherer (19 remaining) + 2 overlapping Quests | Bandit Thug.
+03:48:11 | [TASK] Gatherer (19 remaining) + 2 overlapping Quests: Bandit Thug | damage~52 | Gold/STM 1.33
+03:48:24 | [RESULT] Victory against Bandit Thug | HP 380 -> 353 | STM 14 -> 11.
+03:48:34 | [CRAFT MATERIAL CHECK] Bandit Thug dropped no verified needed material | 1/2.
+03:49:50 | [DAMAGE MODEL] Bandit Thug | estimate 52 | source recent-calibrated/1 prediction-floor pred=52 upper=33 floor=0.99.
+03:49:50 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+03:49:50 | [STEP] PRIMARY QUEST -> Goblin Warrior in Stone Plains.
+03:49:50 | [NEEDS] HP 353/414, required 83 | STM 11/66, required 4 | estimated damage 74.
+03:49:50 | [PARALLEL] This action also advances: Hunt of the Day (29 left), Goblin Invasion (15 left), Gatherer (19 left).
+03:49:50 | [TRAVEL] Ensuring zone: Stone Plains.
+03:49:56 | [TRAVEL] Zone 4 -> 5.
+03:49:56 | [ACTION] Starting Fight: Goblin Warrior.
+03:49:58 | [SUSTAIN FIGHT] Goblin Warrior uses turn-based combat because normal full-fight safety is not satisfied.
+03:50:11 | [PLAN] Attack now -> Gatherer (19 remaining) + 3 overlapping Quests | Goblin Warrior.
+03:50:11 | [TASK] Gatherer (19 remaining) + 3 overlapping Quests: Goblin Warrior | damage~316 | Gold/STM 2.50
+03:50:13 | [COMBAT START] Sustain session opened for Goblin Warrior.
+03:50:16 | [COMBAT ACTION] Goblin Warrior | turn 1 | first_aid skill 22 | HP 414/414 | enemy 849/849 | enemy hit 0 | healed 59 | next bound 74 + reserve 9 | defense-adjusted-unknown.
+03:50:20 | [COMBAT ACTION] Goblin Warrior | turn 2 | defensive_stance skill 3 | HP 388/414 | enemy 849/849 | enemy hit 26 | healed 0 | next bound 74 + reserve 9 | defense-adjusted-unknown.
+03:50:25 | [COMBAT ACTION] Goblin Warrior | turn 3 | damage_skill skill 13 | HP 360/414 | enemy 755/849 | enemy hit 28 | healed 0 | next bound 46 + reserve 11 | warmup+new-phase.
+03:50:30 | [COMBAT ACTION] Goblin Warrior | turn 4 | life_drain skill 19 | HP 358/414 | enemy 731/849 | enemy hit 26 | healed 24 | next bound 50 + reserve 11 | warmup+new-phase.
+03:50:35 | [COMBAT ACTION] Goblin Warrior | turn 5 | mana_font skill 60 | HP 331/414 | enemy 731/849 | enemy hit 27 | healed 0 | next bound 40 + reserve 11 | warmup.
+03:50:40 | [COMBAT ACTION] Goblin Warrior | turn 6 | healing skill 10 | HP 327/414 | enemy 731/849 | enemy hit 44 | healed 40 | next bound 39 + reserve 11 | warmup.
+03:50:44 | [COMBAT ACTION] Goblin Warrior | turn 7 | damage_skill skill 13 | HP 282/414 | enemy 637/849 | enemy hit 45 | healed 0 | next bound 61 + reserve 11 | warmup+spike.
+03:50:49 | [COMBAT ACTION] Goblin Warrior | turn 8 | damage_skill skill 1 | HP 238/414 | enemy 572/849 | enemy hit 44 | healed 0 | next bound 64 + reserve 11 | warmup.
+03:50:54 | [COMBAT ACTION] Goblin Warrior | turn 9 | damage_skill skill 7 | HP 192/414 | enemy 547/849 | enemy hit 46 | healed 0 | next bound 79 + reserve 11 | warmup+new-phase.
+03:50:59 | [COMBAT ACTION] Goblin Warrior | turn 10 | basic | HP 146/414 | enemy 506/849 | enemy hit 46 | healed 0 | next bound 71 + reserve 11 | warmup+new-phase.
+03:51:03 | [COMBAT ACTION] Goblin Warrior | turn 11 | basic | HP 101/414 | enemy 472/849 | enemy hit 45 | healed 0 | next bound 71 + reserve 11 | warmup+new-phase.
+03:51:08 | [COMBAT ACTION] Goblin Warrior | turn 12 | basic | HP 101/414 | enemy 435/849 | enemy hit 0 | healed 0 | next bound 61 + reserve 11 | warmup.
+03:51:13 | [COMBAT ACTION] Goblin Warrior | turn 13 | basic | HP 56/414 | enemy 391/849 | enemy hit 45 | healed 0 | next bound 61 + reserve 11 | warmup.
+03:51:18 | [COMBAT SKILL SKIP] first_aid_probe skill 22 rejected (skill_on_cooldown); cooling it down for 4 turns and selecting another safe action.
+03:51:20 | [COMBAT HOLD] Goblin Warrior | HP 56/414 | learned next-hit bound 84 | reserve 11 | retry in 10m 0s; session preserved.
+03:51:20 | [FIGHT] Goblin Warrior failed without death; another task will be selected.
+03:51:25 | [RESULT] Fight failed against Goblin Warrior | HP 355 -> 356 | STM 12 -> 8.
+03:51:49 | [QUEST PREP] Daily Loot | optimizing Skills, equipment, attributes and Forge before combat.
+03:52:42 | [TARGET AUDIT] 19 legal Loot targets checked; 11 ready now; Gray Wolf selected for the best immediate expected progress. Goblin Warrior skipped for 9m 30s because its combat session is waiting for a safe retry.
+03:52:42 | [STRICT CRAFT MATERIAL] Bandit Thug -> Pocion de Mana | exact needed drops herbcommon, ironore | expected 0.10 item/fight | added primary delay ready now.
+03:52:42 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+03:52:42 | [STEP] STRICT CRAFT MATERIAL -> Bandit Thug in Greenwild Forest.
+03:52:42 | [NEEDS] HP 356/414, required 70 | STM 8/66, required 3 | estimated damage 52.
+03:52:42 | [PARALLEL] This action also advances: Hunt of the Day (29 left), Gatherer (19 left).
+03:52:42 | [TRAVEL] Ensuring zone: Greenwild Forest.
+03:52:47 | [TRAVEL] Zone 5 -> 4.
+03:52:47 | [ACTION] Starting Fight: Bandit Thug.
+03:52:50 | [FAST FIGHT] Bandit Thug uses normal resolved combat for faster XP/Gold/Quest progress.
+03:53:02 | [PLAN] Attack now -> Gatherer (19 remaining) + 2 overlapping Quests | Bandit Thug.
+03:53:02 | [TASK] Gatherer (19 remaining) + 2 overlapping Quests: Bandit Thug | damage~52 | Gold/STM 1.33
+03:53:15 | [RESULT] Victory against Bandit Thug | HP 357 -> 330 | STM 8 -> 5.
+03:53:25 | [CRAFT MATERIAL CHECK] Bandit Thug dropped no verified needed material | 2/2.
+03:53:25 | [CRAFT MATERIAL BLACKLIST] Bandit Thug is paused for this Recipe; another exact source will be tested.
+03:54:16 | [NETWORK] Read returned 503 (1/3); retrying in 8s.
+03:54:49 | [DAMAGE MODEL] Bandit Thug | estimate 39 | source recent-calibrated/2 prediction-floor pred=40 upper=34 floor=0.97.
+03:54:57 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+03:54:57 | [STEP] RESOURCE PREPARATION -> Mine Foreman.
+03:54:57 | [WAIT] Need STM +1 | HP 330; safe target 327; max 414 | STM 5/6 | natural ETA about 5m 28s.
+03:54:57 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+04:00:43 | [NETWORK] Read returned 503 (1/3); retrying in 8s.
+04:02:39 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+04:05:28 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+04:05:28 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+04:05:28 | [WAIT] Need HP +6520 | HP 340; safe target 6860; max 414 | STM 7/1 | natural ETA about 232h 51m.
+04:05:28 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+04:11:29 | [NETWORK] Read failed 1/3; retrying in 8s.
+04:15:38 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+04:15:38 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+04:15:38 | [WAIT] Need HP +6510 | HP 350; safe target 6860; max 414 | STM 9/1 | natural ETA about 232h 30m.
+04:15:38 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+04:17:23 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+04:17:23 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+04:17:23 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+04:17:23 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+04:17:23 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+04:17:23 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+04:17:23 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+04:17:23 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+04:17:23 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+04:17:23 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+04:17:23 | [DAMAGE MODEL] Straw Dummy | estimate 504 | source prediction-only pred=458.
+04:17:23 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+04:17:23 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+04:17:23 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+04:17:23 | [DAMAGE MODEL] Giant Spider | estimate 164 | source prediction-only pred=149.
+04:17:23 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+04:17:23 | [DAMAGE MODEL] Gray Wolf | estimate 15 | source prediction-only pred=14.
+04:17:23 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+04:17:23 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+04:19:21 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+04:23:12 | [TARGET AUDIT] 19 legal Loot targets checked; 11 ready now; Gray Wolf selected for the best immediate expected progress. Goblin Warrior skipped for 9m 30s because its combat session is waiting for a safe retry.
+04:26:00 | [DAMAGE MODEL] Bandit Thug | estimate 39 | source recent-calibrated/2 prediction-floor pred=40 upper=34 floor=0.97.
+04:26:00 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+04:26:00 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+04:26:00 | [WAIT] Need HP +6500 | HP 360; safe target 6860; max 414 | STM 11/1 | natural ETA about 232h 8m.
+04:26:00 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+04:35:34 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+04:36:29 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+04:36:29 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+04:36:29 | [WAIT] Need HP +6488 | HP 372; safe target 6860; max 414 | STM 13/1 | natural ETA about 231h 42m.
+04:36:29 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+04:46:59 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+04:46:59 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+04:46:59 | [WAIT] Need HP +6478 | HP 382; safe target 6860; max 414 | STM 15/1 | natural ETA about 231h 21m.
+04:46:59 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+04:48:52 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+04:48:52 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+04:48:52 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+04:48:52 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+04:48:52 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+04:48:52 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+04:48:52 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+04:48:52 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+04:48:52 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+04:48:52 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+04:48:52 | [DAMAGE MODEL] Straw Dummy | estimate 504 | source prediction-only pred=458.
+04:48:52 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+04:48:52 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+04:48:52 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+04:48:52 | [DAMAGE MODEL] Giant Spider | estimate 164 | source prediction-only pred=149.
+04:48:52 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+04:48:52 | [DAMAGE MODEL] Gray Wolf | estimate 15 | source prediction-only pred=14.
+04:48:52 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+04:48:52 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+04:50:37 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+04:53:30 | [TARGET AUDIT] 19 legal Loot targets checked; 11 ready now; Gray Wolf selected for the best immediate expected progress. Goblin Warrior skipped for 9m 30s because its combat session is waiting for a safe retry.
+04:56:26 | [DAMAGE MODEL] Bandit Thug | estimate 39 | source recent-calibrated/2 prediction-floor pred=40 upper=34 floor=0.97.
+04:57:16 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+04:57:16 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+04:57:16 | [WAIT] Need HP +6467 | HP 393; safe target 6860; max 414 | STM 17/1 | natural ETA about 230h 57m.
+04:57:16 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+05:05:53 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+05:08:48 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+05:08:48 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+05:08:48 | [WAIT] Need HP +6457 | HP 403; safe target 6860; max 414 | STM 19/1 | natural ETA about 230h 36m.
+05:08:48 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+05:13:27 | [STAMINA] Bank ready | STM 20 | combat resumes.
+05:13:27 | [QUEST PRIORITY] Daily Loot: loot | 7 remaining | estimated completion 7h 10m.
+05:13:27 | [TARGET AUDIT] 20 legal Loot targets checked; 12 ready now; Gray Wolf selected for the best immediate expected progress.
+05:13:27 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+05:13:27 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+05:13:27 | [NEEDS] HP 409/414, required 33 | STM 20/66, required 2 | estimated damage 15.
+05:13:27 | [PARALLEL] This action also advances: Hunt of the Day (28 left), Gatherer (19 left).
+05:13:27 | [TRAVEL] Ensuring zone: Greenwild Forest.
+05:13:27 | [ACTION] Starting Fight: Gray Wolf.
+05:13:29 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+05:13:42 | [PLAN] Attack now -> Gatherer (19 remaining) + 2 overlapping Quests | Gray Wolf.
+05:13:42 | [TASK] Gatherer (19 remaining) + 2 overlapping Quests: Gray Wolf | damage~14 | Gold/STM 1.50
+05:13:55 | [RESULT] Victory against Gray Wolf | HP 409 -> 406 | STM 20 -> 18.
+05:13:59 | [QUEST CHECK] Daily Loot did not progress after Gray Wolf | dry streak 1/6.
+05:13:59 | [QUEST PAUSE] Daily Loot is paused temporarily: a verified win produced no Loot progress and costs about 33m 1s of HP recovery.
+05:14:13 | [DAMAGE MODEL] Gray Wolf | estimate 14 | source recent-calibrated/1 prediction-floor pred=14 upper=7 floor=0.99.
+05:14:13 | [QUEST CAMPAIGN 2] First Training | training_area | 5 remaining | deadline-aware safe progress score.
+05:14:13 | [QUEST PRIORITY] First Training: kill | 5 remaining | estimated completion 14h 8m.
+05:14:13 | [QUEST PREP] First Training | optimizing Skills, equipment, attributes and Forge before combat.
+05:15:06 | [TARGET AUDIT] 1 safe Kill-any targets ranked by XP+Gold+Quest value; Straw Dummy selected | XP/h~0.0 | Gold/h~0.0 | value/h~228.1 | cycle 3h 32m.
+05:15:14 | [MISSION] Primary: First Training [MAIN] | KILL any in training_area | remaining 5.
+05:15:14 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+05:15:14 | [WAIT] Need HP +6453 | HP 407; safe target 6860; max 414 | STM 18/1 | natural ETA about 230h 27m.
+05:15:14 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+05:17:15 | [MISSION] Primary: First Training [MAIN] | KILL any in training_area | remaining 5.
+05:17:15 | [STEP] PRIMARY QUEST -> Straw Dummy in Training Area.
+05:17:15 | [NEEDS] HP 408/414, required 108 | STM 18/66, required 1 | estimated damage 99.
+05:17:15 | [PARALLEL] This action also advances: Hunt of the Day (27 left), Gatherer (19 left), Daily Loot (7 left).
+05:17:15 | [TRAVEL] Ensuring zone: Training Area.
+05:17:19 | [TRAVEL] Zone 4 -> 26.
+05:17:19 | [ACTION] Starting Fight: Straw Dummy.
+05:17:21 | [SUSTAIN FIGHT] Straw Dummy uses turn-based combat because normal full-fight safety is not satisfied.
+05:17:34 | [PLAN] Attack now -> Gatherer (19 remaining) + 3 overlapping Quests | Straw Dummy.
+05:17:34 | [TASK] Gatherer (19 remaining) + 3 overlapping Quests: Straw Dummy | damage~458 | Gold/STM 0.00
+05:17:39 | [COMBAT START] Sustain session opened for Straw Dummy.
+05:17:41 | [COMBAT ACTION] Straw Dummy | turn 2 | defensive_stance skill 3 | HP 395/414 | enemy 800/800 | enemy hit 15 | healed 0 | next bound 91 + reserve 9 | defense-adjusted-unknown.
+05:17:46 | [COMBAT ACTION] Straw Dummy | turn 3 | damage_skill skill 13 | HP 379/414 | enemy 699/800 | enemy hit 16 | healed 0 | next bound 32 + reserve 11 | warmup+new-phase.
+05:17:51 | [COMBAT ACTION] Straw Dummy | turn 4 | damage_skill skill 1 | HP 364/414 | enemy 640/800 | enemy hit 15 | healed 0 | next bound 34 + reserve 11 | warmup+new-phase.
+05:17:56 | [COMBAT ACTION] Straw Dummy | turn 4 | first_aid skill 22 | HP 414/414 | enemy 640/800 | enemy hit 0 | healed 50 | next bound 25 + reserve 11 | warmup.
+05:18:00 | [COMBAT ACTION] Straw Dummy | turn 5 | damage_skill skill 7 | HP 401/414 | enemy 620/800 | enemy hit 13 | healed 0 | next bound 25 + reserve 11 | warmup.
+05:18:05 | [COMBAT ACTION] Straw Dummy | turn 6 | damage_skill skill 13 | HP 377/414 | enemy 527/800 | enemy hit 24 | healed 0 | next bound 26 + reserve 11 | warmup.
+05:18:10 | [COMBAT ACTION] Straw Dummy | turn 7 | damage_skill skill 1 | HP 352/414 | enemy 468/800 | enemy hit 25 | healed 0 | next bound 47 + reserve 11 | warmup+spike+new-phase.
+05:18:15 | [COMBAT ACTION] Straw Dummy | turn 8 | life_drain skill 19 | HP 344/414 | enemy 449/800 | enemy hit 27 | healed 19 | next bound 44 + reserve 11 | warmup+new-phase.
+05:18:19 | [COMBAT ACTION] Straw Dummy | turn 9 | damage_skill skill 13 | HP 318/414 | enemy 357/800 | enemy hit 26 | healed 0 | next bound 48 + reserve 11 | warmup+new-phase.
+05:18:24 | [COMBAT ACTION] Straw Dummy | turn 10 | healing skill 10 | HP 333/414 | enemy 357/800 | enemy hit 25 | healed 40 | next bound 52 + reserve 11 | warmup+new-phase.
+05:18:29 | [COMBAT ACTION] Straw Dummy | turn 11 | damage_skill skill 1 | HP 307/414 | enemy 292/800 | enemy hit 26 | healed 0 | next bound 44 + reserve 11 | warmup+new-phase.
+05:18:34 | [COMBAT ACTION] Straw Dummy | turn 12 | damage_skill skill 13 | HP 282/414 | enemy 195/800 | enemy hit 25 | healed 0 | next bound 46 + reserve 11 | warmup+new-phase.
+05:18:38 | [COMBAT ACTION] Straw Dummy | turn 13 | mana_font skill 60 | HP 255/414 | enemy 195/800 | enemy hit 27 | healed 0 | next bound 53 + reserve 11 | warmup+new-phase.
+05:18:43 | [COMBAT ACTION] Straw Dummy | turn 14 | life_drain skill 19 | HP 252/414 | enemy 175/800 | enemy hit 23 | healed 20 | next bound 47 + reserve 11 | warmup+new-phase.
+05:18:48 | [COMBAT ACTION] Straw Dummy | turn 15 | damage_skill skill 13 | HP 228/414 | enemy 81/800 | enemy hit 24 | healed 0 | next bound 50 + reserve 11 | warmup+new-phase.
+05:18:53 | [COMBAT ACTION] Straw Dummy | turn 16 | damage_skill skill 1 | HP 228/414 | enemy 19/800 | enemy hit 0 | healed 0 | next bound 39 + reserve 11 | warmup.
+05:18:58 | [COMBAT ACTION] Straw Dummy | turn 16 | damage_skill skill 7 | HP 228/414 | enemy 0/800 | enemy hit 0 | healed 0 | next bound 39 + reserve 11 | warmup.
+05:19:10 | [RESULT] Victory against Straw Dummy | HP 410 -> 412 | STM 19 -> 19.
+05:19:15 | [QUEST PROGRESS] First Training via Straw Dummy | 5 -> 4.
+05:20:36 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+05:20:36 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+05:20:36 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+05:20:36 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+05:20:36 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+05:20:36 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+05:20:36 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+05:20:36 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+05:20:36 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+05:20:36 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+05:20:36 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/1 pred=458 avg=0.
+05:20:36 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+05:20:36 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+05:20:36 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+05:20:36 | [DAMAGE MODEL] Giant Spider | estimate 164 | source prediction-only pred=149.
+05:20:36 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+05:20:36 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+05:20:36 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+05:20:36 | [QUEST PRIORITY] First Training: kill | 4 remaining | estimated completion 4h 4m.
+05:20:36 | [TARGET AUDIT] 1 safe Kill-any targets ranked by XP+Gold+Quest value; Straw Dummy selected | XP/h~0.0 | Gold/h~0.0 | value/h~594.2 | cycle 1h 21m.
+05:20:36 | [MISSION] Primary: First Training [MAIN] | KILL any in training_area | remaining 4.
+05:20:36 | [STEP] PRIMARY QUEST -> Straw Dummy in Training Area.
+05:20:36 | [NEEDS] HP 412/414, required 49 | STM 19/66, required 1 | estimated damage 38.
+05:20:36 | [PARALLEL] This action also advances: Hunt of the Day (27 left), Gatherer (19 left), Daily Loot (7 left).
+05:20:36 | [TRAVEL] Ensuring zone: Training Area.
+05:20:36 | [ACTION] Starting Fight: Straw Dummy.
+05:20:39 | [SUSTAIN FIGHT] Straw Dummy uses turn-based combat because normal full-fight safety is not satisfied.
+05:20:54 | [COMBAT START] Sustain session opened for Straw Dummy.
+05:20:56 | [COMBAT ACTION] Straw Dummy | turn 2 | damage_skill skill 13 | HP 390/414 | enemy 707/800 | enemy hit 23 | healed 0 | next bound 38 + reserve 11 | warmup+spike.
+05:21:01 | [COMBAT ACTION] Straw Dummy | turn 3 | damage_skill skill 1 | HP 366/414 | enemy 642/800 | enemy hit 24 | healed 0 | next bound 37 + reserve 11 | warmup.
+05:21:06 | [COMBAT ACTION] Straw Dummy | turn 4 | life_drain skill 19 | HP 364/414 | enemy 617/800 | enemy hit 27 | healed 25 | next bound 38 + reserve 11 | warmup.
+05:21:11 | [COMBAT ACTION] Straw Dummy | turn 4 | first_aid skill 22 | HP 414/414 | enemy 617/800 | enemy hit 0 | healed 50 | next bound 41 + reserve 11 | warmup.
+05:21:16 | [COMBAT ACTION] Straw Dummy | turn 5 | damage_skill skill 13 | HP 390/414 | enemy 517/800 | enemy hit 24 | healed 0 | next bound 41 + reserve 11 | warmup.
+05:21:20 | [COMBAT ACTION] Straw Dummy | turn 6 | damage_skill skill 1 | HP 365/414 | enemy 453/800 | enemy hit 25 | healed 0 | next bound 39 + reserve 11 | warmup.
+05:21:25 | [COMBAT ACTION] Straw Dummy | turn 7 | damage_skill skill 7 | HP 340/414 | enemy 427/800 | enemy hit 25 | healed 0 | next bound 38 + reserve 11 | warmup.
+05:21:30 | [COMBAT ACTION] Straw Dummy | turn 8 | damage_skill skill 13 | HP 314/414 | enemy 327/800 | enemy hit 26 | healed 0 | next bound 38 + reserve 11 | warmup.
+05:21:35 | [COMBAT ACTION] Straw Dummy | turn 9 | healing skill 10 | HP 327/414 | enemy 327/800 | enemy hit 27 | healed 40 | next bound 37 + reserve 11 | warmup.
+05:21:40 | [COMBAT ACTION] Straw Dummy | turn 10 | life_drain skill 19 | HP 325/414 | enemy 302/800 | enemy hit 27 | healed 25 | next bound 38 + reserve 11 | warmup.
+05:21:45 | [COMBAT ACTION] Straw Dummy | turn 11 | mana_font skill 60 | HP 302/414 | enemy 302/800 | enemy hit 23 | healed 0 | next bound 39 + reserve 11 | warmup.
+05:21:49 | [COMBAT ACTION] Straw Dummy | turn 12 | damage_skill skill 13 | HP 275/414 | enemy 201/800 | enemy hit 27 | healed 0 | next bound 39 + reserve 11 | warmup.
+05:21:54 | [COMBAT ACTION] Straw Dummy | turn 13 | damage_skill skill 1 | HP 251/414 | enemy 145/800 | enemy hit 24 | healed 0 | next bound 40 + reserve 11 | warmup.
+05:21:59 | [COMBAT ACTION] Straw Dummy | turn 14 | damage_skill skill 7 | HP 224/414 | enemy 127/800 | enemy hit 27 | healed 0 | next bound 39 + reserve 11 | warmup.
+05:22:04 | [COMBAT ACTION] Straw Dummy | turn 15 | damage_skill skill 13 | HP 200/414 | enemy 35/800 | enemy hit 24 | healed 0 | next bound 40 + reserve 11 | warmup.
+05:22:09 | [COMBAT ACTION] Straw Dummy | turn 15 | damage_skill skill 1 | HP 200/414 | enemy 0/800 | enemy hit 0 | healed 0 | next bound 39 + reserve 11 | warmup.
+05:22:21 | [RESULT] Victory against Straw Dummy | HP 413 -> 414 | STM 19 -> 19.
+05:22:26 | [QUEST PROGRESS] First Training via Straw Dummy | 4 -> 3.
+05:23:48 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+05:23:48 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/2 pred=458 avg=0.
+05:23:48 | [QUEST PRIORITY] First Training: kill | 3 remaining | estimated completion 2h 55m.
+05:23:48 | [TARGET AUDIT] 1 safe Kill-any targets ranked by XP+Gold+Quest value; Straw Dummy selected | XP/h~0.0 | Gold/h~0.0 | value/h~550.7 | cycle 1h 27m.
+05:23:48 | [MISSION] Primary: First Training [MAIN] | KILL any in training_area | remaining 3.
+05:23:48 | [STEP] PRIMARY QUEST -> Straw Dummy in Training Area.
+05:23:48 | [NEEDS] HP 414/414, required 52 | STM 20/66, required 1 | estimated damage 41.
+05:23:48 | [PARALLEL] This action also advances: Hunt of the Day (27 left), Gatherer (19 left), Daily Loot (7 left).
+05:23:48 | [TRAVEL] Ensuring zone: Training Area.
+05:23:48 | [ACTION] Starting Fight: Straw Dummy.
+05:23:50 | [SUSTAIN FIGHT] Straw Dummy uses turn-based combat because normal full-fight safety is not satisfied.
+05:24:05 | [COMBAT START] Sustain session opened for Straw Dummy.
+05:24:08 | [COMBAT ACTION] Straw Dummy | turn 2 | damage_skill skill 13 | HP 387/414 | enemy 702/800 | enemy hit 27 | healed 0 | next bound 41 + reserve 11 | warmup.
+05:24:12 | [COMBAT ACTION] Straw Dummy | turn 3 | damage_skill skill 1 | HP 360/414 | enemy 646/800 | enemy hit 27 | healed 0 | next bound 43 + reserve 11 | warmup.
+05:24:17 | [COMBAT ACTION] Straw Dummy | turn 3 | first_aid skill 22 | HP 414/414 | enemy 646/800 | enemy hit 0 | healed 54 | next bound 43 + reserve 11 | warmup.
+05:24:22 | [COMBAT ACTION] Straw Dummy | turn 4 | damage_skill skill 7 | HP 391/414 | enemy 620/800 | enemy hit 23 | healed 0 | next bound 43 + reserve 11 | warmup.
+05:24:27 | [COMBAT ACTION] Straw Dummy | turn 5 | damage_skill skill 13 | HP 365/414 | enemy 520/800 | enemy hit 26 | healed 0 | next bound 43 + reserve 11 | warmup.
+05:24:31 | [COMBAT ACTION] Straw Dummy | turn 6 | life_drain skill 19 | HP 361/414 | enemy 501/800 | enemy hit 23 | healed 19 | next bound 38 + reserve 11 | warmup.
+05:24:36 | [COMBAT ACTION] Straw Dummy | turn 7 | damage_skill skill 1 | HP 335/414 | enemy 445/800 | enemy hit 26 | healed 0 | next bound 39 + reserve 11 | warmup.
+05:24:41 | [COMBAT ACTION] Straw Dummy | turn 8 | damage_skill skill 13 | HP 309/414 | enemy 350/800 | enemy hit 26 | healed 0 | next bound 34 + reserve 5 | mature.
+05:24:46 | [COMBAT ACTION] Straw Dummy | turn 9 | healing skill 10 | HP 323/414 | enemy 350/800 | enemy hit 26 | healed 40 | next bound 35 + reserve 5 | mature.
+05:24:51 | [COMBAT ACTION] Straw Dummy | turn 10 | damage_skill skill 1 | HP 296/414 | enemy 293/800 | enemy hit 27 | healed 0 | next bound 35 + reserve 5 | mature.
+05:24:55 | [COMBAT ACTION] Straw Dummy | turn 11 | damage_skill skill 13 | HP 272/414 | enemy 195/800 | enemy hit 24 | healed 0 | next bound 35 + reserve 5 | mature.
+05:25:00 | [COMBAT ACTION] Straw Dummy | turn 12 | life_drain skill 19 | HP 269/414 | enemy 175/800 | enemy hit 23 | healed 20 | next bound 39 + reserve 11 | warmup.
+05:25:05 | [COMBAT ACTION] Straw Dummy | turn 13 | mana_font skill 60 | HP 244/414 | enemy 175/800 | enemy hit 25 | healed 0 | next bound 39 + reserve 11 | warmup.
+05:25:10 | [COMBAT ACTION] Straw Dummy | turn 14 | damage_skill skill 13 | HP 218/414 | enemy 82/800 | enemy hit 26 | healed 0 | next bound 39 + reserve 11 | warmup.
+05:25:14 | [COMBAT ACTION] Straw Dummy | turn 15 | damage_skill skill 1 | HP 191/414 | enemy 22/800 | enemy hit 27 | healed 0 | next bound 35 + reserve 5 | mature.
+05:25:19 | [COMBAT ACTION] Straw Dummy | turn 16 | healing skill 10 | HP 205/414 | enemy 22/800 | enemy hit 26 | healed 40 | next bound 35 + reserve 5 | mature.
+05:25:24 | [COMBAT ACTION] Straw Dummy | turn 16 | first_aid skill 22 | HP 287/414 | enemy 22/800 | enemy hit 0 | healed 82 | next bound 35 + reserve 5 | mature.
+05:25:29 | [COMBAT ACTION] Straw Dummy | turn 16 | damage_skill skill 13 | HP 287/414 | enemy 0/800 | enemy hit 0 | healed 0 | next bound 35 + reserve 5 | mature.
+05:25:41 | [RESULT] Victory against Straw Dummy | HP 414 -> 414 | STM 20 -> 20.
+05:25:46 | [QUEST PROGRESS] First Training via Straw Dummy | 3 -> 2.
+05:27:07 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/3 pred=458 avg=0.
+05:27:07 | [DAMAGE MODEL] Bandit Thug | estimate 39 | source recent-calibrated/2 prediction-floor pred=40 upper=34 floor=0.97.
+05:27:07 | [QUEST PRIORITY] First Training: kill | 2 remaining | estimated completion 1h 23m.
+05:27:07 | [TARGET AUDIT] 1 safe Kill-any targets ranked by XP+Gold+Quest value; Straw Dummy selected | XP/h~0.0 | Gold/h~0.0 | value/h~579.0 | cycle 1h 23m.
+05:27:07 | [MISSION] Primary: First Training [MAIN] | KILL any in training_area | remaining 2.
+05:27:07 | [STEP] PRIMARY QUEST -> Straw Dummy in Training Area.
+05:27:07 | [NEEDS] HP 414/414, required 44 | STM 20/66, required 1 | estimated damage 39.
+05:27:07 | [PARALLEL] This action also advances: Hunt of the Day (27 left), Gatherer (19 left), Daily Loot (7 left).
+05:27:07 | [TRAVEL] Ensuring zone: Training Area.
+05:27:07 | [ACTION] Starting Fight: Straw Dummy.
+05:27:10 | [SUSTAIN FIGHT] Straw Dummy uses turn-based combat because normal full-fight safety is not satisfied.
+05:27:25 | [COMBAT START] Sustain session opened for Straw Dummy.
+05:27:27 | [COMBAT ACTION] Straw Dummy | turn 2 | damage_skill skill 13 | HP 388/414 | enemy 708/800 | enemy hit 26 | healed 0 | next bound 39 + reserve 5 | mature.
+05:27:32 | [COMBAT ACTION] Straw Dummy | turn 3 | damage_skill skill 1 | HP 364/414 | enemy 645/800 | enemy hit 24 | healed 0 | next bound 35 + reserve 5 | mature.
+05:27:37 | [COMBAT ACTION] Straw Dummy | turn 3 | first_aid skill 22 | HP 414/414 | enemy 645/800 | enemy hit 0 | healed 50 | next bound 35 + reserve 5 | mature.
+05:27:42 | [COMBAT ACTION] Straw Dummy | turn 4 | damage_skill skill 7 | HP 388/414 | enemy 625/800 | enemy hit 26 | healed 0 | next bound 35 + reserve 5 | mature.
+05:27:46 | [COMBAT ACTION] Straw Dummy | turn 5 | damage_skill skill 13 | HP 361/414 | enemy 532/800 | enemy hit 27 | healed 0 | next bound 35 + reserve 5 | mature.
+05:27:51 | [COMBAT ACTION] Straw Dummy | turn 6 | life_drain skill 19 | HP 360/414 | enemy 508/800 | enemy hit 25 | healed 24 | next bound 38 + reserve 11 | warmup.
+05:27:56 | [COMBAT ACTION] Straw Dummy | turn 7 | damage_skill skill 1 | HP 333/414 | enemy 452/800 | enemy hit 27 | healed 0 | next bound 38 + reserve 11 | warmup.
+05:28:01 | [COMBAT ACTION] Straw Dummy | turn 8 | damage_skill skill 13 | HP 306/414 | enemy 353/800 | enemy hit 27 | healed 0 | next bound 34 + reserve 5 | mature.
+05:28:05 | [COMBAT ACTION] Straw Dummy | turn 9 | healing skill 10 | HP 322/414 | enemy 353/800 | enemy hit 24 | healed 40 | next bound 35 + reserve 5 | mature.
+05:28:10 | [COMBAT ACTION] Straw Dummy | turn 10 | damage_skill skill 1 | HP 298/414 | enemy 288/800 | enemy hit 24 | healed 0 | next bound 35 + reserve 5 | mature.
+05:28:15 | [COMBAT ACTION] Straw Dummy | turn 11 | damage_skill skill 13 | HP 271/414 | enemy 190/800 | enemy hit 27 | healed 0 | next bound 35 + reserve 5 | mature.
+05:28:20 | [COMBAT ACTION] Straw Dummy | turn 12 | life_drain skill 19 | HP 269/414 | enemy 169/800 | enemy hit 23 | healed 21 | next bound 35 + reserve 5 | mature.
+05:28:24 | [COMBAT ACTION] Straw Dummy | turn 13 | mana_font skill 60 | HP 243/414 | enemy 169/800 | enemy hit 26 | healed 0 | next bound 35 + reserve 5 | mature.
+05:28:29 | [COMBAT ACTION] Straw Dummy | turn 14 | damage_skill skill 13 | HP 220/414 | enemy 68/800 | enemy hit 23 | healed 0 | next bound 35 + reserve 5 | mature.
+05:28:34 | [COMBAT ACTION] Straw Dummy | turn 15 | damage_skill skill 1 | HP 196/414 | enemy 2/800 | enemy hit 24 | healed 0 | next bound 35 + reserve 5 | mature.
+05:28:39 | [COMBAT ACTION] Straw Dummy | turn 16 | healing skill 10 | HP 210/414 | enemy 2/800 | enemy hit 26 | healed 40 | next bound 35 + reserve 5 | mature.
+05:28:43 | [COMBAT ACTION] Straw Dummy | turn 16 | first_aid skill 22 | HP 292/414 | enemy 2/800 | enemy hit 0 | healed 82 | next bound 35 + reserve 5 | mature.
+05:28:48 | [COMBAT ACTION] Straw Dummy | turn 16 | damage_skill skill 13 | HP 292/414 | enemy 0/800 | enemy hit 0 | healed 0 | next bound 35 + reserve 5 | mature.
+05:29:00 | [RESULT] Victory against Straw Dummy | HP 414 -> 414 | STM 20 -> 21.
+05:29:05 | [QUEST PROGRESS] First Training via Straw Dummy | 2 -> 1.
+05:30:03 | [NETWORK] System proxy connection failed; switched to direct connection.
+05:30:56 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/4 pred=458 avg=0.
+05:30:56 | [QUEST CAMPAIGN 3] Hunt of the Day | any | 27 remaining | higher deadline class preempted current campaign.
+05:30:56 | [QUEST PRIORITY] Hunt of the Day: kill | 27 remaining | estimated completion 12h 56m.
+05:30:56 | [QUEST PREP] Hunt of the Day | optimizing Skills, equipment, attributes and Forge before combat.
+05:31:48 | [TARGET AUDIT] 11 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~14.1 | Gold/h~6.0 | value/h~1232.2 | cycle 29m 51s.
+05:31:56 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 27.
+05:31:56 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+05:31:56 | [WAIT] Need HP +6446 | HP 414; safe target 6860; max 414 | STM 21/1 | natural ETA about 230h 12m.
+05:31:56 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+05:33:53 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 27.
+05:33:53 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+05:33:53 | [NEEDS] HP 414/414, required 31 | STM 21/66, required 2 | estimated damage 14.
+05:33:53 | [PARALLEL] This action also advances: Gatherer (19 left), Daily Loot (7 left).
+05:33:53 | [TRAVEL] Ensuring zone: Greenwild Forest.
+05:33:59 | [TRAVEL] Zone 26 -> 4.
+05:33:59 | [ACTION] Starting Fight: Gray Wolf.
+05:34:02 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+05:34:14 | [PLAN] Attack now -> Gatherer (19 remaining) + 2 overlapping Quests | Gray Wolf.
+05:34:14 | [TASK] Gatherer (19 remaining) + 2 overlapping Quests: Gray Wolf | damage~14 | Gold/STM 1.50
+05:34:27 | [RESULT] Victory against Gray Wolf | HP 414 -> 413 | STM 22 -> 20.
+05:34:32 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 27 -> 26.
+05:34:50 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/2 prediction-floor pred=7 upper=7 floor=1.02.
+05:34:50 | [QUEST PRIORITY] Hunt of the Day: kill | 26 remaining | estimated completion 6h 22m.
+05:34:50 | [TARGET AUDIT] 11 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~27.5 | Gold/h~11.8 | value/h~2404.1 | cycle 15m 18s.
+05:34:50 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 26.
+05:34:50 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+05:34:50 | [NEEDS] HP 413/414, required 24 | STM 20/66, required 2 | estimated damage 7.
+05:34:50 | [PARALLEL] This action also advances: Gatherer (19 left), Daily Loot (7 left).
+05:34:50 | [TRAVEL] Ensuring zone: Greenwild Forest.
+05:34:50 | [ACTION] Starting Fight: Gray Wolf.
+05:34:53 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+05:35:18 | [RESULT] Victory against Gray Wolf | HP 413 -> 412 | STM 20 -> 18.
+05:35:23 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 26 -> 25.
+05:35:37 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/3 prediction-floor pred=7 upper=7 floor=1.02.
+05:35:37 | [QUEST PRIORITY] Hunt of the Day: kill | 25 remaining | estimated completion 6h 7m.
+05:35:37 | [TRAVEL] Ensuring zone: Greenwild Forest.
+05:35:37 | [ACTION] Starting Fight: Gray Wolf.
+05:35:39 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+05:35:57 | [FARM] LV 10 | HP 409/414 | MP 119/119 | STM 16/66 | Gold 2298 | Battles 10 | last Gray Wolf | damage 3 | +2 Gold
+05:36:04 | [RESULT] Victory against Gray Wolf | HP 412 -> 410 | STM 18 -> 16.
+05:36:09 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 25 -> 24.
+05:37:30 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/4 recent-upper pred=7 upper=7 floor=1.02.
+05:37:30 | [QUEST PRIORITY] Hunt of the Day: kill | 24 remaining | estimated completion 5h 56m.
+05:37:30 | [TRAVEL] Ensuring zone: Greenwild Forest.
+05:37:30 | [ACTION] Starting Fight: Gray Wolf.
+05:37:33 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+05:37:58 | [RESULT] Victory against Gray Wolf | HP 411 -> 409 | STM 16 -> 14.
+05:38:03 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 24 -> 23.
+05:38:22 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/5 prediction-floor pred=7 upper=7 floor=1.02.
+05:38:22 | [QUEST PRIORITY] Hunt of the Day: kill | 23 remaining | estimated completion 5h 36m.
+05:38:22 | [TRAVEL] Ensuring zone: Greenwild Forest.
+05:38:22 | [ACTION] Starting Fight: Gray Wolf.
+05:38:24 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+05:38:49 | [RESULT] Victory against Gray Wolf | HP 410 -> 408 | STM 14 -> 13.
+05:38:54 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 23 -> 22.
+05:39:08 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+05:39:08 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/6 prediction-floor pred=7 upper=7 floor=1.02.
+05:39:08 | [QUEST PRIORITY] Hunt of the Day: kill | 22 remaining | estimated completion 5h 21m.
+05:39:08 | [TRAVEL] Ensuring zone: Greenwild Forest.
+05:39:08 | [ACTION] Starting Fight: Gray Wolf.
+05:39:11 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+05:39:36 | [RESULT] Victory against Gray Wolf | HP 409 -> 406 | STM 13 -> 11.
+05:39:41 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 22 -> 21.
+05:40:34 | [BOX] Opened 1x box_common.
+05:41:06 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/7 prediction-floor pred=7 upper=7 floor=1.02.
+05:41:06 | [QUEST PRIORITY] Hunt of the Day: kill | 21 remaining | estimated completion 5h 6m.
+05:41:06 | [TRAVEL] Ensuring zone: Greenwild Forest.
+05:41:06 | [ACTION] Starting Fight: Gray Wolf.
+05:41:08 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+05:41:33 | [RESULT] Victory against Gray Wolf | HP 408 -> 405 | STM 11 -> 9.
+05:41:38 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 21 -> 20.
+05:41:57 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 recent-upper pred=7 upper=7 floor=1.02.
+05:41:57 | [QUEST PRIORITY] Hunt of the Day: kill | 20 remaining | estimated completion 4h 54m.
+05:41:57 | [TRAVEL] Ensuring zone: Greenwild Forest.
+05:41:57 | [ACTION] Starting Fight: Gray Wolf.
+05:41:59 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+05:42:24 | [RESULT] Victory against Gray Wolf | HP 406 -> 404 | STM 9 -> 7.
+05:42:29 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 20 -> 19.
+05:42:43 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 prediction-floor pred=7 upper=7 floor=1.02.
+05:42:43 | [QUEST PRIORITY] Hunt of the Day: kill | 19 remaining | estimated completion 4h 35m.
+05:42:43 | [TRAVEL] Ensuring zone: Greenwild Forest.
+05:42:43 | [ACTION] Starting Fight: Gray Wolf.
+05:42:46 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+05:43:11 | [RESULT] Victory against Gray Wolf | HP 404 -> 404 | STM 7 -> 5.
+05:43:16 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 19 -> 18.
+05:43:39 | [CRAFT PLAN] Apprentice Alchemist | recipe Pocion de Mana | next Craft needs: herbcommon x2.
+05:44:44 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 18.
+05:44:44 | [STEP] RESOURCE PREPARATION -> Mine Foreman.
+05:44:44 | [WAIT] Need STM +1 | HP 404; safe target 327; max 414 | STM 5/6 | natural ETA about 5m 28s.
+05:44:44 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+05:51:23 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+05:51:23 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+05:51:23 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+05:51:23 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+05:51:23 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+05:51:23 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+05:51:23 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+05:51:23 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+05:51:23 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+05:51:23 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+05:51:23 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+05:51:23 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+05:51:23 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+05:51:23 | [DAMAGE MODEL] Giant Spider | estimate 164 | source prediction-only pred=149.
+05:51:23 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+05:51:23 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+05:51:23 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+05:55:06 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+05:55:06 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 18.
+05:55:06 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+05:55:06 | [WAIT] Need HP +6446 | HP 414; safe target 6860; max 414 | STM 7/1 | natural ETA about 230h 12m.
+05:55:06 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+05:58:02 | [DAMAGE MODEL] Bandit Thug | estimate 39 | source recent-calibrated/2 prediction-floor pred=40 upper=34 floor=0.97.
+06:01:45 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/4 pred=458 avg=0.
+06:05:36 | [TARGET AUDIT] 11 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~27.5 | Gold/h~11.8 | value/h~2404.1 | cycle 15m 18s.
+06:05:36 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 18.
+06:05:36 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+06:05:36 | [WAIT] Need HP +6446 | HP 414; safe target 6860; max 414 | STM 9/1 | natural ETA about 230h 12m.
+06:05:36 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+06:11:09 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+06:12:55 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 prediction-floor pred=7 upper=7 floor=1.02.
+06:15:55 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 18.
+06:15:55 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+06:15:55 | [WAIT] Need HP +6446 | HP 414; safe target 6860; max 414 | STM 11/1 | natural ETA about 230h 12m.
+06:15:55 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+06:21:31 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+06:21:31 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+06:21:31 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+06:21:31 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+06:21:31 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+06:21:31 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+06:21:31 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+06:21:31 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+06:21:31 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+06:21:31 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+06:21:31 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+06:21:31 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+06:21:31 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+06:21:31 | [DAMAGE MODEL] Giant Spider | estimate 164 | source prediction-only pred=149.
+06:21:31 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+06:21:31 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+06:21:31 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+06:26:12 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+06:26:12 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 18.
+06:26:12 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+06:26:12 | [WAIT] Need HP +6446 | HP 414; safe target 6860; max 414 | STM 13/1 | natural ETA about 230h 12m.
+06:26:12 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+06:28:10 | [DAMAGE MODEL] Bandit Thug | estimate 39 | source recent-calibrated/2 prediction-floor pred=40 upper=34 floor=0.97.
+06:32:01 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/4 pred=458 avg=0.
+06:35:44 | [TARGET AUDIT] 11 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~27.5 | Gold/h~11.8 | value/h~2404.1 | cycle 15m 18s.
+06:37:44 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 18.
+06:37:44 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+06:37:44 | [WAIT] Need HP +6446 | HP 414; safe target 6860; max 414 | STM 15/1 | natural ETA about 230h 12m.
+06:37:44 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+06:41:28 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+06:44:23 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 prediction-floor pred=7 upper=7 floor=1.02.
+06:48:06 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 18.
+06:48:06 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+06:48:06 | [WAIT] Need HP +6446 | HP 414; safe target 6860; max 414 | STM 17/1 | natural ETA about 230h 12m.
+06:48:06 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+06:51:57 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+06:51:57 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+06:51:57 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+06:51:57 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+06:51:57 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+06:51:57 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+06:51:57 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+06:51:57 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+06:51:57 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+06:51:57 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+06:51:57 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+06:51:57 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+06:51:57 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+06:51:57 | [DAMAGE MODEL] Giant Spider | estimate 164 | source prediction-only pred=149.
+06:51:57 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+06:51:57 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+06:51:57 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+06:57:41 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+06:58:36 | [DAMAGE MODEL] Bandit Thug | estimate 39 | source recent-calibrated/2 prediction-floor pred=40 upper=34 floor=0.97.
+06:58:36 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 18.
+06:58:36 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+06:58:36 | [WAIT] Need HP +6446 | HP 414; safe target 6860; max 414 | STM 19/1 | natural ETA about 230h 12m.
+06:58:36 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+07:02:19 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/4 pred=458 avg=0.
+07:02:19 | [STAMINA] Bank ready | STM 20 | combat resumes.
+07:02:19 | [QUEST PRIORITY] Hunt of the Day: kill | 18 remaining | estimated completion 4h 20m.
+07:02:19 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 18.
+07:02:19 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+07:02:19 | [NEEDS] HP 414/414, required 24 | STM 20/66, required 2 | estimated damage 7.
+07:02:19 | [PARALLEL] This action also advances: Gatherer (19 left), Daily Loot (7 left).
+07:02:19 | [TRAVEL] Ensuring zone: Greenwild Forest.
+07:02:19 | [ACTION] Starting Fight: Gray Wolf.
+07:02:22 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+07:02:47 | [RESULT] Victory against Gray Wolf | HP 414 -> 412 | STM 20 -> 18.
+07:02:52 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 18 -> 17.
+07:03:06 | [QUEST PRIORITY] Hunt of the Day: kill | 17 remaining | estimated completion 4h 4m.
+07:03:06 | [TRAVEL] Ensuring zone: Greenwild Forest.
+07:03:06 | [ACTION] Starting Fight: Gray Wolf.
+07:03:08 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+07:03:21 | [PLAN] Attack now -> Hunt of the Day (17 remaining) + 2 overlapping Quests | Gray Wolf.
+07:03:21 | [TASK] Hunt of the Day (17 remaining) + 2 overlapping Quests: Gray Wolf | damage~7 | Gold/STM 1.59
+07:03:33 | [RESULT] Victory against Gray Wolf | HP 413 -> 412 | STM 18 -> 16.
+07:03:38 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 17 -> 16.
+07:04:59 | [QUEST PRIORITY] Hunt of the Day: kill | 16 remaining | estimated completion 3h 49m.
+07:04:59 | [TRAVEL] Ensuring zone: Greenwild Forest.
+07:04:59 | [ACTION] Starting Fight: Gray Wolf.
+07:05:02 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+07:05:14 | [PLAN] Attack now -> Hunt of the Day (16 remaining) + 2 overlapping Quests | Gray Wolf.
+07:05:14 | [TASK] Hunt of the Day (16 remaining) + 2 overlapping Quests: Gray Wolf | damage~7 | Gold/STM 1.62
+07:05:27 | [RESULT] Victory against Gray Wolf | HP 414 -> 411 | STM 16 -> 14.
+07:05:32 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 16 -> 15.
+07:05:51 | [QUEST PRIORITY] Hunt of the Day: kill | 15 remaining | estimated completion 3h 34m.
+07:05:51 | [TARGET AUDIT] 11 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~27.5 | Gold/h~11.8 | value/h~2404.1 | cycle 15m 18s.
+07:05:51 | [TRAVEL] Ensuring zone: Greenwild Forest.
+07:05:51 | [ACTION] Starting Fight: Gray Wolf.
+07:05:53 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+07:06:06 | [PLAN] Attack now -> Hunt of the Day (15 remaining) + 2 overlapping Quests | Gray Wolf.
+07:06:06 | [TASK] Hunt of the Day (15 remaining) + 2 overlapping Quests: Gray Wolf | damage~7 | Gold/STM 1.65
+07:06:11 | [FARM] LV 10 | HP 409/414 | MP 119/119 | STM 13/66 | Gold 2331 | Battles 20 | last Gray Wolf | damage 3 | +4 Gold
+07:06:18 | [RESULT] Victory against Gray Wolf | HP 411 -> 409 | STM 14 -> 13.
+07:06:23 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 15 -> 14.
+07:06:37 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 recent-upper pred=7 upper=7 floor=1.02.
+07:06:37 | [QUEST PRIORITY] Hunt of the Day: kill | 14 remaining | estimated completion 3h 21m.
+07:06:37 | [TRAVEL] Ensuring zone: Greenwild Forest.
+07:06:37 | [ACTION] Starting Fight: Gray Wolf.
+07:06:39 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+07:06:52 | [PLAN] Attack now -> Hunt of the Day (14 remaining) + 2 overlapping Quests | Gray Wolf.
+07:06:52 | [TASK] Hunt of the Day (14 remaining) + 2 overlapping Quests: Gray Wolf | damage~7 | Gold/STM 1.68
+07:07:04 | [RESULT] Victory against Gray Wolf | HP 409 -> 408 | STM 13 -> 11.
+07:07:09 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 14 -> 13.
+07:08:31 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 prediction-floor pred=7 upper=7 floor=1.02.
+07:08:31 | [QUEST PRIORITY] Hunt of the Day: kill | 13 remaining | estimated completion 3h 3m.
+07:08:31 | [TRAVEL] Ensuring zone: Greenwild Forest.
+07:08:31 | [ACTION] Starting Fight: Gray Wolf.
+07:08:33 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+07:08:46 | [PLAN] Attack now -> Hunt of the Day (13 remaining) + 2 overlapping Quests | Gray Wolf.
+07:08:46 | [TASK] Hunt of the Day (13 remaining) + 2 overlapping Quests: Gray Wolf | damage~7 | Gold/STM 1.70
+07:08:58 | [RESULT] Victory against Gray Wolf | HP 409 -> 407 | STM 11 -> 9.
+07:09:03 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 13 -> 12.
+07:09:22 | [QUEST PRIORITY] Hunt of the Day: kill | 12 remaining | estimated completion 2h 48m.
+07:09:22 | [TRAVEL] Ensuring zone: Greenwild Forest.
+07:09:22 | [ACTION] Starting Fight: Gray Wolf.
+07:09:24 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+07:09:37 | [PLAN] Attack now -> Hunt of the Day (12 remaining) + 2 overlapping Quests | Gray Wolf.
+07:09:37 | [TASK] Hunt of the Day (12 remaining) + 2 overlapping Quests: Gray Wolf | damage~7 | Gold/STM 1.69
+07:09:49 | [RESULT] Victory against Gray Wolf | HP 408 -> 405 | STM 9 -> 7.
+07:09:54 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 12 -> 11.
+07:10:08 | [QUEST PRIORITY] Hunt of the Day: kill | 11 remaining | estimated completion 2h 33m.
+07:10:08 | [TRAVEL] Ensuring zone: Greenwild Forest.
+07:10:08 | [ACTION] Starting Fight: Gray Wolf.
+07:10:11 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+07:10:23 | [PLAN] Attack now -> Hunt of the Day (11 remaining) + 2 overlapping Quests | Gray Wolf.
+07:10:23 | [TASK] Hunt of the Day (11 remaining) + 2 overlapping Quests: Gray Wolf | damage~7 | Gold/STM 1.68
+07:10:36 | [RESULT] Victory against Gray Wolf | HP 406 -> 404 | STM 7 -> 5.
+07:10:41 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 11 -> 10.
+07:11:34 | [BOX] Opened 1x box_common.
+07:12:13 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 10.
+07:12:13 | [STEP] RESOURCE PREPARATION -> Mine Foreman.
+07:12:13 | [WAIT] Need STM +1 | HP 404; safe target 327; max 414 | STM 5/6 | natural ETA about 5m 28s.
+07:12:13 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+07:13:08 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+07:22:35 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+07:22:35 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+07:22:35 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+07:22:35 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+07:22:35 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+07:22:35 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+07:22:35 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+07:22:35 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+07:22:35 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+07:22:35 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+07:22:35 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+07:22:35 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+07:22:35 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+07:22:35 | [DAMAGE MODEL] Giant Spider | estimate 164 | source prediction-only pred=149.
+07:22:35 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+07:22:35 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+07:22:35 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+07:22:35 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 10.
+07:22:35 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+07:22:35 | [WAIT] Need HP +6446 | HP 414; safe target 6860; max 414 | STM 7/1 | natural ETA about 230h 12m.
+07:22:35 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+07:25:08 | [NETWORK] Read failed 1/3; retrying in 8s.
+07:28:59 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+07:28:59 | [DAMAGE MODEL] Bandit Thug | estimate 39 | source recent-calibrated/2 prediction-floor pred=40 upper=34 floor=0.97.
+07:32:50 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/4 pred=458 avg=0.
+07:32:50 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 10.
+07:32:50 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+07:32:50 | [WAIT] Need HP +6446 | HP 414; safe target 6860; max 414 | STM 9/1 | natural ETA about 230h 12m.
+07:32:50 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+07:36:33 | [TARGET AUDIT] 11 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~27.5 | Gold/h~11.8 | value/h~2404.1 | cycle 15m 18s.
+07:39:29 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 prediction-floor pred=7 upper=7 floor=1.02.
+07:43:20 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 10.
+07:43:20 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+07:43:20 | [WAIT] Need HP +6446 | HP 414; safe target 6860; max 414 | STM 11/1 | natural ETA about 230h 12m.
+07:43:20 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+07:44:15 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+07:53:42 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+07:53:42 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+07:53:42 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+07:53:42 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+07:53:42 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+07:53:42 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+07:53:42 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+07:53:42 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+07:53:42 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+07:53:42 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+07:53:42 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+07:53:42 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+07:53:42 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+07:53:42 | [DAMAGE MODEL] Giant Spider | estimate 164 | source prediction-only pred=149.
+07:53:42 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+07:53:42 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+07:53:42 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+07:53:42 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 10.
+07:53:42 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+07:53:42 | [WAIT] Need HP +6446 | HP 414; safe target 6860; max 414 | STM 13/1 | natural ETA about 230h 12m.
+07:53:42 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+08:00:22 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+08:00:22 | [DAMAGE MODEL] Bandit Thug | estimate 39 | source recent-calibrated/2 prediction-floor pred=40 upper=34 floor=0.97.
+08:03:17 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/4 pred=458 avg=0.
+08:04:12 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 10.
+08:04:12 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+08:04:12 | [WAIT] Need HP +6446 | HP 414; safe target 6860; max 414 | STM 15/1 | natural ETA about 230h 12m.
+08:04:12 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+08:07:01 | [TARGET AUDIT] 11 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~27.5 | Gold/h~11.8 | value/h~2404.1 | cycle 15m 18s.
+08:09:56 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 prediction-floor pred=7 upper=7 floor=1.02.
+08:14:43 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 10.
+08:14:43 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+08:14:43 | [WAIT] Need HP +6446 | HP 414; safe target 6860; max 414 | STM 17/1 | natural ETA about 230h 12m.
+08:14:43 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+08:16:38 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+08:24:13 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+08:24:13 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+08:24:13 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+08:24:13 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+08:24:13 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+08:24:13 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+08:24:13 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+08:24:13 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+08:24:13 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+08:24:13 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+08:24:13 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+08:24:13 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+08:24:13 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+08:24:13 | [DAMAGE MODEL] Giant Spider | estimate 164 | source prediction-only pred=149.
+08:24:13 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+08:24:13 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+08:24:13 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+08:25:04 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 10.
+08:25:04 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+08:25:04 | [WAIT] Need HP +6446 | HP 414; safe target 6860; max 414 | STM 19/1 | natural ETA about 230h 12m.
+08:25:04 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+08:27:57 | [STAMINA] Bank ready | STM 20 | combat resumes.
+08:27:57 | [QUEST PRIORITY] Hunt of the Day: kill | 10 remaining | estimated completion 2h 17m.
+08:27:57 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 10.
+08:27:57 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+08:27:57 | [NEEDS] HP 414/414, required 24 | STM 20/66, required 2 | estimated damage 7.
+08:27:57 | [PARALLEL] This action also advances: Gatherer (19 left), Daily Loot (7 left).
+08:27:57 | [TRAVEL] Ensuring zone: Greenwild Forest.
+08:27:57 | [ACTION] Starting Fight: Gray Wolf.
+08:27:59 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+08:28:12 | [PLAN] Attack now -> Hunt of the Day (10 remaining) + 2 overlapping Quests | Gray Wolf.
+08:28:12 | [TASK] Hunt of the Day (10 remaining) + 2 overlapping Quests: Gray Wolf | damage~7 | Gold/STM 1.69
+08:28:24 | [RESULT] Victory against Gray Wolf | HP 414 -> 412 | STM 20 -> 18.
+08:28:29 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 10 -> 9.
+08:28:43 | [QUEST PRIORITY] Hunt of the Day: kill | 9 remaining | estimated completion 2h 2m.
+08:28:43 | [TRAVEL] Ensuring zone: Greenwild Forest.
+08:28:43 | [ACTION] Starting Fight: Gray Wolf.
+08:28:45 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+08:28:58 | [PLAN] Attack now -> Hunt of the Day (9 remaining) + 2 overlapping Quests | Gray Wolf.
+08:28:58 | [TASK] Hunt of the Day (9 remaining) + 2 overlapping Quests: Gray Wolf | damage~7 | Gold/STM 1.71
+08:29:10 | [RESULT] Victory against Gray Wolf | HP 412 -> 411 | STM 18 -> 16.
+08:29:15 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 9 -> 8.
+08:29:39 | [CRAFT ACTION] Vital Restoration | crafting Stamina 20 x1.
+08:29:50 | [CRAFT PROGRESS] Vital Restoration | 3 -> 2.
+08:29:50 | [CRAFT PLAN] Apprentice Alchemist | recipe Pocion de Mana | next Craft needs: herbcommon x1.
+08:30:47 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 recent-upper pred=7 upper=7 floor=0.87.
+08:30:47 | [DAMAGE MODEL] Bandit Thug | estimate 39 | source recent-calibrated/2 prediction-floor pred=40 upper=34 floor=0.97.
+08:30:47 | [QUEST PRIORITY] Hunt of the Day: kill | 8 remaining | estimated completion 1h 38m.
+08:30:47 | [TARGET AUDIT] 11 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~29.7 | Gold/h~12.7 | value/h~2603.9 | cycle 14m 8s.
+08:30:47 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 8.
+08:30:47 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+08:30:47 | [NEEDS] HP 411/414, required 23 | STM 16/66, required 2 | estimated damage 7.
+08:30:47 | [PARALLEL] This action also advances: Gatherer (19 left), Daily Loot (7 left).
+08:30:47 | [TRAVEL] Ensuring zone: Greenwild Forest.
+08:30:47 | [ACTION] Starting Fight: Gray Wolf.
+08:30:50 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+08:31:02 | [PLAN] Attack now -> Hunt of the Day (8 remaining) + 2 overlapping Quests | Gray Wolf.
+08:31:02 | [TASK] Hunt of the Day (8 remaining) + 2 overlapping Quests: Gray Wolf | damage~7 | Gold/STM 1.68
+08:31:15 | [RESULT] Victory against Gray Wolf | HP 412 -> 410 | STM 16 -> 14.
+08:31:20 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 8 -> 7.
+08:31:39 | [QUEST BOARD] Active 22 | Daily 4 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 13 | deferred free 8 | paid blocked 1.
+08:31:39 | [QUEST PRIORITY] Hunt of the Day: kill | 7 remaining | estimated completion 1h 24m.
+08:31:39 | [TRAVEL] Ensuring zone: Greenwild Forest.
+08:31:39 | [ACTION] Starting Fight: Gray Wolf.
+08:31:41 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+08:31:54 | [PLAN] Attack now -> Hunt of the Day (7 remaining) + 2 overlapping Quests | Gray Wolf.
+08:31:54 | [TASK] Hunt of the Day (7 remaining) + 2 overlapping Quests: Gray Wolf | damage~7 | Gold/STM 1.69
+08:32:06 | [RESULT] Victory against Gray Wolf | HP 410 -> 409 | STM 14 -> 12.
+08:32:11 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 7 -> 6.
+08:32:25 | [QUEST PRIORITY] Hunt of the Day: kill | 6 remaining | estimated completion 1h 10m.
+08:32:25 | [TRAVEL] Ensuring zone: Greenwild Forest.
+08:32:25 | [ACTION] Starting Fight: Gray Wolf.
+08:32:27 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+08:32:40 | [PLAN] Attack now -> Hunt of the Day (6 remaining) + 2 overlapping Quests | Gray Wolf.
+08:32:40 | [TASK] Hunt of the Day (6 remaining) + 2 overlapping Quests: Gray Wolf | damage~7 | Gold/STM 1.70
+08:32:52 | [RESULT] Victory against Gray Wolf | HP 409 -> 406 | STM 12 -> 10.
+08:32:57 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 6 -> 5.
+08:33:21 | [CRAFT PLAN] Apprentice Alchemist | recipe Pocion de Mana | next Craft needs: herbcommon x2, ironore x1.
+08:33:51 | [BOX] Opened 1x box_common.
+08:34:23 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/4 pred=458 avg=0.
+08:34:23 | [QUEST PRIORITY] Hunt of the Day: kill | 5 remaining | estimated completion 56m 31s.
+08:34:23 | [TRAVEL] Ensuring zone: Greenwild Forest.
+08:34:23 | [ACTION] Starting Fight: Gray Wolf.
+08:34:25 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+08:34:38 | [PLAN] Attack now -> Hunt of the Day (5 remaining) + 2 overlapping Quests | Gray Wolf.
+08:34:38 | [TASK] Hunt of the Day (5 remaining) + 2 overlapping Quests: Gray Wolf | damage~7 | Gold/STM 1.72
+08:34:43 | [FARM] LV 10 | HP 406/414 | MP 119/119 | STM 9/66 | Gold 1866 | Battles 30 | last Gray Wolf | damage 2 | +3 Gold
+08:34:50 | [RESULT] Victory against Gray Wolf | HP 408 -> 406 | STM 11 -> 9.
+08:34:55 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 5 -> 4.
+08:35:14 | [QUEST PRIORITY] Hunt of the Day: kill | 4 remaining | estimated completion 42m 23s.
+08:35:14 | [TRAVEL] Ensuring zone: Greenwild Forest.
+08:35:14 | [ACTION] Starting Fight: Gray Wolf.
+08:35:16 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+08:35:30 | [PLAN] Attack now -> Hunt of the Day (4 remaining) + 2 overlapping Quests | Gray Wolf.
+08:35:30 | [TASK] Hunt of the Day (4 remaining) + 2 overlapping Quests: Gray Wolf | damage~7 | Gold/STM 1.71
+08:35:41 | [RESULT] Victory against Gray Wolf | HP 407 -> 405 | STM 9 -> 7.
+08:35:46 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 4 -> 3.
+08:36:00 | [QUEST PRIORITY] Hunt of the Day: kill | 3 remaining | estimated completion 28m 16s.
+08:36:00 | [TRAVEL] Ensuring zone: Greenwild Forest.
+08:36:00 | [ACTION] Starting Fight: Gray Wolf.
+08:36:03 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+08:36:15 | [PLAN] Attack now -> Hunt of the Day (3 remaining) + 2 overlapping Quests | Gray Wolf.
+08:36:15 | [TASK] Hunt of the Day (3 remaining) + 2 overlapping Quests: Gray Wolf | damage~7 | Gold/STM 1.72
+08:36:28 | [RESULT] Victory against Gray Wolf | HP 406 -> 403 | STM 7 -> 5.
+08:36:33 | [QUEST PROGRESS] Hunt of the Day via Gray Wolf | 3 -> 2.
+08:36:57 | [CRAFT ACTION] Apprentice Alchemist | crafting Pocion de Mana x1.
+08:37:08 | [CRAFT PROGRESS] Apprentice Alchemist | 8 -> 7.
+08:37:08 | [CRAFT ACTION] Alchemy Apprentice | crafting Pocion Menor x1.
+08:37:10 | [CRAFT API] Alchemy Apprentice failed | status=400 error=missing_ingredients.
+08:37:10 | [CRAFT DEFER] Alchemy Apprentice | Craft API did not accept the Recipe | retry in 1h 0m.
+08:37:10 | [CRAFT PLAN] Vital Restoration | recipe Stamina 20 | next Craft needs: carbon x1.
+08:38:08 | [STRICT CRAFT MATERIAL] Giant Spider -> Stamina 20 | exact needed drops carbon | expected 1.00 item/fight | added primary delay ready now.
+08:38:08 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 2.
+08:38:08 | [STEP] STRICT CRAFT MATERIAL -> Giant Spider in Greenwild Forest.
+08:38:08 | [NEEDS] HP 403/414, required 187 | STM 5/66, required 4 | estimated damage 164.
+08:38:08 | [PARALLEL] This action also advances: Spider Swarm (8 left), Gatherer (19 left), Daily Loot (7 left).
+08:38:08 | [TRAVEL] Ensuring zone: Greenwild Forest.
+08:38:08 | [ACTION] Starting Fight: Giant Spider.
+08:38:10 | [FAST FIGHT] Giant Spider uses normal resolved combat for faster XP/Gold/Quest progress.
+08:38:23 | [PLAN] Attack now -> Hunt of the Day (2 remaining) + 3 overlapping Quests | Giant Spider.
+08:38:23 | [TASK] Hunt of the Day (2 remaining) + 3 overlapping Quests: Giant Spider | damage~149 | Gold/STM 1.25
+08:38:35 | [RESULT] Victory against Giant Spider | HP 405 -> 198 | STM 5 -> 1.
+08:38:45 | [CRAFT PLAN] Apprentice Alchemist | recipe Pocion de Mana | next Craft needs: herbcommon x2, ironore x2.
+08:38:45 | [CRAFT MATERIAL PROGRESS] Vital Restoration | missing materials 1 -> 0.
+08:39:04 | [DAMAGE MODEL] Giant Spider | estimate 228 | source recent-calibrated/1 recent-upper pred=149 upper=228 floor=0.99.
+08:39:12 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 1.
+08:39:12 | [STEP] RESOURCE PREPARATION -> Coal Miner.
+08:39:12 | [WAIT] Need STM +1 | HP 198; safe target 174; max 414 | STM 2/3 | natural ETA about 5m 28s.
+08:39:12 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+08:45:52 | [STRICT CRAFT MATERIAL] Bandit Thug -> Pocion de Mana | exact needed drops herbcommon, ironore | expected 0.10 item/fight | added primary delay ready now.
+08:45:52 | [MISSION] Primary: Hunt of the Day [DAILY] | KILL any | remaining 1.
+08:45:52 | [STEP] STRICT CRAFT MATERIAL -> Bandit Thug in Greenwild Forest.
+08:45:52 | [NEEDS] HP 205/414, required 57 | STM 3/66, required 3 | estimated damage 39.
+08:45:52 | [PARALLEL] This action also advances: Gatherer (19 left), Daily Loot (7 left).
+08:45:52 | [TRAVEL] Ensuring zone: Greenwild Forest.
+08:45:52 | [ACTION] Starting Fight: Bandit Thug.
+08:45:55 | [FAST FIGHT] Bandit Thug uses normal resolved combat for faster XP/Gold/Quest progress.
+08:46:07 | [PLAN] Attack now -> Hunt of the Day (1 remaining) + 2 overlapping Quests | Bandit Thug.
+08:46:07 | [TASK] Hunt of the Day (1 remaining) + 2 overlapping Quests: Bandit Thug | damage~40 | Gold/STM 1.33
+08:46:20 | [RESULT] Victory against Bandit Thug | HP 205 -> 180 | STM 3 -> 0.
+08:46:30 | [CRAFT PLAN] Apprentice Alchemist | recipe Pocion de Mana | next Craft needs: herbcommon x2, ironore x1.
+08:46:30 | [CRAFT MATERIAL PROGRESS] Apprentice Alchemist | missing materials 4 -> 3.
+08:46:40 | [DAILY QUEST] Claimed: Hunt of the Day | +150 Gold
+08:47:23 | [BOX] Opened 1x box_common.
+08:47:54 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+08:47:54 | [DAMAGE MODEL] Bandit Thug | estimate 38 | source recent-calibrated/3 prediction-floor pred=40 upper=34 floor=0.95.
+08:49:47 | [MISSION] Primary: No active Quest [NONE] | No active Quest | remaining 0.
+08:49:47 | [STEP] RESOURCE PREPARATION -> Gray Wolf.
+08:49:47 | [WAIT] Need STM +1 | HP 183; safe target 23; max 414 | STM 1/2 | natural ETA about 5m 28s.
+08:49:47 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+08:54:41 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+08:54:41 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+08:54:41 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+08:54:41 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+08:54:41 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+08:54:41 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+08:54:41 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+08:54:41 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+08:54:41 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+08:54:41 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+08:54:41 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+08:54:41 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+08:54:41 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+08:54:41 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+08:54:41 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+08:54:41 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+09:01:19 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 recent-upper pred=7 upper=7 floor=0.87.
+09:01:19 | [TARGET AUDIT] 11 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~29.7 | Gold/h~12.7 | value/h~2603.9 | cycle 14m 8s.
+09:01:19 | [MISSION] Primary: No active Quest [NONE] | No active Quest | remaining 0.
+09:01:19 | [STEP] RESOURCE PREPARATION -> Coal Miner.
+09:01:19 | [WAIT] Need STM +1 | HP 194; safe target 174; max 414 | STM 2/3 | natural ETA about 5m 28s.
+09:01:19 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+09:03:05 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+09:05:02 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/4 pred=458 avg=0.
+09:09:43 | [DAMAGE MODEL] Giant Spider | estimate 228 | source recent-calibrated/1 recent-upper pred=149 upper=228 floor=0.99.
+09:11:41 | [MISSION] Primary: No active Quest [NONE] | No active Quest | remaining 0.
+09:11:41 | [STEP] RESOURCE PREPARATION -> Goblin Champion.
+09:11:41 | [WAIT] Need HP +27, STM +1 | HP 204; safe target 231; max 414 | STM 4/5 | natural ETA about 57m 52s.
+09:11:41 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+09:19:16 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+09:19:16 | [DAMAGE MODEL] Bandit Thug | estimate 38 | source recent-calibrated/3 prediction-floor pred=40 upper=34 floor=0.95.
+09:22:12 | [MISSION] Primary: No active Quest [NONE] | No active Quest | remaining 0.
+09:22:12 | [STEP] RESOURCE PREPARATION -> Goblin Champion.
+09:22:12 | [WAIT] Need HP +17 | HP 214; safe target 231; max 414 | STM 6/5 | natural ETA about 36m 26s.
+09:22:12 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+09:26:03 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+09:26:03 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+09:26:03 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+09:26:03 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+09:26:03 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+09:26:03 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+09:26:03 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+09:26:03 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+09:26:03 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+09:26:03 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+09:26:03 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+09:26:03 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+09:26:03 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+09:26:03 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+09:26:03 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+09:26:03 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+09:32:43 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 recent-upper pred=7 upper=7 floor=0.87.
+09:32:43 | [TARGET AUDIT] 11 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~29.7 | Gold/h~12.7 | value/h~2603.9 | cycle 14m 8s.
+09:32:43 | [MISSION] Primary: No active Quest [NONE] | No active Quest | remaining 0.
+09:32:43 | [STEP] RESOURCE PREPARATION -> Goblin Champion.
+09:32:43 | [WAIT] Need HP +6 | HP 225; safe target 231; max 414 | STM 8/5 | natural ETA about 12m 52s.
+09:32:43 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+09:34:28 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+09:36:26 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/4 pred=458 avg=0.
+09:40:17 | [DAMAGE MODEL] Giant Spider | estimate 228 | source recent-calibrated/1 recent-upper pred=149 upper=228 floor=0.99.
+09:43:05 | [MISSION] Primary: No active Quest [NONE] | No active Quest | remaining 0.
+09:43:05 | [STEP] RESOURCE PREPARATION -> Bandit Leader.
+09:43:05 | [WAIT] Need HP +50 | HP 235; safe target 285; max 414 | STM 10/4 | natural ETA about 1h 47m.
+09:43:05 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+09:49:44 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+09:49:44 | [DAMAGE MODEL] Bandit Thug | estimate 38 | source recent-calibrated/3 prediction-floor pred=40 upper=34 floor=0.95.
+09:53:34 | [STRICT CRAFT MATERIAL] Bandit Thug -> Pocion de Mana | exact needed drops herbcommon, ironore | expected 0.10 item/fight | added primary delay ready now.
+09:53:34 | [MISSION] Primary: No active Quest [NONE] | No active Quest | remaining 0.
+09:53:34 | [STEP] STRICT CRAFT MATERIAL -> Bandit Thug in Greenwild Forest.
+09:53:34 | [NEEDS] HP 247/414, required 56 | STM 12/66, required 3 | estimated damage 38.
+09:53:34 | [PARALLEL] This action also advances: Gatherer (19 left), Daily Loot (7 left).
+09:53:34 | [TRAVEL] Ensuring zone: Greenwild Forest.
+09:53:34 | [ACTION] Starting Fight: Bandit Thug.
+09:53:37 | [FAST FIGHT] Bandit Thug uses normal resolved combat for faster XP/Gold/Quest progress.
+09:53:49 | [PLAN] Attack now -> Gatherer (19 remaining) + 1 overlapping Quest | Bandit Thug.
+09:53:49 | [TASK] Gatherer (19 remaining) + 1 overlapping Quest: Bandit Thug | damage~40 | Gold/STM 1.33
+09:54:02 | [RESULT] Victory against Bandit Thug | HP 247 -> 224 | STM 12 -> 9.
+09:54:13 | [CRAFT MATERIAL CHECK] Bandit Thug dropped no verified needed material | 1/2.
+09:54:26 | [DAMAGE MODEL] Bandit Thug | estimate 36 | source recent-calibrated/4 prediction-floor pred=38 upper=34 floor=0.95.
+09:54:26 | [STRICT CRAFT MATERIAL] Bandit Thug -> Pocion de Mana | exact needed drops herbcommon, ironore | expected 0.10 item/fight | added primary delay ready now.
+09:54:26 | [MISSION] Primary: No active Quest [NONE] | No active Quest | remaining 0.
+09:54:26 | [STEP] STRICT CRAFT MATERIAL -> Bandit Thug in Greenwild Forest.
+09:54:26 | [NEEDS] HP 225/414, required 54 | STM 9/66, required 3 | estimated damage 36.
+09:54:26 | [PARALLEL] This action also advances: Gatherer (19 left), Daily Loot (7 left).
+09:54:26 | [TRAVEL] Ensuring zone: Greenwild Forest.
+09:54:26 | [ACTION] Starting Fight: Bandit Thug.
+09:54:29 | [FAST FIGHT] Bandit Thug uses normal resolved combat for faster XP/Gold/Quest progress.
+09:54:54 | [RESULT] Victory against Bandit Thug | HP 225 -> 199 | STM 9 -> 6.
+09:55:04 | [CRAFT MATERIAL CHECK] Bandit Thug dropped no verified needed material | 2/2.
+09:55:04 | [CRAFT MATERIAL BLACKLIST] Bandit Thug is paused for this Recipe; another exact source will be tested.
+09:56:20 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+09:56:20 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+09:56:20 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+09:56:20 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+09:56:20 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+09:56:20 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+09:56:20 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+09:56:20 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+09:56:20 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+09:56:20 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+09:56:20 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+09:56:20 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+09:56:20 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+09:56:20 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+09:56:20 | [DAMAGE MODEL] Bandit Thug | estimate 35 | source recent-calibrated/5 prediction-floor pred=38 upper=33 floor=0.93.
+09:56:20 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+09:56:20 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+09:56:20 | [MISSION] Primary: No active Quest [NONE] | No active Quest | remaining 0.
+09:56:20 | [STEP] RESOURCE PREPARATION -> Goblin Champion.
+09:56:20 | [WAIT] Need HP +31 | HP 200; safe target 231; max 414 | STM 7/5 | natural ETA about 1h 6m.
+09:56:20 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+10:03:54 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 recent-upper pred=7 upper=7 floor=0.87.
+10:03:54 | [TARGET AUDIT] 11 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~29.7 | Gold/h~12.7 | value/h~2603.9 | cycle 14m 8s.
+10:04:57 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+10:06:50 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/4 pred=458 avg=0.
+10:06:50 | [MISSION] Primary: No active Quest [NONE] | No active Quest | remaining 0.
+10:06:50 | [STEP] RESOURCE PREPARATION -> Goblin Champion.
+10:06:50 | [WAIT] Need HP +21 | HP 210; safe target 231; max 414 | STM 8/5 | natural ETA about 45m 0s.
+10:06:50 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+10:10:28 | [RECOVER] Equipment and upgrades skipped this cycle: Read inventory failed: status=520 error=http_520
+10:10:33 | [DAMAGE MODEL] Giant Spider | estimate 228 | source recent-calibrated/1 recent-upper pred=149 upper=228 floor=0.99.
+10:11:43 | [NETWORK] Read failed 1/3; retrying in 8s.
+10:12:03 | [NETWORK] Read failed 2/3; retrying in 16s.
+10:17:22 | [MISSION] Primary: No active Quest [NONE] | No active Quest | remaining 0.
+10:17:22 | [STEP] RESOURCE PREPARATION -> Goblin Champion.
+10:17:22 | [WAIT] Need HP +10 | HP 221; safe target 231; max 414 | STM 10/5 | natural ETA about 21m 26s.
+10:17:22 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+10:21:06 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+10:27:44 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+10:27:44 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+10:27:44 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+10:27:44 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+10:27:44 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+10:27:44 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+10:27:44 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+10:27:44 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+10:27:44 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+10:27:44 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+10:27:44 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+10:27:44 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+10:27:44 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+10:27:44 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+10:27:44 | [DAMAGE MODEL] Bandit Thug | estimate 35 | source recent-calibrated/5 prediction-floor pred=38 upper=33 floor=0.93.
+10:27:44 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+10:27:44 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+10:27:44 | [MISSION] Primary: No active Quest [NONE] | No active Quest | remaining 0.
+10:27:44 | [STEP] RESOURCE PREPARATION -> Bandit Leader.
+10:27:44 | [WAIT] Need HP +54 | HP 231; safe target 285; max 414 | STM 12/4 | natural ETA about 1h 55m.
+10:27:44 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+10:34:23 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 recent-upper pred=7 upper=7 floor=0.87.
+10:34:23 | [TARGET AUDIT] 11 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~29.7 | Gold/h~12.7 | value/h~2603.9 | cycle 14m 8s.
+10:37:19 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+10:37:19 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/4 pred=458 avg=0.
+10:38:14 | [MISSION] Primary: No active Quest [NONE] | No active Quest | remaining 0.
+10:38:14 | [STEP] RESOURCE PREPARATION -> Bandit Leader.
+10:38:14 | [WAIT] Need HP +43 | HP 242; safe target 285; max 414 | STM 14/4 | natural ETA about 1h 32m.
+10:38:14 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+10:41:02 | [DAMAGE MODEL] Giant Spider | estimate 228 | source recent-calibrated/1 recent-upper pred=149 upper=228 floor=0.99.
+10:48:47 | [MISSION] Primary: No active Quest [NONE] | No active Quest | remaining 0.
+10:48:47 | [STEP] RESOURCE PREPARATION -> Bandit Leader.
+10:48:47 | [WAIT] Need HP +32 | HP 253; safe target 285; max 414 | STM 16/4 | natural ETA about 1h 8m.
+10:48:47 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+10:52:25 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+10:58:14 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+10:58:14 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+10:58:14 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+10:58:14 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+10:58:14 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+10:58:14 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+10:58:14 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+10:58:14 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+10:58:14 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+10:58:14 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+10:58:14 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+10:58:14 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+10:58:14 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+10:58:14 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+10:58:14 | [DAMAGE MODEL] Bandit Thug | estimate 35 | source recent-calibrated/5 prediction-floor pred=38 upper=33 floor=0.93.
+10:58:14 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+10:58:14 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+10:59:04 | [MISSION] Primary: No active Quest [NONE] | No active Quest | remaining 0.
+10:59:04 | [STEP] RESOURCE PREPARATION -> Bandit Leader.
+10:59:04 | [WAIT] Need HP +22 | HP 263; safe target 285; max 414 | STM 18/4 | natural ETA about 47m 9s.
+10:59:04 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+11:04:53 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 recent-upper pred=7 upper=7 floor=0.87.
+11:04:53 | [TARGET AUDIT] 11 safe Kill-any targets ranked by XP+Gold+Quest value; Gray Wolf selected | XP/h~29.7 | Gold/h~12.7 | value/h~2603.9 | cycle 14m 8s.
+11:07:41 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+11:07:41 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/4 pred=458 avg=0.
+11:07:41 | [STAMINA] Bank ready | STM 20 | combat resumes.
+11:07:41 | [QUEST CAMPAIGN 4] The Bandit Lord | bandit_leader | 1 remaining | deadline-aware safe progress score.
+11:07:41 | [QUEST PRIORITY] The Bandit Lord: kill | 1 remaining | estimated completion 30m 0s.
+11:07:41 | [TARGET AUDIT] 1 legal targets checked for The Bandit Lord; Bandit Leader selected.
+11:07:43 | [SERVER LIMIT] No safe Quest, useful Potion-material Fight or available recovery item is faster. Natural HP for Bandit Leader is currently the fastest safe legal path (30m 0s).
+11:07:43 | [MISSION] Primary: The Bandit Lord [MAIN] | KILL bandit_leader in 4 | remaining 1.
+11:07:43 | [STEP] RESOURCE PREPARATION -> Bandit Leader.
+11:07:43 | [WAIT] Need HP +14 | HP 271; safe target 285; max 414 | STM 20/4 | natural ETA about 30m 0s.
+11:07:43 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+11:07:51 | [POTION] Minor Potion used for safe quest combat.
+11:08:03 | [QUEST CAMPAIGN 5] Gatherer | any | 19 remaining | higher deadline class preempted current campaign.
+11:08:03 | [QUEST PRIORITY] Gatherer: loot | 19 remaining | estimated completion 12h 0m.
+11:08:03 | [QUEST PREP] Gatherer | optimizing Skills, equipment, attributes and Forge before combat.
+11:08:56 | [TARGET AUDIT] 20 legal Loot targets checked; 10 ready now; Gray Wolf selected for the best immediate expected progress.
+11:09:03 | [MISSION] Primary: Gatherer [DAILY] | LOOT any | remaining 19.
+11:09:03 | [STEP] RESOURCE PREPARATION -> Mine Foreman.
+11:09:03 | [WAIT] Need HP +5 | HP 322; safe target 327; max 414 | STM 20/6 | natural ETA about 10m 43s.
+11:09:03 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+11:11:01 | [MISSION] Primary: Gatherer [DAILY] | LOOT any | remaining 19.
+11:11:01 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+11:11:01 | [NEEDS] HP 324/414, required 23 | STM 20/66, required 2 | estimated damage 7.
+11:11:01 | [PARALLEL] This action also advances: Daily Loot (7 left).
+11:11:01 | [TRAVEL] Ensuring zone: Greenwild Forest.
+11:11:01 | [ACTION] Starting Fight: Gray Wolf.
+11:11:03 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+11:11:16 | [PLAN] Attack now -> Gatherer (19 remaining) + 1 overlapping Quest | Gray Wolf.
+11:11:16 | [TASK] Gatherer (19 remaining) + 1 overlapping Quest: Gray Wolf | damage~7 | Gold/STM 1.71
+11:11:28 | [RESULT] Victory against Gray Wolf | HP 326 -> 323 | STM 20 -> 19.
+11:11:33 | [QUEST CHECK] Gatherer did not progress after Gray Wolf | dry streak 1/6.
+11:11:52 | [DAMAGE MODEL] Giant Spider | estimate 228 | source recent-calibrated/1 recent-upper pred=149 upper=228 floor=0.99.
+11:11:52 | [TARGET AUDIT] 20 legal Loot targets checked; 10 ready now; Gray Wolf selected for the best immediate expected progress.
+11:11:52 | [MISSION] Primary: Gatherer [DAILY] | LOOT any | remaining 19.
+11:11:52 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+11:11:52 | [NEEDS] HP 323/414, required 24 | STM 19/66, required 2 | estimated damage 7.
+11:11:52 | [PARALLEL] This action also advances: Daily Loot (7 left).
+11:11:52 | [TRAVEL] Ensuring zone: Greenwild Forest.
+11:11:52 | [ACTION] Starting Fight: Gray Wolf.
+11:11:55 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+11:12:20 | [RESULT] Victory against Gray Wolf | HP 323 -> 322 | STM 19 -> 17.
+11:12:25 | [QUEST CHECK] Gatherer did not progress after Gray Wolf | dry streak 2/6.
+11:12:38 | [TRAVEL] Ensuring zone: Greenwild Forest.
+11:12:38 | [ACTION] Starting Fight: Gray Wolf.
+11:12:41 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+11:13:06 | [RESULT] Victory against Gray Wolf | HP 322 -> 321 | STM 17 -> 15.
+11:13:11 | [QUEST CHECK] Gatherer did not progress after Gray Wolf | dry streak 3/6.
+11:14:32 | [QUEST CAMPAIGN 6] Daily Loot | any | 7 remaining | deadline-aware safe progress score.
+11:14:32 | [QUEST PRIORITY] Daily Loot: loot | 7 remaining | estimated completion 7h 10m.
+11:14:32 | [QUEST PREP] Daily Loot | optimizing Skills, equipment, attributes and Forge before combat.
+11:15:25 | [TARGET AUDIT] 20 legal Loot targets checked; 10 ready now; Gray Wolf selected for the best immediate expected progress.
+11:15:32 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+11:15:32 | [STEP] RESOURCE PREPARATION -> Mine Foreman.
+11:15:32 | [WAIT] Need HP +6 | HP 321; safe target 327; max 414 | STM 15/6 | natural ETA about 12m 52s.
+11:15:32 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+11:16:28 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+11:16:28 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+11:16:28 | [NEEDS] HP 324/414, required 23 | STM 15/66, required 2 | estimated damage 7.
+11:16:28 | [PARALLEL] This action also advances: Gatherer (19 left).
+11:16:28 | [TRAVEL] Ensuring zone: Greenwild Forest.
+11:16:28 | [ACTION] Starting Fight: Gray Wolf.
+11:16:30 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+11:16:48 | [FARM] LV 10 | HP 322/414 | MP 119/119 | STM 14/66 | Gold 1735 | Battles 40 | last Gray Wolf | damage 2 | +4 Gold
+11:16:55 | [RESULT] Victory against Gray Wolf | HP 324 -> 322 | STM 15 -> 14.
+11:17:00 | [QUEST CHECK] Daily Loot did not progress after Gray Wolf | dry streak 2/6.
+11:18:16 | [TRAVEL] Ensuring zone: Greenwild Forest.
+11:18:16 | [ACTION] Starting Fight: Gray Wolf.
+11:18:19 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+11:18:44 | [RESULT] Victory against Gray Wolf | HP 324 -> 322 | STM 14 -> 12.
+11:18:49 | [QUEST CHECK] Daily Loot did not progress after Gray Wolf | dry streak 3/6.
+11:19:08 | [TRAVEL] Ensuring zone: Greenwild Forest.
+11:19:08 | [ACTION] Starting Fight: Gray Wolf.
+11:19:10 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+11:19:35 | [RESULT] Victory against Gray Wolf | HP 323 -> 321 | STM 12 -> 10.
+11:19:40 | [QUEST CHECK] Daily Loot did not progress after Gray Wolf | dry streak 4/6.
+11:19:54 | [TRAVEL] Ensuring zone: Greenwild Forest.
+11:19:54 | [ACTION] Starting Fight: Gray Wolf.
+11:19:56 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+11:20:21 | [RESULT] Victory against Gray Wolf | HP 321 -> 319 | STM 10 -> 8.
+11:20:26 | [QUEST CHECK] Daily Loot did not progress after Gray Wolf | dry streak 5/6.
+11:21:20 | [BOX] Opened 2x box_common.
+11:21:51 | [TRAVEL] Ensuring zone: Greenwild Forest.
+11:21:51 | [ACTION] Starting Fight: Gray Wolf.
+11:21:54 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+11:22:19 | [RESULT] Victory against Gray Wolf | HP 320 -> 319 | STM 8 -> 7.
+11:22:24 | [QUEST CHECK] Daily Loot did not progress after Gray Wolf | dry streak 6/6.
+11:22:24 | [TARGET CHANGE] Gray Wolf is temporarily deprioritized for Daily Loot; another legal Loot target will be tested.
+11:22:43 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+11:22:43 | [TARGET AUDIT] 20 legal Loot targets checked; 10 ready now; Goblin Warrior selected for the best immediate expected progress.
+11:22:43 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+11:22:43 | [STEP] PRIMARY QUEST -> Goblin Warrior in Stone Plains.
+11:22:43 | [NEEDS] HP 319/414, required 78 | STM 7/66, required 4 | estimated damage 67.
+11:22:43 | [PARALLEL] This action also advances: Goblin Invasion (15 left), Gatherer (19 left).
+11:22:43 | [TRAVEL] Ensuring zone: Stone Plains.
+11:22:48 | [TRAVEL] Zone 4 -> 5.
+11:22:48 | [ACTION] Starting Fight: Goblin Warrior.
+11:22:51 | [SUSTAIN FIGHT] Goblin Warrior uses turn-based combat because normal full-fight safety is not satisfied.
+11:23:03 | [PLAN] Attack now -> Gatherer (19 remaining) + 2 overlapping Quests | Goblin Warrior.
+11:23:03 | [TASK] Gatherer (19 remaining) + 2 overlapping Quests: Goblin Warrior | damage~316 | Gold/STM 2.50
+11:23:06 | [COMBAT START] Sustain session opened for Goblin Warrior.
+11:23:08 | [COMBAT ACTION] Goblin Warrior | turn 1 | first_aid skill 22 | HP 402/414 | enemy 849/849 | enemy hit 0 | healed 82 | next bound 67 + reserve 11 | warmup.
+11:23:13 | [COMBAT ACTION] Goblin Warrior | turn 2 | damage_skill skill 13 | HP 356/414 | enemy 747/849 | enemy hit 46 | healed 0 | next bound 67 + reserve 11 | warmup.
+11:23:18 | [COMBAT ACTION] Goblin Warrior | turn 3 | life_drain skill 19 | HP 329/414 | enemy 730/849 | enemy hit 44 | healed 17 | next bound 69 + reserve 11 | warmup.
+11:23:23 | [COMBAT ACTION] Goblin Warrior | turn 4 | healing skill 10 | HP 322/414 | enemy 730/849 | enemy hit 47 | healed 40 | next bound 70 + reserve 11 | warmup.
+11:23:27 | [COMBAT ACTION] Goblin Warrior | turn 5 | damage_skill skill 13 | HP 276/414 | enemy 638/849 | enemy hit 46 | healed 0 | next bound 71 + reserve 11 | warmup.
+11:23:32 | [COMBAT ACTION] Goblin Warrior | turn 6 | damage_skill skill 1 | HP 232/414 | enemy 578/849 | enemy hit 44 | healed 0 | next bound 72 + reserve 11 | warmup.
+11:23:37 | [COMBAT ACTION] Goblin Warrior | turn 7 | damage_skill skill 7 | HP 187/414 | enemy 520/849 | enemy hit 45 | healed 0 | next bound 60 + reserve 11 | warmup.
+11:23:42 | [COMBAT ACTION] Goblin Warrior | turn 8 | damage_skill skill 13 | HP 142/414 | enemy 428/849 | enemy hit 45 | healed 0 | next bound 60 + reserve 11 | warmup.
+11:23:46 | [COMBAT ACTION] Goblin Warrior | turn 9 | life_drain skill 19 | HP 116/414 | enemy 409/849 | enemy hit 45 | healed 19 | next bound 60 + reserve 11 | warmup.
+11:23:51 | [COMBAT ACTION] Goblin Warrior | turn 10 | mana_font skill 60 | HP 71/414 | enemy 409/849 | enemy hit 45 | healed 0 | next bound 78 + reserve 5 | mature+new-phase.
+11:23:56 | [COMBAT SKILL SKIP] first_aid_probe skill 22 rejected (skill_on_cooldown); cooling it down for 4 turns and selecting another safe action.
+11:23:58 | [COMBAT HOLD] Goblin Warrior | HP 71/414 | learned next-hit bound 70 | reserve 11 | retry in 10m 0s; session preserved.
+11:23:59 | [FIGHT] Goblin Warrior failed without death; another task will be selected.
+11:24:04 | [RESULT] Fight failed against Goblin Warrior | HP 319 -> 320 | STM 7 -> 3.
+11:24:32 | [CRAFT PLAN] Apprentice Alchemist | recipe Pocion de Mana | next Craft needs: herbcommon x1.
+11:25:37 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+11:25:37 | [STEP] RESOURCE PREPARATION -> Bandit Leader.
+11:25:37 | [WAIT] Need STM +1 | HP 321; safe target 285; max 414 | STM 3/4 | natural ETA about 5m 28s.
+11:25:37 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+11:29:21 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+11:29:21 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+11:29:21 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+11:29:21 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+11:29:21 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+11:29:21 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+11:29:21 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+11:29:21 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+11:29:21 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+11:29:21 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+11:29:21 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+11:29:21 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+11:29:21 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+11:29:21 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+11:29:21 | [DAMAGE MODEL] Bandit Thug | estimate 35 | source recent-calibrated/5 prediction-floor pred=38 upper=33 floor=0.93.
+11:29:21 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+11:29:21 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+11:36:00 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 recent-upper pred=7 upper=7 floor=0.87.
+11:36:00 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+11:36:00 | [STEP] RESOURCE PREPARATION -> Mine Foreman.
+11:36:00 | [WAIT] Need STM +1 | HP 331; safe target 327; max 414 | STM 5/6 | natural ETA about 5m 28s.
+11:36:00 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+11:38:55 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+11:38:55 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/4 pred=458 avg=0.
+11:42:38 | [DAMAGE MODEL] Giant Spider | estimate 228 | source recent-calibrated/1 recent-upper pred=149 upper=228 floor=0.99.
+11:46:29 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+11:46:29 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+11:46:29 | [WAIT] Need HP +6517 | HP 343; safe target 6860; max 414 | STM 7/1 | natural ETA about 232h 45m.
+11:46:29 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+11:53:08 | [TARGET AUDIT] 20 legal Loot targets checked; 10 ready now; Goblin Warrior selected for the best immediate expected progress.
+11:53:58 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+11:56:59 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+11:56:59 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+11:56:59 | [WAIT] Need HP +6507 | HP 353; safe target 6860; max 414 | STM 9/1 | natural ETA about 232h 23m.
+11:56:59 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+11:59:47 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+11:59:47 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+11:59:47 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+11:59:47 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+11:59:47 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+11:59:47 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+11:59:47 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+11:59:47 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+11:59:47 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+11:59:47 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+11:59:47 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+11:59:47 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+11:59:47 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+11:59:47 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+11:59:47 | [DAMAGE MODEL] Bandit Thug | estimate 35 | source recent-calibrated/5 prediction-floor pred=38 upper=33 floor=0.93.
+11:59:47 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+11:59:47 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+12:06:32 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 recent-upper pred=7 upper=7 floor=0.87.
+12:07:23 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+12:07:23 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+12:07:23 | [WAIT] Need HP +6496 | HP 364; safe target 6860; max 414 | STM 11/1 | natural ETA about 232h 0m.
+12:07:23 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+12:09:20 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+12:09:20 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/4 pred=458 avg=0.
+12:13:12 | [DAMAGE MODEL] Giant Spider | estimate 228 | source recent-calibrated/1 recent-upper pred=149 upper=228 floor=0.99.
+12:18:56 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+12:18:56 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+12:18:56 | [WAIT] Need HP +6486 | HP 374; safe target 6860; max 414 | STM 13/1 | natural ETA about 231h 38m.
+12:18:56 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+12:23:34 | [TARGET AUDIT] 20 legal Loot targets checked; 10 ready now; Goblin Warrior selected for the best immediate expected progress.
+12:25:35 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+12:29:19 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+12:29:19 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+12:29:19 | [WAIT] Need HP +6475 | HP 385; safe target 6860; max 414 | STM 15/1 | natural ETA about 231h 15m.
+12:29:19 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+12:30:14 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+12:30:14 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+12:30:14 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+12:30:14 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+12:30:14 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+12:30:14 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+12:30:14 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+12:30:14 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+12:30:14 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+12:30:14 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+12:30:14 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+12:30:14 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+12:30:14 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+12:30:14 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+12:30:14 | [DAMAGE MODEL] Bandit Thug | estimate 35 | source recent-calibrated/5 prediction-floor pred=38 upper=33 floor=0.93.
+12:30:14 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+12:30:14 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+12:36:55 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 recent-upper pred=7 upper=7 floor=0.87.
+12:39:50 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/4 pred=458 avg=0.
+12:39:50 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+12:39:50 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+12:39:50 | [WAIT] Need HP +6465 | HP 395; safe target 6860; max 414 | STM 17/1 | natural ETA about 230h 53m.
+12:39:50 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+12:40:40 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+12:43:33 | [DAMAGE MODEL] Giant Spider | estimate 228 | source recent-calibrated/1 recent-upper pred=149 upper=228 floor=0.99.
+12:50:21 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+12:50:21 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+12:50:21 | [WAIT] Need HP +6455 | HP 405; safe target 6860; max 414 | STM 19/1 | natural ETA about 230h 32m.
+12:50:21 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+12:54:02 | [TARGET AUDIT] 20 legal Loot targets checked; 10 ready now; Goblin Warrior selected for the best immediate expected progress.
+12:56:00 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+12:56:55 | [STAMINA] Bank ready | STM 20 | combat resumes.
+12:56:55 | [QUEST PRIORITY] Daily Loot: loot | 7 remaining | estimated completion 7h 42m.
+12:56:55 | [QUEST PREP] Daily Loot | optimizing Skills, equipment, attributes and Forge before combat.
+12:57:47 | [TARGET AUDIT] 20 legal Loot targets checked; 12 ready now; Gray Wolf selected for the best immediate expected progress.
+12:59:53 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+12:59:53 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+12:59:53 | [NEEDS] HP 414/414, required 23 | STM 20/66, required 2 | estimated damage 7.
+12:59:53 | [PARALLEL] This action also advances: Gatherer (19 left).
+12:59:53 | [TRAVEL] Ensuring zone: Greenwild Forest.
+12:59:59 | [TRAVEL] Zone 5 -> 4.
+12:59:59 | [ACTION] Starting Fight: Gray Wolf.
+13:00:01 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+13:00:14 | [PLAN] Attack now -> Gatherer (19 remaining) + 1 overlapping Quest | Gray Wolf.
+13:00:14 | [TASK] Gatherer (19 remaining) + 1 overlapping Quest: Gray Wolf | damage~7 | Gold/STM 1.76
+13:00:26 | [RESULT] Victory against Gray Wolf | HP 414 -> 411 | STM 20 -> 19.
+13:00:31 | [QUEST CHECK] Daily Loot did not progress after Gray Wolf | dry streak 7/6.
+13:00:31 | [TARGET CHANGE] Gray Wolf is temporarily deprioritized for Daily Loot; another legal Loot target will be tested.
+13:00:50 | [DAMAGE MODEL] Coal Miner | estimate 152 | source prediction-only pred=138.
+13:00:50 | [DAMAGE MODEL] Herb Gatherer | estimate 152 | source prediction-only pred=138.
+13:00:50 | [DAMAGE MODEL] Mine Foreman | estimate 1720 | source prediction-only pred=1564.
+13:00:50 | [DAMAGE MODEL] Field Druid | estimate 1720 | source prediction-only pred=1564.
+13:00:50 | [DAMAGE MODEL] Coal Crusher | estimate 80998 | source prediction-only pred=73635.
+13:00:50 | [DAMAGE MODEL] Plant Warden | estimate 80998 | source prediction-only pred=73635.
+13:00:50 | [DAMAGE MODEL] Ancient Druid | estimate 2690973 | source prediction-only pred=2446339.
+13:00:50 | [DAMAGE MODEL] Ember Lord | estimate 2690973 | source prediction-only pred=2446339.
+13:00:50 | [DAMAGE MODEL] Bandit Leader | estimate 1113 | source prediction-only pred=1012.
+13:00:50 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4990 | source prediction-only pred=4536.
+13:00:50 | [DAMAGE MODEL] Tempered Dummy | estimate 5799 | source prediction-only pred=5272.
+13:00:50 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+13:00:50 | [DAMAGE MODEL] Goblin Warrior | estimate 348 | source prediction-only pred=316.
+13:00:50 | [DAMAGE MODEL] Goblin Scout | estimate 133 | source prediction-only pred=121.
+13:00:50 | [DAMAGE MODEL] Bandit Thug | estimate 35 | source recent-calibrated/5 prediction-floor pred=38 upper=33 floor=0.93.
+13:00:50 | [DAMAGE MODEL] Goblin Champion | estimate 1185 | source prediction-only pred=1077.
+13:00:50 | [DAMAGE MODEL] Stone Golem | estimate 3287 | source prediction-only pred=2988.
+13:00:50 | [TARGET AUDIT] 20 legal Loot targets checked; 12 ready now; Goblin Warrior selected for the best immediate expected progress.
+13:00:50 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+13:00:50 | [STEP] PRIMARY QUEST -> Goblin Warrior in Stone Plains.
+13:00:50 | [NEEDS] HP 411/414, required 83 | STM 19/66, required 4 | estimated damage 72.
+13:00:50 | [PARALLEL] This action also advances: Goblin Invasion (15 left), Gatherer (19 left).
+13:00:50 | [TRAVEL] Ensuring zone: Stone Plains.
+13:00:56 | [TRAVEL] Zone 4 -> 5.
+13:00:56 | [ACTION] Starting Fight: Goblin Warrior.
+13:00:58 | [SUSTAIN FIGHT] Goblin Warrior uses turn-based combat because normal full-fight safety is not satisfied.
+13:01:11 | [PLAN] Attack now -> Gatherer (19 remaining) + 2 overlapping Quests | Goblin Warrior.
+13:01:11 | [TASK] Gatherer (19 remaining) + 2 overlapping Quests: Goblin Warrior | damage~316 | Gold/STM 2.50
+13:01:11 | [COMBAT RESUME] Reusing saved session for Goblin Warrior.
+13:01:16 | [FIGHT] Goblin Warrior failed without death; another task will be selected.
+13:01:21 | [RESULT] Fight failed against Goblin Warrior | HP 411 -> 412 | STM 19 -> 19.
+13:01:40 | [QUEST PREP] Daily Loot | optimizing Skills, equipment, attributes and Forge before combat.
+13:02:32 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+13:02:32 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+13:02:32 | [WAIT] Need HP +6448 | HP 412; safe target 6860; max 414 | STM 19/1 | natural ETA about 230h 17m.
+13:02:32 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+13:04:30 | [TRAVEL] Ensuring zone: Stone Plains.
+13:04:30 | [ACTION] Starting Fight: Goblin Warrior.
+13:04:33 | [SUSTAIN FIGHT] Goblin Warrior uses turn-based combat because normal full-fight safety is not satisfied.
+13:04:48 | [COMBAT START] Sustain session opened for Goblin Warrior.
+13:04:50 | [COMBAT ACTION] Goblin Warrior | turn 2 | damage_skill skill 13 | HP 369/414 | enemy 747/849 | enemy hit 45 | healed 0 | next bound 72 + reserve 11 | warmup.
+13:04:55 | [COMBAT ACTION] Goblin Warrior | turn 3 | life_drain skill 19 | HP 347/414 | enemy 724/849 | enemy hit 45 | healed 23 | next bound 65 + reserve 5 | mature.
+13:05:00 | [COMBAT ACTION] Goblin Warrior | turn 3 | first_aid skill 22 | HP 414/414 | enemy 724/849 | enemy hit 0 | healed 67 | next bound 65 + reserve 5 | mature.
+13:05:05 | [COMBAT ACTION] Goblin Warrior | turn 4 | damage_skill skill 1 | HP 369/414 | enemy 659/849 | enemy hit 45 | healed 0 | next bound 65 + reserve 5 | mature.
+13:05:10 | [COMBAT ACTION] Goblin Warrior | turn 5 | damage_skill skill 13 | HP 322/414 | enemy 557/849 | enemy hit 47 | healed 0 | next bound 65 + reserve 5 | mature.
+13:05:15 | [COMBAT ACTION] Goblin Warrior | turn 6 | healing skill 10 | HP 317/414 | enemy 557/849 | enemy hit 45 | healed 40 | next bound 60 + reserve 11 | warmup.
+13:05:20 | [COMBAT ACTION] Goblin Warrior | turn 7 | damage_skill skill 1 | HP 272/414 | enemy 490/849 | enemy hit 45 | healed 0 | next bound 54 + reserve 5 | mature.
+13:05:25 | [COMBAT ACTION] Goblin Warrior | turn 8 | damage_skill skill 13 | HP 225/414 | enemy 396/849 | enemy hit 47 | healed 0 | next bound 54 + reserve 5 | mature.
+13:05:30 | [COMBAT ACTION] Goblin Warrior | turn 9 | life_drain skill 19 | HP 201/414 | enemy 374/849 | enemy hit 46 | healed 22 | next bound 70 + reserve 11 | warmup+new-phase.
+13:05:35 | [COMBAT ACTION] Goblin Warrior | turn 10 | damage_skill skill 1 | HP 157/414 | enemy 309/849 | enemy hit 44 | healed 0 | next bound 72 + reserve 11 | warmup+new-phase.
+13:05:39 | [COMBAT ACTION] Goblin Warrior | turn 11 | damage_skill skill 13 | HP 113/414 | enemy 217/849 | enemy hit 44 | healed 0 | next bound 61 + reserve 11 | warmup.
+13:05:44 | [COMBAT ACTION] Goblin Warrior | turn 12 | mana_font skill 60 | HP 66/414 | enemy 217/849 | enemy hit 47 | healed 0 | next bound 60 + reserve 11 | warmup.
+13:05:49 | [COMBAT ACTION] Goblin Warrior | turn 13 | healing skill 10 | HP 62/414 | enemy 217/849 | enemy hit 44 | healed 40 | next bound 62 + reserve 11 | warmup.
+13:05:54 | [COMBAT SKILL SKIP] first_aid_probe skill 22 rejected (skill_on_cooldown); cooling it down for 4 turns and selecting another safe action.
+13:05:56 | [COMBAT HOLD] Goblin Warrior | HP 62/414 | learned next-hit bound 61 | reserve 11 | retry in 10m 0s; session preserved.
+13:05:57 | [FIGHT] Goblin Warrior failed without death; another task will be selected.
+13:06:02 | [RESULT] Fight failed against Goblin Warrior | HP 414 -> 414 | STM 19 -> 16.
+13:07:30 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 recent-upper pred=7 upper=7 floor=0.87.
+13:07:30 | [QUEST PRIORITY] Daily Loot: loot | 7 remaining | estimated completion 7h 4m.
+13:07:30 | [QUEST PREP] Daily Loot | optimizing Skills, equipment, attributes and Forge before combat.
+13:08:21 | [TARGET AUDIT] 19 legal Loot targets checked; 11 ready now; Goblin Scout selected for the best immediate expected progress. Goblin Warrior skipped for 8m 26s because its combat session is waiting for a safe retry.
+13:09:24 | [MISSION] Primary: Daily Loot [DAILY] | LOOT any | remaining 7.
+13:09:24 | [STEP] PRIMARY QUEST -> Goblin Scout in Stone Plains.
+13:09:24 | [NEEDS] HP 414/414, required 155 | STM 16/66, required 4 | estimated damage 133.
+13:09:24 | [PARALLEL] This action also advances: Goblin Horde (50 left), Gatherer (19 left).
+13:09:24 | [TRAVEL] Ensuring zone: Stone Plains.
+13:09:24 | [ACTION] Starting Fight: Goblin Scout.
+13:09:26 | [FAST FIGHT] Goblin Scout uses normal resolved combat for faster XP/Gold/Quest progress.
+13:09:39 | [PLAN] Attack now -> Gatherer (19 remaining) + 2 overlapping Quests | Goblin Scout.
+13:09:39 | [TASK] Gatherer (19 remaining) + 2 overlapping Quests: Goblin Scout | damage~121 | Gold/STM 1.50
+13:09:51 | [RESULT] Victory against Goblin Scout | HP 414 -> 227 | STM 16 -> 12.
+13:09:56 | [QUEST CHECK] Daily Loot did not progress after Goblin Scout | dry streak 1/6.
+13:09:56 | [QUEST PAUSE] Daily Loot is paused temporarily: a verified win produced no Loot progress and costs about 4h 45m of HP recovery.
+13:11:13 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+13:11:13 | [DAMAGE MODEL] Straw Dummy | estimate 421 | source aggregate-calibrated/4 pred=458 avg=0.
+13:11:13 | [DAMAGE MODEL] Goblin Scout | estimate 206 | source recent-calibrated/1 recent-upper pred=121 upper=206 floor=0.99.
+13:11:13 | [QUEST CAMPAIGN 7] The Bandit Lord | bandit_leader | 1 remaining | deadline-aware safe progress score.
+13:11:13 | [QUEST PRIORITY] The Bandit Lord: kill | 1 remaining | estimated completion 2h 2m.
+13:11:13 | [TARGET AUDIT] 1 legal targets checked for The Bandit Lord; Bandit Leader selected.
+13:11:13 | [RECOVERY OPTIMIZER] Wait 2h 2m | prioritizing Vitality, Resistance, defensive gear and efficient Forge.
+13:12:08 | [MISSION] Primary: The Bandit Lord [MAIN] | KILL bandit_leader in 4 | remaining 1.
+13:12:08 | [STEP] OPPORTUNITY -> Gray Wolf in Greenwild Forest.
+13:12:08 | [NEEDS] HP 228/414, required 23 | STM 12/66, required 2 | estimated damage 7.
+13:12:08 | [PARALLEL] This action also advances: Gatherer (19 left), Daily Loot (7 left).
+13:12:08 | [OPPORTUNITY] primary Quest is waiting; this action adds about 17m 9s and advances Gatherer (19 left), Daily Loot (7 left).
+13:12:08 | [TRAVEL] Ensuring zone: Greenwild Forest.
+13:12:14 | [TRAVEL] Zone 5 -> 4.
+13:12:14 | [ACTION] Starting Fight: Gray Wolf.
+13:12:16 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+13:12:29 | [PLAN] Attack now -> Gatherer (19 remaining) + 1 overlapping Quest | Gray Wolf.
+13:12:29 | [TASK] Gatherer (19 remaining) + 1 overlapping Quest: Gray Wolf | damage~7 | Gold/STM 1.79
+13:12:41 | [RESULT] Victory against Gray Wolf | HP 230 -> 228 | STM 13 -> 11.
+13:12:46 | [QUEST CHECK] The Bandit Lord did not progress after Gray Wolf | dry streak 1/6.
+13:13:07 | [SERVER LIMIT] No safe Quest, useful Potion-material Fight or available recovery item is faster. Natural HP for Bandit Leader is currently the fastest safe legal path (2h 2m).
+13:13:07 | [MISSION] Primary: The Bandit Lord [MAIN] | KILL bandit_leader in 4 | remaining 1.
+13:13:07 | [STEP] RESOURCE PREPARATION -> Bandit Leader.
+13:13:07 | [WAIT] Need HP +57 | HP 228; safe target 285; max 414 | STM 11/4 | natural ETA about 2h 2m.
+13:13:07 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+13:13:15 | [POTION] Minor Potion used for safe quest combat.
+13:13:24 | [POTION] Minor Potion used for safe quest combat.
+13:14:38 | [DAMAGE MODEL] Giant Spider | estimate 228 | source recent-calibrated/1 recent-upper pred=149 upper=228 floor=0.99.
+13:14:38 | [QUEST CAMPAIGN 8] Gatherer | any | 19 remaining | higher deadline class preempted current campaign.
+13:14:38 | [QUEST PRIORITY] Gatherer: loot | 19 remaining | estimated completion 21h 12m.
+13:14:38 | [QUEST PREP] Gatherer | optimizing Skills, equipment, attributes and Forge before combat.
+13:15:32 | [TARGET AUDIT] 19 legal Loot targets checked; 11 ready now; Gray Wolf selected for the best immediate expected progress. Goblin Warrior skipped for 1m 18s because its combat session is waiting for a safe retry.
+13:15:46 | [MISSION] Primary: Gatherer [DAILY] | LOOT any | remaining 19.
+13:15:46 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+13:15:46 | [WAIT] Need HP +6531 | HP 329; safe target 6860; max 414 | STM 11/1 | natural ETA about 233h 15m.
+13:15:46 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+13:16:31 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:18:04 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:19:00 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:19:14 | [TARGET AUDIT] 20 legal Loot targets checked; 12 ready now; Gray Wolf selected for the best immediate expected progress.
+13:19:14 | [MISSION] Primary: Gatherer [DAILY] | LOOT any | remaining 19.
+13:19:14 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+13:19:14 | [NEEDS] HP 332/414, required 23 | STM 12/66, required 2 | estimated damage 7.
+13:19:14 | [PARALLEL] This action also advances: Daily Loot (7 left).
+13:19:14 | [TRAVEL] Ensuring zone: Greenwild Forest.
+13:19:14 | [ACTION] Starting Fight: Gray Wolf.
+13:19:16 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+13:19:47 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:20:27 | [NETWORK] Read failed 2/3; retrying in 16s.
+13:20:57 | [RESULT] Victory against Gray Wolf | HP 335 -> 334 | STM 12 -> 10.
+13:21:01 | [QUEST CHECK] Gatherer did not progress after Gray Wolf | dry streak 4/6.
+13:22:13 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:23:24 | [TRAVEL] Ensuring zone: Greenwild Forest.
+13:23:24 | [ACTION] Starting Fight: Gray Wolf.
+13:23:26 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+13:24:15 | [RESULT] Victory against Gray Wolf | HP 337 -> 336 | STM 11 -> 9.
+13:24:19 | [QUEST CHECK] Gatherer did not progress after Gray Wolf | dry streak 5/6.
+13:25:41 | [QUEST PRIORITY] Gatherer: loot | 19 remaining | estimated completion 21h 12m.
+13:25:41 | [TRAVEL] Ensuring zone: Greenwild Forest.
+13:25:41 | [ACTION] Starting Fight: Gray Wolf.
+13:25:43 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+13:26:01 | [FARM] LV 10 | HP 335/414 | MP 119/119 | STM 7/66 | Gold 1769 | Battles 50 | last Gray Wolf | damage 2 | +2 Gold
+13:26:08 | [RESULT] Victory against Gray Wolf | HP 337 -> 336 | STM 9 -> 7.
+13:26:40 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:26:51 | [QUEST CHECK] Gatherer did not progress after Gray Wolf | dry streak 6/6.
+13:26:51 | [TARGET CHANGE] Gray Wolf is temporarily deprioritized for Gatherer; another legal Loot target will be tested.
+13:27:09 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+13:27:09 | [TARGET AUDIT] 20 legal Loot targets checked; 12 ready now; Goblin Warrior selected for the best immediate expected progress.
+13:27:09 | [MISSION] Primary: Gatherer [DAILY] | LOOT any | remaining 19.
+13:27:09 | [STEP] PRIMARY QUEST -> Goblin Warrior in Stone Plains.
+13:27:09 | [NEEDS] HP 337/414, required 71 | STM 7/66, required 4 | estimated damage 66.
+13:27:09 | [PARALLEL] This action also advances: Goblin Invasion (15 left), Daily Loot (7 left).
+13:27:09 | [TRAVEL] Ensuring zone: Stone Plains.
+13:27:15 | [TRAVEL] Zone 4 -> 5.
+13:27:15 | [ACTION] Starting Fight: Goblin Warrior.
+13:27:18 | [SUSTAIN FIGHT] Goblin Warrior uses turn-based combat because normal full-fight safety is not satisfied.
+13:27:31 | [PLAN] Attack now -> Gatherer (19 remaining) + 2 overlapping Quests | Goblin Warrior.
+13:27:31 | [TASK] Gatherer (19 remaining) + 2 overlapping Quests: Goblin Warrior | damage~316 | Gold/STM 2.50
+13:27:31 | [COMBAT RESUME] Reusing saved session for Goblin Warrior.
+13:27:33 | [COMBAT SKILL SKIP] first_aid_probe skill 22 rejected (skill_on_cooldown); cooling it down for 4 turns and selecting another safe action.
+13:27:35 | [COMBAT HOLD] Goblin Warrior | HP 62/414 | learned next-hit bound 61 | reserve 11 | retry in 10m 0s; session preserved.
+13:27:35 | [FIGHT] Goblin Warrior failed without death; another task will be selected.
+13:27:40 | [RESULT] Fight failed against Goblin Warrior | HP 337 -> 337 | STM 7 -> 8.
+13:28:57 | [EQUIP] ring2: Anillo del Cazador Letal | score -1.0 -> 108.0
+13:29:38 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:30:02 | [QUEST PREP] Gatherer | optimizing Skills, equipment, attributes and Forge before combat.
+13:30:54 | [TARGET AUDIT] 19 legal Loot targets checked; 11 ready now; Goblin Champion selected for the best immediate expected progress. Goblin Warrior skipped for 7m 33s because its combat session is waiting for a safe retry.
+13:31:02 | [MISSION] Primary: Gatherer [DAILY] | LOOT any | remaining 19.
+13:31:02 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+13:31:02 | [WAIT] Need HP +6523 | HP 337; safe target 6860; max 414 | STM 8/1 | natural ETA about 232h 57m.
+13:31:02 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+13:33:03 | [DAMAGE MODEL] Coal Miner | estimate 151 | source prediction-only pred=137.
+13:33:03 | [DAMAGE MODEL] Herb Gatherer | estimate 151 | source prediction-only pred=137.
+13:33:03 | [DAMAGE MODEL] Mine Foreman | estimate 1631 | source prediction-only pred=1483.
+13:33:03 | [DAMAGE MODEL] Field Druid | estimate 1631 | source prediction-only pred=1483.
+13:33:03 | [DAMAGE MODEL] Coal Crusher | estimate 70825 | source prediction-only pred=64386.
+13:33:03 | [DAMAGE MODEL] Plant Warden | estimate 70825 | source prediction-only pred=64386.
+13:33:03 | [DAMAGE MODEL] Ancient Druid | estimate 2689610 | source prediction-only pred=2445100.
+13:33:03 | [DAMAGE MODEL] Ember Lord | estimate 2689610 | source prediction-only pred=2445100.
+13:33:03 | [DAMAGE MODEL] Bandit Leader | estimate 1034 | source prediction-only pred=940.
+13:33:03 | [DAMAGE MODEL] Straw Dummy | estimate 376 | source aggregate-calibrated/4 pred=409 avg=0.
+13:33:03 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4677 | source prediction-only pred=4252.
+13:33:03 | [DAMAGE MODEL] Tempered Dummy | estimate 5526 | source prediction-only pred=5024.
+13:33:03 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+13:33:03 | [DAMAGE MODEL] Goblin Warrior | estimate 345 | source prediction-only pred=314.
+13:33:03 | [DAMAGE MODEL] Giant Spider | estimate 225 | source recent-calibrated/1 recent-upper pred=147 upper=225 floor=0.99.
+13:33:03 | [DAMAGE MODEL] Goblin Scout | estimate 204 | source recent-calibrated/1 recent-upper pred=119 upper=204 floor=0.99.
+13:33:03 | [DAMAGE MODEL] Bandit Thug | estimate 35 | source recent-calibrated/5 prediction-floor pred=38 upper=33 floor=0.93.
+13:33:03 | [DAMAGE MODEL] Goblin Champion | estimate 1090 | source prediction-only pred=991.
+13:33:03 | [DAMAGE MODEL] Stone Golem | estimate 3070 | source prediction-only pred=2791.
+13:33:03 | [TARGET AUDIT] 19 legal Loot targets checked; 11 ready now; Goblin Champion selected for the best immediate expected progress. Goblin Warrior skipped for 4m 31s because its combat session is waiting for a safe retry.
+13:33:03 | [MISSION] Primary: Gatherer [DAILY] | LOOT any | remaining 19.
+13:33:03 | [STEP] PRIMARY QUEST -> Goblin Champion in Stone Plains.
+13:33:03 | [NEEDS] HP 341/416, required 214 | STM 8/66, required 5 | estimated damage 205.
+13:33:03 | [PARALLEL] This action also advances: Daily Loot (7 left).
+13:33:03 | [TRAVEL] Ensuring zone: Stone Plains.
+13:33:03 | [ACTION] Starting Fight: Goblin Champion.
+13:33:07 | [SUSTAIN FIGHT] Goblin Champion uses turn-based combat because normal full-fight safety is not satisfied.
+13:33:19 | [PLAN] Attack now -> Gatherer (19 remaining) + 1 overlapping Quest | Goblin Champion.
+13:33:19 | [TASK] Gatherer (19 remaining) + 1 overlapping Quest: Goblin Champion | damage~991 | Gold/STM 2.50
+13:33:23 | [COMBAT START] Sustain session opened for Goblin Champion.
+13:33:25 | [COMBAT SKILL SKIP] first_aid_probe skill 22 rejected (skill_on_cooldown); cooling it down for 4 turns and selecting another safe action.
+13:33:28 | [COMBAT HOLD] Goblin Champion | HP 62/416 | learned next-hit bound 187 | reserve 9 | retry in 10m 0s; session preserved.
+13:33:28 | [FIGHT] Goblin Champion failed without death; another task will be selected.
+13:33:34 | [RESULT] Fight failed against Goblin Champion | HP 343 -> 62 | STM 9 -> 4.
+13:34:07 | [QUEST CAMPAIGN 9] The Bandit Lord | bandit_leader | 1 remaining | deadline-aware safe progress score.
+13:34:07 | [QUEST PRIORITY] The Bandit Lord: kill | 1 remaining | estimated completion 7h 19m.
+13:34:07 | [TARGET AUDIT] 1 legal targets checked for The Bandit Lord; Bandit Leader selected.
+13:34:07 | [MISSION] Primary: The Bandit Lord [MAIN] | KILL bandit_leader in 4 | remaining 1.
+13:34:07 | [STEP] OPPORTUNITY -> Gray Wolf in Greenwild Forest.
+13:34:07 | [NEEDS] HP 62/416, required 23 | STM 4/66, required 2 | estimated damage 7.
+13:34:07 | [PARALLEL] This action also advances: Gatherer (19 left), Daily Loot (7 left).
+13:34:07 | [OPPORTUNITY] primary Quest is waiting; this action adds about 17m 9s and advances Gatherer (19 left), Daily Loot (7 left).
+13:34:07 | [TRAVEL] Ensuring zone: Greenwild Forest.
+13:34:15 | [TRAVEL] Zone 5 -> 4.
+13:34:15 | [ACTION] Starting Fight: Gray Wolf.
+13:34:21 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+13:34:32 | [PLAN] Attack now -> Gatherer (19 remaining) + 1 overlapping Quest | Gray Wolf.
+13:34:32 | [TASK] Gatherer (19 remaining) + 1 overlapping Quest: Gray Wolf | damage~7 | Gold/STM 1.76
+13:34:47 | [RESULT] Victory against Gray Wolf | HP 63 -> 61 | STM 4 -> 2.
+13:34:50 | [QUEST CHECK] The Bandit Lord did not progress after Gray Wolf | dry streak 2/6.
+13:35:57 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:36:50 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:37:36 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 recent-upper pred=7 upper=7 floor=0.87.
+13:37:44 | [MISSION] Primary: The Bandit Lord [MAIN] | KILL bandit_leader in 4 | remaining 1.
+13:37:44 | [STEP] RESOURCE PREPARATION -> Coal Miner.
+13:37:44 | [WAIT] Need STM +1 | HP 62; safe target 47; max 416 | STM 2/3 | natural ETA about 5m 28s.
+13:37:44 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+13:42:58 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+13:44:40 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:45:40 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:48:05 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:48:43 | [NETWORK] Read failed 2/3; retrying in 16s.
+13:49:52 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:50:50 | [MISSION] Primary: The Bandit Lord [MAIN] | KILL bandit_leader in 4 | remaining 1.
+13:50:50 | [STEP] RESOURCE PREPARATION -> Goblin Champion.
+13:50:50 | [WAIT] Need HP +139, STM +1 | HP 75; safe target 214; max 416 | STM 4/5 | natural ETA about 4h 57m.
+13:50:50 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+13:55:33 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:58:38 | [NETWORK] Read failed 1/3; retrying in 8s.
+13:59:33 | [NETWORK] Read failed 2/3; retrying in 16s.
+14:01:10 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+14:01:10 | [MISSION] Primary: The Bandit Lord [MAIN] | KILL bandit_leader in 4 | remaining 1.
+14:01:10 | [STEP] RESOURCE PREPARATION -> Goblin Champion.
+14:01:10 | [WAIT] Need HP +128 | HP 86; safe target 214; max 416 | STM 6/5 | natural ETA about 4h 34m.
+14:01:10 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+14:04:57 | [DAMAGE MODEL] Coal Miner | estimate 151 | source prediction-only pred=137.
+14:04:57 | [DAMAGE MODEL] Herb Gatherer | estimate 151 | source prediction-only pred=137.
+14:04:57 | [DAMAGE MODEL] Mine Foreman | estimate 1631 | source prediction-only pred=1483.
+14:04:57 | [DAMAGE MODEL] Field Druid | estimate 1631 | source prediction-only pred=1483.
+14:04:57 | [DAMAGE MODEL] Coal Crusher | estimate 70825 | source prediction-only pred=64386.
+14:04:57 | [DAMAGE MODEL] Plant Warden | estimate 70825 | source prediction-only pred=64386.
+14:04:57 | [DAMAGE MODEL] Ancient Druid | estimate 2689610 | source prediction-only pred=2445100.
+14:04:57 | [DAMAGE MODEL] Ember Lord | estimate 2689610 | source prediction-only pred=2445100.
+14:04:57 | [DAMAGE MODEL] Bandit Leader | estimate 1034 | source prediction-only pred=940.
+14:04:57 | [DAMAGE MODEL] Straw Dummy | estimate 376 | source aggregate-calibrated/4 pred=409 avg=0.
+14:04:57 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4677 | source prediction-only pred=4252.
+14:04:57 | [DAMAGE MODEL] Tempered Dummy | estimate 5526 | source prediction-only pred=5024.
+14:04:57 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+14:04:57 | [DAMAGE MODEL] Goblin Warrior | estimate 345 | source prediction-only pred=314.
+14:04:57 | [DAMAGE MODEL] Giant Spider | estimate 225 | source recent-calibrated/1 recent-upper pred=147 upper=225 floor=0.99.
+14:04:57 | [DAMAGE MODEL] Goblin Scout | estimate 204 | source recent-calibrated/1 recent-upper pred=119 upper=204 floor=0.99.
+14:04:57 | [DAMAGE MODEL] Bandit Thug | estimate 35 | source recent-calibrated/5 prediction-floor pred=38 upper=33 floor=0.93.
+14:04:57 | [DAMAGE MODEL] Goblin Champion | estimate 1090 | source prediction-only pred=991.
+14:04:57 | [DAMAGE MODEL] Stone Golem | estimate 3070 | source prediction-only pred=2791.
+14:04:57 | [TARGET AUDIT] 1 legal targets checked for The Bandit Lord; Bandit Leader selected.
+14:07:53 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 recent-upper pred=7 upper=7 floor=0.87.
+14:11:48 | [MISSION] Primary: The Bandit Lord [MAIN] | KILL bandit_leader in 4 | remaining 1.
+14:11:48 | [STEP] RESOURCE PREPARATION -> Goblin Champion.
+14:11:48 | [WAIT] Need HP +117 | HP 97; safe target 214; max 416 | STM 8/5 | natural ETA about 4h 10m.
+14:11:48 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+14:16:35 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+14:22:19 | [MISSION] Primary: The Bandit Lord [MAIN] | KILL bandit_leader in 4 | remaining 1.
+14:22:19 | [STEP] RESOURCE PREPARATION -> Goblin Champion.
+14:22:19 | [WAIT] Need HP +106 | HP 108; safe target 214; max 416 | STM 10/5 | natural ETA about 3h 47m.
+14:22:19 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+14:32:43 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+14:32:43 | [MISSION] Primary: The Bandit Lord [MAIN] | KILL bandit_leader in 4 | remaining 1.
+14:32:43 | [STEP] RESOURCE PREPARATION -> Goblin Champion.
+14:32:43 | [WAIT] Need HP +96 | HP 118; safe target 214; max 416 | STM 12/5 | natural ETA about 3h 25m.
+14:32:43 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+14:35:38 | [DAMAGE MODEL] Coal Miner | estimate 151 | source prediction-only pred=137.
+14:35:38 | [DAMAGE MODEL] Herb Gatherer | estimate 151 | source prediction-only pred=137.
+14:35:38 | [DAMAGE MODEL] Mine Foreman | estimate 1631 | source prediction-only pred=1483.
+14:35:38 | [DAMAGE MODEL] Field Druid | estimate 1631 | source prediction-only pred=1483.
+14:35:38 | [DAMAGE MODEL] Coal Crusher | estimate 70825 | source prediction-only pred=64386.
+14:35:38 | [DAMAGE MODEL] Plant Warden | estimate 70825 | source prediction-only pred=64386.
+14:35:38 | [DAMAGE MODEL] Ancient Druid | estimate 2689610 | source prediction-only pred=2445100.
+14:35:38 | [DAMAGE MODEL] Ember Lord | estimate 2689610 | source prediction-only pred=2445100.
+14:35:38 | [DAMAGE MODEL] Bandit Leader | estimate 1034 | source prediction-only pred=940.
+14:35:38 | [DAMAGE MODEL] Straw Dummy | estimate 376 | source aggregate-calibrated/4 pred=409 avg=0.
+14:35:38 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4677 | source prediction-only pred=4252.
+14:35:38 | [DAMAGE MODEL] Tempered Dummy | estimate 5526 | source prediction-only pred=5024.
+14:35:38 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+14:35:38 | [DAMAGE MODEL] Goblin Warrior | estimate 345 | source prediction-only pred=314.
+14:35:38 | [DAMAGE MODEL] Giant Spider | estimate 225 | source recent-calibrated/1 recent-upper pred=147 upper=225 floor=0.99.
+14:35:38 | [DAMAGE MODEL] Goblin Scout | estimate 204 | source recent-calibrated/1 recent-upper pred=119 upper=204 floor=0.99.
+14:35:38 | [DAMAGE MODEL] Bandit Thug | estimate 35 | source recent-calibrated/5 prediction-floor pred=38 upper=33 floor=0.93.
+14:35:38 | [DAMAGE MODEL] Goblin Champion | estimate 1090 | source prediction-only pred=991.
+14:35:38 | [DAMAGE MODEL] Stone Golem | estimate 3070 | source prediction-only pred=2791.
+14:35:38 | [TARGET AUDIT] 1 legal targets checked for The Bandit Lord; Bandit Leader selected.
+14:39:22 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 recent-upper pred=7 upper=7 floor=0.87.
+14:43:14 | [MISSION] Primary: The Bandit Lord [MAIN] | KILL bandit_leader in 4 | remaining 1.
+14:43:14 | [STEP] RESOURCE PREPARATION -> Goblin Champion.
+14:43:14 | [WAIT] Need HP +85 | HP 129; safe target 214; max 416 | STM 14/5 | natural ETA about 3h 2m.
+14:43:14 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+14:49:07 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+14:53:54 | [MISSION] Primary: The Bandit Lord [MAIN] | KILL bandit_leader in 4 | remaining 1.
+14:53:54 | [STEP] RESOURCE PREPARATION -> Goblin Champion.
+14:53:54 | [WAIT] Need HP +74 | HP 140; safe target 214; max 416 | STM 16/5 | natural ETA about 2h 38m.
+14:53:54 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+15:04:12 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+15:04:12 | [MISSION] Primary: The Bandit Lord [MAIN] | KILL bandit_leader in 4 | remaining 1.
+15:04:12 | [STEP] RESOURCE PREPARATION -> Goblin Champion.
+15:04:12 | [WAIT] Need HP +63 | HP 151; safe target 214; max 416 | STM 18/5 | natural ETA about 2h 15m.
+15:04:12 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+15:06:10 | [DAMAGE MODEL] Coal Miner | estimate 151 | source prediction-only pred=137.
+15:06:10 | [DAMAGE MODEL] Herb Gatherer | estimate 151 | source prediction-only pred=137.
+15:06:10 | [DAMAGE MODEL] Mine Foreman | estimate 1631 | source prediction-only pred=1483.
+15:06:10 | [DAMAGE MODEL] Field Druid | estimate 1631 | source prediction-only pred=1483.
+15:06:10 | [DAMAGE MODEL] Coal Crusher | estimate 70825 | source prediction-only pred=64386.
+15:06:10 | [DAMAGE MODEL] Plant Warden | estimate 70825 | source prediction-only pred=64386.
+15:06:10 | [DAMAGE MODEL] Ancient Druid | estimate 2689610 | source prediction-only pred=2445100.
+15:06:10 | [DAMAGE MODEL] Ember Lord | estimate 2689610 | source prediction-only pred=2445100.
+15:06:10 | [DAMAGE MODEL] Bandit Leader | estimate 1034 | source prediction-only pred=940.
+15:06:10 | [DAMAGE MODEL] Straw Dummy | estimate 376 | source aggregate-calibrated/4 pred=409 avg=0.
+15:06:10 | [DAMAGE MODEL] Custom Sparring Partner | estimate 4677 | source prediction-only pred=4252.
+15:06:10 | [DAMAGE MODEL] Tempered Dummy | estimate 5526 | source prediction-only pred=5024.
+15:06:10 | [DAMAGE MODEL] Practice Colossus | estimate 13114 | source prediction-only pred=11922.
+15:06:10 | [DAMAGE MODEL] Goblin Warrior | estimate 345 | source prediction-only pred=314.
+15:06:10 | [DAMAGE MODEL] Giant Spider | estimate 225 | source recent-calibrated/1 recent-upper pred=147 upper=225 floor=0.99.
+15:06:10 | [DAMAGE MODEL] Goblin Scout | estimate 204 | source recent-calibrated/1 recent-upper pred=119 upper=204 floor=0.99.
+15:06:10 | [DAMAGE MODEL] Bandit Thug | estimate 35 | source recent-calibrated/5 prediction-floor pred=38 upper=33 floor=0.93.
+15:06:10 | [DAMAGE MODEL] Goblin Champion | estimate 1090 | source prediction-only pred=991.
+15:06:10 | [DAMAGE MODEL] Stone Golem | estimate 3070 | source prediction-only pred=2791.
+15:06:10 | [TARGET AUDIT] 1 legal targets checked for The Bandit Lord; Bandit Leader selected.
+15:10:01 | [DAMAGE MODEL] Gray Wolf | estimate 7 | source recent-calibrated/8 recent-upper pred=7 upper=7 floor=0.87.
+15:12:50 | [STAMINA] Bank ready | STM 20 | combat resumes.
+15:12:50 | [QUEST PRIORITY] The Bandit Lord: kill | 1 remaining | estimated completion 3h 53m.
+15:12:50 | [RECOVERY OPTIMIZER] Wait 3h 53m | prioritizing Vitality, Resistance, defensive gear and efficient Forge.
+15:13:48 | [SERVER LIMIT] No safe Quest, useful Potion-material Fight or available recovery item is faster. Natural HP for Bandit Leader is currently the fastest safe legal path (3h 53m).
+15:13:55 | [POTION] Minor Potion used for safe quest combat.
+15:14:04 | [POTION] Minor Potion used for safe quest combat.
+15:14:13 | [POTION] Minor Potion used for safe quest combat.
+15:14:30 | [QUEST CAMPAIGN 10] Gatherer | any | 19 remaining | higher deadline class preempted current campaign.
+15:14:30 | [QUEST PRIORITY] Gatherer: loot | 19 remaining | estimated completion 21h 12m.
+15:14:30 | [QUEST PREP] Gatherer | optimizing Skills, equipment, attributes and Forge before combat.
+15:15:23 | [TARGET AUDIT] 20 legal Loot targets checked; 12 ready now; Gray Wolf selected for the best immediate expected progress.
+15:15:31 | [MISSION] Primary: Gatherer [DAILY] | LOOT any | remaining 19.
+15:15:31 | [STEP] RESOURCE PREPARATION -> Custom Sparring Partner.
+15:15:31 | [WAIT] Need HP +6128 | HP 311; safe target 6439; max 416 | STM 20/1 | natural ETA about 218h 51m.
+15:15:31 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+15:17:28 | [MISSION] Primary: Gatherer [DAILY] | LOOT any | remaining 19.
+15:17:28 | [STEP] PRIMARY QUEST -> Gray Wolf in Greenwild Forest.
+15:17:28 | [NEEDS] HP 313/416, required 23 | STM 20/66, required 2 | estimated damage 7.
+15:17:28 | [PARALLEL] This action also advances: Daily Loot (7 left).
+15:17:28 | [TRAVEL] Ensuring zone: Greenwild Forest.
+15:17:28 | [ACTION] Starting Fight: Gray Wolf.
+15:17:31 | [FAST FIGHT] Gray Wolf uses normal resolved combat for faster XP/Gold/Quest progress.
+15:17:56 | [RESULT] Victory against Gray Wolf | HP 314 -> 312 | STM 21 -> 19.
+15:18:01 | [QUEST CHECK] Gatherer did not progress after Gray Wolf | dry streak 7/6.
+15:18:01 | [TARGET CHANGE] Gray Wolf is temporarily deprioritized for Gatherer; another legal Loot target will be tested.
+15:18:20 | [DAMAGE MODEL] Gray Wolf | estimate 6 | source recent-calibrated/8 recent-upper pred=7 upper=6 floor=0.87.
+15:18:20 | [TARGET AUDIT] 20 legal Loot targets checked; 12 ready now; Goblin Warrior selected for the best immediate expected progress.
+15:18:20 | [MISSION] Primary: Gatherer [DAILY] | LOOT any | remaining 19.
+15:18:20 | [STEP] PRIMARY QUEST -> Goblin Warrior in Stone Plains.
+15:18:20 | [NEEDS] HP 313/416, required 71 | STM 19/66, required 4 | estimated damage 66.
+15:18:20 | [PARALLEL] This action also advances: Goblin Invasion (15 left), Daily Loot (7 left).
+15:18:20 | [TRAVEL] Ensuring zone: Stone Plains.
+15:18:26 | [TRAVEL] Zone 4 -> 5.
+15:18:26 | [ACTION] Starting Fight: Goblin Warrior.
+15:18:28 | [SUSTAIN FIGHT] Goblin Warrior uses turn-based combat because normal full-fight safety is not satisfied.
+15:18:41 | [PLAN] Attack now -> Gatherer (19 remaining) + 2 overlapping Quests | Goblin Warrior.
+15:18:41 | [TASK] Gatherer (19 remaining) + 2 overlapping Quests: Goblin Warrior | damage~314 | Gold/STM 2.50
+15:18:46 | [COMBAT START] Sustain session opened for Goblin Warrior.
+15:18:48 | [COMBAT ACTION] Goblin Warrior | turn 1 | first_aid skill 22 | HP 396/416 | enemy 849/849 | enemy hit 0 | healed 83 | next bound 66 + reserve 5 | mature.
+15:18:53 | [COMBAT ACTION] Goblin Warrior | turn 2 | damage_skill skill 13 | HP 396/416 | enemy 750/849 | enemy hit 0 | healed 0 | next bound 66 + reserve 5 | mature.
+15:18:58 | [COMBAT ACTION] Goblin Warrior | turn 3 | damage_skill skill 1 | HP 352/416 | enemy 685/849 | enemy hit 44 | healed 0 | next bound 66 + reserve 5 | mature.
+15:19:03 | [COMBAT ACTION] Goblin Warrior | turn 4 | life_drain skill 19 | HP 333/416 | enemy 661/849 | enemy hit 43 | healed 24 | next bound 65 + reserve 5 | mature.
+15:19:08 | [COMBAT ACTION] Goblin Warrior | turn 5 | damage_skill skill 13 | HP 290/416 | enemy 560/849 | enemy hit 43 | healed 0 | next bound 65 + reserve 5 | mature.
+15:19:13 | [COMBAT ACTION] Goblin Warrior | turn 6 | healing skill 10 | HP 292/416 | enemy 560/849 | enemy hit 43 | healed 45 | next bound 55 + reserve 5 | mature.
+15:19:17 | [COMBAT ACTION] Goblin Warrior | turn 7 | damage_skill skill 1 | HP 246/416 | enemy 496/849 | enemy hit 46 | healed 0 | next bound 55 + reserve 5 | mature.
+15:19:23 | [COMBAT ACTION] Goblin Warrior | turn 8 | damage_skill skill 13 | HP 200/416 | enemy 391/849 | enemy hit 46 | healed 0 | next bound 55 + reserve 5 | mature.
+15:19:27 | [COMBAT ACTION] Goblin Warrior | turn 9 | damage_skill skill 7 | HP 156/416 | enemy 363/849 | enemy hit 44 | healed 0 | next bound 61 + reserve 11 | warmup.
+15:19:32 | [COMBAT ACTION] Goblin Warrior | turn 10 | life_drain skill 19 | HP 136/416 | enemy 340/849 | enemy hit 43 | healed 23 | next bound 61 + reserve 11 | warmup.
+15:19:37 | [COMBAT ACTION] Goblin Warrior | turn 11 | mana_font skill 60 | HP 91/416 | enemy 340/849 | enemy hit 45 | healed 0 | next bound 55 + reserve 5 | mature.
+15:19:42 | [COMBAT ACTION] Goblin Warrior | turn 12 | damage_skill skill 13 | HP 47/416 | enemy 238/849 | enemy hit 44 | healed 0 | next bound 55 + reserve 5 | mature.
+15:19:47 | [COMBAT SKILL SKIP] first_aid_probe skill 22 rejected (skill_on_cooldown); cooling it down for 4 turns and selecting another safe action.
+15:19:49 | [COMBAT HOLD] Goblin Warrior | HP 47/416 | learned next-hit bound 55 | reserve 5 | retry in 10m 0s; session preserved.
+15:19:50 | [FIGHT] Goblin Warrior failed without death; another task will be selected.
+15:19:55 | [RESULT] Fight failed against Goblin Warrior | HP 313 -> 314 | STM 19 -> 15.
+15:21:21 | [QUEST BOARD] Active 21 | Daily 3 | Weekly 3 | Urgent 0 | Ready to claim 0 | Available 0 | automated 12 | deferred free 8 | paid blocked 1.
+15:21:21 | [QUEST PREP] Gatherer | optimizing Skills, equipment, attributes and Forge before combat.
+15:22:13 | [TARGET AUDIT] 19 legal Loot targets checked; 11 ready now; Goblin Champion selected for the best immediate expected progress. Goblin Warrior skipped for 8m 28s because its combat session is waiting for a safe retry.
+15:23:16 | [MISSION] Primary: Gatherer [DAILY] | LOOT any | remaining 19.
+15:23:16 | [STEP] PRIMARY QUEST -> Goblin Champion in Stone Plains.
+15:23:16 | [NEEDS] HP 318/416, required 214 | STM 16/66, required 5 | estimated damage 205.
+15:23:16 | [PARALLEL] This action also advances: Daily Loot (7 left).
+15:23:16 | [TRAVEL] Ensuring zone: Stone Plains.
+15:23:16 | [ACTION] Starting Fight: Goblin Champion.
+15:23:19 | [SUSTAIN FIGHT] Goblin Champion uses turn-based combat because normal full-fight safety is not satisfied.
+15:23:31 | [PLAN] Attack now -> Gatherer (19 remaining) + 1 overlapping Quest | Goblin Champion.
+15:23:31 | [TASK] Gatherer (19 remaining) + 1 overlapping Quest: Goblin Champion | damage~991 | Gold/STM 2.50
+15:23:36 | [COMBAT START] Sustain session opened for Goblin Champion.
+15:23:39 | [COMBAT SKILL SKIP] first_aid_probe skill 22 rejected (skill_on_cooldown); cooling it down for 4 turns and selecting another safe action.
+15:23:41 | [COMBAT HOLD] Goblin Champion | HP 47/416 | learned next-hit bound 187 | reserve 9 | retry in 10m 0s; session preserved.
+15:23:42 | [FIGHT] Goblin Champion failed without death; another task will be selected.
+15:23:47 | [RESULT] Fight failed against Goblin Champion | HP 318 -> 47 | STM 16 -> 11.
+15:25:08 | [DAMAGE MODEL] Goblin Champion | estimate 441 | source prediction-only pred=401.
+15:25:08 | [QUEST CAMPAIGN 11] Daily Provisions | coal_mines | 5 remaining | deadline-aware safe progress score.
+15:25:08 | [QUEST PRIORITY] Daily Provisions: kill | 5 remaining | estimated completion 5h 8m.
+15:25:08 | [QUEST PREP] Daily Provisions | optimizing Skills, equipment, attributes and Forge before combat.
+15:26:01 | [TARGET AUDIT] 2 safe Kill-any targets ranked by XP+Gold+Quest value; Coal Miner selected | XP/h~18.7 | Gold/h~2.3 | value/h~491.6 | cycle 1h 17m.
+15:26:01 | [MISSION] Primary: Daily Provisions [DAILY] | KILL any in coal_mines | remaining 5.
+15:26:01 | [STEP] RESOURCE PREPARATION -> Goblin Scout.
+15:26:01 | [WAIT] Need HP +6 | HP 48; safe target 54; max 416 | STM 11/4 | natural ETA about 12m 52s.
+15:26:01 | [WHILE WAITING] Claims, Daily checks, Craft, Skills and equipment remain active.
+15:26:56 | [MISSION] Primary: Daily Provisions [DAILY] | KILL any in coal_mines | remaining 5.
+15:26:56 | [STEP] PRIMARY QUEST -> Coal Miner in Coal Mines.
+15:26:56 | [NEEDS] HP 50/416, required 47 | STM 11/66, required 3 | estimated damage 36.
+15:26:56 | [PARALLEL] This action also advances: Gatherer (19 left), Daily Loot (7 left).
+15:26:56 | [TRAVEL] Ensuring zone: Coal Mines.
+15:27:02 | [TRAVEL] Zone 5 -> 22.
+15:27:02 | [ACTION] Starting Fight: Coal Miner.
+15:27:04 | [SUSTAIN FIGHT] Coal Miner uses turn-based combat because normal full-fight safety is not satisfied.
+15:27:17 | [PLAN] Attack now -> Daily Provisions (5 remaining) + 2 overlapping Quests | Coal Miner.
+15:27:17 | [TASK] Daily Provisions (5 remaining) + 2 overlapping Quests: Coal Miner | damage~137 | Gold/STM 1.00
+15:27:22 | [COMBAT START] Sustain session opened for Coal Miner.
+15:27:24 | [COMBAT ACTION] Coal Miner | turn 2 | life_drain skill 19 | HP 64/416 | enemy 562/598 | enemy hit 19 | healed 36 | next bound 36 + reserve 11 | warmup+new-phase.
+15:27:29 | [COMBAT ACTION] Coal Miner | turn 3 | mana_font skill 60 | HP 44/416 | enemy 562/598 | enemy hit 20 | healed 0 | next bound 37 + reserve 11 | warmup+new-phase.
+15:27:34 | [COMBAT ACTION] Coal Miner | turn 3 | first_aid skill 22 | HP 127/416 | enemy 562/598 | enemy hit 0 | healed 83 | next bound 39 + reserve 11 | warmup+new-phase.
+15:27:39 | [COMBAT ACTION] Coal Miner | turn 4 | healing skill 10 | HP 152/416 | enemy 562/598 | enemy hit 20 | healed 45 | next bound 39 + reserve 11 | warmup+new-phase.
+15:27:44 | [COMBAT ACTION] Coal Miner | turn 5 | damage_skill skill 13 | HP 134/416 | enemy 459/598 | enemy hit 18 | healed 0 | next bound 30 + reserve 11 | warmup.
+15:27:48 | [COMBAT ACTION] Coal Miner | turn 6 | damage_skill skill 1 | HP 115/416 | enemy 393/598 | enemy hit 19 | healed 0 | next bound 31 + reserve 11 | warmup.
+15:27:53 | [COMBAT ACTION] Coal Miner | turn 7 | basic | HP 95/416 | enemy 349/598 | enemy hit 20 | healed 0 | next bound 39 + reserve 11 | warmup+new-phase.
+15:27:58 | [COMBAT ACTION] Coal Miner | turn 8 | basic | HP 77/416 | enemy 307/598 | enemy hit 18 | healed 0 | next bound 38 + reserve 11 | warmup+new-phase.
+15:28:03 | [COMBAT ACTION] Coal Miner | turn 9 | basic | HP 58/416 | enemy 256/598 | enemy hit 19 | healed 0 | next bound 39 + reserve 11 | warmup+new-phase.
+15:28:08 | [COMBAT ACTION] Coal Miner | turn 10 | basic | HP 38/416 | enemy 208/598 | enemy hit 20 | healed 0 | next bound 35 + reserve 5 | mature+new-phase.
+15:28:12 | [COMBAT SKILL SKIP] first_aid_probe skill 22 rejected (skill_on_cooldown); cooling it down for 4 turns and selecting another safe action.
+15:28:15 | [COMBAT HOLD] Coal Miner | HP 38/416 | learned next-hit bound 38 | reserve 11 | retry in 10m 0s; session preserved.
+15:28:15 | [FIGHT] Coal Miner failed without death; another task will be selected.
+15:28:20 | [RESULT] Fight failed against Coal Miner | HP 51 -> 48 | STM 11 -> 9.

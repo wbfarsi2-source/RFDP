@@ -1,0 +1,16 @@
+{
+  "2": {
+    "count": 3,
+    "gold": 15,
+    "xp": 33,
+    "stamina": 9,
+    "seconds": 3.0
+  },
+  "1": {
+    "count": 57,
+    "gold": 176,
+    "xp": 399,
+    "stamina": 114,
+    "seconds": 57.0
+  }
+}
