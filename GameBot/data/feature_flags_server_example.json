@@ -1,0 +1,11 @@
+{
+  "games": {
+    "kintara": {
+      "_game": {"enabled": true, "visible": true},
+      "farm": {"enabled": true, "visible": true},
+      "cook": {"enabled": true, "visible": true},
+      "sell": {"enabled": true, "visible": true},
+      "merchant": {"enabled": false, "visible": false}
+    }
+  }
+}

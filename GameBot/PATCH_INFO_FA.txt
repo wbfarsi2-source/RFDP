@@ -1,0 +1,11 @@
+اصلاح مسیر رسمی Spectator برای Come To Molten
+
+ایراد نسخه قبل:
+مسیر controllerId درست اضافه شده بود، اما اتصال همچنان روی wsBaseUrl سرور بازی ساخته می‌شد.
+کلاینت جدید Kintara مسیر Spectator را روی fanoutOrigin می‌سازد.
+
+مسیر صحیح نمونه:
+wss://fanout.kintara.com/ws/spectate/s1/s4
+
+فایل اصلاح‌شده:
+games\kintara\services\ember\monitor.py

@@ -1,0 +1,1317 @@
+[
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "24,5"
+      ],
+      "until": 1785793496793,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "6,60",
+        "6,61"
+      ],
+      "until": 1785793503606,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "34,15"
+      ],
+      "until": 1785793503853,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "15,59"
+      ],
+      "until": 1785793506287,
+      "hasCoal": true,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "35,15"
+      ],
+      "until": 1785793497225,
+      "hasCoal": true,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "23,4"
+      ],
+      "until": 1785793507921,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "33,15"
+      ],
+      "until": 1785793498593,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "22,6"
+      ],
+      "until": 1785793509948,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "18,60"
+      ],
+      "until": 1785793505684,
+      "hasCoal": true,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "9,59"
+      ],
+      "until": 1785793507326,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "19,4"
+      ],
+      "until": 1785793500958,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "8,61"
+      ],
+      "until": 1785793496222,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "10,60"
+      ],
+      "until": 1785793514496,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "23,5"
+      ],
+      "until": 1785793511233,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "18,7"
+      ],
+      "until": 1785793523726,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "9,58"
+      ],
+      "until": 1785793516370,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "24,4"
+      ],
+      "until": 1785793526159,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "18,9"
+      ],
+      "until": 1785793500969,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "8,58"
+      ],
+      "until": 1785793512964,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "17,10"
+      ],
+      "until": 1785793508799,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "9,61"
+      ],
+      "until": 1785793527333,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "6,58"
+      ],
+      "until": 1785793526627,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "16,8"
+      ],
+      "until": 1785793515273,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "22,18",
+        "23,18"
+      ],
+      "until": 1785793535285,
+      "hasCoal": true,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "5,60"
+      ],
+      "until": 1785793516382,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "16,7"
+      ],
+      "until": 1785793531006,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "15,60",
+        "16,60"
+      ],
+      "until": 1785793525525,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "24,21"
+      ],
+      "until": 1785793536744,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "5,59"
+      ],
+      "until": 1785793540644,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "18,4"
+      ],
+      "until": 1785793517920,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "21,23",
+        "21,24"
+      ],
+      "until": 1785793534888,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "4,59",
+        "4,60"
+      ],
+      "until": 1785793528878,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "20,3"
+      ],
+      "until": 1785793530406,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 7,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "12,59",
+        "12,60"
+      ],
+      "until": 1785793532963,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "24,5"
+      ],
+      "until": 1785793496793,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "6,60",
+        "6,61"
+      ],
+      "until": 1785793503606,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "34,15"
+      ],
+      "until": 1785793503853,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "15,59"
+      ],
+      "until": 1785793506287,
+      "hasCoal": true,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "35,15"
+      ],
+      "until": 1785793497225,
+      "hasCoal": true,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "23,4"
+      ],
+      "until": 1785793507921,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "33,15"
+      ],
+      "until": 1785793498593,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "22,6"
+      ],
+      "until": 1785793509948,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "18,60"
+      ],
+      "until": 1785793505684,
+      "hasCoal": true,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "9,59"
+      ],
+      "until": 1785793507326,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "19,4"
+      ],
+      "until": 1785793500958,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "8,61"
+      ],
+      "until": 1785793496222,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "10,60"
+      ],
+      "until": 1785793514496,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "23,5"
+      ],
+      "until": 1785793511233,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "18,7"
+      ],
+      "until": 1785793523726,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "9,58"
+      ],
+      "until": 1785793516370,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "24,4"
+      ],
+      "until": 1785793526159,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "18,9"
+      ],
+      "until": 1785793500969,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "8,58"
+      ],
+      "until": 1785793512964,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "17,10"
+      ],
+      "until": 1785793508799,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "9,61"
+      ],
+      "until": 1785793527333,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "6,58"
+      ],
+      "until": 1785793526627,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "16,8"
+      ],
+      "until": 1785793515273,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "22,18",
+        "23,18"
+      ],
+      "until": 1785793535285,
+      "hasCoal": true,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "5,60"
+      ],
+      "until": 1785793516382,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "16,7"
+      ],
+      "until": 1785793531006,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "15,60",
+        "16,60"
+      ],
+      "until": 1785793525525,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "24,21"
+      ],
+      "until": 1785793536744,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "5,59"
+      ],
+      "until": 1785793540644,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "18,4"
+      ],
+      "until": 1785793517920,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "21,23",
+        "21,24"
+      ],
+      "until": 1785793534888,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "4,59",
+        "4,60"
+      ],
+      "until": 1785793528878,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "20,3"
+      ],
+      "until": 1785793530406,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "12,59",
+        "12,60"
+      ],
+      "until": 1785793532963,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "2,59"
+      ],
+      "until": 1785793528914,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 48,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "17,3"
+      ],
+      "until": 1785793539211,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "24,5"
+      ],
+      "until": 1785793496793,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "6,60",
+        "6,61"
+      ],
+      "until": 1785793503606,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "34,15"
+      ],
+      "until": 1785793503853,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "15,59"
+      ],
+      "until": 1785793506287,
+      "hasCoal": true,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "35,15"
+      ],
+      "until": 1785793497225,
+      "hasCoal": true,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "23,4"
+      ],
+      "until": 1785793507921,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "33,15"
+      ],
+      "until": 1785793498593,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "22,6"
+      ],
+      "until": 1785793509948,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "18,60"
+      ],
+      "until": 1785793505684,
+      "hasCoal": true,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "9,59"
+      ],
+      "until": 1785793507326,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "19,4"
+      ],
+      "until": 1785793500958,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "8,61"
+      ],
+      "until": 1785793496222,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "10,60"
+      ],
+      "until": 1785793514496,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "23,5"
+      ],
+      "until": 1785793511233,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "18,7"
+      ],
+      "until": 1785793523726,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "9,58"
+      ],
+      "until": 1785793516370,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "24,4"
+      ],
+      "until": 1785793526159,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "18,9"
+      ],
+      "until": 1785793500969,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "8,58"
+      ],
+      "until": 1785793512964,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "17,10"
+      ],
+      "until": 1785793508799,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "9,61"
+      ],
+      "until": 1785793527333,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "6,58"
+      ],
+      "until": 1785793526627,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "16,8"
+      ],
+      "until": 1785793515273,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "22,18",
+        "23,18"
+      ],
+      "until": 1785793535285,
+      "hasCoal": true,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "5,60"
+      ],
+      "until": 1785793516382,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "16,7"
+      ],
+      "until": 1785793531006,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "15,60",
+        "16,60"
+      ],
+      "until": 1785793525525,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "rock",
+      "keys": [
+        "24,21"
+      ],
+      "until": 1785793536744,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "5,59"
+      ],
+      "until": 1785793540644,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  },
+  {
+    "server": "Server_10",
+    "line": 84,
+    "entry": {
+      "kind": "tree",
+      "keys": [
+        "18,4"
+      ],
+      "until": 1785793517920,
+      "hasCoal": false,
+      "hasMetal": false
+    }
+  }
+]

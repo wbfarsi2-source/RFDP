@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Namira Passive Capture",
+  "version": "0.1.0",
+  "description": "Passive Kintara WebSocket protocol capture for Namira development.",
+  "permissions": [
+    "storage",
+    "downloads",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://kintara.gg/*",
+    "https://*.kintara.gg/*"
+  ],
+  "action": {
+    "default_title": "Namira Passive Capture",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://kintara.gg/*",
+        "https://*.kintara.gg/*"
+      ],
+      "js": ["main_hook.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": [
+        "https://kintara.gg/*",
+        "https://*.kintara.gg/*"
+      ],
+      "js": ["bridge.js"],
+      "run_at": "document_start",
+      "world": "ISOLATED"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+KINTARA MAGMA RAW PRESENCE TEST
+
+Generated: 2026-08-04 01:15:52
+Selected servers: 20
+Server results: 20
+Total frames: 5076
+Keyword hits: 4891
+Errors: 3
+
+PER SERVER
+Server 10 | status=ok | frames=1000 | bytes=759867 | shard=10 | zone=us | error=-
+Server 11 | status=ok | frames=1000 | bytes=850743 | shard=11 | zone=us | error=-
+Server 12 | status=error | frames=0 | bytes=0 | shard=1 | zone=us | error=connect-token failed status=403 error=membership_required
+Server 13 | status=error | frames=0 | bytes=0 | shard=2 | zone=us | error=connect-token failed status=403 error=membership_required
+Server 14 | status=error | frames=0 | bytes=0 | shard=3 | zone=us | error=connect-token failed status=403 error=membership_required
+Server 15 | status=closed | frames=7 | bytes=11179 | shard=4 | zone=us | error=-
+Server 16 | status=closed | frames=9 | bytes=9463 | shard=5 | zone=us | error=-
+Server 17 | status=closed | frames=5 | bytes=2277 | shard=6 | zone=us | error=-
+Server 18 | status=closed | frames=6 | bytes=9844 | shard=7 | zone=us | error=-
+Server 19 | status=ok | frames=1000 | bytes=481828 | shard=8 | zone=us | error=-
+Server 20 | status=closed | frames=7 | bytes=8229 | shard=9 | zone=us | error=-
+Server 21 | status=closed | frames=8 | bytes=11518 | shard=10 | zone=us | error=-
+Server 23 | status=closed | frames=2 | bytes=71 | shard=2 | zone=eu | error=-
+Server 24 | status=ok | frames=1000 | bytes=320224 | shard=3 | zone=eu | error=-
+Server 26 | status=closed | frames=8 | bytes=9670 | shard=2 | zone=asia | error=-
+Server 27 | status=ok | frames=1000 | bytes=527454 | shard=3 | zone=asia | error=-
+Server 28 | status=closed | frames=6 | bytes=5693 | shard=4 | zone=asia | error=-
+Server 29 | status=closed | frames=2 | bytes=71 | shard=5 | zone=asia | error=-
+Server 30 | status=closed | frames=4 | bytes=4373 | shard=6 | zone=asia | error=-
+Server 9 | status=closed | frames=12 | bytes=12053 | shard=9 | zone=us | error=-
+
+TOP FRAME TYPES
+   4075  t=snap
+    814  t=res_evt
+    106  t=online_total
+     36  t=arena_lb
+     17  t=chat_push_on
+     17  t=ffp_st
+      7  t=mp_rsv
+      2  t=chat_new
+      1  t=wild_bg
+      1  t=wild_bg_rm
+
+KEYWORD HIT SERVERS
+    976  Server 10
+    976  Server 11
+    973  Server 19
+    973  Server 27
+    962  Server 24
+      7  Server 9
+      6  Server 26
+      4  Server 16
+      4  Server 28
+      3  Server 21
+      2  Server 15
+      2  Server 20
+      2  Server 30
+      1  Server 18

@@ -1,0 +1,4 @@
+GameBot Platform
+Version: 0.7.0
+Architecture: Python modular multi-game platform
+Kintara module: paid account runtimes + shared Molten Location service

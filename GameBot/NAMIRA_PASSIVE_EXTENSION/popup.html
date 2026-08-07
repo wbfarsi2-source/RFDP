@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+  <title>Namira Passive Capture</title>
+  <link
+    rel="stylesheet"
+    href="popup.css"
+  >
+</head>
+<body>
+  <main>
+    <h1>Namira Passive Capture</h1>
+
+    <p id="status">
+      Loading...
+    </p>
+
+    <div class="grid two">
+      <button
+        id="start"
+        class="primary"
+      >
+        Start New Capture
+      </button>
+
+      <button id="stop">
+        Stop Capture
+      </button>
+    </div>
+
+    <h2>Markers</h2>
+
+    <div class="grid two">
+      <button
+        data-marker="BEFORE_SHIELD_HIT"
+      >
+        Before Shield Hit
+      </button>
+
+      <button
+        data-marker="AFTER_SHIELD_HIT"
+      >
+        After Shield Hit
+      </button>
+
+      <button
+        data-marker="BEFORE_HP_HIT"
+      >
+        Before HP Hit
+      </button>
+
+      <button
+        data-marker="AFTER_HP_HIT"
+      >
+        After HP Hit
+      </button>
+    </div>
+
+    <div class="grid two section">
+      <button id="snapshot">
+        Refresh Server Snapshot
+      </button>
+
+      <button id="customMarker">
+        Custom Marker
+      </button>
+
+      <button
+        id="export"
+        class="primary"
+      >
+        Export JSON
+      </button>
+
+      <button
+        id="clear"
+        class="danger"
+      >
+        Clear Data
+      </button>
+    </div>
+
+    <p class="hint">
+      Passive only: no reload,
+      disconnect, movement, attack,
+      or game action.
+    </p>
+  </main>
+
+  <script src="popup.js"></script>
+</body>
+</html>

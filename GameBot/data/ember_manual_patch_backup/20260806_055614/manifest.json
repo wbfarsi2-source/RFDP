@@ -1,0 +1,6 @@
+{
+  "created_files": [
+    "games/kintara/services/ember/manual_scanner.py",
+    "games/kintara/telegram/ember_manual_patch.py"
+  ]
+}

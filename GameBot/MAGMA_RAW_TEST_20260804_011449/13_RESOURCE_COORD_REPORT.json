@@ -1,0 +1,1103 @@
+{
+  "capture_directory": "/mnt/c/Users/JavadTM/Desktop/Start/MAGMA_RAW_TEST_20260804_011449",
+  "total_frames": 5076,
+  "total_snapshots": 4075,
+  "total_resource_events": 814,
+  "mapped_resource_events": 611,
+  "message_types": [
+    {
+      "value": "snap",
+      "count": 4075
+    },
+    {
+      "value": "res_evt",
+      "count": 814
+    },
+    {
+      "value": "online_total",
+      "count": 106
+    },
+    {
+      "value": "arena_lb",
+      "count": 36
+    },
+    {
+      "value": "chat_push_on",
+      "count": 17
+    },
+    {
+      "value": "ffp_st",
+      "count": 17
+    },
+    {
+      "value": "mp_rsv",
+      "count": 7
+    },
+    {
+      "value": "chat_new",
+      "count": 2
+    },
+    {
+      "value": "wild_bg",
+      "count": 1
+    },
+    {
+      "value": "wild_bg_rm",
+      "count": 1
+    }
+  ],
+  "resource_event_kinds": [
+    {
+      "value": "\"rock\"",
+      "count": 531
+    },
+    {
+      "value": "\"tree\"",
+      "count": 283
+    }
+  ],
+  "resource_event_kind_and_event": [
+    {
+      "kind": "\"rock\"",
+      "event": "wear",
+      "count": 407
+    },
+    {
+      "kind": "\"tree\"",
+      "event": "wear",
+      "count": 206
+    },
+    {
+      "kind": "\"rock\"",
+      "event": "clear",
+      "count": 67
+    },
+    {
+      "kind": "\"rock\"",
+      "event": "spawn",
+      "count": 57
+    },
+    {
+      "kind": "\"tree\"",
+      "event": "spawn",
+      "count": 40
+    },
+    {
+      "kind": "\"tree\"",
+      "event": "clear",
+      "count": 37
+    }
+  ],
+  "resource_keys": [
+    {
+      "value": "[\"15,60\",\"16,60\"]",
+      "count": 30
+    },
+    {
+      "value": "[\"1,56\"]",
+      "count": 22
+    },
+    {
+      "value": "[\"6,60\",\"6,61\"]",
+      "count": 21
+    },
+    {
+      "value": "[\"10,58\"]",
+      "count": 21
+    },
+    {
+      "value": "[\"10,60\"]",
+      "count": 20
+    },
+    {
+      "value": "[\"4,59\",\"4,60\"]",
+      "count": 17
+    },
+    {
+      "value": "[\"12,59\",\"12,60\"]",
+      "count": 17
+    },
+    {
+      "value": "[\"22,18\",\"23,18\"]",
+      "count": 17
+    },
+    {
+      "value": "[\"0,60\",\"0,61\"]",
+      "count": 16
+    },
+    {
+      "value": "[\"16,15\"]",
+      "count": 15
+    },
+    {
+      "value": "[\"35,15\"]",
+      "count": 15
+    },
+    {
+      "value": "[\"24,17\"]",
+      "count": 15
+    },
+    {
+      "value": "[\"0,55\"]",
+      "count": 14
+    },
+    {
+      "value": "[\"17,3\"]",
+      "count": 11
+    },
+    {
+      "value": "[\"17,58\",\"18,58\"]",
+      "count": 10
+    },
+    {
+      "value": "[\"18,60\"]",
+      "count": 10
+    },
+    {
+      "value": "[\"14,59\"]",
+      "count": 10
+    },
+    {
+      "value": "[\"9,59\"]",
+      "count": 9
+    },
+    {
+      "value": "[\"25,15\",\"25,16\"]",
+      "count": 9
+    },
+    {
+      "value": "[\"2,50\"]",
+      "count": 9
+    },
+    {
+      "value": "[\"21,23\",\"21,24\"]",
+      "count": 9
+    },
+    {
+      "value": "[\"16,58\"]",
+      "count": 9
+    },
+    {
+      "value": "[\"33,15\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"19,4\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"34,15\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"15,59\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"5,60\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"18,4\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"8,25\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"8,20\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"2,53\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"7,23\",\"7,24\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"5,19\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"20,0\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"19,0\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"1,6\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"24,21\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"14,61\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"14,58\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"49,0\",\"49,1\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"56,25\",\"56,26\"]",
+      "count": 8
+    },
+    {
+      "value": "[\"4,57\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"18,15\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"18,16\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"0,57\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"21,16\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"22,5\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"14,16\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"2,54\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"1,55\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"8,23\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"2,56\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"8,60\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"7,26\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"20,3\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"3,61\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"2,58\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"1,26\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"4,22\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"5,25\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"25,19\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"25,17\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"21,20\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"24,19\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"5,59\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"23,15\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"4,61\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"24,18\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"13,59\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"13,61\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"12,61\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"11,61\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"10,61\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"31,9\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"41,1\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"60,17\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"54,28\"]",
+      "count": 7
+    },
+    {
+      "value": "[\"25,18\",\"26,18\"]",
+      "count": 6
+    },
+    {
+      "value": "[\"19,59\"]",
+      "count": 5
+    },
+    {
+      "value": "[\"2,59\"]",
+      "count": 4
+    },
+    {
+      "value": "[\"13,40\"]",
+      "count": 4
+    },
+    {
+      "value": "[\"17,60\"]",
+      "count": 4
+    },
+    {
+      "value": "[\"1,60\"]",
+      "count": 3
+    },
+    {
+      "value": "[\"19,57\"]",
+      "count": 3
+    },
+    {
+      "value": "[\"8,61\"]",
+      "count": 2
+    },
+    {
+      "value": "[\"24,5\"]",
+      "count": 2
+    },
+    {
+      "value": "[\"23,4\"]",
+      "count": 2
+    },
+    {
+      "value": "[\"23,5\"]",
+      "count": 2
+    },
+    {
+      "value": "[\"24,4\"]",
+      "count": 2
+    },
+    {
+      "value": "[\"23,1\"]",
+      "count": 2
+    },
+    {
+      "value": "[\"25,4\"]",
+      "count": 2
+    },
+    {
+      "value": "[\"16,35\"]",
+      "count": 2
+    },
+    {
+      "value": "[\"24,6\"]",
+      "count": 2
+    },
+    {
+      "value": "[\"2,4\"]",
+      "count": 2
+    },
+    {
+      "value": "[\"21,27\"]",
+      "count": 2
+    },
+    {
+      "value": "[\"19,58\"]",
+      "count": 2
+    },
+    {
+      "value": "[\"40,21\"]",
+      "count": 2
+    },
+    {
+      "value": "[\"18,9\"]",
+      "count": 1
+    },
+    {
+      "value": "[\"17,10\"]",
+      "count": 1
+    },
+    {
+      "value": "[\"8,58\"]",
+      "count": 1
+    }
+  ],
+  "resource_loot": [
+    {
+      "value": "\"stone\"",
+      "count": 235
+    },
+    {
+      "value": "\"wood\"",
+      "count": 206
+    },
+    {
+      "value": "null",
+      "count": 201
+    },
+    {
+      "value": "\"coal\"",
+      "count": 172
+    }
+  ],
+  "has_coal": [
+    {
+      "value": "false",
+      "count": 593
+    },
+    {
+      "value": "true",
+      "count": 221
+    }
+  ],
+  "has_metal": [
+    {
+      "value": "false",
+      "count": 814
+    }
+  ],
+  "h_values": [
+    {
+      "value": "null",
+      "count": 201
+    },
+    {
+      "value": "5",
+      "count": 101
+    },
+    {
+      "value": "6",
+      "count": 100
+    },
+    {
+      "value": "1",
+      "count": 99
+    },
+    {
+      "value": "3",
+      "count": 99
+    },
+    {
+      "value": "4",
+      "count": 97
+    },
+    {
+      "value": "2",
+      "count": 97
+    },
+    {
+      "value": "7",
+      "count": 20
+    }
+  ],
+  "hm_values": [
+    {
+      "value": "6",
+      "count": 470
+    },
+    {
+      "value": "null",
+      "count": 201
+    },
+    {
+      "value": "7",
+      "count": 143
+    }
+  ],
+  "l2kind_values": [
+    {
+      "value": "null",
+      "count": 777
+    },
+    {
+      "value": "\"hot\"",
+      "count": 37
+    }
+  ],
+  "l2tool_values": [
+    {
+      "value": "null",
+      "count": 777
+    },
+    {
+      "value": "\"tool_axe_l2\"",
+      "count": 36
+    },
+    {
+      "value": "\"copper_pickaxe\"",
+      "count": 1
+    }
+  ],
+  "events_by_server": [
+    {
+      "value": "Server_11",
+      "count": 241
+    },
+    {
+      "value": "Server_10",
+      "count": 218
+    },
+    {
+      "value": "Server_19",
+      "count": 148
+    },
+    {
+      "value": "Server_27",
+      "count": 110
+    },
+    {
+      "value": "Server_24",
+      "count": 93
+    },
+    {
+      "value": "Server_16",
+      "count": 1
+    },
+    {
+      "value": "Server_21",
+      "count": 1
+    },
+    {
+      "value": "Server_28",
+      "count": 1
+    },
+    {
+      "value": "Server_9",
+      "count": 1
+    }
+  ],
+  "coordinates_by_kind": {
+    "\"tree\"": {
+      "mapped_events": 205,
+      "x_min": -30.5,
+      "x_max": 9.5,
+      "x_median": -16.5,
+      "y_min": 0.25,
+      "y_max": 0.29,
+      "z_min": -29.5,
+      "z_max": 30.5,
+      "z_median": -5.5,
+      "top_coordinate_cells": [
+        {
+          "value": "-18,30",
+          "count": 18
+        },
+        {
+          "value": "-28,24",
+          "count": 12
+        },
+        {
+          "value": "-6,-12",
+          "count": 12
+        },
+        {
+          "value": "-16,28",
+          "count": 12
+        },
+        {
+          "value": "-28,26",
+          "count": 6
+        },
+        {
+          "value": "-12,-14",
+          "count": 6
+        },
+        {
+          "value": "-30,26",
+          "count": 6
+        },
+        {
+          "value": "-14,-28",
+          "count": 6
+        },
+        {
+          "value": "-10,-30",
+          "count": 6
+        },
+        {
+          "value": "-12,-30",
+          "count": 6
+        },
+        {
+          "value": "-24,30",
+          "count": 6
+        },
+        {
+          "value": "-24,28",
+          "count": 6
+        },
+        {
+          "value": "-26,30",
+          "count": 6
+        },
+        {
+          "value": "-6,-14",
+          "count": 6
+        },
+        {
+          "value": "-14,28",
+          "count": 6
+        },
+        {
+          "value": "-12,-16",
+          "count": 5
+        },
+        {
+          "value": "-10,-14",
+          "count": 5
+        },
+        {
+          "value": "-16,-14",
+          "count": 5
+        },
+        {
+          "value": "-22,-8",
+          "count": 5
+        },
+        {
+          "value": "-22,-6",
+          "count": 5
+        },
+        {
+          "value": "-24,-6",
+          "count": 5
+        },
+        {
+          "value": "-12,-28",
+          "count": 5
+        },
+        {
+          "value": "-12,-26",
+          "count": 5
+        },
+        {
+          "value": "-10,-12",
+          "count": 5
+        },
+        {
+          "value": "-16,30",
+          "count": 5
+        },
+        {
+          "value": "-20,30",
+          "count": 5
+        },
+        {
+          "value": "-10,-28",
+          "count": 4
+        },
+        {
+          "value": "-14,-26",
+          "count": 3
+        },
+        {
+          "value": "-12,28",
+          "count": 3
+        },
+        {
+          "value": "-28,28",
+          "count": 2
+        }
+      ],
+      "servers": [
+        {
+          "value": "Server_10",
+          "count": 74
+        },
+        {
+          "value": "Server_24",
+          "count": 50
+        },
+        {
+          "value": "Server_19",
+          "count": 45
+        },
+        {
+          "value": "Server_11",
+          "count": 35
+        },
+        {
+          "value": "Server_28",
+          "count": 1
+        }
+      ],
+      "events": [
+        {
+          "value": "wear",
+          "count": 205
+        }
+      ],
+      "equipment": [
+        {
+          "value": "None",
+          "count": 205
+        }
+      ],
+      "actions": [
+        {
+          "value": "None",
+          "count": 198
+        },
+        {
+          "value": "chop",
+          "count": 7
+        }
+      ]
+    },
+    "\"rock\"": {
+      "mapped_events": 406,
+      "x_min": -30.5,
+      "x_max": 29.5,
+      "x_median": -18.5,
+      "y_min": 0.25,
+      "y_max": 0.3,
+      "z_min": -30.5,
+      "z_max": 30.5,
+      "z_median": 24.5,
+      "top_coordinate_cells": [
+        {
+          "value": "-30,26",
+          "count": 29
+        },
+        {
+          "value": "-16,28",
+          "count": 26
+        },
+        {
+          "value": "-20,28",
+          "count": 22
+        },
+        {
+          "value": "-24,28",
+          "count": 17
+        },
+        {
+          "value": "-30,28",
+          "count": 14
+        },
+        {
+          "value": "-28,28",
+          "count": 13
+        },
+        {
+          "value": "-18,28",
+          "count": 13
+        },
+        {
+          "value": "-8,-12",
+          "count": 13
+        },
+        {
+          "value": "-20,26",
+          "count": 12
+        },
+        {
+          "value": "-28,24",
+          "count": 12
+        },
+        {
+          "value": "4,-16",
+          "count": 12
+        },
+        {
+          "value": "-14,-16",
+          "count": 11
+        },
+        {
+          "value": "-8,-14",
+          "count": 11
+        },
+        {
+          "value": "-14,26",
+          "count": 7
+        },
+        {
+          "value": "-6,-16",
+          "count": 7
+        },
+        {
+          "value": "-24,-8",
+          "count": 7
+        },
+        {
+          "value": "-10,-8",
+          "count": 7
+        },
+        {
+          "value": "-10,-12",
+          "count": 7
+        },
+        {
+          "value": "20,-30",
+          "count": 7
+        },
+        {
+          "value": "26,-6",
+          "count": 7
+        },
+        {
+          "value": "-8,-24",
+          "count": 6
+        },
+        {
+          "value": "2,-16",
+          "count": 6
+        },
+        {
+          "value": "-30,-4",
+          "count": 6
+        },
+        {
+          "value": "-22,-12",
+          "count": 6
+        },
+        {
+          "value": "-28,-8",
+          "count": 6
+        },
+        {
+          "value": "-28,20",
+          "count": 6
+        },
+        {
+          "value": "-28,-24",
+          "count": 6
+        },
+        {
+          "value": "-6,-8",
+          "count": 6
+        },
+        {
+          "value": "-6,-14",
+          "count": 6
+        },
+        {
+          "value": "-14,30",
+          "count": 6
+        }
+      ],
+      "servers": [
+        {
+          "value": "Server_11",
+          "count": 147
+        },
+        {
+          "value": "Server_10",
+          "count": 85
+        },
+        {
+          "value": "Server_27",
+          "count": 84
+        },
+        {
+          "value": "Server_19",
+          "count": 69
+        },
+        {
+          "value": "Server_24",
+          "count": 19
+        },
+        {
+          "value": "Server_16",
+          "count": 1
+        },
+        {
+          "value": "Server_9",
+          "count": 1
+        }
+      ],
+      "events": [
+        {
+          "value": "wear",
+          "count": 406
+        }
+      ],
+      "equipment": [
+        {
+          "value": "None",
+          "count": 406
+        }
+      ],
+      "actions": [
+        {
+          "value": "None",
+          "count": 384
+        },
+        {
+          "value": "mine",
+          "count": 22
+        }
+      ]
+    }
+  },
+  "snap_res_shapes": [
+    {
+      "value": "list:length=9",
+      "count": 19
+    },
+    {
+      "value": "list:length=10",
+      "count": 17
+    },
+    {
+      "value": "list:length=14",
+      "count": 13
+    },
+    {
+      "value": "list:length=13",
+      "count": 12
+    },
+    {
+      "value": "list:length=17",
+      "count": 11
+    },
+    {
+      "value": "list:length=18",
+      "count": 11
+    },
+    {
+      "value": "list:length=37",
+      "count": 10
+    },
+    {
+      "value": "list:length=33",
+      "count": 9
+    },
+    {
+      "value": "list:length=15",
+      "count": 9
+    },
+    {
+      "value": "list:length=36",
+      "count": 7
+    },
+    {
+      "value": "list:length=32",
+      "count": 7
+    },
+    {
+      "value": "list:length=34",
+      "count": 6
+    },
+    {
+      "value": "list:length=19",
+      "count": 6
+    },
+    {
+      "value": "list:length=30",
+      "count": 5
+    },
+    {
+      "value": "list:length=8",
+      "count": 5
+    },
+    {
+      "value": "list:length=35",
+      "count": 4
+    },
+    {
+      "value": "list:length=11",
+      "count": 4
+    },
+    {
+      "value": "list:length=31",
+      "count": 3
+    },
+    {
+      "value": "list:length=20",
+      "count": 2
+    },
+    {
+      "value": "list:length=39",
+      "count": 1
+    },
+    {
+      "value": "list:length=38",
+      "count": 1
+    },
+    {
+      "value": "list:length=16",
+      "count": 1
+    },
+    {
+      "value": "list:length=27",
+      "count": 1
+    },
+    {
+      "value": "list:length=12",
+      "count": 1
+    },
+    {
+      "value": "list:length=21",
+      "count": 1
+    }
+  ]
+}

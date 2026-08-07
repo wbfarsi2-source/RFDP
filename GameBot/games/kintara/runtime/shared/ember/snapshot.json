@@ -1,0 +1,392 @@
+{
+  "mode": "manual_sequential_presence",
+  "created_at": 1786089929.6734283,
+  "servers_expected": 25,
+  "servers_checked": 25,
+  "servers_successful": 21,
+  "servers_failed": 4,
+  "servers_unidentified": 4,
+  "unidentified_servers": [
+    {
+      "server": "Server 12",
+      "number": 12,
+      "attempts": 2
+    },
+    {
+      "server": "Server 13",
+      "number": 13,
+      "attempts": 2
+    },
+    {
+      "server": "Server 14",
+      "number": 14,
+      "attempts": 2
+    },
+    {
+      "server": "Server 26",
+      "number": 26,
+      "attempts": 2
+    }
+  ],
+  "minimum_server_start_gap_seconds": 6.0,
+  "maximum_server_start_gap_seconds": 8.0,
+  "selected_start_gaps_seconds": [
+    6.526,
+    7.227,
+    7.537,
+    6.98,
+    7.853,
+    7.713,
+    7.355,
+    6.559,
+    6.035,
+    7.06,
+    7.886,
+    7.297,
+    6.289,
+    7.768,
+    7.96,
+    7.16,
+    6.06,
+    7.258,
+    7.554,
+    7.905,
+    7.241,
+    7.535,
+    7.598,
+    7.376,
+    6.37
+  ],
+  "retry_limit_per_server": 1,
+  "position": {
+    "t": "pos",
+    "region": "ember",
+    "x": -4.5,
+    "y": 0.215,
+    "z": 18.5,
+    "ry": 1.5707963267948966,
+    "mov": false,
+    "le": 2,
+    "outfit": null
+  },
+  "scan_account_excluded_from_counts": true,
+  "top3": [
+    {
+      "server": "Server 7",
+      "number": 7,
+      "count": 1
+    },
+    {
+      "server": "Server 16",
+      "number": 16,
+      "count": 1
+    },
+    {
+      "server": "Server 18",
+      "number": 18,
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "server": "Server 4",
+      "number": 4,
+      "count": 0,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089702.6261573,
+      "finished_at": 1786089708.6980546,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 5",
+      "number": 5,
+      "count": 0,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089709.1526942,
+      "finished_at": 1786089715.2376354,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 6",
+      "number": 6,
+      "count": 0,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089716.3806,
+      "finished_at": 1786089722.5182412,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 7",
+      "number": 7,
+      "count": 1,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089723.9178581,
+      "finished_at": 1786089730.114788,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 8",
+      "number": 8,
+      "count": 0,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089730.8985248,
+      "finished_at": 1786089736.8893926,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 9",
+      "number": 9,
+      "count": 0,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089738.752229,
+      "finished_at": 1786089744.6643076,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 10",
+      "number": 10,
+      "count": 0,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089746.465796,
+      "finished_at": 1786089752.517877,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 11",
+      "number": 11,
+      "count": 0,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089753.8207655,
+      "finished_at": 1786089760.7178743,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 12",
+      "number": 12,
+      "count": null,
+      "ok": false,
+      "snapshot_seen": false,
+      "own_account_removed": false,
+      "started_at": 1786089770.7352653,
+      "finished_at": 1786089771.3398492,
+      "error": "attempt 1: RuntimeError: connect-token queue failed: HTTP 403 {\"ok\":false,\"error\":\"membership_required\"}; attempt 2: RuntimeError: connect-token queue failed: HTTP 403 {\"ok\":false,\"error\":\"membership_required\"}",
+      "attempts": 2
+    },
+    {
+      "server": "Server 13",
+      "number": 13,
+      "count": null,
+      "ok": false,
+      "snapshot_seen": false,
+      "own_account_removed": false,
+      "started_at": 1786089781.3405504,
+      "finished_at": 1786089782.131319,
+      "error": "attempt 1: RuntimeError: connect-token queue failed: HTTP 403 {\"ok\":false,\"error\":\"membership_required\"}; attempt 2: RuntimeError: connect-token queue failed: HTTP 403 {\"ok\":false,\"error\":\"membership_required\"}",
+      "attempts": 2
+    },
+    {
+      "server": "Server 14",
+      "number": 14,
+      "count": null,
+      "ok": false,
+      "snapshot_seen": false,
+      "own_account_removed": false,
+      "started_at": 1786089791.4233313,
+      "finished_at": 1786089792.046932,
+      "error": "attempt 1: RuntimeError: connect-token queue failed: HTTP 403 {\"ok\":false,\"error\":\"membership_required\"}; attempt 2: RuntimeError: connect-token queue failed: HTTP 403 {\"ok\":false,\"error\":\"membership_required\"}",
+      "attempts": 2
+    },
+    {
+      "server": "Server 15",
+      "number": 15,
+      "count": 0,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089792.0471778,
+      "finished_at": 1786089798.1478326,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 16",
+      "number": 16,
+      "count": 1,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089799.3439577,
+      "finished_at": 1786089805.4679384,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 17",
+      "number": 17,
+      "count": 0,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089805.6991332,
+      "finished_at": 1786089811.4369934,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 18",
+      "number": 18,
+      "count": 1,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089813.4678185,
+      "finished_at": 1786089819.15292,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 19",
+      "number": 19,
+      "count": 0,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089821.4284828,
+      "finished_at": 1786089827.3517144,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 20",
+      "number": 20,
+      "count": 1,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089828.5926976,
+      "finished_at": 1786089834.7808323,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 21",
+      "number": 21,
+      "count": 0,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089835.0147517,
+      "finished_at": 1786089840.857838,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 23",
+      "number": 23,
+      "count": 1,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089842.2729907,
+      "finished_at": 1786089847.8366344,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 24",
+      "number": 24,
+      "count": 0,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089849.8271108,
+      "finished_at": 1786089855.5115857,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 26",
+      "number": 26,
+      "count": null,
+      "ok": false,
+      "snapshot_seen": false,
+      "own_account_removed": false,
+      "started_at": 1786089883.362991,
+      "finished_at": 1786089899.5375843,
+      "error": "attempt 1: RuntimeError: WebSocket connection failed: Handshake status 503 Service Unavailable -+-+- {'date': 'Fri, 07 Aug 2026 08:04:35 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'upgrade': 'websocket', 'x-kintara-reason': 'shard_full', 'cf-cache-status': 'DYNAMIC', 'report-to': '{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=gwzeFw55zESenMlHf4%2B9MM%2FJO6ZlDjkcJoNr1wj3Jabq8Da7XrBolk0NjINmln%2F3g3EzbzP72JrqhyoUMz%2FoItJung",
+      "attempts": 2
+    },
+    {
+      "server": "Server 27",
+      "number": 27,
+      "count": 1,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089899.5382175,
+      "finished_at": 1786089906.5710492,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 28",
+      "number": 28,
+      "count": 1,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089907.073244,
+      "finished_at": 1786089914.2715397,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 29",
+      "number": 29,
+      "count": 0,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089914.6717837,
+      "finished_at": 1786089921.9618607,
+      "error": "",
+      "attempts": 1
+    },
+    {
+      "server": "Server 30",
+      "number": 30,
+      "count": 0,
+      "ok": true,
+      "snapshot_seen": true,
+      "own_account_removed": true,
+      "started_at": 1786089922.2493157,
+      "finished_at": 1786089929.3962674,
+      "error": "",
+      "attempts": 1
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "server": "Server 12",
+    "error": "connect-token failed status=403 error=membership_required"
+  },
+  {
+    "server": "Server 14",
+    "error": "connect-token failed status=403 error=membership_required"
+  },
+  {
+    "server": "Server 13",
+    "error": "connect-token failed status=403 error=membership_required"
+  }
+]
