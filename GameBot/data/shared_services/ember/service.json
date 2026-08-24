@@ -1,0 +1,9 @@
+{
+  "status": "manual_mode_ready",
+  "desired_status": "manual_mode_ready",
+  "pid": 6476,
+  "heartbeat_at": "2026-08-07T08:21:38.129948+00:00",
+  "updated_at": "2026-08-07T08:21:38.129948+00:00",
+  "manual_scan_only": true,
+  "active_job": ""
+}
