@@ -4,16 +4,15 @@ workflows:
 
     max_build_duration: 60
 
+    environment:
+      android_sdk: "35"
+
     scripts:
-      - name: Locate project and Build APK
+      - name: Build Kintara APK
         script: |
-          set -e
-          pwd
-          ls -la
-          cd "KintaraMarket-v2.2.0-kintara-play-source-modified/kintara_src"
-          ls -la
-          chmod +x ./gradlew
-          ./gradlew assembleDebug
+          cd kintara_src
+          chmod +x build.sh
+          ./build.sh
 
     artifacts:
-      - "**/app/build/outputs/**/*.apk"
+      - kintara_src/out/*.apk
