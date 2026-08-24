@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8"></head><body>
+<script type="module">
+import { PublicKey, TransactionInstruction, TransactionMessage, VersionedTransaction } from './solana-web3.js';
+import { TOKEN_PROGRAM_ID, createAssociatedTokenAccountIdempotentInstruction, createTransferCheckedInstruction, getAssociatedTokenAddressSync } from './solana-spl-token.js';
+function b64(bytes){let out='';const step=0x8000;for(let i=0;i<bytes.length;i+=step)out+=String.fromCharCode(...bytes.subarray(i,Math.min(i+step,bytes.length)));return btoa(out);}
+window.buildPremiumUsdcTx=function(payer58,destinationOwner58,mint58,amountRaw,blockhash){
+  try{
+    const payer=new PublicKey(String(payer58));
+    const destinationOwner=new PublicKey(String(destinationOwner58));
+    const mint=new PublicKey(String(mint58));
+    const amount=BigInt(String(amountRaw));
+    if(amount!==2990000n)throw new Error('bad_usdc_amount');
+    const userAta=getAssociatedTokenAddressSync(mint,payer,false,TOKEN_PROGRAM_ID);
+    const treasuryAta=getAssociatedTokenAddressSync(mint,destinationOwner,false,TOKEN_PROGRAM_ID);
+    const ix=[];
+    ix.push(createAssociatedTokenAccountIdempotentInstruction(payer,treasuryAta,destinationOwner,mint,TOKEN_PROGRAM_ID));
+    ix.push(createTransferCheckedInstruction(userAta,mint,treasuryAta,payer,amount,6,[],TOKEN_PROGRAM_ID));
+    const memoProgram=new PublicKey('MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr');
+    ix.push(new TransactionInstruction({keys:[],programId:memoProgram,data:new TextEncoder().encode('KINTARA_MARKET_PREMIUM_USDC_V2')}));
+    const msg=new TransactionMessage({payerKey:payer,recentBlockhash:String(blockhash),instructions:ix}).compileToV0Message();
+    const tx=new VersionedTransaction(msg);
+    AndroidBridge.onResult(JSON.stringify({ok:true,transactionBase64:b64(tx.serialize()),userAta:userAta.toBase58(),treasuryAta:treasuryAta.toBase58(),amountRaw:String(amount)}));
+  }catch(e){AndroidBridge.onResult(JSON.stringify({ok:false,error:String(e&&e.message||e)}));}
+};
+AndroidBridge.onReady();
+</script></body></html>
