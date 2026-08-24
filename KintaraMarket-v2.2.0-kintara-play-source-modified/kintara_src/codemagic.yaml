@@ -1,0 +1,18 @@
+workflows:
+  android-build:
+    name: Kintara APK Build
+
+    max_build_duration: 60
+
+    environment:
+      android_signing:
+        - keystore_reference
+
+    scripts:
+      - name: Build APK
+        script: |
+          chmod +x gradlew
+          ./gradlew assembleDebug
+
+    artifacts:
+      - app/build/outputs/**/*.apk
