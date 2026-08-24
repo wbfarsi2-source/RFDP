@@ -302,7 +302,39 @@ jobs:
 
 
       # ============================================================
-      # 8. VERIFY RDP
+      # 8. SEND SERVER ADDRESS TO RFDP CONTROLLER
+      # ============================================================
+
+      - name: Save RFDP Address
+        shell: pwsh
+        run: |
+          Write-Host "Saving RFDP server information..."
+
+          @"
+          TAILSCALE_IP=$env:TAILSCALE_IP
+          RDP_ADDRESS=$($env:TAILSCALE_IP):3389
+          USERNAME=TMA
+          RUN_ID=$env:GITHUB_RUN_ID
+          "@ | Set-Content `
+            -Path "$env:GITHUB_WORKSPACE\rfdp_server.txt" `
+            -Encoding UTF8
+
+          Write-Host ""
+          Write-Host "RFDP server information:"
+          Get-Content "$env:GITHUB_WORKSPACE\rfdp_server.txt"
+          Write-Host ""
+
+
+      - name: Upload RFDP Address
+        uses: actions/upload-artifact@v4
+        with:
+          name: rfdp-server-${{ github.run_id }}
+          path: rfdp_server.txt
+          retention-days: 1
+
+
+      # ============================================================
+      # 9. VERIFY RDP
       # ============================================================
 
       - name: Verify RDP Accessibility
@@ -338,7 +370,7 @@ jobs:
 
 
       # ============================================================
-      # 9. KEEP RFDP RUNNING
+      # 10. KEEP RFDP RUNNING
       # ============================================================
 
       - name: Maintain Connection
