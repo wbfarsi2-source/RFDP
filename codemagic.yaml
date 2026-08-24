@@ -7,8 +7,9 @@ workflows:
     scripts:
       - name: Build APK
         script: |
+          cd KintaraMarket-v2.2.0-kintara-play-source-modified/kintara_src
           chmod +x gradlew
           ./gradlew assembleDebug
 
     artifacts:
-      - app/build/outputs/**/*.apk
+      - KintaraMarket-v2.2.0-kintara-play-source-modified/kintara_src/app/build/outputs/**/*.apk
