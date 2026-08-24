@@ -5,14 +5,15 @@ workflows:
     max_build_duration: 60
 
     environment:
-      android_sdk: "35"
+      vars:
+        ANDROID_HOME: /opt/android-sdk
 
     scripts:
       - name: Build Kintara APK
         script: |
-          cd kintara_src
+          cd "KintaraMarket-v2.2.0-kintara-play-source-modified/kintara_src"
           chmod +x build.sh
           ./build.sh
 
     artifacts:
-      - kintara_src/out/*.apk
+      - "**/*.apk"
