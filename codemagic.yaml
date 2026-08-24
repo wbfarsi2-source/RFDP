@@ -4,11 +4,12 @@ workflows:
 
     max_build_duration: 60
 
-    environment:
-      vars:
-        ANDROID_HOME: /opt/android-sdk
-
     scripts:
+      - name: Install Android SDK 35
+        script: |
+          yes | sdkmanager "platforms;android-35"
+          yes | sdkmanager "build-tools;35.0.0"
+
       - name: Build Kintara APK
         script: |
           cd "KintaraMarket-v2.2.0-kintara-play-source-modified/kintara_src"
